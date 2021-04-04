@@ -12,7 +12,7 @@ In binary tries we had 2 links(for `0` bit and `1` bit) for 1 bit comparison, si
 
 *Example of R-way trie for base-10 numbers*
 
-![image-20210103200217886](4_Multiway_Tries_and_TSTs.assets/image-20210103200217886.png)
+![image-20210103200217886](/4_Multiway_Tries_and_TSTs.assets/image-20210103200217886.png)
 
 Before doing the full symbol table implementation with multiple nodes type, we begin study of multiway tries by concentrating on *existence-table* problem.
 
@@ -20,7 +20,7 @@ Before doing the full symbol table implementation with multiple nodes type, we b
 
 Example : *26-way trie for the words `now` , `is` and `the` has nine nodes and following insertion of `time` and `for`.*
 
-![image-20210103200851423](4_Multiway_Tries_and_TSTs.assets/image-20210103200851423.png)
+![image-20210103200851423](/4_Multiway_Tries_and_TSTs.assets/image-20210103200851423.png)
 
 *Definition 2:* A multiway trie is multiway tree that has keys associated with each of its leaves, defined recursively as follows: The trie for an empty set of keys is a null link; the trie for a single key is a leaf containing that key; and the trie for a set of keys of cardinality greater than one is an internal node with links referring to tries for keys with each possible digit value, with the leading digit considered to be removed for the purpose of constructing the subtree.
 
@@ -72,7 +72,7 @@ Making a comparisons 26-way trie, the abstract trie with null links removed and 
 
 `call me ishmael some years ago never mind how long precisely having little or no money`
 
-![image-20210103202804867](4_Multiway_Tries_and_TSTs.assets/image-20210103202804867.png)
+![image-20210103202804867](/4_Multiway_Tries_and_TSTs.assets/image-20210103202804867.png)
 
 The search algorithm for TSTs is so straightforward as nearly to write itself; the insertion is more complicated but mirrors directly insertion in existence tries.
 

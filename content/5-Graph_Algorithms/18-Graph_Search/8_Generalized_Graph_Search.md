@@ -24,9 +24,9 @@ To encompass these two extremes and to allow for fringe implementation that can 
 
 
 
-![image-20210113183833251](8_Generalized_Graph_Search.assets/image-20210113183833251.png)
+![image-20210113183833251](/8_Generalized_Graph_Search.assets/image-20210113183833251.png)
 
-![image-20210113183846616](8_Generalized_Graph_Search.assets/image-20210113183846616.png)
+![image-20210113183846616](/8_Generalized_Graph_Search.assets/image-20210113183846616.png)
 
 **Property 18.12** *Generalized graph searching visits all the vertices and edges in a graph in time proportional to $V^2$ for the adjacency-matrix representation and to $V+E$ for the adjacency-list representation plus, in the worst case, the time required for $V$ insert, $V$ remove and $E$ update operation in a generalized queue of size $V$.*
 
@@ -92,5 +92,5 @@ class GQ
 
 All generalized graph-searching algorithm examine each edge just once and take extra space proportional to V in worst case; they do differ, however, in some performance measures.
 
-![image-20210113185747705](8_Generalized_Graph_Search.assets/image-20210113185747705.png)
+![image-20210113185747705](/8_Generalized_Graph_Search.assets/image-20210113185747705.png)
 

@@ -12,7 +12,7 @@ Th underlying data structure is developed by Pugh in 1990, is called skip list. 
 
 e.g. A two-level linked list.
 
-![image-20201231101412143](5_Skip_Lists.assets/image-20201231101412143.png)
+![image-20201231101412143](/5_Skip_Lists.assets/image-20201231101412143.png)
 
 *Definition :* *A skip list is an ordered linked list where each node contains a variable number of links, with the $i^{th}$ links int the node implementing singly linked lists that skip the nodes with fewer than $i$ links.*
 

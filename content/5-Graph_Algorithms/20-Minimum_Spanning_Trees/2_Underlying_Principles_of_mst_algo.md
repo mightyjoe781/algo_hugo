@@ -18,7 +18,7 @@ If graph's edge weights are distinct, it has a unique MST; and cut property says
 
 Examples.
 
-![image-20210116200032140](2_Underlying_Principles_of_mst_algo.assets/image-20210116200032140.png)
+![image-20210116200032140](/2_Underlying_Principles_of_mst_algo.assets/image-20210116200032140.png)
 
 We use cut property as the basis for algorithms to find MSTs, and it also serves as *Optimality Condition* that characterizes MSTs.
 
@@ -30,7 +30,7 @@ This cycle property also serves as basis for an optimality condition that charac
 
 We use cut property to accept MST edges or cycle property to reject them and both serve as basis of MST algorithms. The only difference between algorithms is that how they approach efficiently in identifying cuts and cycles.
 
-![image-20210116202436876](2_Underlying_Principles_of_mst_algo.assets/image-20210116202436876.png)
+![image-20210116202436876](/2_Underlying_Principles_of_mst_algo.assets/image-20210116202436876.png)
 
 The first approach that we consider in great details forms MST by building one edge at a time.
 

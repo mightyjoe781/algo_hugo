@@ -30,7 +30,7 @@ We use following general strategy to implement partitioning. First, we arbitrari
 
 The two elements that stopped the scans are obviously out of place in the final partitioned array, so we swap them.
 
-<img src="1-The_Basic_Algorithm.assets/image-20201020142048564.png" alt="image-20201020142048564"  />
+![image-20201020142048564](/1-The_Basic_Algorithm.assets/image-20201020142048564.png)
 
 Here v is partitioning element, `i` is left pointer and `j` is right pointer.
 

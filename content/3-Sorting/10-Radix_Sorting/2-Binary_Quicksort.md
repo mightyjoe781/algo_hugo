@@ -33,4 +33,4 @@ When the keys are truly random bits, only about $\lg N$ bits / key are examined 
 
 Binary Quicksort doesn't work well when files contains huge amounts of duplicates keys.
 
-![image-20201205074703368](2-Binary_Quicksort.assets/image-20201205074703368.png)
+![image-20201205074703368](/2-Binary_Quicksort.assets/image-20201205074703368.png)

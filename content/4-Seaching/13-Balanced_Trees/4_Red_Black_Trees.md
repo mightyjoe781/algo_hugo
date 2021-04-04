@@ -15,7 +15,7 @@ We think of links as being of two different types :
 1. *Red Links* which bind together smaller binary trees comprising of 3-nodes and 4-nodes,
 2. *Black links* which bind together the 2-3-4 tree.
 
-![image-20201231091311657](4_Red_Black_Trees.assets/image-20201231091311657.png)
+![image-20201231091311657](/4_Red_Black_Trees.assets/image-20201231091311657.png)
 
 represent 4 nodes as three 2-nodes connected by red link. and 3-nodes as two 2-nodes connected by a single red link. The red can be on either side.
 
@@ -42,7 +42,7 @@ splitting a 4-node which is not the child of a 4-node by changing the node color
 
 If the parent is 2-node or 3-node that has convenient orientation *(second from top)*, no rotations needed. If 4-node is on the center link of the 3-node (*Bottom*), a double rotation is needed otherwise, a single rotation suffices (*third from top*)..
 
-![image-20201231093055341](4_Red_Black_Trees.assets/image-20201231093055341.png)
+![image-20201231093055341](/4_Red_Black_Trees.assets/image-20201231093055341.png)
 
 Fortunately, the rotation operations that we have been using are precisely what we need to achieve the desired effect.
 

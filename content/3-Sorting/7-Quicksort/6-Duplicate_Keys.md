@@ -22,7 +22,7 @@ A clever method invented by *Bentley and McIlroy* in 1993 for three way partitio
 
 - keep keys equal to the partitioning element that are encountered in the left subfile at the left end of the file, and keep keys equal to partitioning element that are encountered in the right subfile at the right end of the file.
 
- ![image-20201021072010346](6-Duplicate_Keys.assets/image-20201021072010346.png)
+ ![image-20201021072010346](/6-Duplicate_Keys.assets/image-20201021072010346.png)
 
 Then, when the pointers cross and the precise location for equal keys is known, we swap into position all the item with keys equal to the partitioning element.
 

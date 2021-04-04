@@ -59,7 +59,7 @@ This requirement that the paths be disjoint is what distinguishes biconnectivity
 
 **Property 18.7** *A graph is biconnected if and only if it has no separation vertices ( articulation points )*
 
-![image-20210113083919689](6_Separability_and_Biconnectivity.assets/image-20210113083919689.png)
+![image-20210113083919689](/6_Separability_and_Biconnectivity.assets/image-20210113083919689.png)
 
 **Property 18.8** *We can find a graph's articulation points and biconnected components in linear time.*
 

@@ -24,7 +24,7 @@ This method always finds a maxflow, no matter how we choose the paths.
 
 The **capacity** of an st-cut in a flow network is the sum of capacities of that cut's st-edges, and the **flow across** an st-cut is the difference between the sum of the flows in that cut's st-edges and the sum of the flows in that cut's t-s edges.
 
-<img src="2_augmeting_path_maxflow_algorithms.assets/image-20210119195309588.png" alt="image-20210119195309588" style="zoom: 67%;" />
+![image-20210119195309588](/2_augmeting_path_maxflow_algorithms.assets/image-20210119195309588.png)
 
 **Minimum cut** *Given an st-network, find an st-cut such that the capacity of no other cut is smaller. For brevity, we refer to such a cut as a mincut, and to the problem of finding one in a network as the mincut problem*
 

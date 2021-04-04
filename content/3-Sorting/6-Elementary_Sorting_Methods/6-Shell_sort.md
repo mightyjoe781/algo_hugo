@@ -44,7 +44,7 @@ Some properties
 - Shellsort does less than $ O (N^{\frac{4}{3}})$ comparisons for the increments 1 8 23 77 281 1073 4193 16577 ...
 - Shellsort does less than $O(N(log N)^2)$  comparisons for the increments 1 2 3 4 6 9 8 12 18 27 16 24 36 54 81 ... (Pratt's method of triangle increments)
 
-<img src="6-Shell_sort.assets\image-20201015082022311.png" alt="image-20201015082022311" style="zoom:67%;" />
+![image-20201015082022311](/6-Shell_sort.assets/image-20201015082022311.png)
 
 Shell sort is not stable.
 

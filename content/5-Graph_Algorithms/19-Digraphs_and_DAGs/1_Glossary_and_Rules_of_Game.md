@@ -25,7 +25,7 @@ Number of possible digraphs is truly huge. for $V^2$ edges we have total $2^{V^2
 
 
 
-![image-20210113212702824](1_Glossary_and_Rules_of_Game.assets/image-20210113212702824.png)
+![image-20210113212702824](/1_Glossary_and_Rules_of_Game.assets/image-20210113212702824.png)
 
 ***sink*** has outdegree 0. and **source** has indegree of 0.
 
@@ -58,7 +58,7 @@ This relation is transitive in nature if s is strongly connected to t, and t is 
 
 Strong connectivity is a equivalence relation that divides the vertices into equivalence classes containing vertices that are strongly connected to each other.
 
-![image-20210113214156188](1_Glossary_and_Rules_of_Game.assets/image-20210113214156188.png)
+![image-20210113214156188](/1_Glossary_and_Rules_of_Game.assets/image-20210113214156188.png)
 
 **Property 19.1** A digraph is not strongly connected comprises a set of **strongly connected components (strong components,** for short), which are maximal strongly connected subgraphs, and a set of directed edges that go from one component to another.
 

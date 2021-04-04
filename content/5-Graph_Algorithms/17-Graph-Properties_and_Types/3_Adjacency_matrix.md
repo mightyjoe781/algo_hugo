@@ -12,7 +12,7 @@ This representation is well suited for dense graphs.
 
 For processing all of the vertices this implementation requires (at least ) time proportional to $V$, no matter how many vertices exist.
 
-![image-20210106152530456](3_Adjacency_matrix.assets/image-20210106152530456.png)
+![image-20210106152530456](/3_Adjacency_matrix.assets/image-20210106152530456.png)
 
 This matrix is symmetric about diagonal because of undirected graph.
 

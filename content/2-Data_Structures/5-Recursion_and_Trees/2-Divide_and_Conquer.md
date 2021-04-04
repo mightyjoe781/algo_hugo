@@ -60,5 +60,5 @@ there is a  correspondence with n-bit numbers is a simple algorithm for the task
 
 - Some important search and sort algorithms analysis
 
-  <img src="2-Divide_and_Conquer.assets/image-20200723093046145.png" alt="image-20200723093046145" style="zoom:50%;" />
+  ![image-20200723093046145](/2-Divide_and_Conquer.assets/image-20200723093046145.png)
 

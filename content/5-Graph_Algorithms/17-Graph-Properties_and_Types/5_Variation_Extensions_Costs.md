@@ -35,7 +35,7 @@ template <class Graph> class DEGREE
 };
 ````
 
-![image-20210106201409694](5_Variation_Extensions_Costs.assets/image-20210106201409694.png)
+![image-20210106201409694](/5_Variation_Extensions_Costs.assets/image-20210106201409694.png)
 
 Removing vertices is more expensive than removing edges.
 

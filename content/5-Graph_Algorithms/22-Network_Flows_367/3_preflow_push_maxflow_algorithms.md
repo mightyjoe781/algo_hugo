@@ -12,7 +12,7 @@ An augmenting-path algorithm always maintains a feasible flow : It increase flow
 
 **Definition 22.5** In a flow network, a preflow is a set of positive edge flows satisfying the conditions that the flow on each edge is no greater than that edge’s capacity and that inflow is no smaller than  outflow for every internal vertex. An **active** vertex is an internal vertex whose inflow is larger than its outflow (by convention, the source and sink are never active).
 
-![image-20210119234839217](3_preflow_push_maxflow_algorithms.assets/image-20210119234839217.png)
+![image-20210119234839217](/3_preflow_push_maxflow_algorithms.assets/image-20210119234839217.png)
 
 vertex' *excess* = active vertex's (*outflow - inflow*)
 
@@ -24,7 +24,7 @@ We keep track of edges that we might push flow through. Every edge in residual n
 
 **Definition 22.6** A height function for a given flow in a flow network is a set of nonnegative vertex weights h(0)…h(V− 1)such that $h (t)= 0$ for the sink t and $h(u)≤h(v)+1$for every edge u-v in the residual network for the flow. An eligible edge is an edge u-v in the residual network with $h(u)=h(v)+1$.
 
-![image-20210120002803181](3_preflow_push_maxflow_algorithms.assets/image-20210120002803181.png)
+![image-20210120002803181](/3_preflow_push_maxflow_algorithms.assets/image-20210120002803181.png)
 
 **Property 22.9** For any flow and associated height function, a vertex’s height is no larger than the length of the shortest path from that vertex to the sink in the residual network.
 

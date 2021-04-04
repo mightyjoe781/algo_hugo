@@ -29,13 +29,13 @@ title = "7-Compound Data Structures"
 
   When processing string we normally use pointers because they are easy to manipulate
 
-  <img src="7-Compound_Data_Structures.assets/image-20200709074033915.png" alt="image-20200709074033915" style="zoom: 80%;" />
+  ![image-20200709074033915](/7-Compound_Data_Structures.assets/image-20200709074033915.png)
 
   ````c++
   #include <iostream.h>
   #include <stdlib.h>
   #include <string.h>
-
+  
   int compare ( const void *i , const void *j)
   	{return strcmp(*(char **)i , *(char **)j);} //dereferanced strings for comparisions
   int main()
@@ -61,7 +61,7 @@ title = "7-Compound Data Structures"
 
   Its just a simple Undirected graph represented using matrix
 
-  <img src="7-Compound_Data_Structures.assets/image-20200709075755185.png" alt="image-20200709075755185" style="zoom:80%;" />
+  ![image-20200709075755185](/7-Compound_Data_Structures.assets/image-20200709075755185.png)
 
   ````c++
   #include <iostream.h>
@@ -82,7 +82,7 @@ title = "7-Compound Data Structures"
 
 - **Adjacency-lists representation of a graph**
 
-  <img src="7-Compound_Data_Structures.assets/image-20200709075829259.png" alt="image-20200709075829259" style="zoom:80%;" />
+  ![image-20200709075829259.png](/7-Compound_Data_Structures.assets/image-20200709075829259.png)
 
   ````c++
   #include <iostream.h>

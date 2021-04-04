@@ -121,7 +121,7 @@ Most important implication is mincut problem reduces to maxflow problem, but con
 
 We consider a system of inequalities that involve one variable corresponding to each edge, two inequalities corresponding to each edge, and one equation corresponding to each vertex. The value of the variable is edge flow, the inequalities specify that the edge flow must be between 0 and the edge's capacity, and the equations that specify that the total flow on the edges that go into each vertex must be equal to total flow on the edges that go out of that vertex.
 
-![image-20210120100000256](4_maxflow_reductions.assets/image-20210120100000256.png)
+![image-20210120100000256](/4_maxflow_reductions.assets/image-20210120100000256.png)
 
 Any maxflow problem can be casted as a LP problem. LP is a versatile approach to solving combinatorial problems, and a great number of problems that we study can be formulated as linear programs.
 

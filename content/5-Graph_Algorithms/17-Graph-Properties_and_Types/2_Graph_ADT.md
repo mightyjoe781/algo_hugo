@@ -63,7 +63,7 @@ This returns all  the edges of graph in a vector.
 
 Adjacency list formats
 
-<img src="2_Graph_ADT.assets/image-20210106124500882.png" alt="image-20210106124500882" style="zoom:50%;" />
+![image-20210106124500882](/2_Graph_ADT.assets/image-20210106124500882.png)
 
 **A client function that prints a graph**
 

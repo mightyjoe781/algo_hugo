@@ -6,7 +6,7 @@ title = "8-Graph Processing Problems"
 
 ### Graph Processing Problem
 
-![image-20210106204208311](8_Graph-Processing_Problems.assets/image-20210106204208311.png)
+![image-20210106204208311](/8_Graph-Processing_Problems.assets/image-20210106204208311.png)
 
 Short description of problems.
 

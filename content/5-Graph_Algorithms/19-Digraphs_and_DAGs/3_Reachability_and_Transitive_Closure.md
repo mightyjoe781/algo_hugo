@@ -9,7 +9,7 @@ weight = 3
 
 **Definition 19.5** *The **transitive closure** of a digraph is a digraph with same vertices but with an edge from s to t in the transitive closure if and only if there is a directed path from s to t in the given digraph.*
 
-![image-20210114114811758](3_Reachability_and_Transitive_Closure.assets/image-20210114114811758.png)
+![image-20210114114811758](/3_Reachability_and_Transitive_Closure.assets/image-20210114114811758.png)
 
 transitive enclosure (bottom) of a digraph (up).
 
@@ -21,7 +21,7 @@ Suppose A is adjacency matrix of a digraph A and we use the preceding code to co
 
 In other words path in $A^2$ corresponds precisely to directed paths of length 2 in A. If we have self loops in A then $A^2$ also has edges of A; otherwise it doesn't.
 
-![image-20210114115403793](3_Reachability_and_Transitive_Closure.assets/image-20210114115403793.png)
+![image-20210114115403793](/3_Reachability_and_Transitive_Closure.assets/image-20210114115403793.png)
 
 **Property 19.6** We can compute the transitive closure of a digraph by constructing the latter's adjacency matrix $A$, adding self-loops for every vertex, and computing $A^V$
 

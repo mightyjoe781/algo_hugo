@@ -6,7 +6,7 @@ title = "6-Comparisons and Improvemetns"
 
 ### Comparisons and Improvements
 
-![image-20210117082832486](6_comparisons_and_improvemetns.assets/image-20210117082832486.png)
+![image-20210117082832486](/6_comparisons_and_improvemetns.assets/image-20210117082832486.png)
 
 From the table we conclude adjacency-matrix implementation of Prim's algorithm is method of choice for dense graphs, that all other methods perform within a small constant factor of best possible for graph of intermediate density, and that Kruskal's method essentially reduces the problem to sorting for sparse graphs.
 

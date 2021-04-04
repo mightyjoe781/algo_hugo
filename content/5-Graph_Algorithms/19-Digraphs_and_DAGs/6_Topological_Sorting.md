@@ -13,7 +13,7 @@ Goal of topological sorting is to process the vertices of DAG s.t. every vertex 
 
 **Topological Sort (rearrange)** Given a DAG, rearrange its vertices on a horizontal line such that all the directed edges points from left to right.
 
-![image-20210114225801810](6_Topological_Sorting.assets/image-20210114225801810.png)
+![image-20210114225801810](/6_Topological_Sorting.assets/image-20210114225801810.png)
 
 `for(i = 0; i < V; i++) tsI[ts[i]] = i;` defines a relabeling in the vertex-indexed vector $tsI$.
 
@@ -21,7 +21,7 @@ In general, the vertex order produced by a topological sort is not unique. In sc
 
 Sometimes in digraphs we sometimes might interpret edges other way round. This introduces *Reverse Topological sort.*
 
-![image-20210114230922549](6_Topological_Sorting.assets/image-20210114230922549.png)
+![image-20210114230922549](/6_Topological_Sorting.assets/image-20210114230922549.png)
 
 We already have seen an algorithm for reverse topological sorting: our standard recursive DFS! :)
 

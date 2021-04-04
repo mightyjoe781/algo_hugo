@@ -77,7 +77,7 @@ typedef node *link;
 
 - #### Linked List Removal
 
-  - <img src="/3-Linked_Lists.assets/image-20200708002956192.png" alt="image-20200708002956192" />
+  - ![image-20200708002956192.png](/3-Linked_Lists.assets/image-20200708002956192.png)
 
     ` t = x->next ; x->next = t->next;`
 
@@ -93,9 +93,7 @@ typedef node *link;
 
 - #### Linked List Insertion
 
-  - <img src="3-Linked_Lists.assets/image-20200708003612363.png" alt="image-20200708003612363" style="zoom:67%;" />
-
-  - ![image-20200708003612363](./3-Linked_Lists.assets/image-20200708003612363.png" alt="image-20200708003612363)
+  - ![image-20200708003612363.png](/3-Linked_Lists.assets/image-20200708003612363.png)
 
     `t->next = x->next; x->next =t;`
 
@@ -133,6 +131,6 @@ int main(int argc,char *argv[]){
 }
 ````
 
-<img src="3-Linked_Lists.assets/image-20200708004343881.png" alt="image-20200708004343881" style="zoom:67%;" />
+![image-20200708004343881](/3-Linked_Lists.assets/image-20200708004343881.png)
 
 Above image is linked list for N=9 and M=5

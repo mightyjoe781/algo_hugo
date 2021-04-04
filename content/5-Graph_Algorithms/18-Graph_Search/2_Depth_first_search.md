@@ -35,11 +35,11 @@ template <class Graph> class cDFS
 };
 ````
 
-![image-20210110085932147](2_Depth_first_search.assets/image-20210110085932147.png)
+![image-20210110085932147](/2_Depth_first_search.assets/image-20210110085932147.png)
 
 DFS trace
 
-![image-20210110085954775](2_Depth_first_search.assets/image-20210110085954775.png)
+![image-20210110085954775](/2_Depth_first_search.assets/image-20210110085954775.png)
 
 Existence of parallel edges is inconsequential for DFS cause edges are marked visited once. Search Dynamics can vary quite differently according to graph representation we apply DFS.
 

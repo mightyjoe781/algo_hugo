@@ -134,13 +134,13 @@ title = "4-Elementary List Processing"
 
   - **Removal in a Doubly Linked list **
 
-    <img src="4-Elementary_List_Processing.assets/image-20200708183223674.png" alt="image-20200708183223674" style="zoom:67%;" />
+    ![image-20200708183223674](/4-Elementary_List_Processing.assets/image-20200708183223674.png)
 
     In a doubly-linked list, a pointer to a node is sufficient information for us to be able to remove it, as diagrammed here.
     Given `t`, we set `t->next->prev` to`t->prev` (center) and `t->prev->next` to `t->next` (bottom).
 
   - **Insertion in a doubly linked list**
 
-    <img src="4-Elementary_List_Processing.assets/image-20200708183326741.png" alt="image-20200708183326741" style="zoom:67%;" />
+    ![image-20200708183326741](/4-Elementary_List_Processing.assets/image-20200708183326741.png" alt="image-20200708183326741")
 
     To insert a node into a doubly-linked list, we need to set four pointers. We can insert a new node after a given node (diagrammed here) or before a given node. We insert a given node `t` after another given node `x` by setting `t->next to x->next` and `x->next->prev` to` t`(center), and then setting` x->next` to `t` and `t->prev` to `x` (bottom).

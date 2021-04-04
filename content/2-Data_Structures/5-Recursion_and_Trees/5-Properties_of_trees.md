@@ -18,7 +18,7 @@ Note : performance characterstics of a lot of algorithms depends not only on num
 
 *The **external path length** of a binary tree is the sum of the levels of all the tree's external nodes.*
 
-<img src="5-Properties_of_trees.assets/image-20200904144742790.png" alt="image-20200904144742790" style="zoom:80%;" />
+![image-20200904144742790](/5-Properties_of_trees.assets/image-20200904144742790.png)
 
 ***Property:3*** *External path length of any binary tree with N internal nodes is 2N greater than the internal path length.*
 
@@ -26,7 +26,7 @@ Note : performance characterstics of a lot of algorithms depends not only on num
 
 Example for 10 internal nodes tree.
 
-![image-20200904145158482](5-Properties_of_trees.assets/image-20200904145158482.png)
+![image-20200904145158482](/5-Properties_of_trees.assets/image-20200904145158482.png)
 
 $ 2^h-1 < N + 1 \le 2^h $
 

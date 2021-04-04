@@ -26,11 +26,11 @@ To insert a new node in a 2-3-4 tree, we could do an unsuccessful search and the
 
 if search ends at 2-node we make it 3-node and if it ends at 3-node we make it 4-nodes but what to do if it ends at the 4-node. We can split 4-nodes into two 2-nodes and send up the middle key to be parent of both 2-nodes.
 
-![image-20201231084105432](3_Top-Down 2-3-4 Tress.assets/image-20201231084105432.png)
+![image-20201231084105432](/3_Top-Down_2-3-4_Tress.assets/image-20201231084105432.png)
 
 Splitting 4-nodes
 
-![image-20201231084306663](3_Top-Down 2-3-4 Tress.assets/image-20201231084306663.png)
+![image-20201231084306663](/3_Top-Down_2-3-4_Tress.assets/image-20201231084306663.png)
 
 *Property :* Searches in N-node 2-3-4 trees visit at most $\lg N +1$.
 

@@ -28,7 +28,7 @@ weight = 6
 
 - ***Linked-list queue***
 
-  <img src="6-FIFO_Queues_and_Generalized_Queue.assets/image-20200720091107943.png" alt="image-20200720091107943" style="zoom:67%;" />
+  ![image-20200720091107943](/6-FIFO_Queues_and_Generalized_Queue.assets/image-20200720091107943.png)
 
   - insert new items at the end
   - to get the item we remove the item from front of the queue

@@ -39,7 +39,7 @@ The most basic such property is whether two vertices are connected. If they are 
 
  Trace for finding path from 2 to 6
 
-![image-20210108233215415](7_Simple_Euler_and_Hamilton_Paths.assets/image-20210108233215415.png)
+![image-20210108233215415](/7_Simple_Euler_and_Hamilton_Paths.assets/image-20210108233215415.png)
 
 **Simple Path :** Given two vertices, is there a simple path in the graph that connects them  ?
 

@@ -16,13 +16,13 @@ First rotation makes it child of root and then second rotation brings it to the 
 
 a left rotation at G followed by right rotation at L brings I to root(bottom).
 
-![image-20201230182937410](2_Splay BSTs.assets/image-20201230182937410.png)
+![image-20201230182937410](/2_Splay_BSTs.assets/image-20201230182937410.png)
 
 **Double rotation in a BST (orientation alike)**
 
 here we have 2 options to choose. With standard root insertion method we perform the lower rotation first; with splay insertion, we perform higher rotation first (right).
 
-![image-20201230183023735](2_Splay BSTs.assets/image-20201230183023735.png)
+![image-20201230183023735](/2_Splay_BSTs.assets/image-20201230183023735.png)
 
 The BSTs built this way are splay BSTs. While difference between splay and standard root insertion may seem inconsequential, but it is quite significant : the splay operation eliminates the quadratic worst case that is the primary liability of standard BSTs.
 

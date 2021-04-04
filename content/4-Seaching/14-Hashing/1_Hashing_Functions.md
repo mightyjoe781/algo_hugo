@@ -66,7 +66,7 @@ int hash (char *v,int M)
 
 Above representation can be done this way also
 
-![image-20201231172845960](1_Hashing_Functions.assets/image-20201231172845960.png)
+![image-20201231172845960](/1_Hashing_Functions.assets/image-20201231172845960.png)
 
 That is we can compute decimal number corresponding to character encoding of a string by proceeding left to right, multiplying the accumulated value by 128, the adding the encode value of the next character. But one thing to node we might get big number while doing this but we don't need it so we will take modulo at every step
 

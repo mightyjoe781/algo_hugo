@@ -10,7 +10,7 @@ Until now we have considered algorithms for solving the topological sort, transi
 
 Summary of worst case of these algorithms are summarized.
 
-![image-20210115165151413](10_Perspective.assets/image-20210115165151413.png)
+![image-20210115165151413](/10_Perspective.assets/image-20210115165151413.png)
 
 Many other algorithms for processing digraphs and DAGs have important practical application.
 

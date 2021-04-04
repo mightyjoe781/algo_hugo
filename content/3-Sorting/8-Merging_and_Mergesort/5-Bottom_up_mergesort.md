@@ -27,7 +27,7 @@ The only restriction is that files to be merged must have been sorted first.
 
 This sequence corresponds to the level order traversal working up from the bottom of the recursion tree.
 
-![image-20201021164407381](5-Bottom_up_mergesort.assets/image-20201021164407381.png)
+![image-20201021164407381](/5-Bottom_up_mergesort.assets/image-20201021164407381.png)
 
 - All the merges in each pass of a bottom up mergesort involve file sizes that are a power of 2, except possibly the final file size
 - the number of passes in a bottom-up mergesort of N elements is precisely the number of bits in the binary representation of N ( ignoring leading 0 bits).
@@ -36,4 +36,4 @@ Key difference between Bottom-up merge sort it consist of series of series of pa
 
 While in top-down mergesort sorts the first half of the file before proceeding to the second half recursively, so progress is decidedly different.
 
-![image-20201021164919881](5-Bottom_up_mergesort.assets/image-20201021164919881.png)
+![image-20201021164919881](/5-Bottom_up_mergesort.assets/image-20201021164919881.png)

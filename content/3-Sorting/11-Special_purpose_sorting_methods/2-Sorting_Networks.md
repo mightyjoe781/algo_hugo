@@ -22,7 +22,7 @@ Given any network, it is not difficult to classify the comparators into a sequen
 
 Batcher Odd-Even Merging Network is one example. We can arrange it so that there is no interference.
 
-![image-20201207082609304](2-Sorting_Networks.assets/image-20201207082609304.png)
+![image-20201207082609304](/2-Sorting_Networks.assets/image-20201207082609304.png)
 
 **Batcher's odd-even merge (non-recursive)**
 

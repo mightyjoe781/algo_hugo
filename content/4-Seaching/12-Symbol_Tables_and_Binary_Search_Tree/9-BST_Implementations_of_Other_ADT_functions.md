@@ -32,7 +32,7 @@ Primary reason for including count in a BST is because of implementing the *sele
 
 We can change this implementation into a `partition` operation, which rearranges the tree to put the $k^{th}$ smallest element at the root, with precisely the same recursive technique used for root insertion.
 
-![image-20201230085713919](9-BST_Implementations_of_Other_ADT_functions.assets/image-20201230085713919.png)
+![image-20201230085713919](/9-BST_Implementations_of_Other_ADT_functions.assets/image-20201230085713919.png)
 
 To remove a node with a given key from a BST, we first check whether node is one of the subtree. If it is, we replace result of(recursively) removing the node from it. Now if node is at  root, we replace the tree with the result of combining the two subtrees into one tree.
 
@@ -42,7 +42,7 @@ This approach is asymmetric and is *ad hoc* in one sense. we could have taken th
 
 **Root removal in BST**
 
-![image-20201230085946816](9-BST_Implementations_of_Other_ADT_functions.assets/image-20201230085946816.png)
+![image-20201230085946816](/9-BST_Implementations_of_Other_ADT_functions.assets/image-20201230085946816.png)
 
 **Partitioning of a BST**
 
@@ -62,7 +62,7 @@ Removal is more complicated than search. One easy and lazy approach is to mark t
 
 Sequence depicts the result of removing the nodes with keys L, H, E from the BST at the top.
 
-![image-20201230090354396](9-BST_Implementations_of_Other_ADT_functions.assets/image-20201230090354396.png)
+![image-20201230090354396](/9-BST_Implementations_of_Other_ADT_functions.assets/image-20201230090354396.png)
 
 The primary challenge in implementing a function to remove a node with a given handle(link) is the same as it was for linked lists. There are    at least 4 ways to address this.
 
@@ -116,7 +116,7 @@ public:
     { head = joinR(head, b.head);}
 ````
 
-![image-20201230093300117](9-BST_Implementations_of_Other_ADT_functions.assets/image-20201230093300117.png)
+![image-20201230093300117](/9-BST_Implementations_of_Other_ADT_functions.assets/image-20201230093300117.png)
 
 BSTs are widely used for dynamic symbol tables.
 

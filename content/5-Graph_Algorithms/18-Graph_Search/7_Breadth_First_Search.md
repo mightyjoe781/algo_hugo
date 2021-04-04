@@ -10,7 +10,7 @@ DFS has no relationship to order in which it finds the goal. BSFS is based on a 
 
 When we come to a point where we have to process more than one edges we save them and choose one for current exploration. We use pushdown stack for this purpose.
 
-![image-20210113094544117](7_Breadth_First_Search.assets/image-20210113094544117.png)
+![image-20210113094544117](/7_Breadth_First_Search.assets/image-20210113094544117.png)
 
 Trace of BFS
 

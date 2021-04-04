@@ -61,7 +61,7 @@ template <class Graph, class Edge> class SPT
 
 These all four classical graph processing algorithms all can be implemented with PFS, a generalized priority queue based search that build graph spanning tree one edge at a time.
 
-![image-20210117144418780](2_Dijkstras_algorithm.assets/image-20210117144418780.png)
+![image-20210117144418780](/2_Dijkstras_algorithm.assets/image-20210117144418780.png)
 
 We have also considered four different implementation of PFS. The fist is the classical dense-graph implementation that encompasses Dijkstra's algorithm and Prim's MST algorithm (program 20.6) other three are sparse-graph implementation that differ in priority-queue contents :
 
@@ -71,5 +71,5 @@ We have also considered four different implementation of PFS. The fist is the cl
 
 Cost of implementation of Dijkstra's algorithm
 
-![image-20210117152549439](2_Dijkstras_algorithm.assets/image-20210117152549439.png)
+![image-20210117152549439](/2_Dijkstras_algorithm.assets/image-20210117152549439.png)
 

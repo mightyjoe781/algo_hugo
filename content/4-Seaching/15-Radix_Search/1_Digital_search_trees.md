@@ -37,9 +37,9 @@ public:
     { return searchR(head, v, 0);}
 ````
 
-![image-20210101095608329](15_Digital_search_trees.assets/image-20210101095608329.png)
+![image-20210101095608329](/15_Digital_search_trees.assets/image-20210101095608329.png)
 
-![image-20210101095619841](15_Digital_search_trees.assets/image-20210101095619841.png)
+![image-20210101095619841](/15_Digital_search_trees.assets/image-20210101095619841.png)
 
 The bits of the keys control search and insertion, but note that DSTs don't have ordering property that characterises BSTs.
 

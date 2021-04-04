@@ -59,7 +59,7 @@ struct node { Item item; node *l,*r;};
 typedef node *link;
 ````
 
-![image-20200903192540455](4-Trees.assets/image-20200903192540455.png)
+![image-20200903192540455](/4-Trees.assets/image-20200903192540455.png)
 
 Right now all the basics structures is designed to go down below the leaves but not up. We can add third link that is connected to parent node.
 
@@ -75,7 +75,7 @@ A tree(also called as an ordered tree) is a node(called the root) connected to a
 
 Here # of children is not fixed so that is the reason we use linked list to achieve it. Its also known as `general tree`.
 
-![image-20200903194452363](4-Trees.assets/image-20200903194452363.png)
+![image-20200903194452363](/4-Trees.assets/image-20200903194452363.png)
 
 There is a one-to-one correspondence between binary trees and ordered forests.
 

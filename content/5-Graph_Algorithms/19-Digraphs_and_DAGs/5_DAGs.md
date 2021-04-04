@@ -21,9 +21,9 @@ In a sense, DAGs are part tree, part graph. We can certainly take advantage of t
 
 DAG Model of Fibonacci sequence
 
-![image-20210114224722086](5_DAGs.assets/image-20210114224722086.png)
+![image-20210114224722086](/5_DAGs.assets/image-20210114224722086.png)
 
 The distinction between binary DAG and a binary tree is that in binary DAG we can have more than one link pointing to a node. They are significant in sense they can be used to compress information represented by binary tree.
 
-![image-20210114224912091](5_DAGs.assets/image-20210114224912091.png)
+![image-20210114224912091](/5_DAGs.assets/image-20210114224912091.png)
 

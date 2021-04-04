@@ -18,7 +18,7 @@ Rather than constructing the heap via successive insertions it is more efficient
 
 working from right to left and bottom to top, we construct a heap by ensuring that the subtree below the current node is heap ordered. Total cost is linear in worst case, because most nodes are near the bottom.
 
-![image-20201202080028826](4-Heapsort.assets/image-20201202080028826.png)
+![image-20201202080028826](/4-Heapsort.assets/image-20201202080028826.png)
 
 Full implementation is called as classical heap-sort algorithm
 
@@ -61,7 +61,7 @@ void heapsort(Item a[], int l , int r){
 
 left-construction of heap and right-sortdown process(exactly like selection sort)
 
-![image-20201202083209216](4-Heapsort.assets/image-20201202083209216.png)
+![image-20201202083209216](/4-Heapsort.assets/image-20201202083209216.png)
 
 The running time for heapsort is not particularly sensitive to the input. No matter what the input values are, the largest element is always found in less than $\lg N$ steps. 
 

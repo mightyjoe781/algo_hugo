@@ -47,7 +47,7 @@ static void randG(Graph &G, int E){
 
 **k-neighbor graph** The graph in figure can be generated from simple modification of random-edges graph generator, where we randomly pick the first vertex v, then randomly pick the second from among those whose indices are within a fixed constant k of v (wrapping around from $V-1$ to  $0$ ), when the vertices are arranged in a circle.
 
-![image-20210108211122217](6_Graph_Generators.assets/image-20210108211122217.png)
+![image-20210108211122217](/6_Graph_Generators.assets/image-20210108211122217.png)
 
 **Euclidean Neighbor Graph :** (bottom figure)
 

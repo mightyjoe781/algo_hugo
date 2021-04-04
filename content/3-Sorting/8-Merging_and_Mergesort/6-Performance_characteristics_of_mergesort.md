@@ -16,4 +16,4 @@ Sorting of various types of files with bottom-up mergesort.
 
 <u>Random, Gaussian, nearly ordered,nearly reverse ordered, randomly ordered with 10 distinct key value.</u>
 
-See sort performance is dependent on size of input not the way the input comes in.![image-20201021200837228](6-Performance_characteristics_of_mergesort.assets/image-20201021200837228.png)
+See sort performance is dependent on size of input not the way the input comes in.![image-20201021200837228](/6-Performance_characteristics_of_mergesort.assets/image-20201021200837228.png)

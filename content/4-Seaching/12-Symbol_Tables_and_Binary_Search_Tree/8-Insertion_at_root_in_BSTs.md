@@ -18,7 +18,7 @@ Finally, the link to the old root has to be changed to point to new root.
 
 for left rotation swap roles of "left" and "right in above explanation".
 
-![image-20201229211405660](8-Insertion_at_root_in_BSTs.assets/image-20201229211405660.png)
+![image-20201229211405660](/8-Insertion_at_root_in_BSTs.assets/image-20201229211405660.png)
 
 *Right rotation*
 

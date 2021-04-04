@@ -75,7 +75,7 @@ Inserting N items in the heap can at most take $N \lg N$ in worst case (if new e
 
 Example of heap construction:  of keys 	`A S O R T I N G`
 
-![image-20201201092720267](3-Algorithms_on_heap.assets/image-20201201092720267.png)
+![image-20201201092720267](/3-Algorithms_on_heap.assets/image-20201201092720267.png)
 
 ***Property 3 :*** The change priority, remove, and replace the maximum operation for the priority queue abstract data type can be implemented with heap-ordered trees such that no more than $2 \lg N$ comparisons are required for any operation on an N-item queue.
 

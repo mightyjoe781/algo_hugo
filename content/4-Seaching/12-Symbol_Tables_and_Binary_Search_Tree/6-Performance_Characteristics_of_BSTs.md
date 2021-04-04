@@ -18,6 +18,6 @@ On average case it performs quite well since random inputs create tree which may
 
 Some worst case BSTs :-)
 
-![image-20201220104731491](6-Performance_Characteristics_of_BSTs.assets/image-20201220104731491.png)
+![image-20201220104731491](/6-Performance_Characteristics_of_BSTs.assets/image-20201220104731491.png)
 
 ![image-20201220104745902](6-Performance_Characteristics_of_BSTs.assets/image-20201220104745902.png)

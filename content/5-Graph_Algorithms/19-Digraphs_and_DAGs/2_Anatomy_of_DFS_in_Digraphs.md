@@ -10,7 +10,7 @@ Search  trees to understand operation of algorithms is quite complicated for dig
 
 We can invoke digraphs using our previous implementation of undirected graphs by passing true argument in constructor call.
 
-![image-20210114090640108](2_Anatomy_of_DFS_in_Digraphs.assets/image-20210114090640108.png)
+![image-20210114090640108](/2_Anatomy_of_DFS_in_Digraphs.assets/image-20210114090640108.png)
 
 In digraphs, there is a one-to-one correspondence between tree links and graph edges, and they fall into four distinct classes :
 

@@ -31,7 +31,7 @@ A drawing gives us intuition about the structure of graph but this intuition can
 
 **Same graph represented 3-ways**
 
-![image-20210106085726344](17_Graph_Properties_and_Types.assets/image-20210106085726344.png)
+![image-20210106085726344](/17_Graph_Properties_and_Types.assets/image-20210106085726344.png)
 
 A graph is defined by its vertices and its edges, not the way that we choose to draw it.
 
@@ -45,7 +45,7 @@ Sometimes we refer *cyclic paths* to refer to a path whose first and last vertic
 
 Two simple paths are *disjoint* if they have non vertices in common other than, possibly, their endpoints.
 
-![image-20210106120526277](17_Graph_Properties_and_Types.assets/image-20210106120526277.png)
+![image-20210106120526277](/17_Graph_Properties_and_Types.assets/image-20210106120526277.png)
 
 **Definition 3:** A graph is ***connected graph*** if there is a path from every vertex to every other vertex in the graph. A graph that is not connected consists of a set of ***connected components***, which are maximal connected subgraphs.
 
@@ -76,7 +76,7 @@ When analysing graph algorithms, we assume $\frac V E$  is bounded above by a sm
 
 A *bipartite graph* is a graph whose vertices we can divide into two sets such that all edges connect a vertex in one set with a vertex in the other set. Its quite useful in matching problem. Any subgraph of bipartite graph is bipartite.
 
-![image-20210106121534465](17_Graph_Properties_and_Types.assets/image-20210106121534465.png)
+![image-20210106121534465](/17_Graph_Properties_and_Types.assets/image-20210106121534465.png)
 
 Graphs defined above are all *undirected graphs*. In *directed graphs*, also know as *digraphs*, edges are one-way. pair of vertices are in form of ordered pairs.
 

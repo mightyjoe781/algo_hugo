@@ -69,7 +69,7 @@ Read text for insights on lower bounds and upper bounds and NP-hard and feasibil
 
 **Property 21.18** In networks with edge weights that could be negative, shortest-paths problems are NP-hard.
 
-![image-20210117193826684](6_reduction.assets/image-20210117193826684.png)
+![image-20210117193826684](/6_reduction.assets/image-20210117193826684.png)
 
 **Upper bounds** If we have an efficient algorithm for a problem B and can prove that A reduces to B, then we have an efficient algorithm for A. There may exist some other better algorithm for A, but B’s performance is an upper bound on the best that we can do for A.
 

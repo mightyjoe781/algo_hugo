@@ -25,9 +25,9 @@ With patricia tries, we store keys in nodes as with DSTs, and we traverse the tr
 
 //== Best refer book :-)
 
-![image-20210101192200678](3_Patricia_Tries.assets/image-20210101192200678.png)
+![image-20210101192200678](/3_Patricia_Tries.assets/image-20210101192200678.png)
 
-![image-20210101192220632](3_Patricia_Tries.assets/image-20210101192220632.png)
+![image-20210101192220632](/3_Patricia_Tries.assets/image-20210101192220632.png)
 
 Above 2 figure show how to insert the I and N into the patricia trie.
 

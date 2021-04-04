@@ -10,7 +10,7 @@ We sorted using 1 bit in radix quicksort amounts to treating keys as radix 2 (bi
 
 These partitions are referred as *Bins* or *Buckets* and think of algorithm as using a groups of R bins.
 
-![image-20201205080145608](3-MSD_Radix_Sort.assets/image-20201205080145608.png)
+![image-20201205080145608](/3-MSD_Radix_Sort.assets/image-20201205080145608.png)
 
 We pass through keys, distributing them among the bins, then recursively sort the bin contents on keys with 1 fewer byte.
 

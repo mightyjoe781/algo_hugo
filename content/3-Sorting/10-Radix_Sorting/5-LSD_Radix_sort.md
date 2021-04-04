@@ -41,7 +41,7 @@ LSD radix sorting is the method used by old computer-card-sorting machines.
 
 Dynamic Characteristics of LSD radix sort
 
-![image-20201205185841575](5-LSD_Radix_sort.assets/image-20201205185841575.png)
+![image-20201205185841575](/5-LSD_Radix_sort.assets/image-20201205185841575.png)
 
 It is typically difficult to apply the LSD approach to a string-sorting application because of variable-length keys. For MSD sorting, it is simple enough to distinguish keys according to their leading bytes, but LSD sorting is based on a fixed-length key, with the leading keys getting involved for only the final pass.
 
