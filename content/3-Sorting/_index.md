@@ -1,8 +1,11 @@
 +++
 Title = "3. Sorting"
 chapter = true
+
+tags = ["dsa"]
+
 +++
 
-Part - 3 : Contains informations on various sorting Methods
+# Sorting
 
 {{% children %}}

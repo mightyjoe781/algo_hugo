@@ -1,4 +1,6 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "MD Site"
+name = "<i class = 'fas fa-tags'></i> Tags"
+title = "smk's Blogs"
 theme = "hugo-theme-learn"
+disablePathToLower = true

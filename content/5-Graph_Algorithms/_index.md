@@ -1,7 +1,10 @@
 +++
 Title = "5. Graph Algorithms"
 chapter = true
+
+tags = ["dsa"]
+
 +++
 
-Part - 5 : Cover basics of Graph Along with some Graph ADT implementaions.
+# Graph Algorithms
 {{% children %}}

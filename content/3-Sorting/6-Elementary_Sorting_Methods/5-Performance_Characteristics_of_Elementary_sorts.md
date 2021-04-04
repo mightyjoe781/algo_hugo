@@ -1,6 +1,6 @@
 +++
 
-title = "5-Performance_Characteristics_of_Elementary_sorts"
+title = "5-Performance Characteristics of Elementary sorts"
 
 +++
 

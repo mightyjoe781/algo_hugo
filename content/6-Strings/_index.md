@@ -1,7 +1,10 @@
 +++
 Title = "6. Strings"
 chapter = true
+
+tags = ["dsa"]
+
 +++
 
-Part - 6 : Some Famous String Algorithms
+# Strings
 {{% children %}}

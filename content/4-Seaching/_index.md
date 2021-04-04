@@ -1,7 +1,10 @@
 +++
 Title = "4. Searching"
 chapter = true
+
+tags = ["dsa"]
+
 +++
 
-Part - 4 : Includes all the basic searching methods.
+# Searching
 {{% children %}}

@@ -1,8 +1,11 @@
 +++
 Title = "2. Data Structure"
 chapter = true
+
+tags = ["dsa"]
+
 +++
 
-Part - 2 deals with defining of some Basic Data Strutures
+# Data Structures
 
 {{% children %}}

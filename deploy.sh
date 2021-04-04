@@ -1,0 +1,1 @@
+scp -p $* smkroot:/var/www/algo/
