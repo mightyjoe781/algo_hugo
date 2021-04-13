@@ -1,1 +1,3 @@
-scp -p $* smkroot:/var/www/algo/
+#!bin/bash
+scp -p public.zip smkroot:/var/www/algo/
+exit 0
