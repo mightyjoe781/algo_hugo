@@ -130,7 +130,7 @@ class FreqStack{
 
 ````
 
-#### Problems on Expression Evaluation ( Monotonic Stacks)
+#### Problems on Expression Evaluation 
 
 _fix is defined on operator
 
@@ -142,5 +142,178 @@ _fix is defined on operator
 
 [Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) : Simple standard question.
 
+[Basic Calculator](https://leetcode.com/problems/basic-calculator/) : Very famous question.
 
+we can convert given expression to some standard notation (Postfix) then its quite easy to evaluate.
+
+2nd way Processing Brackets smartly is the starting direction.
+
+Now this expression has only `+/-` so we can think of `-` as negative numbers and we can easily push it to stack with sign xD. ( simplest way ) : keep pushing numbers and opening parenthesis until u hit closing parenthesis, now u can keep popping and until u find corresponding opening parenthesis. Now here we just need to add because we reduced the `-` as sum of negative numbers . 
+
+Parsing the spaces is also an issue.
+
+````c++
+
+````
+
+[StockSpanner](https://leetcode.com/problems/online-stock-span/) : Very Good Problem on Monotonous Stack
+
+Monotonous Stack have a property that at every point of time entries in stack are monotonic.
+
+````c++
+stack<pair<int,int>> mono;
+int pos = 0;
+int next(int price){
+    pos++;
+    while(!mono.empty() && mono.top().second <= price){
+        	mono.pop();
+	}
+    int res;
+    if(mono.empty())
+        res = pos;
+    else 
+        res = pos-mono.top().first;
+    mono.push({pos,price});
+    return res;
+}
+````
+
+Above programs puts item in stack then digs (pop) the stack until it finds the price that is larger than current item's price. And the result each time is just how far that item is from nearest largest price
+
+calculated using the item number.
+
+Based on Above problem there is a problem that says find the **nearest max number ahead of the current element**
+
+[Final Prices with a special discount in a shop](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/) : similar concept Monotonic Stack.
+
+arr =>   5    18 4 55 29 40
+
+res => 18    55 55 -1 40 -1
+
+we can use same concept as above but start processing in the opposite direction
+
+see comments by lee215 and try more questions on the topic
+
+[Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)  : for the largest rectangle there must be one such bar which is completely inside the rectangle.
+
+Then for each bar we can calculate the maximum rectangle that it encapsulates and max of those numbers is the answer we are looking for :)
+
+So lets understand how we will get the maximum rectangle which contains the bar. For each $h_i$ bar we will look for nearest smallest number on left and similarly we do for the right side.
+
+summing that distance gives us widths.
+
+![image-20210414163047141](/Stacks.assets/image-20210414163047141.png)
+
+Area = $h_i * w  $
+
+Now we want to find nearest smallest on right and left. Use 2 monotonic stacks. Trivial
+
+2 pass and O(n);
+
+````c++
+    int largestRectangleArea(vector<int>& heights) {
+        int n = heights.size(),width,area;
+        int res = INT_MIN;
+        vector<int> rt(n);
+        stack<int> r;
+        for(int i = n-1; i >= 0 ; i--){
+            while(!r.empty() && heights[r.top()] >= heights[i])
+                r.pop();
+            if(r.empty())
+                rt[i] = n;
+            else
+                rt[i] = r.top();
+            r.push(i);
+        }
+        
+        stack<int> s;  // assume as index
+        // populate both vector with nearest number which is less
+        for(int i = 0; i<n ; i++){
+            while(!s.empty() && heights[s.top()] >= heights[i])
+                s.pop();
+            if(s.empty()){
+                width = rt[i];
+            }
+            else{
+                // width = left smallest + right smallest - 1
+                // width = (i- s.top())+ (rt[i]-i-1)
+                width = rt[i]-s.top()-1;
+            }
+            area = heights[i]*width;
+            res = max(res,area);
+            s.push(i);
+        }
+        return res;
+    }
+````
+
+Challenge use single pass and no array and precomputation.
+
+Only stacks xD
+
+hmm area does seem monotonic for each bar , if we think of right boundary as the height in focus then we just need left closest smallest boundary then its just the case of monotonic stack and maintaining area.
+
+````c++
+int largestRectangleArea(vector<int>& heights){
+    // extra padding for the case when there is no boundary
+    heights.push_back(0);
+
+    stack<int> st;
+    int n = heights.size(), i, res = INT_MIN,tp,right,left,area,width;
+
+    for(i = 0; i<n ; i++){
+        while(!st.empty() && heights[st.top()] >= heights[i]){
+            tp = st.top();
+            st.pop();
+
+            right = i;
+            left = st.empty()?-1:st.top();
+
+            width = right - left - 1;
+            area = width * heights[tp];
+
+            res = max(res,area);
+        }
+        st.push(i);
+    }
+    //remaining elements without a right boundary
+    return res;
+}
+````
+
+[Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/) : Find the maximum rectangle that is 1 in a 2D Matrix.
+
+Just apply on each column for each row this operation and take height as continuous sum;
+
+![img](/Stacks.assets/maximal.jpg)
+
+`1 0 1 0 0 
+2 0 2 1 1 
+3 1 3 2 2 
+4 0 0 3 0 ` 	 This is how dp matrix looks like. and apply above histogram function on each row :).
+
+````c++
+    int maximalRectangle(vector<vector<char>>& matrix) {
+        if(matrix.size() == 0) return 0; 
+        int m = matrix.size() , n = matrix[0].size();
+        int res = INT_MIN;
+        vector< vector<int>> dp(m, vector<int>(n));
+        // processing the dp
+        for(int i = 0; i < m; i++){
+            for(int j = 0; j < n; j++)
+                if(matrix[i][j] == '1'  && i > 0)
+                    dp[i][j] = dp[i-1][j] + (matrix[i][j]-'0');
+                else{
+                    dp[i][j] =  (matrix[i][j]-'0');
+                }
+        }
+        for(auto x: dp){
+            int lRectangle = largestRectangleArea(x);    
+            res = max(res,lRectangle); 
+        }
+         
+        return res;
+        
+    }
+````
 

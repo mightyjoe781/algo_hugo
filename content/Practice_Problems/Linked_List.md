@@ -12,8 +12,6 @@ weight = 5
 
 ![image-20210412105712587](/Linked_List.assets/image-20210412105712587.png)
 
-
-
 There can multiple ways to do this but simplest is just making a new head and keep pushing items on the new head ( reverse automatically) 
 
 ````c++
