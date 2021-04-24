@@ -2,7 +2,7 @@
 
 title = "Sorting"
 date = 2021-04-12T16:01:25+05:30
-weight = 7
+weight = 4
 
 +++
 

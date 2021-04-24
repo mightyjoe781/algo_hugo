@@ -14,3 +14,13 @@ In case there is some wrong code or some wrong statement, feel free to reach out
 
 Author : Sudhanshu Mohan Kashyap (aka `smk`)
 
+
+
+
+
+Other Resources that are an excellent sources of learning.
+
+[CP-Algorithms](https://cp-algorithms.com/) : English Translation of famous `e-maxx/algo`
+
+[UHunt](https://uhunt.onlinejudge.org/) : Problem Tracker for UVa, created by Steven and Felix Halim
+

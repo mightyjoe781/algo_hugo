@@ -1,8 +1,8 @@
 +++
 
-
-
-
+title =  "Linked Lists"
+date = 2021-04-12T09:11:25+05:30
+weight = 8
 
 +++
 
