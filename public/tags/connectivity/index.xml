@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Connectivity on smk&#39;s Blogs</title>
+    <link>http://example.org/tags/connectivity/</link>
+    <description>Recent content in Connectivity on smk&#39;s Blogs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 24 Apr 2021 10:24:25 +0530</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/connectivity/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Graphs 1</title>
+      <link>http://example.org/Practice_Graphs/Graphs_1/</link>
+      <pubDate>Sat, 24 Apr 2021 10:24:25 +0530</pubDate>
+      
+      <guid>http://example.org/Practice_Graphs/Graphs_1/</guid>
+      <description>Why we use graphs Graphs help us model a specific type of data that has some dependency and relationships.
+Eg. Facebooks friends data, Routes between cities and places (models the connectivity and distance) , Networking (connectivity), Pre-requisite of courses (knowledge and dependency), File Systems, Resource Allocation in OS (handling deadlocks).
+Representation of Graphs Represented as a Nodes and edges. Nodes : data while edge represents relationships.
+Most Simplest implementation is adjacency matrix but its not memory efficient for sparse graphs.</description>
+    </item>
+    
+  </channel>
+</rss>

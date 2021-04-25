@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>6. Strings on smk&#39;s Blogs</title>
+    <link>http://example.org/6-Strings/</link>
+    <description>Recent content in 6. Strings on smk&#39;s Blogs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://example.org/6-Strings/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>0-Introduction</title>
+      <link>http://example.org/6-Strings/0_Introduction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/6-Strings/0_Introduction/</guid>
+      <description>Application of String Processing  Information Processing Genomics Communication Books Programming Systems  Rules of the Game
+For clarity there are several assumptions and definitions that we will make use of ahead.
+ Characters : A String is a sequence of characters. Characters are of type char. Immutability : String objects are immutable. Their values doesn&amp;rsquo;t change while assigning statements and as arguments and return values. Indexing : Operation to extract a specified character from a string.</description>
+    </item>
+    
+    <item>
+      <title>1-String Sorts</title>
+      <link>http://example.org/6-Strings/1_String_Sorts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/6-Strings/1_String_Sorts/</guid>
+      <description> Introduction  Key-Indexed Counting LSD String sort MSD String sort Three-way string quicksort Which string sorting algorithm should I use </description>
+    </item>
+    
+    <item>
+      <title>2-Tries</title>
+      <link>http://example.org/6-Strings/2_Tries/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/6-Strings/2_Tries/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>3-Substring Search</title>
+      <link>http://example.org/6-Strings/3_Substring_Search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/6-Strings/3_Substring_Search/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>4-Regular Expression</title>
+      <link>http://example.org/6-Strings/4_Regular_Expression/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/6-Strings/4_Regular_Expression/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>5-Data Compression</title>
+      <link>http://example.org/6-Strings/5_Data_Compression/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/6-Strings/5_Data_Compression/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

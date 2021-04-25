@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>1d Dp on smk&#39;s Blogs</title>
+    <link>http://example.org/tags/1d-dp/</link>
+    <description>Recent content in 1d Dp on smk&#39;s Blogs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 21 Apr 2021 09:51:25 +0530</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/1d-dp/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>DP 1</title>
+      <link>http://example.org/Practice_DP/DP_1/</link>
+      <pubDate>Wed, 21 Apr 2021 09:51:25 +0530</pubDate>
+      
+      <guid>http://example.org/Practice_DP/DP_1/</guid>
+      <description>This is long sections divided into 3 parts. Its very important for interviews.
+In recursion we say subproblems were related to the original problems does they always have to be ? Should they be in recurrence relation to each other.
+Sometimes we do not need to do that necessarily.
+What Dynamic Programming is =&amp;gt; DnC ( divide and conquer) + something extra &amp;hellip;
+what this extra is ?
+Climbing Stairs :</description>
+    </item>
+    
+  </channel>
+</rss>

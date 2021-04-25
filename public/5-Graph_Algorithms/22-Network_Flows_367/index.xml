@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>22-Network Flows on smk&#39;s Blogs</title>
+    <link>http://example.org/5-Graph_Algorithms/22-Network_Flows_367/</link>
+    <description>Recent content in 22-Network Flows on smk&#39;s Blogs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://example.org/5-Graph_Algorithms/22-Network_Flows_367/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>0-introduction</title>
+      <link>http://example.org/5-Graph_Algorithms/22-Network_Flows_367/0_introduction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/5-Graph_Algorithms/22-Network_Flows_367/0_introduction/</guid>
+      <description>Network Flow We will extend the network problem-solving model to encompass a flowing through the network, with different costs attached to different routes. These extensions allow us to tackle a surprisingly broad variety of problems with a long list of application.
+These problems and application can be handled within a few natural models that can be inter-related using reduction.
+Network-flow models encompass huge range of problems that fall into general categories known as distribution problems, matching problems, and cut problems.</description>
+    </item>
+    
+    <item>
+      <title>1-flow networks</title>
+      <link>http://example.org/5-Graph_Algorithms/22-Network_Flows_367/1_flow_networks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/5-Graph_Algorithms/22-Network_Flows_367/1_flow_networks/</guid>
+      <description>Flow Networks Lets consider a idealized physical model : Imagine a interconnected oil pipes of varying sizes, with flow direction controlling switches. Consider a single source and sink. At each vertex there is equilibrium i.e. inflow = outflow and pipe capacity is considered in same units.
+If there is a equilibrium at switch we don&amp;rsquo;t need to worry about anything just fill pipes to full capacity. Otherwise, not all pipes are full but oil flows through the network, controlled by switch setting at the junctions such that amount of inflow and outflow at vertices is equal.</description>
+    </item>
+    
+    <item>
+      <title>2 augmeting path maxflow algorithms</title>
+      <link>http://example.org/5-Graph_Algorithms/22-Network_Flows_367/2_augmeting_path_maxflow_algorithms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/5-Graph_Algorithms/22-Network_Flows_367/2_augmeting_path_maxflow_algorithms/</guid>
+      <description>Augmenting-Path Maxflow Algorithms An effective approach to solving maxflow problems was developed by L.R. Ford and D. R. Fulkerson in 1962.
+It is a generic method for increasing flow incrementally along paths from source to sink that serves as the basis for family of algorithms. It is know as Ford-Fulkerson methods or augmenting path methods.
+This algorithm will compute the maxflow in some cases, but will fall short in other cases.</description>
+    </item>
+    
+    <item>
+      <title>3-preflow push maxflow algorithms</title>
+      <link>http://example.org/5-Graph_Algorithms/22-Network_Flows_367/3_preflow_push_maxflow_algorithms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/5-Graph_Algorithms/22-Network_Flows_367/3_preflow_push_maxflow_algorithms/</guid>
+      <description>Preflow-Push Maxflow Algorithms using generic method known as the preflow-push method, we incrementally move flow along the outgoing edges of vertices that have more inflow than outflow. The preflow-push approach was developed by A. Goldberg and RE Tarjan in 1986 on basis of various earlier algorithms. It is widely used because of its simplicity, flexibility, and efficiency.
+An augmenting-path algorithm always maintains a feasible flow : It increase flow along augmenting paths until a maxflow is achieved.</description>
+    </item>
+    
+    <item>
+      <title>4-maxflow reductions</title>
+      <link>http://example.org/5-Graph_Algorithms/22-Network_Flows_367/4_maxflow_reductions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/5-Graph_Algorithms/22-Network_Flows_367/4_maxflow_reductions/</guid>
+      <description>Maxflow Reductions Maxflow in general networks Find the flow in a network that maximized the total outflow from its source ( and therefore total inflow to its sink). By convention flow is zero if there are no sinks or source.
+Property 22.14 The maxflow problem for general networks is equivalent to the maxflow problem for st-networks.
+Vertex Capacity constraints Given a flow network, find maxflow satisfying additional constraints specifying that the flow through each vertex must not exceed some fixed capacity.</description>
+    </item>
+    
+    <item>
+      <title>5-mincost flows</title>
+      <link>http://example.org/5-Graph_Algorithms/22-Network_Flows_367/5_mincost_flows/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/5-Graph_Algorithms/22-Network_Flows_367/5_mincost_flows/</guid>
+      <description>Mincost flows it is not unusual to have numerous solution for maxflow problem so we would like to impose a condition on them for choosing one of them. We could prefer the one that uses fewest edges or shortest paths, or there existing a comprising disjoint paths. Such general problems fall into the general model known as mincost flow problem.
+Definition 22.8 The flow cost of an edge in a flow network with edge costs is the product of that edge’s flow and cost.</description>
+    </item>
+    
+    <item>
+      <title>6-network simplex algorithm</title>
+      <link>http://example.org/5-Graph_Algorithms/22-Network_Flows_367/6_network_simplex_algorithm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/5-Graph_Algorithms/22-Network_Flows_367/6_network_simplex_algorithm/</guid>
+      <description>Network Simplex Algorithm The run time of cycle-canceling algorithm is based on not just the number of negative-cost cycles that the algorithm uses to reduce the flow cost but also the time that the algorithms uses to find each of the cycles. We can reduce runtime of both operation significantly with method know as network simplex algorithms. It is based on maintaining a tree data restructure and reweighting costs such that negative cycles can be identified quickly.</description>
+    </item>
+    
+    <item>
+      <title>7-mincost flow reductions</title>
+      <link>http://example.org/5-Graph_Algorithms/22-Network_Flows_367/7_mincost_flow_reductions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/5-Graph_Algorithms/22-Network_Flows_367/7_mincost_flow_reductions/</guid>
+      <description>Mincost-Flow Reductions Its a general problem solving model that can encompass a variety of useful practical problems.
+The mincost-flow problem is more general than maxflow problem, since any mincost-problem solution is acceptable for maxflow problem. Therefore we can reduce all maxflow reductions to mincost-flow reductions.
+Property 22.29 The single-source-shortest-path problem (in networks with no negative cycles) reduces to mincost-feasible-flow problem
+Property 22.30 In mincost-flow problems, we can assume, without the loss of generality, that edges costs are nonnegative.</description>
+    </item>
+    
+    <item>
+      <title>8-perspective</title>
+      <link>http://example.org/5-Graph_Algorithms/22-Network_Flows_367/8_perspective/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/5-Graph_Algorithms/22-Network_Flows_367/8_perspective/</guid>
+      <description>Perspective Our study of graph algorithm appropriately culminates in the study of network flow algorithms for four reason
+ network flow model validates the practical utility of graph abstraction in countless application the maxflow and mincost-flow algorithms that we have examined are natural extension of graph algorithm that we studied for simpler problems. implementation exemplify the important role of fundamental algorithms and the data structures in achieving good performance the maxflow and mincost-flow models illustrate utility of approach of developing increasingly general problem-solving models and using them to solve broad classes of problems.</description>
+    </item>
+    
+  </channel>
+</rss>

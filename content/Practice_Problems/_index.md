@@ -1,11 +1,11 @@
 +++
 
-Title = "Practice"
+Title = "Problems : Basics 2"
 chapter = true
 
-weight = 7
+weight = 8
 
-tags = ["dsa", "practice"]
+tags = ["DSA", "practice"]
 
 +++
 

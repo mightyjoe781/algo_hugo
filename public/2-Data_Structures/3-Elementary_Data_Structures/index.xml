@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>3-Elementary Data Structure on smk&#39;s Blogs</title>
+    <link>http://example.org/2-Data_Structures/3-Elementary_Data_Structures/</link>
+    <description>Recent content in 3-Elementary Data Structure on smk&#39;s Blogs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://example.org/2-Data_Structures/3-Elementary_Data_Structures/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>1-Building Blocks</title>
+      <link>http://example.org/2-Data_Structures/3-Elementary_Data_Structures/1-Building_Blocks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/2-Data_Structures/3-Elementary_Data_Structures/1-Building_Blocks/</guid>
+      <description>Choice of Algorithm and Data Structure are closely intertwined. A Data Structure is not a passive object.(We must consider Ops to be performed on them).  Building Blocks  Types define how we will use particular set of bits.
+ Functions allow us to specify operation that will be performed on data.
+ C++ Structures to group heterogenous data together.
+ Pointers to refer to information indirectly.
+ Basic Data types are</description>
+    </item>
+    
+    <item>
+      <title>2-Arrays</title>
+      <link>http://example.org/2-Data_Structures/3-Elementary_Data_Structures/2-Arrays/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/2-Data_Structures/3-Elementary_Data_Structures/2-Arrays/</guid>
+      <description>Arrays  Most primitive and fundamental data structures.
+ An array is a fixed collection of same-type data that are stored contiguously and that are accessible by an index.
+ One of the distinctive features of C++ is that an array name generates a pointer to the first element of the array (the one with index 0). So *(a+i)is same as a[i].
+ Sieve of Eratosthenes (nlogn)  #include &amp;lt;iostream&amp;gt; using namespace std; static const int N = 1000; int main(){ int i, a[N]; for(int i=2;i&amp;lt;N;i++) a[i]=1; //sets entire array for(int i=2;i&amp;lt;N;i++) if(a[i]) //takes jumps of j to remove every multiple for(int j=i;j*i&amp;lt;N;j++) a[i*j]=0; for(i=2;i&amp;lt;N;i++) //printing utility if(a[i]) cout &amp;lt;&amp;lt;&amp;quot; &amp;quot;&amp;lt;&amp;lt;i; cout&amp;lt;&amp;lt;endl; }   So we can pass a pointer to array in function to avoid creation of copy of array.</description>
+    </item>
+    
+    <item>
+      <title>3-Linked Lists</title>
+      <link>http://example.org/2-Data_Structures/3-Elementary_Data_Structures/3-Linked_Lists/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/2-Data_Structures/3-Elementary_Data_Structures/3-Linked_Lists/</guid>
+      <description>Linked List  A linked list is a set of items where each item is part of a node that also contains a link to a node.  ​ why is that - just for the sake of traversing the collection of items
+​ what we lost- quick access capability as compared to array
+​ what we gain- links provide capability to rearrange quickly
+ aka self-referent structures because we define node by nodes.</description>
+    </item>
+    
+    <item>
+      <title>4-Elementary List Processing</title>
+      <link>http://example.org/2-Data_Structures/3-Elementary_Data_Structures/4-Elementary_List_Processing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/2-Data_Structures/3-Elementary_Data_Structures/4-Elementary_List_Processing/</guid>
+      <description>Elementary List Processing  Most common bug when using array is out-of bound access. Similarly here reference an undefined pointer or using a pointer that we have changed unknowingly.
+ A linked list is either a null link or a link to a node that contains an item and a link to a linked list.
+ Traversing a Linked List  let&amp;rsquo;s say x is a pointer to first node of a list , the final node has a nullpointer and visit is procedure that takes an item as an argument.</description>
+    </item>
+    
+    <item>
+      <title>5-Memory Allocation for Lists</title>
+      <link>http://example.org/2-Data_Structures/3-Elementary_Data_Structures/5-Memory_Allocation_for_Lists/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/2-Data_Structures/3-Elementary_Data_Structures/5-Memory_Allocation_for_Lists/</guid>
+      <description> Memory Allocation for Lists  Dynamic memory allocation is the process of managing memory and responding to invocations of new and delete from client programs.  -
+ #### Implementation of list-processing interface  #include &amp;lt;stdlib.h&amp;gt; #include &amp;quot;list.h&amp;quot; link freelist; void construct(int N) { freelist = new node[N+1]; for (int i = 0; i &amp;lt; N; i++) freelist[i].next = &amp;amp;freelist[i+1]; freelist[N].next = 0; } link newNode(int i) { link x = remove(freelist); x-&amp;gt;item = i; x-&amp;gt;next = x; return x; } void deleteNode(link x) { insert(freelist, x); } void insert(link x, link t) { t-&amp;gt;next = x-&amp;gt;next; x-&amp;gt;next = t; } link remove(link x) { link t = x-&amp;gt;next; x-&amp;gt;next = t-&amp;gt;next; return t; } link next(link x) { return x-&amp;gt;next; } Item item(link x) { return x-&amp;gt;item; }  </description>
+    </item>
+    
+    <item>
+      <title>6-Strings</title>
+      <link>http://example.org/2-Data_Structures/3-Elementary_Data_Structures/6-Strings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/2-Data_Structures/3-Elementary_Data_Structures/6-Strings/</guid>
+      <description>Strings  C++ inherits this data structure from C, and also includes strings as a higher-level abstraction in the STL
+ Difference between string and an array of character revolves around length.
+ Both represents contiguous area of the memory, but the length of an array is set at the time that the array is created , whereas the length of a string may change during the execution of a program.</description>
+    </item>
+    
+    <item>
+      <title>7-Compound Data Structures</title>
+      <link>http://example.org/2-Data_Structures/3-Elementary_Data_Structures/7-Compound_Data_Structures/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/2-Data_Structures/3-Elementary_Data_Structures/7-Compound_Data_Structures/</guid>
+      <description>Compound Data Structures  Complex structures like array of array (2D Array), arrays of lists, arrays of strings, and so forth are also possible.
+ 2D Array is just notation convenience because ultimately its stored as one-dimensional array
+ Two-dimensional array allocation
+  This function dynamically allocates the memory for a Two-dimensional array, as an array of arrays. We first allocate an array of pointers, then allocate memory for each row.</description>
+    </item>
+    
+  </channel>
+</rss>

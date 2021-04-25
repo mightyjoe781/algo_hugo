@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>9-Priority Queues and Heapsort on smk&#39;s Blogs</title>
+    <link>http://example.org/3-Sorting/9-Priority_Queues_and_Heapsort/</link>
+    <description>Recent content in 9-Priority Queues and Heapsort on smk&#39;s Blogs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://example.org/3-Sorting/9-Priority_Queues_and_Heapsort/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>0-Introduction</title>
+      <link>http://example.org/3-Sorting/9-Priority_Queues_and_Heapsort/0-Introduction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/3-Sorting/9-Priority_Queues_and_Heapsort/0-Introduction/</guid>
+      <description>A priority queue is a data structure of items with keys that supports two basic operation
+ insert a new item remove the item with the largest key  Its most important example of generalized queue ADT and in fact PQ is proper generalization of the stack and the queue because we can implement these DS using priority queues.
+Applications of PQ include simulations systems ( keys ~ event times ) , job scheduling (keys ~ priorities ) , numerical computations ( keys ~ computation errors )</description>
+    </item>
+    
+    <item>
+      <title>1-Elementary Implementations</title>
+      <link>http://example.org/3-Sorting/9-Priority_Queues_and_Heapsort/1-Elementary_Implementations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/3-Sorting/9-Priority_Queues_and_Heapsort/1-Elementary_Implementations/</guid>
+      <description>Elementary Implementations we can use ordered or unordered sequences, implemented as linked list or arrays. Tradeoff between leaving the items unordered and keeping them in order is
+Ordered Sequences allows constant time remove the maximum and find the max but going through the whole list for insert. (eager approach)
+Unordered Sequences allows constant time insert but traversing entire structure for finding the maximum or removing the maximum (lazy approach)</description>
+    </item>
+    
+    <item>
+      <title>2-Heap Data Structure</title>
+      <link>http://example.org/3-Sorting/9-Priority_Queues_and_Heapsort/2-Heap_Data_Structure/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/3-Sorting/9-Priority_Queues_and_Heapsort/2-Heap_Data_Structure/</guid>
+      <description>2. Heap Data Structure Definition: A tree is heap-ordered if the key in each node is larger than or equal to the keys in all of that node&amp;rsquo;s children (if any).
+Equivalently, the key in each node of a heap-ordered tree is smaller than or equal to the key in that node&amp;rsquo;s parent (if any).
+Property : 1 Key of the Root Node is largest.
+definition : A heap is a set of nodes with keys arranged in a complete heap-ordered binary tree, represented as an array.</description>
+    </item>
+    
+    <item>
+      <title>3-Algorithms on heap</title>
+      <link>http://example.org/3-Sorting/9-Priority_Queues_and_Heapsort/3-Algorithms_on_heap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/3-Sorting/9-Priority_Queues_and_Heapsort/3-Algorithms_on_heap/</guid>
+      <description>Algorithms on Heap Data Structures The PQ algorithms on heaps all work by first making a simple modification that could violate the heap condition and them traversing the and restoring the heap condition everywhere. This is known as Heapifying or fixing the heap.
+There are 2 possibilities
+ Priority of some node is increased : To fix it node should swim up the tree Priority of some node in decreased : To fix it node should swim down the tree  Lets say some node becomes larger than its parent then we can implement swim up using exchange operation on the both nodes and if problem is still (new parent is still smaller) not fixed we swap again.</description>
+    </item>
+    
+    <item>
+      <title>4-Heapsort</title>
+      <link>http://example.org/3-Sorting/9-Priority_Queues_and_Heapsort/4-Heapsort/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/3-Sorting/9-Priority_Queues_and_Heapsort/4-Heapsort/</guid>
+      <description>Heapsort we can adapt idea of heap to sort an array without needing any extra space, by maintaining the heap within the array to be sorted.
+we traverse from left to right using fixUp to ensure that the elements to the left are heap ordered complete tree. Then during the sortdown process, we put largest element into place vacated as heap shrinks.
+SortDown is like selection sort but more efficient in finding largest item in unsorted array.</description>
+    </item>
+    
+    <item>
+      <title>5-Priority Queue ADT</title>
+      <link>http://example.org/3-Sorting/9-Priority_Queues_and_Heapsort/5-Priority_Queue_ADT/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/3-Sorting/9-Priority_Queues_and_Heapsort/5-Priority_Queue_ADT/</guid>
+      <description>Priority Queue ADT Full priority-queue ADT
+This interface allows client programs to delete items and to change priorities (using handles provided by the implementation ) and to merge priority queues together.
+template &amp;lt;class Item&amp;gt; class PQ { private : //Implementation-dependent code pubilc : //Implementation-dependent handle definition PQ(int); int empty() cons; handle insert(Item); Item getmax(); void change(handle,Item); void remove(handle); void join(PQ&amp;lt;Item&amp;gt;&amp;amp;); };  This arrangement restricts both client program and implementation that client program is not given a way to access information through handles except through this interface.</description>
+    </item>
+    
+    <item>
+      <title>6-Priority Queues for Index Items</title>
+      <link>http://example.org/3-Sorting/9-Priority_Queues_and_Heapsort/6-Priority_Qeues_for_Index_Items/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/3-Sorting/9-Priority_Queues_and_Heapsort/6-Priority_Qeues_for_Index_Items/</guid>
+      <description>Priority Queues for Index Items Suppose that records to be processed in a PQ are in array already. So we can develop PQ routines handle data using indexes. Moreover handle here becomes array index.
+Priority queue ADT interface for index items
+template &amp;lt;class Index&amp;gt; class PQ { private : //Implemetation-dependent code public : PQ(int); int empty() const; void insert(Index); Index getmax(); void change(Index); void remove(Index); };  Index heap based priority queues</description>
+    </item>
+    
+    <item>
+      <title>7-Binomial Queues</title>
+      <link>http://example.org/3-Sorting/9-Priority_Queues_and_Heapsort/7-Binomial_Queues/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/3-Sorting/9-Priority_Queues_and_Heapsort/7-Binomial_Queues/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

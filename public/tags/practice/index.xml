@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Practice on smk&#39;s Blogs</title>
+    <link>http://example.org/tags/practice/</link>
+    <description>Recent content in Practice on smk&#39;s Blogs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 12 Apr 2021 16:01:25 +0530</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/practice/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Problems : Basics 2</title>
+      <link>http://example.org/Practice_Problems/</link>
+      <pubDate>Mon, 12 Apr 2021 16:01:25 +0530</pubDate>
+      
+      <guid>http://example.org/Practice_Problems/</guid>
+      <description> Problems on Theory SortingLinked ListsStacksQueuesLinked ListsBinary Search TreeBST ReviewTrees-1Trees-2</description>
+    </item>
+    
+    <item>
+      <title>Problems : DP</title>
+      <link>http://example.org/Practice_DP/</link>
+      <pubDate>Wed, 21 Apr 2021 09:51:25 +0530</pubDate>
+      
+      <guid>http://example.org/Practice_DP/</guid>
+      <description> Problems on Dynamic Programming DP 1DP 2DP 3DP 4DP 5</description>
+    </item>
+    
+    <item>
+      <title>Problems : Graphs</title>
+      <link>http://example.org/Practice_Graphs/</link>
+      <pubDate>Sat, 24 Apr 2021 10:24:25 +0530</pubDate>
+      
+      <guid>http://example.org/Practice_Graphs/</guid>
+      <description> Problems on Graphs Graphs 1Graphs 2</description>
+    </item>
+    
+    <item>
+      <title>DP 1</title>
+      <link>http://example.org/Practice_DP/DP_1/</link>
+      <pubDate>Wed, 21 Apr 2021 09:51:25 +0530</pubDate>
+      
+      <guid>http://example.org/Practice_DP/DP_1/</guid>
+      <description>This is long sections divided into 3 parts. Its very important for interviews.
+In recursion we say subproblems were related to the original problems does they always have to be ? Should they be in recurrence relation to each other.
+Sometimes we do not need to do that necessarily.
+What Dynamic Programming is =&amp;gt; DnC ( divide and conquer) + something extra &amp;hellip;
+what this extra is ?
+Climbing Stairs :</description>
+    </item>
+    
+    <item>
+      <title>Graphs 1</title>
+      <link>http://example.org/Practice_Graphs/Graphs_1/</link>
+      <pubDate>Sat, 24 Apr 2021 10:24:25 +0530</pubDate>
+      
+      <guid>http://example.org/Practice_Graphs/Graphs_1/</guid>
+      <description>Why we use graphs Graphs help us model a specific type of data that has some dependency and relationships.
+Eg. Facebooks friends data, Routes between cities and places (models the connectivity and distance) , Networking (connectivity), Pre-requisite of courses (knowledge and dependency), File Systems, Resource Allocation in OS (handling deadlocks).
+Representation of Graphs Represented as a Nodes and edges. Nodes : data while edge represents relationships.
+Most Simplest implementation is adjacency matrix but its not memory efficient for sparse graphs.</description>
+    </item>
+    
+    <item>
+      <title>Graphs 2</title>
+      <link>http://example.org/Practice_Graphs/Graphs_2/</link>
+      <pubDate>Sat, 24 Apr 2021 23:01:25 +0530</pubDate>
+      
+      <guid>http://example.org/Practice_Graphs/Graphs_2/</guid>
+      <description>Strong and Weak Connectivity These terms arise in Directed Graph.
+Weak Connectivity : Take a directed graph and convert into undirected graph and do connectivity operations on that is called as weak connectivity.
+Strong Connectivity : (A,B) are strongly connected $\iff \exist $ path b/w A &amp;amp; B.
+​ A &amp;ndash;&amp;gt; B and B&amp;ndash;&amp;gt;A
+Graph Cyclicity Cycle : A sequence of nodes and edges such that first and last node of sequence is same.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>20-MSTs on smk&#39;s Blogs</title>
+    <link>http://example.org/5-Graph_Algorithms/20-Minimum_Spanning_Trees/</link>
+    <description>Recent content in 20-MSTs on smk&#39;s Blogs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://example.org/5-Graph_Algorithms/20-Minimum_Spanning_Trees/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>1-Representations</title>
+      <link>http://example.org/5-Graph_Algorithms/20-Minimum_Spanning_Trees/1_Representations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/5-Graph_Algorithms/20-Minimum_Spanning_Trees/1_Representations/</guid>
+      <description>Minimum Spanning Tree Graph models where we associate weights or costs with each edge are called for in many applications.
+Questions that entail cost minimization naturally arise for such situations. We examine algorithms for such problems : (i) find the lowest-cost way to connect all of the points, and (ii) find the lowest-cost path between two given points.
+First type of algorithm which is useful for undirected graphs that represent objects such as circuits, finds a minimum spanning tree</description>
+    </item>
+    
+    <item>
+      <title>2-Underlying Principles of MST algo</title>
+      <link>http://example.org/5-Graph_Algorithms/20-Minimum_Spanning_Trees/2_Underlying_Principles_of_mst_algo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/5-Graph_Algorithms/20-Minimum_Spanning_Trees/2_Underlying_Principles_of_mst_algo/</guid>
+      <description>Underlying Principles of MST Algorithms One of the defining properties of a tree is that adding an edge to a tree creates a unique cycle. This property supplements proof of two important property of MSTs.
+First property is cut property, it has to do with identifying edges that must be in an MST of a given graph. The few basic term from graph theory that we define next make possible a concise statement for this property.</description>
+    </item>
+    
+    <item>
+      <title>3-Prims algo and priority first search</title>
+      <link>http://example.org/5-Graph_Algorithms/20-Minimum_Spanning_Trees/3_Prims_algo_and_priority_first_search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/5-Graph_Algorithms/20-Minimum_Spanning_Trees/3_Prims_algo_and_priority_first_search/</guid>
+      <description>Prim&amp;rsquo;s Algorithm and Priority-First Search Prim&amp;rsquo;s Algorithm is simple and efficient for dense graphs. We maintain a cut of the graph that is comprised of tree vertices (those chosen for the MST) and nontree vertices ( those not chosen for MST). We start putting any vertex on MST, then put minimal crossing edge on the MST and repeat operation $V-1$ times, to put all vertices on the tree.
+Above implementation is expensive but with use of simple data structure to make computation faster and easier.</description>
+    </item>
+    
+    <item>
+      <title>4-Kruskal&#39;s Algorithm</title>
+      <link>http://example.org/5-Graph_Algorithms/20-Minimum_Spanning_Trees/4_Kruskals_algo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/5-Graph_Algorithms/20-Minimum_Spanning_Trees/4_Kruskals_algo/</guid>
+      <description>Kruskal&amp;rsquo;s Algorithm Kruskal&amp;rsquo;s algorithm also builds MST one edge at a time but it find an edge that connects two tree in a spreading forest of growing MST subtree.
+disconnected forest of MST subtrees evolves gradually into a tree. Edges are added to the MST in order of their length, so the forests comprise vertices that are connected to one another by relatively short edges. At any point during execution of algorithm, each vertex is closer to some vertex in its subtree than to any vertex not in its subtree.</description>
+    </item>
+    
+    <item>
+      <title>5-Boruvkas Algorithm</title>
+      <link>http://example.org/5-Graph_Algorithms/20-Minimum_Spanning_Trees/5_Boruvkas_algo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/5-Graph_Algorithms/20-Minimum_Spanning_Trees/5_Boruvkas_algo/</guid>
+      <description>Boruvka&amp;rsquo;s Algorithm We build MST by adding edges to a spreading forest of MST subtrees; but we do so in stages, adding several MST edges at each stage.
+At each stage, we find shortest edge that connects each MST subtree with a different one, then add all such edges to the MST. We can use our old implementation of union-find ADT, especially the find operations.
+First, we maintain a vertex-indexed vector that identifies, for each MST subtree, the nearest neighbor.</description>
+    </item>
+    
+    <item>
+      <title>6-Comparisons and Improvemetns</title>
+      <link>http://example.org/5-Graph_Algorithms/20-Minimum_Spanning_Trees/6_comparisons_and_improvemetns/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/5-Graph_Algorithms/20-Minimum_Spanning_Trees/6_comparisons_and_improvemetns/</guid>
+      <description>Comparisons and Improvements From the table we conclude adjacency-matrix implementation of Prim&amp;rsquo;s algorithm is method of choice for dense graphs, that all other methods perform within a small constant factor of best possible for graph of intermediate density, and that Kruskal&amp;rsquo;s method essentially reduces the problem to sorting for sparse graphs.
+In short, we might consider the MST problem to be &amp;ldquo;solved&amp;rdquo; for practical purposes. FO most graphs, the cost of finding the MST is only slightly higher than the cost of extracting the graph&amp;rsquo;s edges.</description>
+    </item>
+    
+    <item>
+      <title>7-Euclidean MST</title>
+      <link>http://example.org/5-Graph_Algorithms/20-Minimum_Spanning_Trees/7_euclidean_MST/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/5-Graph_Algorithms/20-Minimum_Spanning_Trees/7_euclidean_MST/</guid>
+      <description>Euclidean MST Given N points in the plane and we want to find the shortest set of lines connecting all the points. The geometric problem is called as Euclidean MST problem.
+One way to solve it is to build a complete graph with N vertices and N(N-1) /2 edges- one edges connecting each pair of vertices weighted with the distance between the corresponding points. Then we can use Prim&amp;rsquo;s algorithm to find the MST in time proportional to $N^2$.</description>
+    </item>
+    
+  </channel>
+</rss>

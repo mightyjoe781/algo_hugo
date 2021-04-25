@@ -1,0 +1,928 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://example.org/2-Data_Structures/4-Abstract_Data_Types/0-Introduction/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2-Data_Structures/4-Abstract_Data_Types/1-Abstract_Objects_and_Collections_of_Objects/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/5-Graph_Algorithms/19-Digraphs_and_DAGs/1_Glossary_and_Rules_of_Game/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/1-Fundamentals/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/5-Graph_Algorithms/19-Digraphs_and_DAGs/2_Anatomy_of_DFS_in_Digraphs/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2-Data_Structures/4-Abstract_Data_Types/2-Pushdown_Stack_ADT/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2-Data_Structures/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2-Data_Structures/4-Abstract_Data_Types/3-Examples_of_Stack_ADT_Clients/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/5-Graph_Algorithms/19-Digraphs_and_DAGs/3_Reachability_and_Transitive_Closure/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/3-Sorting/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/Practice_Problems/Sorting/</loc>
+    <lastmod>2021-04-12T16:01:25+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/5-Graph_Algorithms/19-Digraphs_and_DAGs/4_Equivalence_Relations_and_Partial_Orders/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2-Data_Structures/4-Abstract_Data_Types/4-Stack_ADT_Implementation/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/4-Seaching/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/Practice_Problems/Linked_List/</loc>
+    <lastmod>2021-04-12T09:11:25+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2-Data_Structures/4-Abstract_Data_Types/5-Creation_of_New_ADT/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/5-Graph_Algorithms/19-Digraphs_and_DAGs/5_DAGs/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/5-Graph_Algorithms/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/Practice_Problems/Stacks/</loc>
+    <lastmod>2021-04-13T12:01:25+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/5-Graph_Algorithms/19-Digraphs_and_DAGs/6_Topological_Sorting/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/3-Sorting/6-Elementary_Sorting_Methods/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2-Data_Structures/4-Abstract_Data_Types/6-FIFO_Queues_and_Generalized_Queue/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/6-Strings/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/Practice_Problems/Queues/</loc>
+    <lastmod>2021-04-15T00:01:25+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2-Data_Structures/4-Abstract_Data_Types/7-Duplicates_and_Index_Items/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/3-Sorting/7-Quicksort/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/5-Graph_Algorithms/19-Digraphs_and_DAGs/7_Reachability_in_DAGs/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/Practice_Problems/Hash_Tables/</loc>
+    <lastmod>2021-04-12T09:11:25+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2-Data_Structures/4-Abstract_Data_Types/8-First_class_ADTs/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/3-Sorting/8-Merging_and_Mergesort/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/5-Graph_Algorithms/19-Digraphs_and_DAGs/8_Strong_Components_in_Digraphs/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/Practice_Problems/</loc>
+    <lastmod>2021-04-12T16:01:25+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/node_js/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/Practice_Problems/BSTs/</loc>
+    <lastmod>2021-04-16T09:01:25+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2-Data_Structures/4-Abstract_Data_Types/9-Application_Based_ADTs/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/3-Sorting/9-Priority_Queues_and_Heapsort/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/5-Graph_Algorithms/19-Digraphs_and_DAGs/9_Transitive_Closure_Revisited/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/Practice_DP/</loc>
+    <lastmod>2021-04-21T09:51:25+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/Practice_Problems/BSTs_final/</loc>
+    <lastmod>2021-04-17T09:01:25+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/Practice_Problems/Trees_1/</loc>
+    <lastmod>2021-04-16T09:01:25+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2-Data_Structures/4-Abstract_Data_Types/10-Perspective/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/5-Graph_Algorithms/19-Digraphs_and_DAGs/10_Perspective/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/3-Sorting/10-Radix_Sorting/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/Practice_Graphs/</loc>
+    <lastmod>2021-04-24T10:24:25+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/Practice_Problems/Trees_2/</loc>
+    <lastmod>2021-04-19T21:51:25+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/3-Sorting/11-Special_purpose_sorting_methods/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/Practice_DP/DP_1/</loc>
+    <lastmod>2021-04-21T09:51:25+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/4-Seaching/12-Symbol_Tables_and_Binary_Search_Tree/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/Practice_DP/DP_2/</loc>
+    <lastmod>2021-04-21T09:51:25+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/4-Seaching/13-Balanced_Trees/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/Practice_DP/DP_3/</loc>
+    <lastmod>2021-04-22T08:43:25+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/4-Seaching/14-Hashing/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/Practice_DP/DP_4/</loc>
+    <lastmod>2021-04-22T22:54:25+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/4-Seaching/15-Radix_Search/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/Practice_DP/DP_5/</loc>
+    <lastmod>2021-04-22T22:54:25+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/4-Seaching/16-External_Sorting/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/Practice_Graphs/Graphs_1/</loc>
+    <lastmod>2021-04-24T10:24:25+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/5-Graph_Algorithms/17-Graph-Properties_and_Types/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/Practice_Graphs/Graphs_2/</loc>
+    <lastmod>2021-04-24T23:01:25+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/5-Graph_Algorithms/18-Graph_Search/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/5-Graph_Algorithms/19-Digraphs_and_DAGs/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/5-Graph_Algorithms/20-Minimum_Spanning_Trees/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/5-Graph_Algorithms/21-Shortest_Paths/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/5-Graph_Algorithms/22-Network_Flows_367/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/</loc>
+    <lastmod>2021-04-05T00:03:23+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/3-Sorting/10-Radix_Sorting/0-Introduction/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/3-Sorting/11-Special_purpose_sorting_methods/0-Introduction/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/3-Sorting/7-Quicksort/0-Introduction/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/3-Sorting/8-Merging_and_Mergesort/0-Introduction/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/3-Sorting/9-Priority_Queues_and_Heapsort/0-Introduction/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/6-Strings/0_Introduction/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/5-Graph_Algorithms/21-Shortest_Paths/0_introduction/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/5-Graph_Algorithms/22-Network_Flows_367/0_introduction/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/4-Seaching/16-External_Sorting/1_Rules_of_Game/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/3-Sorting/11-Special_purpose_sorting_methods/1-Batchers_OddEven/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/3-Sorting/10-Radix_Sorting/1-Bits_Bytes_and_Words/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2-Data_Structures/3-Elementary_Data_Structures/1-Building_Blocks/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/4-Seaching/15-Radix_Search/1_Digital_search_trees/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/3-Sorting/9-Priority_Queues_and_Heapsort/1-Elementary_Implementations/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/5-Graph_Algorithms/18-Graph_Search/1_Exploring_a_Maze/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/5-Graph_Algorithms/17-Graph-Properties_and_Types/1_Glossary/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/4-Seaching/14-Hashing/1_Hashing_Functions/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2-Data_Structures/5-Recursion_and_Trees/1-Recursive_Algorithms/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/5-Graph_Algorithms/20-Minimum_Spanning_Trees/1_Representations/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/3-Sorting/6-Elementary_Sorting_Methods/1-Rules_of_the_Game/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/6-Strings/1_String_Sorts/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/4-Seaching/12-Symbol_Tables_and_Binary_Search_Tree/1-Symbol_Table_Abstract_Data_Type/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/3-Sorting/7-Quicksort/1-The_Basic_Algorithm/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/3-Sorting/8-Merging_and_Mergesort/1-Two_Way_Merging/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/5-Graph_Algorithms/21-Shortest_Paths/1_underlying_principles/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/5-Graph_Algorithms/22-Network_Flows_367/1_flow_networks/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/4-Seaching/13-Balanced_Trees/1_Randomized_BSTs/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/1d-dp/</loc>
+    <lastmod>2021-04-21T09:51:25+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/5-Graph_Algorithms/17-Graph-Properties_and_Types/2_Graph_ADT/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/4-Seaching/16-External_Sorting/2_Indexed_Sequential_Access/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/4-Seaching/14-Hashing/2_Separate_Chaining/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/5-Graph_Algorithms/22-Network_Flows_367/2_augmeting_path_maxflow_algorithms/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/3-Sorting/8-Merging_and_Mergesort/2-Abstract_In_place_merge/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2-Data_Structures/3-Elementary_Data_Structures/2-Arrays/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/3-Sorting/10-Radix_Sorting/2-Binary_Quicksort/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/5-Graph_Algorithms/18-Graph_Search/2_Depth_first_search/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/5-Graph_Algorithms/21-Shortest_Paths/2_Dijkstras_algorithm/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2-Data_Structures/5-Recursion_and_Trees/2-Divide_and_Conquer/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/3-Sorting/9-Priority_Queues_and_Heapsort/2-Heap_Data_Structure/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/4-Seaching/12-Symbol_Tables_and_Binary_Search_Tree/2-Key_Indexed_search/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/3-Sorting/7-Quicksort/2-Performance_Characterstics_of_Quicksort/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/3-Sorting/6-Elementary_Sorting_Methods/2-Selection_sort/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/3-Sorting/11-Special_purpose_sorting_methods/2-Sorting_Networks/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/4-Seaching/15-Radix_Search/2_Tries/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/6-Strings/2_Tries/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/5-Graph_Algorithms/20-Minimum_Spanning_Trees/2_Underlying_Principles_of_mst_algo/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/4-Seaching/13-Balanced_Trees/2_Splay_BSTs/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/5-Graph_Algorithms/17-Graph-Properties_and_Types/3_Adjacency_matrix/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/4-Seaching/16-External_Sorting/3_B_Trees/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/3-Sorting/9-Priority_Queues_and_Heapsort/3-Algorithms_on_heap/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/5-Graph_Algorithms/21-Shortest_Paths/3_all_pair_shortest_paths/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2-Data_Structures/5-Recursion_and_Trees/3-Dynamic_Programming/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2-Data_Structures/3-Elementary_Data_Structures/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/3-Sorting/11-Special_purpose_sorting_methods/3-External_Sorting/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/5-Graph_Algorithms/18-Graph_Search/3_Graph_Search_ADT/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/3-Sorting/6-Elementary_Sorting_Methods/3-Insertion_sort/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/4-Seaching/14-Hashing/3_Linear_Probing/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2-Data_Structures/3-Elementary_Data_Structures/3-Linked_Lists/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/3-Sorting/10-Radix_Sorting/3-MSD_Radix_Sort/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/4-Seaching/15-Radix_Search/3_Patricia_Tries/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/5-Graph_Algorithms/20-Minimum_Spanning_Trees/3_Prims_algo_and_priority_first_search/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/4-Seaching/12-Symbol_Tables_and_Binary_Search_Tree/3-Sequential_Search/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/3-Sorting/7-Quicksort/3-Stack_Size/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/6-Strings/3_Substring_Search/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/3-Sorting/8-Merging_and_Mergesort/3-Top_Down_mergesort/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/4-Seaching/13-Balanced_Trees/3_Top-Down_2-3-4_Tress/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/5-Graph_Algorithms/22-Network_Flows_367/3_preflow_push_maxflow_algorithms/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/4-Seaching/16-External_Sorting/4_Extendible_Hashing/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/5-Graph_Algorithms/18-Graph_Search/4_Properties_of_DFS_Forests/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/4-Seaching/13-Balanced_Trees/4_Red_Black_Trees/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2-Data_Structures/4-Abstract_Data_Types/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/5-Graph_Algorithms/17-Graph-Properties_and_Types/4_Adjacency_Lists_Representation/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/4-Seaching/12-Symbol_Tables_and_Binary_Search_Tree/4-Binary_search/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/3-Sorting/6-Elementary_Sorting_Methods/4-Bubble_sort/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/4-Seaching/14-Hashing/4_Double_Hashing/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2-Data_Structures/3-Elementary_Data_Structures/4-Elementary_List_Processing/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/3-Sorting/9-Priority_Queues_and_Heapsort/4-Heapsort/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/3-Sorting/8-Merging_and_Mergesort/4-Improvements_to_basic_algorithm/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/5-Graph_Algorithms/20-Minimum_Spanning_Trees/4_Kruskals_algo/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/4-Seaching/15-Radix_Search/4_Multiway_Tries_and_TSTs/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/6-Strings/4_Regular_Expression/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/3-Sorting/7-Quicksort/4-Small_Subfiles/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/3-Sorting/11-Special_purpose_sorting_methods/4-SortMerge_Implementation/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/3-Sorting/10-Radix_Sorting/4-Three_way_radix_quicksort/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2-Data_Structures/5-Recursion_and_Trees/4-Trees/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/5-Graph_Algorithms/22-Network_Flows_367/4_maxflow_reductions/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/5-Graph_Algorithms/21-Shortest_Paths/4_shortest_path_in_acyclic_networks/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/4-Seaching/13-Balanced_Trees/5_Skip_Lists/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/4-Seaching/12-Symbol_Tables_and_Binary_Search_Tree/5-Binary_search_treesBSTs/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/5-Graph_Algorithms/20-Minimum_Spanning_Trees/5_Boruvkas_algo/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/3-Sorting/8-Merging_and_Mergesort/5-Bottom_up_mergesort/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/5-Graph_Algorithms/18-Graph_Search/5_DFS_Algorithms/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/6-Strings/5_Data_Compression/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/4-Seaching/14-Hashing/5_Dynamic_Hash_Tables/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/3-Sorting/10-Radix_Sorting/5-LSD_Radix_sort/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/3-Sorting/7-Quicksort/5-Median_of_three_partitioning/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2-Data_Structures/3-Elementary_Data_Structures/5-Memory_Allocation_for_Lists/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/3-Sorting/11-Special_purpose_sorting_methods/5-Parallel_SortMerge/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/3-Sorting/6-Elementary_Sorting_Methods/5-Performance_Characteristics_of_Elementary_sorts/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/4-Seaching/16-External_Sorting/5_Perspective/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/3-Sorting/9-Priority_Queues_and_Heapsort/5-Priority_Queue_ADT/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2-Data_Structures/5-Recursion_and_Trees/5-Properties_of_trees/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2-Data_Structures/5-Recursion_and_Trees/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/4-Seaching/15-Radix_Search/5_TextStrings_and_Index_algorithms/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/5-Graph_Algorithms/17-Graph-Properties_and_Types/5_Variation_Extensions_Costs/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/5-Graph_Algorithms/21-Shortest_Paths/5_euclidean_networks/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/5-Graph_Algorithms/22-Network_Flows_367/5_mincost_flows/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/5-Graph_Algorithms/17-Graph-Properties_and_Types/6_Graph_Generators/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/4-Seaching/13-Balanced_Trees/6_Performance_Chracteristics/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/5-Graph_Algorithms/20-Minimum_Spanning_Trees/6_comparisons_and_improvemetns/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/3-Sorting/7-Quicksort/6-Duplicate_Keys/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/4-Seaching/12-Symbol_Tables_and_Binary_Search_Tree/6-Performance_Characteristics_of_BSTs/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/3-Sorting/10-Radix_Sorting/6-Performance_Chracterstics_of_Radix_Sorts/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/3-Sorting/8-Merging_and_Mergesort/6-Performance_characteristics_of_mergesort/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/4-Seaching/14-Hashing/6_Perspective/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/3-Sorting/9-Priority_Queues_and_Heapsort/6-Priority_Qeues_for_Index_Items/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/5-Graph_Algorithms/18-Graph_Search/6_Separability_and_Biconnectivity/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/3-Sorting/6-Elementary_Sorting_Methods/6-Shell_sort/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2-Data_Structures/3-Elementary_Data_Structures/6-Strings/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2-Data_Structures/5-Recursion_and_Trees/6-Tree_Traversal/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/5-Graph_Algorithms/22-Network_Flows_367/6_network_simplex_algorithm/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/5-Graph_Algorithms/21-Shortest_Paths/6_reduction/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/3-Sorting/9-Priority_Queues_and_Heapsort/7-Binomial_Queues/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/5-Graph_Algorithms/18-Graph_Search/7_Breadth_First_Search/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2-Data_Structures/3-Elementary_Data_Structures/7-Compound_Data_Structures/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/5-Graph_Algorithms/20-Minimum_Spanning_Trees/7_euclidean_MST/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/4-Seaching/12-Symbol_Tables_and_Binary_Search_Tree/7-Index_implementations_with_Symbol_Tables/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/3-Sorting/8-Merging_and_Mergesort/7-Linked_list_implementations_of_mergesort/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2-Data_Structures/5-Recursion_and_Trees/7-Recursive_Binary_TreeAlgo/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/5-Graph_Algorithms/17-Graph-Properties_and_Types/7_Simple_Euler_and_Hamilton_Paths/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/3-Sorting/6-Elementary_Sorting_Methods/7-Sorting_of_Other_type_of_data/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/3-Sorting/7-Quicksort/7-Strings_and_Vectors/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/3-Sorting/10-Radix_Sorting/7-Sublinear_Time_Sort/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/5-Graph_Algorithms/22-Network_Flows_367/7_mincost_flow_reductions/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/5-Graph_Algorithms/21-Shortest_Paths/7_negative_weights/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/5-Graph_Algorithms/18-Graph_Search/8_Generalized_Graph_Search/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/5-Graph_Algorithms/17-Graph-Properties_and_Types/8_Graph-Processing_Problems/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2-Data_Structures/5-Recursion_and_Trees/8-Graph_Traversal/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/3-Sorting/6-Elementary_Sorting_Methods/8-Index_and_Pointer_Sorting/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/4-Seaching/12-Symbol_Tables_and_Binary_Search_Tree/8-Insertion_at_root_in_BSTs/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/3-Sorting/8-Merging_and_Mergesort/8-Recursion_Revisited/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/3-Sorting/7-Quicksort/8-Selection/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/5-Graph_Algorithms/21-Shortest_Paths/8_perspective/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/5-Graph_Algorithms/22-Network_Flows_367/8_perspective/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/5-Graph_Algorithms/18-Graph_Search/9_Analysis_Graph_Algorithms/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/4-Seaching/12-Symbol_Tables_and_Binary_Search_Tree/9-BST_Implementations_of_Other_ADT_functions/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/3-Sorting/6-Elementary_Sorting_Methods/9-Sorting_of_Linked_Lists/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/connectivity/</loc>
+    <lastmod>2021-04-24T10:24:25+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/cyclicity/</loc>
+    <lastmod>2021-04-24T23:01:25+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/dfs/</loc>
+    <lastmod>2021-04-24T10:24:25+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/dp/</loc>
+    <lastmod>2021-04-21T09:51:25+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/dsa/</loc>
+    <lastmod>2021-04-12T16:01:25+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/graphs/</loc>
+    <lastmod>2021-04-24T10:24:25+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/practice/</loc>
+    <lastmod>2021-04-12T16:01:25+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/</loc>
+    <lastmod>2021-04-21T09:51:25+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

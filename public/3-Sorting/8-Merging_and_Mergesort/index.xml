@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>8-Merging and Mergesort on smk&#39;s Blogs</title>
+    <link>http://example.org/3-Sorting/8-Merging_and_Mergesort/</link>
+    <description>Recent content in 8-Merging and Mergesort on smk&#39;s Blogs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://example.org/3-Sorting/8-Merging_and_Mergesort/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>0-Introduction</title>
+      <link>http://example.org/3-Sorting/8-Merging_and_Mergesort/0-Introduction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/3-Sorting/8-Merging_and_Mergesort/0-Introduction/</guid>
+      <description>Introduction Merging can be thought of as a complementary process to the selection that we read last time.
+One of the most impressive property of merge sort is that it can sort a file in $N\log N$ , independent of input. ( Heapsort also does this)
+Prime disadvantage of mergesort is that it requires extra space proportional to $N$.
+A guaranteed $N\log N$ running time can be a liability. For e.</description>
+    </item>
+    
+    <item>
+      <title>1-Two Way Merging</title>
+      <link>http://example.org/3-Sorting/8-Merging_and_Mergesort/1-Two_Way_Merging/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/3-Sorting/8-Merging_and_Mergesort/1-Two_Way_Merging/</guid>
+      <description>Two way Merging given two ordered input file, we can combine them into one ordered file by simply keeping track of smallest element in each file and entering a loop where the smaller of the two elements that are smallest in their files are moved to output.
+template &amp;lt;class Item&amp;gt; void mergeAB(Item c[],Item a[],int N,Item b[], int M){ for(int i = 0, j= 0,k=0;k&amp;lt;(M+N);k++){ if(i == N){ c[k] = b[j++]; continue;} if(j == M){c[k] = a[i++]; continue;} c[k] = (a[i]&amp;lt;b[j])?</description>
+    </item>
+    
+    <item>
+      <title>2-Abstract In-place merge</title>
+      <link>http://example.org/3-Sorting/8-Merging_and_Mergesort/2-Abstract_In_place_merge/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/3-Sorting/8-Merging_and_Mergesort/2-Abstract_In_place_merge/</guid>
+      <description>Abstract In-Place Merge Although extra space for the auxiliary array seems to be a fixed practical cost. further improvements that allow s to avoid the extra time to copy the array.
+Second characteristic of basic merge that is worthy of note is that the inner loop includes two tests to determine whether the ends of two input arrays have been reached and most of the times there tests fail so we should sentinel keys to allow the tests to be removed.</description>
+    </item>
+    
+    <item>
+      <title>3-Top Down mergesort</title>
+      <link>http://example.org/3-Sorting/8-Merging_and_Mergesort/3-Top_Down_mergesort/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/3-Sorting/8-Merging_and_Mergesort/3-Top_Down_mergesort/</guid>
+      <description>Top-Down Mergesort Mergesort is important because it is a straightforward optimal sorting method 9 it runs in time proportional to $n\log n $ that can be implemented in a stable manner.
+It is classic example of the divide and conquer paradigm.
+template &amp;lt;class Item&amp;gt; void mergesort(Item a[],int l , int r) { if(r&amp;lt;= l ) return ; int m = (r+l)/2 ; mergesort(a,l,m); mergesort(a,m+1,r); merge(a,l,m,r); }   Mergesort requires about $n \log n $ comparisons to sort any file of $N$ elements Mergesort uses extra space proportional to $N$.</description>
+    </item>
+    
+    <item>
+      <title>4-Improvements to basic algorithm</title>
+      <link>http://example.org/3-Sorting/8-Merging_and_Mergesort/4-Improvements_to_basic_algorithm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/3-Sorting/8-Merging_and_Mergesort/4-Improvements_to_basic_algorithm/</guid>
+      <description>Improvements to the Basic Algorithm Just like we improved the quicksort using handling small cases differently we can improve performance of merge sort.
+So recursion evidently says that for small values of recursion calls are most often so handling them with efficiency may lead to improvements.
+Second improvements is consider for mergesort is to eliminate the time taken to the auxiliary array used for merging. So we can arrange recursion calls in a way that computation switches roles of input and auxiliary array at each level.</description>
+    </item>
+    
+    <item>
+      <title>5-Bottom up mergesort</title>
+      <link>http://example.org/3-Sorting/8-Merging_and_Mergesort/5-Bottom_up_mergesort/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/3-Sorting/8-Merging_and_Mergesort/5-Bottom_up_mergesort/</guid>
+      <description>Bottom-Up Mergesort Bottom-Up mergesort
+inline int min(int A, int B) {return (A&amp;lt;B) ? A: B;} template &amp;lt;class Item&amp;gt; void mergesortBU(Item [a],int l, int r){ for(int m = l; m &amp;lt;= r-l ; m = m+m ) for(int i = l; i &amp;lt;= r-m; i+=m+m) merge(a,i,i+m-1,min(i+m+m-1,r)); }  Sequence of merges done by the recursive algorithm is determined by divide-and-conquer tree. We simply traverse tree in postorder or we can develop an alternate stack.</description>
+    </item>
+    
+    <item>
+      <title>6-Performance characteristics of mergesort</title>
+      <link>http://example.org/3-Sorting/8-Merging_and_Mergesort/6-Performance_characteristics_of_mergesort/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/3-Sorting/8-Merging_and_Mergesort/6-Performance_characteristics_of_mergesort/</guid>
+      <description>Performance Characteristics of Mergesort Most of the headroom for improvement in mergesort is from improving the inner for loop.
+In addition to discussed improvements, we might achieve further gains by ensuring that the smallest elements in the two arrays are kept in simple variables or machine registers, to avoid unnecessary array accesses. Thus inner loop only works in comparisons.
+Total no. of instruction in inner loop quicksort are little more than merge sort but the instruction are executed only $N\lg N$ times, where quicksort&amp;rsquo;s are executed 39% more often.</description>
+    </item>
+    
+    <item>
+      <title>7-Linked list implementations of mergesort</title>
+      <link>http://example.org/3-Sorting/8-Merging_and_Mergesort/7-Linked_list_implementations_of_mergesort/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/3-Sorting/8-Merging_and_Mergesort/7-Linked_list_implementations_of_mergesort/</guid>
+      <description>Linked list implementation of mergesort Extra space has to be required for conception practical mergesort, se we may consider auxiliary array space for the linked list in form of links.
+Linked list merge
+link merge(link a, link b ){ node dummy(0); link head = &amp;amp;dummy, c= head; while((a!=0) &amp;amp;&amp;amp; (b!=0)) if(a-&amp;gt;item &amp;lt; b-&amp;gt;item) {c-&amp;gt;next = a; c= a; a = a-&amp;gt;next;} else {c-&amp;gt;next = b ;c= b ; b= b-&amp;gt;next;} c-&amp;gt;next = (a==0) ?</description>
+    </item>
+    
+    <item>
+      <title>8-Recursion Revisited</title>
+      <link>http://example.org/3-Sorting/8-Merging_and_Mergesort/8-Recursion_Revisited/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/3-Sorting/8-Merging_and_Mergesort/8-Recursion_Revisited/</guid>
+      <description>Recursion Revisited Quicksort might be called a proper conquer and divide algorithm.
+In a recursive implementation, most of the work for a particular activation is done before the recursive calls.
+On the other hand, the recursive mergesort has more the spirit of divide and then conquer.
+Quicksort starts with processing on the largest subfile, and finishes up with the small ones.
+Quicksort is more naturally thought of top-down algorithm, because it does work at the top of the recursion tree, then proceeds down to finish the sort.</description>
+    </item>
+    
+  </channel>
+</rss>

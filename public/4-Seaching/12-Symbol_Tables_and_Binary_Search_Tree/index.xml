@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>12-Symbol Tables and Binary Search on smk&#39;s Blogs</title>
+    <link>http://example.org/4-Seaching/12-Symbol_Tables_and_Binary_Search_Tree/</link>
+    <description>Recent content in 12-Symbol Tables and Binary Search on smk&#39;s Blogs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://example.org/4-Seaching/12-Symbol_Tables_and_Binary_Search_Tree/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>1-Symbol Table Abstract Data Type</title>
+      <link>http://example.org/4-Seaching/12-Symbol_Tables_and_Binary_Search_Tree/1-Symbol_Table_Abstract_Data_Type/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/4-Seaching/12-Symbol_Tables_and_Binary_Search_Tree/1-Symbol_Table_Abstract_Data_Type/</guid>
+      <description>Introduction A symbol table is a data structure of items with keys that supports two basic operations
+ Insert a new item Return an item with a given key  Also known as dictionaries sometimes.
+Symbol-Table Abstract Data Type Operations of interest in the implementations are
+ insert search for a item given the key remove a item sort the symbol table join two symbol table  Additionally we might also want a standard construct,test if empty , destroy and copy.</description>
+    </item>
+    
+    <item>
+      <title>2-Key Indexed Search</title>
+      <link>http://example.org/4-Seaching/12-Symbol_Tables_and_Binary_Search_Tree/2-Key_Indexed_search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/4-Seaching/12-Symbol_Tables_and_Binary_Search_Tree/2-Key_Indexed_search/</guid>
+      <description>Key-Indexed Search suppose key values are distinct small numbers, then simplest search algorithm is based on storing the items in array, indexed by the keys.
+Property 1: If key values are positive integers less than M and items have distinct keys, then the symbol-table data type can be implemented with key-indexed arrays of items such that insert,search, and remove require constant time; and initialize,select and sort require time proportional to M, whenever any of the operation are performed on an N-item table.</description>
+    </item>
+    
+    <item>
+      <title>3-Sequential Search</title>
+      <link>http://example.org/4-Seaching/12-Symbol_Tables_and_Binary_Search_Tree/3-Sequential_Search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/4-Seaching/12-Symbol_Tables_and_Binary_Search_Tree/3-Sequential_Search/</guid>
+      <description>Sequential Search when general keys are too large range for them to be used as indices one approach is to store contiguously. when new item is inserted, we put it into array by moving larger elements over one position as we did for insertion sort; when a search is to be performed we look through the array sequentially.
+Since Array is ordered, we can report a search miss when we encounter a key larger than the search key.</description>
+    </item>
+    
+    <item>
+      <title>4-Binary search</title>
+      <link>http://example.org/4-Seaching/12-Symbol_Tables_and_Binary_Search_Tree/4-Binary_search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/4-Seaching/12-Symbol_Tables_and_Binary_Search_Tree/4-Binary_search/</guid>
+      <description>Binary Search divide the set of items into two parts, determine to which of the two parts the search key belongs, then concentrate on that part. A reasonable way to divide set of items is to keep items sorted, then to use indices into the sorted array to delimit the part of the array being worked on.
+This is Binary Search
+Property 5: Binary search never uses more than $\lfloor \lg N \rfloor +1$ comparisons for a search ( hit or miss)</description>
+    </item>
+    
+    <item>
+      <title>5-Binary search trees(BSTs)</title>
+      <link>http://example.org/4-Seaching/12-Symbol_Tables_and_Binary_Search_Tree/5-Binary_search_treesBSTs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/4-Seaching/12-Symbol_Tables_and_Binary_Search_Tree/5-Binary_search_treesBSTs/</guid>
+      <description>Binary Search Trees (BSTs) To overcome problem of expensive insertion we use an explicit tree structure as basis of Symbol-Table implementations.
+Definition 2 : A binary search tree (BST) is a binary tree that has a key associated with each of its internal nodes, with the additional property that the key in any node is larger than (or equal to ) the keys in all nodes in that node&amp;rsquo;s left subtree and smaller than (or equal to) the keys in all nodes in that node&amp;rsquo;s right subtree.</description>
+    </item>
+    
+    <item>
+      <title>6-Performance Characteristics of BSTs</title>
+      <link>http://example.org/4-Seaching/12-Symbol_Tables_and_Binary_Search_Tree/6-Performance_Characteristics_of_BSTs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/4-Seaching/12-Symbol_Tables_and_Binary_Search_Tree/6-Performance_Characteristics_of_BSTs/</guid>
+      <description>Performance Chracterstics of BSTs Running time of algorithm on BSTs are dependent on the shapes of trees. In best case, the tree could be perfectly balanced, with about $\lg N$ nodes between root and each of external nodes, but in worst case there could be $N$ nodes on search path.
+On average case it performs quite well since random inputs create tree which may not be perfectly balanced but enough so that algorithms perform well.</description>
+    </item>
+    
+    <item>
+      <title>7-Index implementations with Symbol Tables</title>
+      <link>http://example.org/4-Seaching/12-Symbol_Tables_and_Binary_Search_Tree/7-Index_implementations_with_Symbol_Tables/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/4-Seaching/12-Symbol_Tables_and_Binary_Search_Tree/7-Index_implementations_with_Symbol_Tables/</guid>
+      <description>Index Implementations with Symbol Tables For some applications we want a search structure simply to find items, and not to move them around.
+We can adapt BSTs to build indices in precisely the same manner as we provided indirection for sorting in Section 6.8 and for heaps : Use an Index wrapper to define items for the BST, and arrange for keys to be extracted from items via the key member functions, as usual.</description>
+    </item>
+    
+    <item>
+      <title>8-Insertion at root in BSTs</title>
+      <link>http://example.org/4-Seaching/12-Symbol_Tables_and_Binary_Search_Tree/8-Insertion_at_root_in_BSTs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/4-Seaching/12-Symbol_Tables_and_Binary_Search_Tree/8-Insertion_at_root_in_BSTs/</guid>
+      <description>Insertion at the Root in BSTs In standard implementation of BSTs each new inserted node goes to some external node via recursion. But now we wish to put that node at the root so new nodes are at the root of the tree it proposes a problem or breaking BST property but there is way to prevent it.
+Recursive solution is known as rotation , a fundamental transformation on trees.</description>
+    </item>
+    
+    <item>
+      <title>9-BST Implementations of Other ADT functions</title>
+      <link>http://example.org/4-Seaching/12-Symbol_Tables_and_Binary_Search_Tree/9-BST_Implementations_of_Other_ADT_functions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/4-Seaching/12-Symbol_Tables_and_Binary_Search_Tree/9-BST_Implementations_of_Other_ADT_functions/</guid>
+      <description>BST Implementations of Other ADT Functions We will consider these implementations - select, join, recursive. Select and Sort is very important and distinguishing feature of BSTs.
+To implement select we can use recursive procedure same as quicksort-based selection.
+To find the item with kth smallest key in a BST, we check the number of nodes in the left subtree. If there are k nodes there, then we return the item at the root.</description>
+    </item>
+    
+  </channel>
+</rss>

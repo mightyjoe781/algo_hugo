@@ -3,9 +3,9 @@
 Title = "Problems : Graphs"
 chapter = true
 
-weight = 8
+weight = 10
 
-tags = ["dsa", "practice", "graphs"]
+tags = ["DSA", "practice", "graphs"]
 
 +++
 

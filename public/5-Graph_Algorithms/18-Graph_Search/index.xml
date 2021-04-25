@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>18-Graph Search on smk&#39;s Blogs</title>
+    <link>http://example.org/5-Graph_Algorithms/18-Graph_Search/</link>
+    <description>Recent content in 18-Graph Search on smk&#39;s Blogs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://example.org/5-Graph_Algorithms/18-Graph_Search/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>1-Exploring a Maze</title>
+      <link>http://example.org/5-Graph_Algorithms/18-Graph_Search/1_Exploring_a_Maze/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/5-Graph_Algorithms/18-Graph_Search/1_Exploring_a_Maze/</guid>
+      <description>Graph Search Graph Search algorithms allow us get insights about the structural properties of graph.
+Exploring a Maze One strategy to explore the maze is unroll a ball of string behind us. The string guarantees that we can always find our way out but we want to explore each part of maze. To do this we need a way to mark the places that we have been to. Consider lights at intersection or doors then we use Tremaux exploration to explore-maze.</description>
+    </item>
+    
+    <item>
+      <title>2-Depth first search</title>
+      <link>http://example.org/5-Graph_Algorithms/18-Graph_Search/2_Depth_first_search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/5-Graph_Algorithms/18-Graph_Search/2_Depth_first_search/</guid>
+      <description>Depth-First Search To visit a vertex, we mark it as having been visited, then recursively visit all the vertices that are adjacent to it and that have not yet been marked.
+ord vector stores the order of traversal of vertices.
+Program 18.1 Depth-first search of a connected component
+#include &amp;lt;vector&amp;gt; template &amp;lt;class Graph&amp;gt; class cDFS { int cnt; const Graph &amp;amp;G; vector &amp;lt;int&amp;gt; ord; void searchC(int v) { ord[v] = cnt++; typename Graph::adjIterator A(G,v); for(int t = A.</description>
+    </item>
+    
+    <item>
+      <title>3-Graph Search ADT</title>
+      <link>http://example.org/5-Graph_Algorithms/18-Graph_Search/3_Graph_Search_ADT/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/5-Graph_Algorithms/18-Graph_Search/3_Graph_Search_ADT/</guid>
+      <description>Graph-Search ADT Functions 18.2 Graph Search
+template &amp;lt;class Graph &amp;gt; class SEARCH { protected: const Graph &amp;amp;G; int cnt; vector&amp;lt;int&amp;gt; ord; virtual void search (Edge) = 0; void search(){ for(int v = 0; v&amp;lt;G.V(); v++) if(ord[v] == -1) searchC(Edge(v,v)); } public: SEARCH(const Graph &amp;amp;G): G(G), ord(G.V(),-1), cnt(0) {} int operator[](int v) const {return ord[v];} };  We typically use graph-search function that performs these steps until all of the vertices of the graph have been marked as having been visited:</description>
+    </item>
+    
+    <item>
+      <title>4 Properties of DFS Forests</title>
+      <link>http://example.org/5-Graph_Algorithms/18-Graph_Search/4_Properties_of_DFS_Forests/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/5-Graph_Algorithms/18-Graph_Search/4_Properties_of_DFS_Forests/</guid>
+      <description>Properties of DFS Forests Traversing the internal nodes of tree in preorder gives the vertices in the order in which DFS visits them.
+We can divide edges in 2 types
+ Edges representing a recursive call (tree edges) Edges connecting a vertex with an ancestor in its DFS tree that is not its parent (back edges)  So we can now divide tree links in 4 types
+We refer to a link from $v\rightarrow w$ in DFS tree that represent tree edge as</description>
+    </item>
+    
+    <item>
+      <title>5-DFS Algorithms</title>
+      <link>http://example.org/5-Graph_Algorithms/18-Graph_Search/5_DFS_Algorithms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/5-Graph_Algorithms/18-Graph_Search/5_DFS_Algorithms/</guid>
+      <description>DFS Algorithms Cycle Detection Does a given graph have an cycles ? Is the graph a forest ?
+This problem is easy to solve using DFS because any back edge in a DFS tree belongs to cycle consisting of edge plus the tree path connecting nodes.
+For testing this condition we add else clause to program 18.1&amp;rsquo;s if condition to test whether t is equal to v.
+If it is, we have just encountered the parent link $w-v$.</description>
+    </item>
+    
+    <item>
+      <title>6-Separability and Biconnectivity</title>
+      <link>http://example.org/5-Graph_Algorithms/18-Graph_Search/6_Separability_and_Biconnectivity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/5-Graph_Algorithms/18-Graph_Search/6_Separability_and_Biconnectivity/</guid>
+      <description>Separability and Biconnectivity Given two vertices, are there two different paths connecting them.
+If it is important that graph be connected in some situation, then we might want it to stay connected even if an edge or a vertex is removed.
+Definition A bridge in a graph is an edge that, if removed, would separate a connected graph into two disjoint subgraphs. A graph that has no bridges is said to be edge-connected.</description>
+    </item>
+    
+    <item>
+      <title>7-Breadth First Search</title>
+      <link>http://example.org/5-Graph_Algorithms/18-Graph_Search/7_Breadth_First_Search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/5-Graph_Algorithms/18-Graph_Search/7_Breadth_First_Search/</guid>
+      <description>Breadth-First Search DFS has no relationship to order in which it finds the goal. BSFS is based on a shortest path from $v\rightarrow w$ , we start at $v$ and check $w$ among all the vertices that we can reach by following one edge, then we check all the vertices that we can reach by following one edge, then we check all the vertices we can reach by following two edges, and so forth.</description>
+    </item>
+    
+    <item>
+      <title>8-Generalized Graph Search</title>
+      <link>http://example.org/5-Graph_Algorithms/18-Graph_Search/8_Generalized_Graph_Search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/5-Graph_Algorithms/18-Graph_Search/8_Generalized_Graph_Search/</guid>
+      <description>Generalized Graph Search We use term fringe, instead of queue, to describe the set of edges for possible candidates for being next added to the tree.
+Starting with a self-loop to a start vertex on the fringe and an empty tree, perform the following operation until fringe is empty.
+Move an edge from the fringe to tree. If the vertex to which it leads is unvisited, visit that vertex, and put onto the fringe all edges that lead from that vertex to unvisited vertices.</description>
+    </item>
+    
+    <item>
+      <title>9-Analysis Graph Algorithms</title>
+      <link>http://example.org/5-Graph_Algorithms/18-Graph_Search/9_Analysis_Graph_Algorithms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/5-Graph_Algorithms/18-Graph_Search/9_Analysis_Graph_Algorithms/</guid>
+      <description>Analysis of Graph Algorithms we seek ideally natural input models that have 3 critical properties
+ They reflect reality to a sufficient extent that we can use them to predict performance. They are sufficiently simple that they are amenable to mathematical analysis We can write generators that provide problem instances that we can use to test our algorithms.  When the running time of an algorithms depends on the structure of input graph, prediction are much harder to come by.</description>
+    </item>
+    
+  </channel>
+</rss>

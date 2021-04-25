@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>6-Elementary Sorting Methods on smk&#39;s Blogs</title>
+    <link>http://example.org/3-Sorting/6-Elementary_Sorting_Methods/</link>
+    <description>Recent content in 6-Elementary Sorting Methods on smk&#39;s Blogs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://example.org/3-Sorting/6-Elementary_Sorting_Methods/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>1-Rules of the Game</title>
+      <link>http://example.org/3-Sorting/6-Elementary_Sorting_Methods/1-Rules_of_the_Game/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/3-Sorting/6-Elementary_Sorting_Methods/1-Rules_of_the_Game/</guid>
+      <description>Introduction Why study these elementary techniques of sorting
+ provide context - learning terminology and basic mechanisms sometimes more effective than the more powerful general purpose methods extend to better general purpose methods  Rules of the Game Abstract notion of putting keys and associated information in order is what characterizes the sorting problem.
+ Internal Sorting : file to be sorted fits in memory External Sorting : file from tape or disk  Some Conventional Code :</description>
+    </item>
+    
+    <item>
+      <title>2-Selection_sort</title>
+      <link>http://example.org/3-Sorting/6-Elementary_Sorting_Methods/2-Selection_sort/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/3-Sorting/6-Elementary_Sorting_Methods/2-Selection_sort/</guid>
+      <description>Selection Sort we repeatedly select smallest remaining element and swap it with the current one.
+# of exchanges = N-1 ( no need to check last element)
+# of comparison = $N^2$
+So comparisons dominate the running time.
+void selection(Item a[], int l , int r){ for(int i = l ; i &amp;lt;r ; i++){ int min = i ; for(int j = i+1 ; j &amp;lt;=r ; j++) if(a[j]&amp;lt;a[min]) min = j ; exch(a[i],a[min]); } }  It takes about the same time for a already sorted file or file with same data , as it does for a randomly ordered file.</description>
+    </item>
+    
+    <item>
+      <title>3-Insertion_sort</title>
+      <link>http://example.org/3-Sorting/6-Elementary_Sorting_Methods/3-Insertion_sort/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/3-Sorting/6-Elementary_Sorting_Methods/3-Insertion_sort/</guid>
+      <description>Insertion Sort we insert each element one at a time at its proper place among those already considered ( keeping them sorted ).
+In selection sort elements to left are in sorted order and same happens in insertion sort but in insertion sort it is not the final order of elements.
+This naïve implementation is shown in 6.1. Below is improved implementation.
+Improvements in above schemes
+ we can stop doing compexch ops when we encounter a key that is not larger than the key in the item being inserted, because the subarray to the left is sorted and especially we can break out of the inner for loop in sort in program when condition a[j-1] &amp;lt; a[j] is true.</description>
+    </item>
+    
+    <item>
+      <title>4-Bubble_sort</title>
+      <link>http://example.org/3-Sorting/6-Elementary_Sorting_Methods/4-Bubble_sort/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/3-Sorting/6-Elementary_Sorting_Methods/4-Bubble_sort/</guid>
+      <description>Bubble Sort Most simple and worse performance than both techniques.
+traverse from right to left through the file whenever min element is encountered during the first pass, we exchange it with each of the elements to its left, hoping to eventually put it to its place.
+template &amp;lt;class Item&amp;gt; void bubble(Item a[] , int l , int r){ for(int i = l ; i&amp;lt;r ; i++) for(int j = r ; j &amp;gt; i; j--) compexch(a[j-1],a[j]); }  Stable Sort</description>
+    </item>
+    
+    <item>
+      <title>5-Performance Characteristics of Elementary sorts</title>
+      <link>http://example.org/3-Sorting/6-Elementary_Sorting_Methods/5-Performance_Characteristics_of_Elementary_sorts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/3-Sorting/6-Elementary_Sorting_Methods/5-Performance_Characteristics_of_Elementary_sorts/</guid>
+      <description>Performance Characteristics of Elementary Sorts Selection sort, Insertion sort, and bubble sort are all quadratic time algorithms both in worst and in average case, and none requires extra memory.
+Insertion sort never looks ahead and Selection sort never looks back.
+Changin the scan through the array to alternate between beginning to end and end to beginning gives a version of bubble sort called Shaker sort which finishes more quickly.</description>
+    </item>
+    
+    <item>
+      <title>6-Shell_sort</title>
+      <link>http://example.org/3-Sorting/6-Elementary_Sorting_Methods/6-Shell_sort/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/3-Sorting/6-Elementary_Sorting_Methods/6-Shell_sort/</guid>
+      <description>Shellsort Shellsort is a simple extension of insertion sort that allows exchanges of elements that are far apart.
+Idea is to rearrange the file to give it the property that takes every $h^{th}$ element yields a sorted file. File is called as a h-sorted file.
+h-sorted file is h independent sorted files, interleaved together.
+One way to implement shellsort would be, for each h, to use insertion sort independently on each of the h sub files.</description>
+    </item>
+    
+    <item>
+      <title>7-Sorting of Other type of data</title>
+      <link>http://example.org/3-Sorting/6-Elementary_Sorting_Methods/7-Sorting_of_Other_type_of_data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/3-Sorting/6-Elementary_Sorting_Methods/7-Sorting_of_Other_type_of_data/</guid>
+      <description>Sorting of Other type of data In this section we talk about building implementation, interfaces, and client programs for sorting algorithms. Specifically, we consider interfaces for :
+ Items, or generic objects to be sorted Arrays of Items  Sort driver for arrays
+#inlcude &amp;lt;stdlib.h&amp;gt; #include &amp;quot;Item.h&amp;quot; #include &amp;quot;exch.h&amp;quot; #include &amp;quot;Array.h&amp;quot; main(int argc , char *argv[]){ int N = atoi(argv[1]), sw = atoi(argv[2]); Item *a = new Item[N]; if(sw) rand(a,N); else scan(a,N); sort(a,0,N-1); show(a,0,N-1); }  This driver uses 3 explicit interfaces :</description>
+    </item>
+    
+    <item>
+      <title>8-Index and Pointer Sorting</title>
+      <link>http://example.org/3-Sorting/6-Elementary_Sorting_Methods/8-Index_and_Pointer_Sorting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/3-Sorting/6-Elementary_Sorting_Methods/8-Index_and_Pointer_Sorting/</guid>
+      <description>Index and Pointer Sorting The development of a string data type implementation is of particular interest as character strings are widely used as sort keys.
+Interface for String data type
+typedef struct record { char *str;} Item; //just one line changed int operator&amp;lt;(const Item&amp;amp;, const Item&amp;amp;); int scan(Item&amp;amp;); void rand(Item&amp;amp;); void show(const Item&amp;amp;);  Note: here we put pointer in a struct because C++ does not allow us to overload operator&amp;lt; for built in types such as pointers</description>
+    </item>
+    
+    <item>
+      <title>9-Sorting of Linked Lists</title>
+      <link>http://example.org/3-Sorting/6-Elementary_Sorting_Methods/9-Sorting_of_Linked_Lists/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/3-Sorting/6-Elementary_Sorting_Methods/9-Sorting_of_Linked_Lists/</guid>
+      <description>Sorting of Linked Lists Linked-list-type interface definition
+//sorting program uses a overloaded operator&amp;lt; to compare items struct node { Item item ; node* next ; node(Item x) { item = x; next = 0 ;} }; typedef node *link; link randlist(int); link scanlist(int&amp;amp;); void showlist(link); //prints list link shortlist(link);  One liner driver program for scanning and sorting using above interface
+main(int argc, int *argv[]){ showlist(sortlist(scanlist(atoi(argv[])))); }  Note this interface of linked list is a low-level one that doesn&amp;rsquo;t make a distinction between a link (a pointer to a node) and a linked list(a pointer that is either 0 or a pointer to a node containing a pointer to a list).</description>
+    </item>
+    
+  </channel>
+</rss>

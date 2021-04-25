@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on smk&#39;s Blogs</title>
+    <link>http://example.org/tags/</link>
+    <description>Recent content in Tags on smk&#39;s Blogs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 21 Apr 2021 09:51:25 +0530</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>1d Dp</title>
+      <link>http://example.org/tags/1d-dp/</link>
+      <pubDate>Wed, 21 Apr 2021 09:51:25 +0530</pubDate>
+      
+      <guid>http://example.org/tags/1d-dp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Connectivity</title>
+      <link>http://example.org/tags/connectivity/</link>
+      <pubDate>Sat, 24 Apr 2021 10:24:25 +0530</pubDate>
+      
+      <guid>http://example.org/tags/connectivity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cyclicity</title>
+      <link>http://example.org/tags/cyclicity/</link>
+      <pubDate>Sat, 24 Apr 2021 23:01:25 +0530</pubDate>
+      
+      <guid>http://example.org/tags/cyclicity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dfs</title>
+      <link>http://example.org/tags/dfs/</link>
+      <pubDate>Sat, 24 Apr 2021 10:24:25 +0530</pubDate>
+      
+      <guid>http://example.org/tags/dfs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dp</title>
+      <link>http://example.org/tags/dp/</link>
+      <pubDate>Wed, 21 Apr 2021 09:51:25 +0530</pubDate>
+      
+      <guid>http://example.org/tags/dp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dsa</title>
+      <link>http://example.org/tags/dsa/</link>
+      <pubDate>Mon, 12 Apr 2021 16:01:25 +0530</pubDate>
+      
+      <guid>http://example.org/tags/dsa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Graphs</title>
+      <link>http://example.org/tags/graphs/</link>
+      <pubDate>Sat, 24 Apr 2021 10:24:25 +0530</pubDate>
+      
+      <guid>http://example.org/tags/graphs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Practice</title>
+      <link>http://example.org/tags/practice/</link>
+      <pubDate>Mon, 12 Apr 2021 16:01:25 +0530</pubDate>
+      
+      <guid>http://example.org/tags/practice/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

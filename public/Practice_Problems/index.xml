@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Problems : Basics 2 on smk&#39;s Blogs</title>
+    <link>http://example.org/Practice_Problems/</link>
+    <description>Recent content in Problems : Basics 2 on smk&#39;s Blogs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 12 Apr 2021 16:01:25 +0530</lastBuildDate>
+    
+	<atom:link href="http://example.org/Practice_Problems/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Sorting</title>
+      <link>http://example.org/Practice_Problems/Sorting/</link>
+      <pubDate>Mon, 12 Apr 2021 16:01:25 +0530</pubDate>
+      
+      <guid>http://example.org/Practice_Problems/Sorting/</guid>
+      <description>Counting Inversion See UVa Problems 11495, 13212, 10810 ( all based on counting the inversions)
+Inversion are basically swaps. So we can just add cnt++ to any standard sorting algorithm to get number of inversions.
+Secondly most efficient way to do it $nlogn$ just like most efficient sorting possible.
+Sometimes questions might ask you to give inversion if only alternate swaps are allowed. (one possible direction might indicate bubble sort) but still correct choice is to use modified mergesort</description>
+    </item>
+    
+    <item>
+      <title>Linked Lists</title>
+      <link>http://example.org/Practice_Problems/Linked_List/</link>
+      <pubDate>Mon, 12 Apr 2021 09:11:25 +0530</pubDate>
+      
+      <guid>http://example.org/Practice_Problems/Linked_List/</guid>
+      <description>Basic Problems Reversing a Linked List There can multiple ways to do this but simplest is just making a new head and keep pushing items on the new head ( reverse automatically)
+link reverse(link head){ link x = head; // copy of head ( good practice ) link rev = nullptr,tmp ; while(x){ tmp = x-&amp;gt;next; // increment the list x -&amp;gt; next = rev; rev = x; x = tmp; } return rev; }  // its a suffix subproblem case</description>
+    </item>
+    
+    <item>
+      <title>Stacks</title>
+      <link>http://example.org/Practice_Problems/Stacks/</link>
+      <pubDate>Tue, 13 Apr 2021 12:01:25 +0530</pubDate>
+      
+      <guid>http://example.org/Practice_Problems/Stacks/</guid>
+      <description>Review : Dynamic Data Structure , O(1) insert, remove latest insertion and lookup top.
+Application for practice.
+ Expression Evaluation Monotonic Stack Generic Problems  USP (Unique Selling Point xD) of stack.
+ LIFO property  Problems on Implementations and Designs Min Stack : Implementation problem. Use 2 stack. One for keeping track of stack ops and one stack for maintaining minimum so far.
+Custom Stack : Use a vector to implement stack and desired function.</description>
+    </item>
+    
+    <item>
+      <title>Queues</title>
+      <link>http://example.org/Practice_Problems/Queues/</link>
+      <pubDate>Thu, 15 Apr 2021 00:01:25 +0530</pubDate>
+      
+      <guid>http://example.org/Practice_Problems/Queues/</guid>
+      <description>Application is usage of FIFO property.
+There are 3 types of queues.
+ Single Ended Queues Double Ended Queues Priority Queues  Implement Queue using stacks : Implementation problem using 2 stacks
+O(n) push : Use two stacks with invariant , with s1 contains elements in LIFO order , s2 is empty
+O(n) pop : Transfer all s1 content to s2 and remove the top (first) then retransfer to s1</description>
+    </item>
+    
+    <item>
+      <title>Linked Lists</title>
+      <link>http://example.org/Practice_Problems/Hash_Tables/</link>
+      <pubDate>Mon, 12 Apr 2021 09:11:25 +0530</pubDate>
+      
+      <guid>http://example.org/Practice_Problems/Hash_Tables/</guid>
+      <description>Non-Linear DS None of the DS we practices was quick at searching. We want a DS with the following capabilities
+ Insert Delete Find/Search  DAT We can use array for marking the existence of a element.
+Drawback
+ Wastage of Space (Sparse Array) Input Range should be known ahead of time Input has to be integers Input range is small  Improvement
+Lets fix small range and use a mapping function $f$ whose output is fixed in the range specified.</description>
+    </item>
+    
+    <item>
+      <title>Binary Search Tree</title>
+      <link>http://example.org/Practice_Problems/BSTs/</link>
+      <pubDate>Fri, 16 Apr 2021 09:01:25 +0530</pubDate>
+      
+      <guid>http://example.org/Practice_Problems/BSTs/</guid>
+      <description>Ordered Search Structures (BST) Whenever we are required to handle subarrays, we can think of it this way
+A[i...j] = A[0..j] \ A[0..i-1]
+( practice last question of Hashing)
+Minimum Size Subarray Sum
+This is similar to previous question
+So we want window with sum $s_2$ such that $ s_2 \ge k $ Here k is target.
+No we can transform question into find the subarray with sum $ s_1 $ such that $s_1 \le k $ and as per question constraint we have to find such that it makes window of smallest size ( or most recent $s_1 $ that follows the criteria).</description>
+    </item>
+    
+    <item>
+      <title>BST Review</title>
+      <link>http://example.org/Practice_Problems/BSTs_final/</link>
+      <pubDate>Sat, 17 Apr 2021 09:01:25 +0530</pubDate>
+      
+      <guid>http://example.org/Practice_Problems/BSTs_final/</guid>
+      <description>Review Ordered Search Structures we use whenever there is a need for ordering. Great examples are BSTs and we used lower_bound and upper_bound
+set,map =&amp;gt; sorted order.
+Lets review some of the basics of BSTs. // don&amp;rsquo;t ask me why its not on top.
+Date Models : usually the most of data we encounter is multidimensional so for such a multidimensional data we use identifiers ( like primary keys).</description>
+    </item>
+    
+    <item>
+      <title>Trees-1</title>
+      <link>http://example.org/Practice_Problems/Trees_1/</link>
+      <pubDate>Fri, 16 Apr 2021 09:01:25 +0530</pubDate>
+      
+      <guid>http://example.org/Practice_Problems/Trees_1/</guid>
+      <description>Implementation Problems Mostly we try to solve same subproblems for both children and use the results to make decision for root node.
+Maximum Depth of Binary Tree :
+longest path either comes from left node or right node we can take just take max of whatever our recursive function returns.
+maxDepth(root)=max(1+maxDepth(root-&amp;gt;left),1+maxDepth(root-&amp;gt;right))
+int maxDepth(TreeNode* root) { if(!root) return 0; return 1+max(maxDepth(root-&amp;gt;left),maxDepth(root-&amp;gt;right)); }  By reference based recursion method : good for revision ;0</description>
+    </item>
+    
+    <item>
+      <title>Trees-2</title>
+      <link>http://example.org/Practice_Problems/Trees_2/</link>
+      <pubDate>Mon, 19 Apr 2021 21:51:25 +0530</pubDate>
+      
+      <guid>http://example.org/Practice_Problems/Trees_2/</guid>
+      <description>Solving Question on Trees
+ Think about solving the same problem or a modified version for the left and right subtrees Combine these solution to solve the original problem Needed to return more than 1 values  LCS ( Lowest Common Ancestor ) It has many practical and direct applications and its one of the most important algorithm to learn.
+Top Down
+LCS node is the node that is the first node where p , q are on different subtree.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>17-Graph Properties and Types on smk&#39;s Blogs</title>
+    <link>http://example.org/5-Graph_Algorithms/17-Graph-Properties_and_Types/</link>
+    <description>Recent content in 17-Graph Properties and Types on smk&#39;s Blogs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://example.org/5-Graph_Algorithms/17-Graph-Properties_and_Types/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>1-Glossary</title>
+      <link>http://example.org/5-Graph_Algorithms/17-Graph-Properties_and_Types/1_Glossary/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/5-Graph_Algorithms/17-Graph-Properties_and_Types/1_Glossary/</guid>
+      <description>Graph Properties and Types Major Application of Graph includes Maps, Hypertext, Circuits, Schedules, Transactions, Matching, Networks, Program Structure(Compiler).
+Glossary *Definition :* A graph is a set of vertices and a set of edges that connect pairs of distinct vertices ( with at most one edge connecting any pair of vertices ).
+We denote the number of vertices in a given graph by $V$ and number of edges by $E$.</description>
+    </item>
+    
+    <item>
+      <title>2 Graph ADT</title>
+      <link>http://example.org/5-Graph_Algorithms/17-Graph-Properties_and_Types/2_Graph_ADT/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/5-Graph_Algorithms/17-Graph-Properties_and_Types/2_Graph_ADT/</guid>
+      <description>Graph ADT This ADT defines fundamental tasks. Whenever faced with new problems we consider algorithms that solve it and their implementations in context of client programs and ADTs that access graph through this interface. This ADT is simple and we will try to develop a more general ADT.
+Graph ADT interface
+struct Edge { int v,w; Edge(int v = -1, int w = -1): v(v),w(w) {} }; class GRAPH { private: //implementation-dependent code public: GRAPH(int,bool); *GRAPH(); int Y() const; int E() const; bool directed() const; int insert(Edge); int remove(Edge); bool edge(int, int); class adjIterator { public: adjIterator(const GRAPH &amp;amp;, int); int beg(); int nxt(); bool end(); }; };  Example of a graph-processing client function</description>
+    </item>
+    
+    <item>
+      <title>3 Adjacency matrix</title>
+      <link>http://example.org/5-Graph_Algorithms/17-Graph-Properties_and_Types/3_Adjacency_matrix/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/5-Graph_Algorithms/17-Graph-Properties_and_Types/3_Adjacency_matrix/</guid>
+      <description>Adjacency-Matrix Representation An adjacency-matrix representation of a graph is $V\times V$ matrix of Boolean values, with entry in row $v$ and column $w$ defined to be 1 if there is an edge connecting vertex $v$ and vertex $w$ in the graph, and to be 0 otherwise.
+This representation is well suited for dense graphs.
+For processing all of the vertices this implementation requires (at least ) time proportional to $V$, no matter how many vertices exist.</description>
+    </item>
+    
+    <item>
+      <title>4-Adjacency Lists Representation</title>
+      <link>http://example.org/5-Graph_Algorithms/17-Graph-Properties_and_Types/4_Adjacency_Lists_Representation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/5-Graph_Algorithms/17-Graph-Properties_and_Types/4_Adjacency_Lists_Representation/</guid>
+      <description>Adjacency Lists Representation Preferred when graphs are not dense, where we keep track of all vertices connected to each vertex on a linked list that is associated with that vertex. We maintain a vector of lists so that, given a vertex, we can immediately access its list; we use linked lists so that we can add new edges in constant time.
+Graph ADT implementation (adjacency lists)
+class SparseMultiGRAPH { int Vcnt, Ecnt; bool digraph; struct node { int v; node* next; node(int x, node* t){ v = x; next = t; } }; typedef node* link; vector&amp;lt;link&amp;gt; adj; public: SparseMultiGRAPH(int V, bool digraph = false): adj(V), Vcnt(V), Ecnt(0), digraph(digraph) { adj.</description>
+    </item>
+    
+    <item>
+      <title>5-Variation Extensions Costs</title>
+      <link>http://example.org/5-Graph_Algorithms/17-Graph-Properties_and_Types/5_Variation_Extensions_Costs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/5-Graph_Algorithms/17-Graph-Properties_and_Types/5_Variation_Extensions_Costs/</guid>
+      <description>Variations, Extensions, and Costs Standard adjacency-lists representation for finding out all the edges coming into a vertex in a digraph.
+For weighted graphs and networks, we fill adjacency matrix with information instead of boolean values; in the adjacency list representation we include this info in adjacency-list elements.
+Suppose we want to know whether vertex $v$ is isolated i.e. Is $v$ of degree 0. For adjacency-lists representation it quite easy to check whether list is empty and for matrix we check entire row/column but its quite hard in vector-of-edges representation.</description>
+    </item>
+    
+    <item>
+      <title>6 Graph Generators</title>
+      <link>http://example.org/5-Graph_Algorithms/17-Graph-Properties_and_Types/6_Graph_Generators/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/5-Graph_Algorithms/17-Graph-Properties_and_Types/6_Graph_Generators/</guid>
+      <description>Graph Generators **Random Edges : **
+This model is simple to implement, as indicated by generator given. For given number of vertices $V$, we generate random edges by generating pairs of numbers between $0$ and $V-1$. This is likely to generate random multigraph with self-loops. when removed parallel edges removed we get small amount of edges that&amp;rsquo;s why its normally used for sparse graph.
+17.12 Random graph generator (random edges)</description>
+    </item>
+    
+    <item>
+      <title>7-Simple Euler and Hamilton Paths</title>
+      <link>http://example.org/5-Graph_Algorithms/17-Graph-Properties_and_Types/7_Simple_Euler_and_Hamilton_Paths/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/5-Graph_Algorithms/17-Graph-Properties_and_Types/7_Simple_Euler_and_Hamilton_Paths/</guid>
+      <description>Simple, Euler, and Hamilton Paths Program 17.16 Simple Path Search
+template &amp;lt;class Graph&amp;gt; class sPATH { const Graph &amp;amp;G; vector&amp;lt;bool&amp;gt; visited; bool found; bool searchR(int v,int w) { if(v==w) return true; visited[v] = true; typename Graph::adjIterator A(G,v); for(int t = A.beg(); !A.end(); A.nxt()) if(!visited[t]) if(searchR(t,w)) return true; return false; } public: sPATH(const Graph &amp;amp;G, int v, int w) : G(G), visited(G.V(), false) {found = searchR(v,w); } bool exists() const { return found; } };  Problem of finding the path in a graph takes us away from local properties such as existence of edges/ degree of vertices to global properties that tell us about a graph&amp;rsquo;s structure.</description>
+    </item>
+    
+    <item>
+      <title>8-Graph Processing Problems</title>
+      <link>http://example.org/5-Graph_Algorithms/17-Graph-Properties_and_Types/8_Graph-Processing_Problems/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/5-Graph_Algorithms/17-Graph-Properties_and_Types/8_Graph-Processing_Problems/</guid>
+      <description>Graph Processing Problem Short description of problems.
+ Simple connectivity Is a given graph connected ? or Is there a path connecting every pair of vertices ? Is there a cycle in the graph, or is it a forest ? Given two vertices, are they on cycle.
+ Strong connectivity in digraphs Is there a directed path connecting every pair of vertices in a digraph ? Given two vertices, are they connected by directed path in both direction ( are they on directed cycle)</description>
+    </item>
+    
+  </channel>
+</rss>

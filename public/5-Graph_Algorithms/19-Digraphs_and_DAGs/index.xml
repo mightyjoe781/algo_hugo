@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>19-Digraphs and DAGs on smk&#39;s Blogs</title>
+    <link>http://example.org/5-Graph_Algorithms/19-Digraphs_and_DAGs/</link>
+    <description>Recent content in 19-Digraphs and DAGs on smk&#39;s Blogs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://example.org/5-Graph_Algorithms/19-Digraphs_and_DAGs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>1-Glossary and Rules of Game</title>
+      <link>http://example.org/5-Graph_Algorithms/19-Digraphs_and_DAGs/1_Glossary_and_Rules_of_Game/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/5-Graph_Algorithms/19-Digraphs_and_DAGs/1_Glossary_and_Rules_of_Game/</guid>
+      <description>Digraphs and DAGs when we attach significance to order in which the two vertices are specified in each edge of a graph, we have an entirely different combinatorial object know as a digraphs or directed graph.
+One common situation is for the edge direction reflects a precedence relationship.
+Another way to model the same situation is to use a PERT chart: edges represent jobs and vertices implicitly specify the precedence relationships How to decide when to perform each job, this is known as scheduling problem.</description>
+    </item>
+    
+    <item>
+      <title>2-Anatomy of DFS in Digraphs</title>
+      <link>http://example.org/5-Graph_Algorithms/19-Digraphs_and_DAGs/2_Anatomy_of_DFS_in_Digraphs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/5-Graph_Algorithms/19-Digraphs_and_DAGs/2_Anatomy_of_DFS_in_Digraphs/</guid>
+      <description>Anatomy of DFS in Digraphs Search trees to understand operation of algorithms is quite complicated for digraphs.
+We can invoke digraphs using our previous implementation of undirected graphs by passing true argument in constructor call.
+In digraphs, there is a one-to-one correspondence between tree links and graph edges, and they fall into four distinct classes :
+ Those representing a recursive call (tree edges) Those from a vertex to an ancestor in its DFS tree (back edges) Those from a vertex to a descendent in its DFS tree (down edges) Those from a vertex to another vertex that is neither an ancestor nor a descendent in its DFS tree (cross edges)  Property 19.</description>
+    </item>
+    
+    <item>
+      <title>3-Reachability and Transitive Closure</title>
+      <link>http://example.org/5-Graph_Algorithms/19-Digraphs_and_DAGs/3_Reachability_and_Transitive_Closure/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/5-Graph_Algorithms/19-Digraphs_and_DAGs/3_Reachability_and_Transitive_Closure/</guid>
+      <description>Reachability and Transitive Closure Definition 19.5 *The transitive closure of a digraph is a digraph with same vertices but with an edge from s to t in the transitive closure if and only if there is a directed path from s to t in the given digraph.*
+transitive enclosure (bottom) of a digraph (up).
+Boolean Matrix Multiplication
+A Boolean matrix is a matrix whose entries are all binary values either 0 or 1.</description>
+    </item>
+    
+    <item>
+      <title>4-Equivalence Relations and Partial Orders</title>
+      <link>http://example.org/5-Graph_Algorithms/19-Digraphs_and_DAGs/4_Equivalence_Relations_and_Partial_Orders/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/5-Graph_Algorithms/19-Digraphs_and_DAGs/4_Equivalence_Relations_and_Partial_Orders/</guid>
+      <description>Equivalence Relation and Partial Orders Given a set, a relation among its objects is defined to be a set of ordered pairs of the objects.
+a relation R is said symmetric if sRt implies that tRs for all s and t; (same as undirected graph)
+it is reflexive if sRs for all s. (related to self loops)
+relation that correspond to graphs where no vertices have self-loops are said to be irreflexible.</description>
+    </item>
+    
+    <item>
+      <title>5-DAGs</title>
+      <link>http://example.org/5-Graph_Algorithms/19-Digraphs_and_DAGs/5_DAGs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/5-Graph_Algorithms/19-Digraphs_and_DAGs/5_DAGs/</guid>
+      <description>DAGs The prototypical application where DAGs arise directly is called scheduling. Generally, solving scheduling problems has to do with arranging for the completion of a set of tasks, under a set of constraints, by specifying when and how the tasks are to be performed. Most important type of constraints are precedence constraints.
+Scheduling Given a set of tasks to be completed, with a partial orders that specifies that certain tasks have to be completed before certain other tasks are begun, how can we schedule the tasks such that they are all completed while still respecting the partial order ?</description>
+    </item>
+    
+    <item>
+      <title>6 Topological Sorting</title>
+      <link>http://example.org/5-Graph_Algorithms/19-Digraphs_and_DAGs/6_Topological_Sorting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/5-Graph_Algorithms/19-Digraphs_and_DAGs/6_Topological_Sorting/</guid>
+      <description>Topological Sorting Goal of topological sorting is to process the vertices of DAG s.t. every vertex is processed before all the vertices to which it points.
+Topological Sort (relabel) Given a DAG, relabel its vertices such that every directed edge points from a lower-numbered vertex to a higher-number one.
+Topological Sort (rearrange) Given a DAG, rearrange its vertices on a horizontal line such that all the directed edges points from left to right.</description>
+    </item>
+    
+    <item>
+      <title>7-Reachability in DAGs</title>
+      <link>http://example.org/5-Graph_Algorithms/19-Digraphs_and_DAGs/7_Reachability_in_DAGs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/5-Graph_Algorithms/19-Digraphs_and_DAGs/7_Reachability_in_DAGs/</guid>
+      <description>Reachability in DAGs Any method for topological sorting can serve as the basis for a transitive-closure algorithm for DAGs, as follows : We proceed through the vertices in reverse topological order, computing the reachability vector for each vertex from the rows corresponding to its adjacent vertices. The reverse topological sort ensures that all those rows have already been computed. In total, we check each of V entries in the vector corresponding to destination vertex of each of the E edges, for a total running time proportional to $VE$.</description>
+    </item>
+    
+    <item>
+      <title>8-Strong Components in Digraphs</title>
+      <link>http://example.org/5-Graph_Algorithms/19-Digraphs_and_DAGs/8_Strong_Components_in_Digraphs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/5-Graph_Algorithms/19-Digraphs_and_DAGs/8_Strong_Components_in_Digraphs/</guid>
+      <description>Strong Components in Digraphs Undirected graphs and DAGs are both simpler structure than digraphs because of structural symmetry that characterizes the reachability relationships among the vertices;
+To understand structure of digraphs, we consider strong connectivity.
+If $s$ and $t$ are strongly connected (each reachable from the other) the by definition so are $t$ and $s$.
+The goal of our algorithm is to assign component numbers to each vertex in a vertex indexed vector using labels 0, 1, $\rhd$ , for strong components.</description>
+    </item>
+    
+    <item>
+      <title>9-Transitive Closure Revisited</title>
+      <link>http://example.org/5-Graph_Algorithms/19-Digraphs_and_DAGs/9_Transitive_Closure_Revisited/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/5-Graph_Algorithms/19-Digraphs_and_DAGs/9_Transitive_Closure_Revisited/</guid>
+      <description>Transitive Closure Revisited So we can solve abstract-transitive-closure problem for digraphs that- although it offers no improvement over a DFS based solution in the worst case- will provide an optimal solution in many situations.
+The algorithm is based on preprocessing the digraph to build the latter&amp;rsquo;s kernel DAG. The algorithm is efficient if the kernel DAG is small relative to the size of the original digraph. If the digraph is a DAG or if it has just few small cycles, we will not observe any significant savings.</description>
+    </item>
+    
+    <item>
+      <title>10-Perspective</title>
+      <link>http://example.org/5-Graph_Algorithms/19-Digraphs_and_DAGs/10_Perspective/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/5-Graph_Algorithms/19-Digraphs_and_DAGs/10_Perspective/</guid>
+      <description>Perspective Until now we have considered algorithms for solving the topological sort, transitive closure, and shortest paths problems for digraphs and for DAGs, including fundamental algorithms for finding cycles and strong components in digraphs.
+Summary of worst case of these algorithms are summarized.
+Many other algorithms for processing digraphs and DAGs have important practical application.
+Dominators Given a DAG with all vertices reachable form a single source $r$, a vertex $s$ dominates a vertex t if every path from r to t contains $s$.</description>
+    </item>
+    
+  </channel>
+</rss>

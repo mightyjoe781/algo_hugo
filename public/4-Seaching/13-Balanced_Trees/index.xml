@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>13-Balanced Trees on smk&#39;s Blogs</title>
+    <link>http://example.org/4-Seaching/13-Balanced_Trees/</link>
+    <description>Recent content in 13-Balanced Trees on smk&#39;s Blogs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://example.org/4-Seaching/13-Balanced_Trees/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>1_Randomized BSTs</title>
+      <link>http://example.org/4-Seaching/13-Balanced_Trees/1_Randomized_BSTs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/4-Seaching/13-Balanced_Trees/1_Randomized_BSTs/</guid>
+      <description>Randomized BSTs To analyze the average-case performance costs for binary search trees, we made the assumption that the items are inserted in random order. It is also possible to introduce randomness into the algorithm so that the property holds without any assumptions about the order in which the items are inserted.
+The idea is simple : When we insert a new node into a tree of N nodes the new node should appear at the root with probability $\frac{1}{(N+1)}$ , so we randomized decision to use root insertion with that probability.</description>
+    </item>
+    
+    <item>
+      <title>2_Splay BSTs</title>
+      <link>http://example.org/4-Seaching/13-Balanced_Trees/2_Splay_BSTs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/4-Seaching/13-Balanced_Trees/2_Splay_BSTs/</guid>
+      <description>Splay BSTs We have seen how to put new node at the root using left/right rotation now we will modify root insertion such that the rotations balance the tree in a certain sense, as well.
+rather than considering one rotation consider two rotation s.t. it brings a node from a position as one of grandchildren of the root up to the top of the tree.
+First rotation makes it child of root and then second rotation brings it to the root.</description>
+    </item>
+    
+    <item>
+      <title>3-Top-Down 2-3-4 Tress</title>
+      <link>http://example.org/4-Seaching/13-Balanced_Trees/3_Top-Down_2-3-4_Tress/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/4-Seaching/13-Balanced_Trees/3_Top-Down_2-3-4_Tress/</guid>
+      <description>Top-Down 2-3-4 Trees despite performance guarantees that we get from randomized BSTs and with splay BST but still both admits a possibilities of particular search can take linear time.
+Therefore do not help us answer the fundamental question that is : Is there a type of BST in which search and insertion both take logarithmic in the size of tree.
+To guarantee that our BSTs will be balanced, we need this flexibility in the tree structures that we use.</description>
+    </item>
+    
+    <item>
+      <title>4 Red Black Trees</title>
+      <link>http://example.org/4-Seaching/13-Balanced_Trees/4_Red_Black_Trees/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/4-Seaching/13-Balanced_Trees/4_Red_Black_Trees/</guid>
+      <description>Red-Black Trees The top-down 2-3-4 insertion algorithm is very easy to understand but hard to implement. Here we explore a simple abstract representation of 2-3-4 trees that guarantee near optimal worst-case performance and relatively easy to implement.
+The basic idea is to represent 2-3-4 trees as standard BSTs (2-nodes only), but to add one extra bit of information per node to encode 3-node and 4-nodes.
+We think of links as being of two different types :</description>
+    </item>
+    
+    <item>
+      <title>5 Skip Lists</title>
+      <link>http://example.org/4-Seaching/13-Balanced_Trees/5_Skip_Lists/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/4-Seaching/13-Balanced_Trees/5_Skip_Lists/</guid>
+      <description>Skip Lists It is based on a randomized data structure is almost certain to provide near optimal performance for all the basic operations for the symbol table ADT that we have been considering.
+Th underlying data structure is developed by Pugh in 1990, is called skip list. It uses extra links in the nodes of a linked list to skip through large portions of a list at a time during search.</description>
+    </item>
+    
+    <item>
+      <title>6 Performance Chracteristics</title>
+      <link>http://example.org/4-Seaching/13-Balanced_Trees/6_Performance_Chracteristics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/4-Seaching/13-Balanced_Trees/6_Performance_Chracteristics/</guid>
+      <description>Performance Characteristics How to choose among randomized BSTs, splay BTSs, red-black BTSs, and skip lists for a particular application.
+implementation of rotation along the search path is an essential ingredient of most balanced tree algorithms.
+Randomized BSTs are the simplest to implement with a prime requirements of having a confidence in the random-number generator and to avoid spending too much time generating the random bits. Splay BSTs are slightly more complicated but are a straightforward extension to standard root insertion algorithm.</description>
+    </item>
+    
+  </channel>
+</rss>
