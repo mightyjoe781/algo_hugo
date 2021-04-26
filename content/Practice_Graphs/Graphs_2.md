@@ -4,7 +4,7 @@ title = "Graphs 2"
 date = 2021-04-24T23:01:25+05:30
 weight = 18
 
-tags = ["DSA", "practice", "graphs","cyclicity"]
+tags = ["DSA", "practice", "graphs","cyclicity","shortest-path"]
 
 +++
 
@@ -37,7 +37,8 @@ Now to maintain the memory of current path we are traversing :) use a stack or a
 We keep the track of path which we are traversing with `curr_path` and then set it false when we backtrack.
 
 ````c++
-bool containsCycle(vector<vector<int>>& graph, vector<bool>& visited, vector<bool>& curr_path, int i){
+bool containsCycle(vector<vector<int>>& graph, vector<bool>&
+                   visited, vector<bool>& curr_path, int i){
     bool t = false;
 
     for(auto& nbrs:graph[i]){
@@ -59,10 +60,12 @@ bool canFinish(int n, vector<vector<int>>& prerequisites) {
     vector<vector<int>> graph(n);
     vector<bool> visited(n,false);
     vector<bool> curr_path(n,false);
+    
     // directed edge from b_i to a_i 
     for(auto& pre:prerequisites){
         graph[pre[1]].push_back(pre[0]);
     }
+    
     // find out this graph contains cycles
     bool t = false;
     for(int i = 0; i < n ; i++)
@@ -70,7 +73,8 @@ bool canFinish(int n, vector<vector<int>>& prerequisites) {
             visited[i] = curr_path[i] = true;
             t = t || containsCycle(graph,visited,curr_path,i);
             curr_path[i] = false;
-        }    return !t;}
+        }    
+    return !t;}
 ````
 
 [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)
@@ -86,7 +90,8 @@ Make a indegree vector contains the number of edges to i { from any of the nodes
 We can traverse from the node with indegree zero
 
 ````c++
-vector<int> findOrder(int numCourses, vector<vector<int>>& prerequisites) {
+vector<int> findOrder(int numCourses,
+                      vector<vector<int>>& prerequisites) {
     // populate the graph and indegree vector
     vector<vector<int>> graph(numCourses);
     vector<int> in(numCourses,0);
@@ -105,6 +110,7 @@ vector<int> findOrder(int numCourses, vector<vector<int>>& prerequisites) {
         if(in[i] == 0)
             curr_set.push_back(i);
     }
+    
     // traverse this list :
     while(idx < curr_set.size()){
         int curr_node = curr_set[idx];
@@ -116,7 +122,8 @@ vector<int> findOrder(int numCourses, vector<vector<int>>& prerequisites) {
                 curr_set.push_back(nbr);
         }
         idx++;
-    }     return (int)res.size() == numCourses ? res:vector<int>(); }
+    }     
+    return (int)res.size() == numCourses ? res:vector<int>(); }
 ````
 
 Now `curr_set` we use, we could have used the queue or maps or anything that allows fast retrieval and keep together similar indegree node (0).
@@ -126,4 +133,191 @@ Now `curr_set` we use, we could have used the queue or maps or anything that all
 DAG : Directed Acyclic Graph
 
 Topological Sort : ordering of a DAG s.t all the edges are from left to right.
+
+### Shortest Path
+
+[Word Ladder](https://leetcode.com/problems/word-ladder/)
+
+Vertex of graph is : All the words in the dictionary including start and end word.
+
+$v_i - v_j $
+
+Connect them if it is possible to get $v_j$ by changing exactly one letter of $v_i $ & vice-versa.
+
+Now problem reduced to finding shortest path from source to sink in an undirected graph!
+
+Now if we do a level order traversal and the level that first see's the sink is the solution to problem.
+
+Wait do we need to construct graph explicitly ! Though it looks cost efficient to build graph but that doesn't affect the performance that much because anyway we have to look at the all possibilities!
+
+So let's do without creating the graph.
+
+````c++
+int ladderLength(string beginWord, string endWord,
+                 vector<string>& wordList) {
+    unordered_set<string> dict(wordList.begin(),wordList.end());
+    queue<pair<string,int>> q;
+    unordered_set<string> visited;
+
+    // initialize with the beginWord
+    q.push({beginWord,1});
+    visited.insert(beginWord);
+
+    // level-order traversal
+    while(!q.empty()){
+        pair<string,int> t = q.front();
+        q.pop();
+
+        if(t.first == endWord){
+            return t.second;
+        }
+	// go thru neighbors, mark the visited and push them in queue.
+        string word = t.first;
+        int dist = t.second;
+        for(int i = 0; i < word.size(); i++){
+            // generate all words with 1 character distance
+            for(int j = 0; j < 26; j++){
+                word[i] = (j+'a');
+
+                if(dict.find(word) != dict.end() &&
+                   visited.find(word) == visited.end()){
+                    visited.insert(word);
+                    q.push({word,dist+1});
+                }
+                word[i] = (t.first)[i];
+            }
+        }
+    }     
+    return 0;
+}
+````
+
+[01 Matrix](https://leetcode.com/problems/01-matrix/)
+
+For each zero solution is zero.
+
+While for each 1, we could do BFS on each cell and distance is the answer.
+
+There is a issue : BFS on worst case $O(n^2)$ while overall problem becomes $O(n^4)$, A simple modification to BFS could bring it down to $O(n^2)$.
+
+Nodes are all ones and edges are 4-neighbor.
+
+So solution below first picks up zeros and distance is marked zero for them and as a graph node they are put onto a queue.
+
+then for each zero we find its neighbors which are unvisited, we mark them the distance and put nodes that are marked with distance on the queue again so they can propagate their level distance.
+
+Its correct approach as 1's are processed after all zeroes are processed. In a way when zero exhausts we have to reach 1s then we won't encounter any zeroes anymore otherwise it won't be the shortest distance.
+
+````c++
+vector<vector<int>> offset = {{0, 1}, {1, 0}, {-1, 0}, {0,-1}};
+vector<vector<int>> updateMatrix(vector<vector<int>>& mat) {
+    // q[0] = row indx.
+    // q[1] = col indx.
+    // q[2] = distance.
+    int m = mat.size(), n = mat[0].size();
+    queue<vector<int>> q;
+    vector<vector<int>> res(m,vector<int>(n,-1));
+
+    // Initialize the q and visited array (res).
+    for(int i = 0; i < m; i++) {
+        for(int j = 0; j < n; j++) {
+            if(mat[i][j] == 0) {
+                q.push({i,j,0});
+                res[i][j] = 0;
+            }
+        }
+    }
+
+    // Level-order Traversal.
+    while(!q.empty()) {
+        vector<int> curr = q.front();
+        q.pop();
+
+        // Go through the nbrs.
+        for(auto& entry : offset){
+            int x = curr[0] + entry[0];
+            int y = curr[1] + entry[1];
+
+            if(x < 0 || y < 0 || x >= m || y >= n)
+                continue;
+
+            if(res[x][y] == -1) {
+                res[x][y] = curr[2]+1;
+                q.push({x,y,curr[2] + 1});
+            }
+        }
+    }
+    return res;
+}
+````
+
+Here Level-Order Traversal can be done in 2 ways
+
+- Before pushing into the queue check if visited
+
+1. If not visited then mark it visited before pushing (Implemented Above)
+
+2. not visited then don't mark but just push in queue
+   - pop and mark it visited
+
+What is consequence of both approaches
+
+Approach 2 obviously will have a node more than once :) but what does that imply !
+
+That means there are more than one-shortest path !
+
+Approach 1's queue size doesn't increase too much but in case of approach 2 queue size might go quite large.
+
+````c++
+vector<vector<int>> offset = {{0, 1}, {1, 0}, {-1, 0}, {0,-1}};
+vector<vector<int>> updateMatrix(vector<vector<int>>& mat) {
+    // q[0] = row indx.
+    // q[1] = col indx.
+    // q[2] = distance.
+    int m = mat.size(), n = mat[0].size();
+    queue<vector<int>> q;
+    vector<vector<int>> res(m,vector<int>(n,-1));
+
+    // Initialize the q and visited array (res).
+    for(int i = 0; i < m; i++) {
+        for(int j = 0; j < n; j++) {
+            if(mat[i][j] == 0) {
+                q.push({i,j,0});	// % %
+            }
+        }
+    }
+
+    // Level-order Traversal.
+    while(!q.empty()) {
+        vector<int> curr = q.front();
+        q.pop();
+        
+        // % difference from above code %
+        if(res[curr[0]][curr[1]] != -1)
+            continue;
+        
+        res[curr[0]][curr[1]] = curr[2];
+
+        // Go through the nbrs.
+        for(auto& entry : offset){
+            int x = curr[0] + entry[0];
+            int y = curr[1] + entry[1];
+
+            if(x < 0 || y < 0 || x >= m || y >= n)
+                continue;
+
+            if(res[x][y] == -1) {
+                q.push({x,y,curr[2] + 1}); // % %
+            }
+        }
+    }
+    return res;
+}
+````
+
+Check out the memory of both submissions xD
+
+Why we did this though, Read up Dijkstra's Algorithm!
+
+[As Far from Land as Possible](https://leetcode.com/problems/as-far-from-land-as-possible/)
 

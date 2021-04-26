@@ -111,7 +111,7 @@ public:
 
 **Property 21.8** With Floyd's algorithm, we can find all shortest paths in a network in time proportional to $V^3$.
 
-Running Dijkstra's algorithm on each vertex is clearly a method of choice for sparse networks, because the running time is close to VE. As density increases, Floyd's algorithm- which always takes time proportional to $V^3$ becomes competitive and it is widely used because its so simple to implement.
+Running Dijkstra's algorithm on each vertex is clearly a method of choice for sparse networks, because the running time is close to $VE$. As density increases, Floyd's algorithm- which always takes time proportional to $V^3$ becomes competitive and it is widely used because its so simple to implement.
 
 Floyd's algorithm is effective in even those networks with negative weights given no negative cycles.
 

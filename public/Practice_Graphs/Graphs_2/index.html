@@ -12,20 +12,20 @@
     <title>Graphs 2 :: smk&#39;s Blogs</title>
 
     
-    <link href="/css/nucleus.css?1619368682" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1619368682" rel="stylesheet">
-    <link href="/css/hybrid.css?1619368682" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1619368682" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1619368682" rel="stylesheet">
-    <link href="/css/auto-complete.css?1619368682" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1619368682" rel="stylesheet">
-    <link href="/css/theme.css?1619368682" rel="stylesheet">
-    <link href="/css/tabs.css?1619368682" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1619368682" rel="stylesheet">
+    <link href="/css/nucleus.css?1619453403" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1619453403" rel="stylesheet">
+    <link href="/css/hybrid.css?1619453403" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1619453403" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1619453403" rel="stylesheet">
+    <link href="/css/auto-complete.css?1619453403" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1619453403" rel="stylesheet">
+    <link href="/css/theme.css?1619453403" rel="stylesheet">
+    <link href="/css/tabs.css?1619453403" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1619453403" rel="stylesheet">
     
     
 
-    <script src="/js/jquery-3.3.1.min.js?1619368682"></script>
+    <script src="/js/jquery-3.3.1.min.js?1619453403"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -76,14 +76,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1619368682"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1619368682"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1619453403"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1619453403"></script>
 <script type="text/javascript">
     
         var baseurl = "http:\/\/example.org\/";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1619368682"></script>
+<script type="text/javascript" src="/js/search.js?1619453403"></script>
 
     
   </div>
@@ -4699,30 +4699,6 @@
  
   
     
-    <li data-nav-id="/node_js/" title="node.js" class="dd-item
-        
-        
-        
-        ">
-      <a href="/node_js/">
-          node.js
-          
-      </a>
-      
-      
-    </li>
-  
- 
-
-          
-          
-
-
-
-
- 
-  
-    
     <li data-nav-id="/Practice_DP/" title="Problems : DP" class="dd-item
         
         
@@ -4930,6 +4906,85 @@
  
 
           
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/node_js/" title="node.js" class="dd-item
+        
+        
+        
+        ">
+      <a href="/node_js/">
+          node.js
+          
+      </a>
+      
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/Practice_Problems1/" title="" class="dd-item
+        
+        
+        
+        ">
+      <a href="/Practice_Problems1/">
+          
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/Practice_Problems1/Two_Pointers/" title="" class="dd-item ">
+        <a href="/Practice_Problems1/Two_Pointers/">
+        
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
         
     </ul>
 
@@ -5002,6 +5057,7 @@
 <li><a href="#strong-and-weak-connectivity">Strong and Weak Connectivity</a></li>
 <li><a href="#graph-cyclicity">Graph Cyclicity</a></li>
 </ul></li>
+<li><a href="#shortest-path">Shortest Path</a></li>
 </ul></li>
 </ul></li>
 </ul>
@@ -5024,6 +5080,8 @@
   <a class="tag-link" href="/tags/graphs">graphs</a>
 
   <a class="tag-link" href="/tags/cyclicity">cyclicity</a>
+
+  <a class="tag-link" href="/tags/shortest-path">shortest-path</a>
 
 </div>
 
@@ -5070,7 +5128,8 @@
 
 <p>We keep the track of path which we are traversing with <code>curr_path</code> and then set it false when we backtrack.</p>
 
-<pre><code class="language-c++">bool containsCycle(vector&lt;vector&lt;int&gt;&gt;&amp; graph, vector&lt;bool&gt;&amp; visited, vector&lt;bool&gt;&amp; curr_path, int i){
+<pre><code class="language-c++">bool containsCycle(vector&lt;vector&lt;int&gt;&gt;&amp; graph, vector&lt;bool&gt;&amp;
+                   visited, vector&lt;bool&gt;&amp; curr_path, int i){
     bool t = false;
 
     for(auto&amp; nbrs:graph[i]){
@@ -5092,10 +5151,12 @@ bool canFinish(int n, vector&lt;vector&lt;int&gt;&gt;&amp; prerequisites) {
     vector&lt;vector&lt;int&gt;&gt; graph(n);
     vector&lt;bool&gt; visited(n,false);
     vector&lt;bool&gt; curr_path(n,false);
+    
     // directed edge from b_i to a_i 
     for(auto&amp; pre:prerequisites){
         graph[pre[1]].push_back(pre[0]);
     }
+    
     // find out this graph contains cycles
     bool t = false;
     for(int i = 0; i &lt; n ; i++)
@@ -5103,7 +5164,8 @@ bool canFinish(int n, vector&lt;vector&lt;int&gt;&gt;&amp; prerequisites) {
             visited[i] = curr_path[i] = true;
             t = t || containsCycle(graph,visited,curr_path,i);
             curr_path[i] = false;
-        }    return !t;}
+        }    
+    return !t;}
 </code></pre>
 
 <p><a href="https://leetcode.com/problems/course-schedule-ii/">Course Schedule II</a></p>
@@ -5118,7 +5180,8 @@ bool canFinish(int n, vector&lt;vector&lt;int&gt;&gt;&amp; prerequisites) {
 
 <p>We can traverse from the node with indegree zero</p>
 
-<pre><code class="language-c++">vector&lt;int&gt; findOrder(int numCourses, vector&lt;vector&lt;int&gt;&gt;&amp; prerequisites) {
+<pre><code class="language-c++">vector&lt;int&gt; findOrder(int numCourses,
+                      vector&lt;vector&lt;int&gt;&gt;&amp; prerequisites) {
     // populate the graph and indegree vector
     vector&lt;vector&lt;int&gt;&gt; graph(numCourses);
     vector&lt;int&gt; in(numCourses,0);
@@ -5137,6 +5200,7 @@ bool canFinish(int n, vector&lt;vector&lt;int&gt;&gt;&amp; prerequisites) {
         if(in[i] == 0)
             curr_set.push_back(i);
     }
+    
     // traverse this list :
     while(idx &lt; curr_set.size()){
         int curr_node = curr_set[idx];
@@ -5148,7 +5212,8 @@ bool canFinish(int n, vector&lt;vector&lt;int&gt;&gt;&amp; prerequisites) {
                 curr_set.push_back(nbr);
         }
         idx++;
-    }     return (int)res.size() == numCourses ? res:vector&lt;int&gt;(); }
+    }     
+    return (int)res.size() == numCourses ? res:vector&lt;int&gt;(); }
 </code></pre>
 
 <p>Now <code>curr_set</code> we use, we could have used the queue or maps or anything that allows fast retrieval and keep together similar indegree node (0).</p>
@@ -5156,6 +5221,197 @@ bool canFinish(int n, vector&lt;vector&lt;int&gt;&gt;&amp; prerequisites) {
 <p>DAG : Directed Acyclic Graph</p>
 
 <p>Topological Sort : ordering of a DAG s.t all the edges are from left to right.</p>
+
+<h3 id="shortest-path">Shortest Path</h3>
+
+<p><a href="https://leetcode.com/problems/word-ladder/">Word Ladder</a></p>
+
+<p>Vertex of graph is : All the words in the dictionary including start and end word.</p>
+
+<p>$v_i - v_j $</p>
+
+<p>Connect them if it is possible to get $v_j$ by changing exactly one letter of $v_i $ &amp; vice-versa.</p>
+
+<p>Now problem reduced to finding shortest path from source to sink in an undirected graph!</p>
+
+<p>Now if we do a level order traversal and the level that first see&rsquo;s the sink is the solution to problem.</p>
+
+<p>Wait do we need to construct graph explicitly ! Though it looks cost efficient to build graph but that doesn&rsquo;t affect the performance that much because anyway we have to look at the all possibilities!</p>
+
+<p>So let&rsquo;s do without creating the graph.</p>
+
+<pre><code class="language-c++">int ladderLength(string beginWord, string endWord,
+                 vector&lt;string&gt;&amp; wordList) {
+    unordered_set&lt;string&gt; dict(wordList.begin(),wordList.end());
+    queue&lt;pair&lt;string,int&gt;&gt; q;
+    unordered_set&lt;string&gt; visited;
+
+    // initialize with the beginWord
+    q.push({beginWord,1});
+    visited.insert(beginWord);
+
+    // level-order traversal
+    while(!q.empty()){
+        pair&lt;string,int&gt; t = q.front();
+        q.pop();
+
+        if(t.first == endWord){
+            return t.second;
+        }
+    // go thru neighbors, mark the visited and push them in queue.
+        string word = t.first;
+        int dist = t.second;
+        for(int i = 0; i &lt; word.size(); i++){
+            // generate all words with 1 character distance
+            for(int j = 0; j &lt; 26; j++){
+                word[i] = (j+'a');
+
+                if(dict.find(word) != dict.end() &amp;&amp;
+                   visited.find(word) == visited.end()){
+                    visited.insert(word);
+                    q.push({word,dist+1});
+                }
+                word[i] = (t.first)[i];
+            }
+        }
+    }     
+    return 0;
+}
+</code></pre>
+
+<p><a href="https://leetcode.com/problems/01-matrix/">01 Matrix</a></p>
+
+<p>For each zero solution is zero.</p>
+
+<p>While for each 1, we could do BFS on each cell and distance is the answer.</p>
+
+<p>There is a issue : BFS on worst case $O(n^2)$ while overall problem becomes $O(n^4)$, A simple modification to BFS could bring it down to $O(n^2)$.</p>
+
+<p>Nodes are all ones and edges are 4-neighbor.</p>
+
+<p>So solution below first picks up zeros and distance is marked zero for them and as a graph node they are put onto a queue.</p>
+
+<p>then for each zero we find its neighbors which are unvisited, we mark them the distance and put nodes that are marked with distance on the queue again so they can propagate their level distance.</p>
+
+<p>Its correct approach as 1&rsquo;s are processed after all zeroes are processed. In a way when zero exhausts we have to reach 1s then we won&rsquo;t encounter any zeroes anymore otherwise it won&rsquo;t be the shortest distance.</p>
+
+<pre><code class="language-c++">vector&lt;vector&lt;int&gt;&gt; offset = {{0, 1}, {1, 0}, {-1, 0}, {0,-1}};
+vector&lt;vector&lt;int&gt;&gt; updateMatrix(vector&lt;vector&lt;int&gt;&gt;&amp; mat) {
+    // q[0] = row indx.
+    // q[1] = col indx.
+    // q[2] = distance.
+    int m = mat.size(), n = mat[0].size();
+    queue&lt;vector&lt;int&gt;&gt; q;
+    vector&lt;vector&lt;int&gt;&gt; res(m,vector&lt;int&gt;(n,-1));
+
+    // Initialize the q and visited array (res).
+    for(int i = 0; i &lt; m; i++) {
+        for(int j = 0; j &lt; n; j++) {
+            if(mat[i][j] == 0) {
+                q.push({i,j,0});
+                res[i][j] = 0;
+            }
+        }
+    }
+
+    // Level-order Traversal.
+    while(!q.empty()) {
+        vector&lt;int&gt; curr = q.front();
+        q.pop();
+
+        // Go through the nbrs.
+        for(auto&amp; entry : offset){
+            int x = curr[0] + entry[0];
+            int y = curr[1] + entry[1];
+
+            if(x &lt; 0 || y &lt; 0 || x &gt;= m || y &gt;= n)
+                continue;
+
+            if(res[x][y] == -1) {
+                res[x][y] = curr[2]+1;
+                q.push({x,y,curr[2] + 1});
+            }
+        }
+    }
+    return res;
+}
+</code></pre>
+
+<p>Here Level-Order Traversal can be done in 2 ways</p>
+
+<ul>
+<li>Before pushing into the queue check if visited</li>
+</ul>
+
+<ol>
+<li><p>If not visited then mark it visited before pushing (Implemented Above)</p></li>
+
+<li><p>not visited then don&rsquo;t mark but just push in queue</p>
+
+<ul>
+<li>pop and mark it visited</li>
+</ul></li>
+</ol>
+
+<p>What is consequence of both approaches</p>
+
+<p>Approach 2 obviously will have a node more than once :) but what does that imply !</p>
+
+<p>That means there are more than one-shortest path !</p>
+
+<p>Approach 1&rsquo;s queue size doesn&rsquo;t increase too much but in case of approach 2 queue size might go quite large.</p>
+
+<pre><code class="language-c++">vector&lt;vector&lt;int&gt;&gt; offset = {{0, 1}, {1, 0}, {-1, 0}, {0,-1}};
+vector&lt;vector&lt;int&gt;&gt; updateMatrix(vector&lt;vector&lt;int&gt;&gt;&amp; mat) {
+    // q[0] = row indx.
+    // q[1] = col indx.
+    // q[2] = distance.
+    int m = mat.size(), n = mat[0].size();
+    queue&lt;vector&lt;int&gt;&gt; q;
+    vector&lt;vector&lt;int&gt;&gt; res(m,vector&lt;int&gt;(n,-1));
+
+    // Initialize the q and visited array (res).
+    for(int i = 0; i &lt; m; i++) {
+        for(int j = 0; j &lt; n; j++) {
+            if(mat[i][j] == 0) {
+                q.push({i,j,0});    // % %
+            }
+        }
+    }
+
+    // Level-order Traversal.
+    while(!q.empty()) {
+        vector&lt;int&gt; curr = q.front();
+        q.pop();
+        
+        // % difference from above code %
+        if(res[curr[0]][curr[1]] != -1)
+            continue;
+        
+        res[curr[0]][curr[1]] = curr[2];
+
+        // Go through the nbrs.
+        for(auto&amp; entry : offset){
+            int x = curr[0] + entry[0];
+            int y = curr[1] + entry[1];
+
+            if(x &lt; 0 || y &lt; 0 || x &gt;= m || y &gt;= n)
+                continue;
+
+            if(res[x][y] == -1) {
+                q.push({x,y,curr[2] + 1}); // % %
+            }
+        }
+    }
+    return res;
+}
+</code></pre>
+
+<p>Check out the memory of both submissions xD</p>
+
+<p>Why we did this though, Read up Dijkstra&rsquo;s Algorithm!</p>
+
+<p><a href="https://leetcode.com/problems/as-far-from-land-as-possible/">As Far from Land as Possible</a></p>
 
 
 <footer class="footline">
@@ -8412,22 +8668,6 @@ bool canFinish(int n, vector&lt;vector&lt;int&gt;&gt;&amp; prerequisites) {
                     
 
                     
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
                         
             
             
@@ -8549,6 +8789,57 @@ bool canFinish(int n, vector&lt;vector&lt;int&gt;&gt;&amp; prerequisites) {
             
                 
                     
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
                     
                 
                 
@@ -8576,7 +8867,7 @@ bool canFinish(int n, vector&lt;vector&lt;int&gt;&gt;&amp; prerequisites) {
 			<a class="nav nav-prev" href="/Practice_Graphs/Graphs_1/" title="Graphs 1"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="/Practice_Graphs/Graphs_1/" title="Graphs 1" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="/node_js/" title="node.js" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
@@ -8586,19 +8877,19 @@ bool canFinish(int n, vector&lt;vector&lt;int&gt;&gt;&amp; prerequisites) {
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1619368682"></script>
-    <script src="/js/perfect-scrollbar.min.js?1619368682"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1619368682"></script>
-    <script src="/js/jquery.sticky.js?1619368682"></script>
-    <script src="/js/featherlight.min.js?1619368682"></script>
-    <script src="/js/highlight.pack.js?1619368682"></script>
+    <script src="/js/clipboard.min.js?1619453403"></script>
+    <script src="/js/perfect-scrollbar.min.js?1619453403"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1619453403"></script>
+    <script src="/js/jquery.sticky.js?1619453403"></script>
+    <script src="/js/featherlight.min.js?1619453403"></script>
+    <script src="/js/highlight.pack.js?1619453403"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1619368682"></script>
-    <script src="/js/learn.js?1619368682"></script>
-    <script src="/js/hugo-learn.js?1619368682"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1619453403"></script>
+    <script src="/js/learn.js?1619453403"></script>
+    <script src="/js/hugo-learn.js?1619453403"></script>
     
         
-            <script src="/mermaid/mermaid.js?1619368682"></script>
+            <script src="/mermaid/mermaid.js?1619453403"></script>
         
         <script>
             mermaid.initialize({ startOnLoad: true });
