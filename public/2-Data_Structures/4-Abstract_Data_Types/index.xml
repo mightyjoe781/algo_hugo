@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>4-Abstract Data Structures on smk&#39;s Blogs</title>
-    <link>http://example.org/2-Data_Structures/4-Abstract_Data_Types/</link>
+    <link>https://algo.minetest.in/2-Data_Structures/4-Abstract_Data_Types/</link>
     <description>Recent content in 4-Abstract Data Structures on smk&#39;s Blogs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://example.org/2-Data_Structures/4-Abstract_Data_Types/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://algo.minetest.in/2-Data_Structures/4-Abstract_Data_Types/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>0-Introduction</title>
-      <link>http://example.org/2-Data_Structures/4-Abstract_Data_Types/0-Introduction/</link>
+      <link>https://algo.minetest.in/2-Data_Structures/4-Abstract_Data_Types/0-Introduction/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/2-Data_Structures/4-Abstract_Data_Types/0-Introduction/</guid>
+      <guid>https://algo.minetest.in/2-Data_Structures/4-Abstract_Data_Types/0-Introduction/</guid>
       <description>Introduction  An abstract data type (ADT) is a data type (a set of values and a collection of operations on those values) that is accessed only through an interface. We refer to a program that uses an ADT as a client, and a program that specifies the data type as an implementation.
  We say that the interface is opaque: the client cannot see the implementation through the interface.</description>
     </item>
     
     <item>
       <title>1-Abstract Objects &amp; Collections of Objects</title>
-      <link>http://example.org/2-Data_Structures/4-Abstract_Data_Types/1-Abstract_Objects_and_Collections_of_Objects/</link>
+      <link>https://algo.minetest.in/2-Data_Structures/4-Abstract_Data_Types/1-Abstract_Objects_and_Collections_of_Objects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/2-Data_Structures/4-Abstract_Data_Types/1-Abstract_Objects_and_Collections_of_Objects/</guid>
+      <guid>https://algo.minetest.in/2-Data_Structures/4-Abstract_Data_Types/1-Abstract_Objects_and_Collections_of_Objects/</guid>
       <description>Abstract Objects and Collections of Objects  Up till now we have created a lot of simple data types in order to write code that doesn&amp;rsquo;t depend on object types and deciding the datatype using typedef
  Above approach allows to use same code for integers and floating-points and with pointers, object type can be arbitrarily complex. Moreover implementation is not also hidden from clients. ADT&amp;rsquo;s are quite useful in this sense</description>
     </item>
     
     <item>
       <title>2-Pushdown Stack ADT</title>
-      <link>http://example.org/2-Data_Structures/4-Abstract_Data_Types/2-Pushdown_Stack_ADT/</link>
+      <link>https://algo.minetest.in/2-Data_Structures/4-Abstract_Data_Types/2-Pushdown_Stack_ADT/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/2-Data_Structures/4-Abstract_Data_Types/2-Pushdown_Stack_ADT/</guid>
+      <guid>https://algo.minetest.in/2-Data_Structures/4-Abstract_Data_Types/2-Pushdown_Stack_ADT/</guid>
       <description>Pushdown Stack ADT A pushdown stack is an ADT that comprises two basic operations: insert (push) a new item, and remove **(pop) **the item that was most recently inserted.
  items are removed according to a last-in, first-out (LIFO) discipline.
  Each push increases the size of the stack by 1 and each pop decreases the size of the stack by 1.
@@ -45,10 +45,10 @@
     
     <item>
       <title>3-Examples of Stack-ADT Clients</title>
-      <link>http://example.org/2-Data_Structures/4-Abstract_Data_Types/3-Examples_of_Stack_ADT_Clients/</link>
+      <link>https://algo.minetest.in/2-Data_Structures/4-Abstract_Data_Types/3-Examples_of_Stack_ADT_Clients/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/2-Data_Structures/4-Abstract_Data_Types/3-Examples_of_Stack_ADT_Clients/</guid>
+      <guid>https://algo.minetest.in/2-Data_Structures/4-Abstract_Data_Types/3-Examples_of_Stack_ADT_Clients/</guid>
       <description>Examples Postfix and Infix order
  Any general arithmetic expression can be written using brackets.  $ 5 * (((9+8) * (4*6)) + 7 ) $
 Above expression is called infix order and its Postfix version is
@@ -59,20 +59,20 @@ $ 5 9 8 + 4 6 * * 7 + * $
     
     <item>
       <title>4-Stack ADT Implementation</title>
-      <link>http://example.org/2-Data_Structures/4-Abstract_Data_Types/4-Stack_ADT_Implementation/</link>
+      <link>https://algo.minetest.in/2-Data_Structures/4-Abstract_Data_Types/4-Stack_ADT_Implementation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/2-Data_Structures/4-Abstract_Data_Types/4-Stack_ADT_Implementation/</guid>
+      <guid>https://algo.minetest.in/2-Data_Structures/4-Abstract_Data_Types/4-Stack_ADT_Implementation/</guid>
       <description>Stack ADT Implementations  There are 2 implementations of Stack ADT
  Arrays Linked List  Array Implementation of a pushdown stack  for N items it keeps in s[0],&amp;hellip;.,s[N-1] top is s[N] Client needs to pass the maximum # of items for stack   template &amp;lt;class Item&amp;gt; class STACK { private: Item *s; int N; public: STACK(int maxN) { s = new Item[maxN]; N=0;} int empty() const { return N==0; } void push(Item item) { s[N++] = item; } Item pop() { return s[--N];} }   Drawbacks of using this implementation</description>
     </item>
     
     <item>
       <title>5-Creation of New ADT</title>
-      <link>http://example.org/2-Data_Structures/4-Abstract_Data_Types/5-Creation_of_New_ADT/</link>
+      <link>https://algo.minetest.in/2-Data_Structures/4-Abstract_Data_Types/5-Creation_of_New_ADT/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/2-Data_Structures/4-Abstract_Data_Types/5-Creation_of_New_ADT/</guid>
+      <guid>https://algo.minetest.in/2-Data_Structures/4-Abstract_Data_Types/5-Creation_of_New_ADT/</guid>
       <description>Creation of New ADT  Generally we freeze the interface after a detailed inspection of user needs.
  We can different client codes and implementation for the same ADT
   class UF { private: //Implementation-dependent code public: UF(int); int find(int,int); void unite(int ,int); };  Equivalence-relations ADT interface
@@ -82,10 +82,10 @@ $ 5 9 8 + 4 6 * * 7 + * $
     
     <item>
       <title>6-FIFO Queues and Generalized Queue</title>
-      <link>http://example.org/2-Data_Structures/4-Abstract_Data_Types/6-FIFO_Queues_and_Generalized_Queue/</link>
+      <link>https://algo.minetest.in/2-Data_Structures/4-Abstract_Data_Types/6-FIFO_Queues_and_Generalized_Queue/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/2-Data_Structures/4-Abstract_Data_Types/6-FIFO_Queues_and_Generalized_Queue/</guid>
+      <guid>https://algo.minetest.in/2-Data_Structures/4-Abstract_Data_Types/6-FIFO_Queues_and_Generalized_Queue/</guid>
       <description>FIFO Queues and Generalized Queues  it is same as pushdown stack except we remove the element that has been in the queue the longest.
  FIFO queue ADT interface
   template &amp;lt;class Item&amp;gt; class QUEUE { private: //Implementation dependant code public: QUEUE(int); int empty(); void put(Item); Item get(): }  A FIFO queue is an ADT that comprises two basic operations: insert (put) a new item, and remove (get) the item that was least recently inserted.</description>
@@ -93,19 +93,19 @@ $ 5 9 8 + 4 6 * * 7 + * $
     
     <item>
       <title>7-Duplicates and Index Items</title>
-      <link>http://example.org/2-Data_Structures/4-Abstract_Data_Types/7-Duplicates_and_Index_Items/</link>
+      <link>https://algo.minetest.in/2-Data_Structures/4-Abstract_Data_Types/7-Duplicates_and_Index_Items/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/2-Data_Structures/4-Abstract_Data_Types/7-Duplicates_and_Index_Items/</guid>
+      <guid>https://algo.minetest.in/2-Data_Structures/4-Abstract_Data_Types/7-Duplicates_and_Index_Items/</guid>
       <description>Duplicate and Index Items  In general to remove duplicates we have two possibility  assume when client pushes duplicates we ignore them or remove old item and add new item there  first one is difficult to implement than the second because it requires that we modify the data structures. This kind of implementation accounts for using the symbol table ADT for quick search. Special case for which we have a quick solution; say items are integers in range 0 to M-1.</description>
     </item>
     
     <item>
       <title>8-First Class ADTs</title>
-      <link>http://example.org/2-Data_Structures/4-Abstract_Data_Types/8-First_class_ADTs/</link>
+      <link>https://algo.minetest.in/2-Data_Structures/4-Abstract_Data_Types/8-First_class_ADTs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/2-Data_Structures/4-Abstract_Data_Types/8-First_class_ADTs/</guid>
+      <guid>https://algo.minetest.in/2-Data_Structures/4-Abstract_Data_Types/8-First_class_ADTs/</guid>
       <description>First-Class ADTs A first class data type is one which we can use in our programs in the same way as we use built-in data types.
 Complex numbers driver(roots of unity)
 #include &amp;lt;iostream.h&amp;gt; #include &amp;lt;stdlib.h&amp;gt; #include &amp;lt;math.h&amp;gt; #include &amp;quot;COMPLEX.cxx&amp;quot; int main(int argc, char *argv[]){ int N = atoi(argv[1]); cout&amp;lt;&amp;lt; N &amp;lt;&amp;lt; &amp;quot; complex roots of unity &amp;quot; &amp;lt;&amp;lt; endl; for(int k =0; k &amp;lt;N; k++){ float theta = 2.0*3.14159* k/N; Complex t(cos(theta), sin(theta)), x=t; cout&amp;lt;&amp;lt; K &amp;lt;&amp;lt; &amp;quot;: &amp;quot; &amp;lt;&amp;lt; t &amp;lt;&amp;lt; &amp;quot; &amp;quot;; for(int j=0; j&amp;lt;N-1 ; j++) x*=t; cout&amp;lt;&amp;lt; x &amp;lt;&amp;lt; endl; } }  We want ADT that can perform algebra of complex numbers.</description>
@@ -113,10 +113,10 @@ Complex numbers driver(roots of unity)
     
     <item>
       <title>9-Application Based ADTs</title>
-      <link>http://example.org/2-Data_Structures/4-Abstract_Data_Types/9-Application_Based_ADTs/</link>
+      <link>https://algo.minetest.in/2-Data_Structures/4-Abstract_Data_Types/9-Application_Based_ADTs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/2-Data_Structures/4-Abstract_Data_Types/9-Application_Based_ADTs/</guid>
+      <guid>https://algo.minetest.in/2-Data_Structures/4-Abstract_Data_Types/9-Application_Based_ADTs/</guid>
       <description>Application-Based ADT Example We drive polynomial ADT from symbolic mathematics
 aim is to be solve
 $ \left( 1-x+\frac{x^2}{2}-\frac{x^3}{6} \right) = 1 + \frac{x^2}{2} +\frac{x^3}{3} -\frac{2x^4}{3}+\frac{x^5}{3}+&amp;hellip;$
@@ -127,10 +127,10 @@ Polynomial Client(Binomial Coefficients)
     
     <item>
       <title>10-Perspective</title>
-      <link>http://example.org/2-Data_Structures/4-Abstract_Data_Types/10-Perspective/</link>
+      <link>https://algo.minetest.in/2-Data_Structures/4-Abstract_Data_Types/10-Perspective/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/2-Data_Structures/4-Abstract_Data_Types/10-Perspective/</guid>
+      <guid>https://algo.minetest.in/2-Data_Structures/4-Abstract_Data_Types/10-Perspective/</guid>
       <description></description>
     </item>
     

@@ -6,7 +6,7 @@ title = "7-Breadth First Search"
 
 ### Breadth-First Search
 
-DFS has no relationship to order in which it finds the goal. BSFS is based on a shortest path from $v\rightarrow w$ , we start at $v$ and check $w$ among all the vertices that we can reach by following one edge, then we check all the vertices that we can reach by following one edge, then we check all the vertices we can reach by following two edges, and so forth.
+DFS has no relationship to order in which it finds the goal. BFS is based on a shortest path from $v\rightarrow w$ , we start at $v$ and check $w$ among all the vertices that we can reach by following one edge, then we check all the vertices that we can reach by following one edge, then we check all the vertices we can reach by following two edges, and so forth.
 
 When we come to a point where we have to process more than one edges we save them and choose one for current exploration. We use pushdown stack for this purpose.
 

@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>11-Special Purpose Sorting Methods on smk&#39;s Blogs</title>
-    <link>http://example.org/3-Sorting/11-Special_purpose_sorting_methods/</link>
+    <link>https://algo.minetest.in/3-Sorting/11-Special_purpose_sorting_methods/</link>
     <description>Recent content in 11-Special Purpose Sorting Methods on smk&#39;s Blogs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://example.org/3-Sorting/11-Special_purpose_sorting_methods/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://algo.minetest.in/3-Sorting/11-Special_purpose_sorting_methods/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>0-Introduction</title>
-      <link>http://example.org/3-Sorting/11-Special_purpose_sorting_methods/0-Introduction/</link>
+      <link>https://algo.minetest.in/3-Sorting/11-Special_purpose_sorting_methods/0-Introduction/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/3-Sorting/11-Special_purpose_sorting_methods/0-Introduction/</guid>
+      <guid>https://algo.minetest.in/3-Sorting/11-Special_purpose_sorting_methods/0-Introduction/</guid>
       <description>Introduction Sorting methods are critical components of many applications systems, and it is not unusual for special measures to be taken to make a sort as fast as possible or capable of handling huge files. We often have sorting methods that are designed to run efficiently on various different kinds of machines.
 Any new computer architecture is eventually going to need to support an efficient sorting method. Indeed sorting has historically served as one testbed for evaluating new architectures, because it is so important and so well understood.</description>
     </item>
     
     <item>
       <title>1-Batcher&#39;s OddEven</title>
-      <link>http://example.org/3-Sorting/11-Special_purpose_sorting_methods/1-Batchers_OddEven/</link>
+      <link>https://algo.minetest.in/3-Sorting/11-Special_purpose_sorting_methods/1-Batchers_OddEven/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/3-Sorting/11-Special_purpose_sorting_methods/1-Batchers_OddEven/</guid>
+      <guid>https://algo.minetest.in/3-Sorting/11-Special_purpose_sorting_methods/1-Batchers_OddEven/</guid>
       <description>Batcher&amp;rsquo;s Odd-Even Mergesort To begin lets consider two abstract operation, the compare-exchange operation and the perfect shuffle operation (along with its inverse, the perfect unshuffle)
 developed by Batcher in 1968.
 More challenging to understand is how and why algorithm works rather than understanding how these operation are done.
@@ -34,20 +34,20 @@ Definition 1 : A nonadaptive sorting algorithm is one where the sequence of oper
     
     <item>
       <title>2-Sorting Networks</title>
-      <link>http://example.org/3-Sorting/11-Special_purpose_sorting_methods/2-Sorting_Networks/</link>
+      <link>https://algo.minetest.in/3-Sorting/11-Special_purpose_sorting_methods/2-Sorting_Networks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/3-Sorting/11-Special_purpose_sorting_methods/2-Sorting_Networks/</guid>
+      <guid>https://algo.minetest.in/3-Sorting/11-Special_purpose_sorting_methods/2-Sorting_Networks/</guid>
       <description>Sorting Networks Simplest model for studying nonadaptive sorting algorithms is an abstract machine that can access data only through compare-exchange operations. Such a machine is called a sorting network.
 We draw network for N items as a sequence of N horizontal lines, with comparator connecting pairs of lines. We imagine keys to be sorted pass from right to left through the network, with a pair of numbers exchanged if necessary to put the smaller on top whenever a comparator is encountered.</description>
     </item>
     
     <item>
       <title>3-External Sorting</title>
-      <link>http://example.org/3-Sorting/11-Special_purpose_sorting_methods/3-External_Sorting/</link>
+      <link>https://algo.minetest.in/3-Sorting/11-Special_purpose_sorting_methods/3-External_Sorting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/3-Sorting/11-Special_purpose_sorting_methods/3-External_Sorting/</guid>
+      <guid>https://algo.minetest.in/3-Sorting/11-Special_purpose_sorting_methods/3-External_Sorting/</guid>
       <description>External Sorting Another abstract problem is when file to sorted is much too large to fit in the RAM of computer. This situation is known as external sorting.
 Consider two atomic operations
  read data from external storage into main memory write data from main memory into external storages  Cost of these two operations is very large than cost of primitive computational operation so we ignore them.
@@ -56,10 +56,10 @@ i.e. we ignore cost of sorting of main memory</description>
     
     <item>
       <title>4-SortMerge Implementation</title>
-      <link>http://example.org/3-Sorting/11-Special_purpose_sorting_methods/4-SortMerge_Implementation/</link>
+      <link>https://algo.minetest.in/3-Sorting/11-Special_purpose_sorting_methods/4-SortMerge_Implementation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/3-Sorting/11-Special_purpose_sorting_methods/4-SortMerge_Implementation/</guid>
+      <guid>https://algo.minetest.in/3-Sorting/11-Special_purpose_sorting_methods/4-SortMerge_Implementation/</guid>
       <description>Sort-Merge Implementations General strategy in earlier section is effective in practice. Two improvements that we can use to lower the costs.
  Replacement Selection Polyphase Merging  Property 5 : For random keys, the runs produced by replacement selection are about twice the size of the heap used.
 This improvement is not noticeable for big P values.
@@ -68,10 +68,10 @@ The major weakness of balanced multiway merging is that only about one-half the 
     
     <item>
       <title>5-Parallel SortMerge</title>
-      <link>http://example.org/3-Sorting/11-Special_purpose_sorting_methods/5-Parallel_SortMerge/</link>
+      <link>https://algo.minetest.in/3-Sorting/11-Special_purpose_sorting_methods/5-Parallel_SortMerge/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/3-Sorting/11-Special_purpose_sorting_methods/5-Parallel_SortMerge/</guid>
+      <guid>https://algo.minetest.in/3-Sorting/11-Special_purpose_sorting_methods/5-Parallel_SortMerge/</guid>
       <description>Parallel Sort-Merge The abstract model for parallel processing involves following assumptions.
  N records to be sorted and P processors, each capable of holding N/P records.  Processors are labeled as 0,1, &amp;hellip; , P-1 and assume that input is in the local memories of processors.
 The goal of the sort is to rearrange the records to put smallest N/P records in processor 0&amp;rsquo;s memory and so on in sorted order.</description>

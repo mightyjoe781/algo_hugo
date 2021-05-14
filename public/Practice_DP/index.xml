@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Problems : DP on smk&#39;s Blogs</title>
-    <link>http://example.org/Practice_DP/</link>
+    <link>https://algo.minetest.in/Practice_DP/</link>
     <description>Recent content in Problems : DP on smk&#39;s Blogs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 21 Apr 2021 09:51:25 +0530</lastBuildDate>
     
-	<atom:link href="http://example.org/Practice_DP/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://algo.minetest.in/Practice_DP/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>DP 1</title>
-      <link>http://example.org/Practice_DP/DP_1/</link>
+      <link>https://algo.minetest.in/Practice_DP/DP_1/</link>
       <pubDate>Wed, 21 Apr 2021 09:51:25 +0530</pubDate>
       
-      <guid>http://example.org/Practice_DP/DP_1/</guid>
+      <guid>https://algo.minetest.in/Practice_DP/DP_1/</guid>
       <description>This is long sections divided into 3 parts. Its very important for interviews.
 In recursion we say subproblems were related to the original problems does they always have to be ? Should they be in recurrence relation to each other.
 Sometimes we do not need to do that necessarily.
@@ -27,10 +27,10 @@ Climbing Stairs :</description>
     
     <item>
       <title>DP 2</title>
-      <link>http://example.org/Practice_DP/DP_2/</link>
+      <link>https://algo.minetest.in/Practice_DP/DP_2/</link>
       <pubDate>Wed, 21 Apr 2021 09:51:25 +0530</pubDate>
       
-      <guid>http://example.org/Practice_DP/DP_2/</guid>
+      <guid>https://algo.minetest.in/Practice_DP/DP_2/</guid>
       <description>1D DP Decode Ways : Basically we see that the problem is a counting problem and we don&amp;rsquo;t want to enumerate.
 Criteria for divide and conquer : lets find a criteria such that it makes solution mutually exclusive and exhaustive.
 s1: set of all words made by considering only 1st character
@@ -40,10 +40,10 @@ Now lets try to connect to original subproblem.</description>
     
     <item>
       <title>DP 3</title>
-      <link>http://example.org/Practice_DP/DP_3/</link>
+      <link>https://algo.minetest.in/Practice_DP/DP_3/</link>
       <pubDate>Thu, 22 Apr 2021 08:43:25 +0530</pubDate>
       
-      <guid>http://example.org/Practice_DP/DP_3/</guid>
+      <guid>https://algo.minetest.in/Practice_DP/DP_3/</guid>
       <description>LIS ( Longest Increasing Subsequence) We were looking at subarrays till last article. now its subsequence (its not supposed to contiguous instead it maintains order of appearance )
  for every $s_i$ : LIS ending at i  res = max{$s_i$}
  now how to find the $s_i$ &amp;lt;- Length of LIS ending at $i$  at any $jA[j]$ we can extend the subsequence
@@ -52,10 +52,10 @@ Now lets try to connect to original subproblem.</description>
     
     <item>
       <title>DP 4</title>
-      <link>http://example.org/Practice_DP/DP_4/</link>
+      <link>https://algo.minetest.in/Practice_DP/DP_4/</link>
       <pubDate>Thu, 22 Apr 2021 22:54:25 +0530</pubDate>
       
-      <guid>http://example.org/Practice_DP/DP_4/</guid>
+      <guid>https://algo.minetest.in/Practice_DP/DP_4/</guid>
       <description>2D DP Target Sum Cue : DP/DnC , as there is counting problem.
 Let&amp;rsquo;s decide the criteria of splitting the set
 Splitting the set into 2 components , set 1 contains sum with s1 in positive sign
@@ -67,10 +67,10 @@ Mathematical Representation of problem</description>
     
     <item>
       <title>DP 5</title>
-      <link>http://example.org/Practice_DP/DP_5/</link>
+      <link>https://algo.minetest.in/Practice_DP/DP_5/</link>
       <pubDate>Thu, 22 Apr 2021 22:54:25 +0530</pubDate>
       
-      <guid>http://example.org/Practice_DP/DP_5/</guid>
+      <guid>https://algo.minetest.in/Practice_DP/DP_5/</guid>
       <description>2D DP : Subproblem -&amp;gt; Subarray Stone Game Game&amp;rsquo;s Outcome is Deterministic !
 We can simply see because of the constraint of the game that both plays optimally and alex can lock a particular indices ( odd/ even) as she is always beginning the game. As a result she knows which index to choose(odd/even) that has more sum. So we can conclude alex wins always!
 return true; ;)

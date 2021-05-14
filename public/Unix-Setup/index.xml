@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Unix Setup on smk&#39;s Blogs</title>
+    <link>https://algo.minetest.in/Unix-Setup/</link>
+    <description>Recent content in Unix Setup on smk&#39;s Blogs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://algo.minetest.in/Unix-Setup/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>updates</title>
+      <link>https://algo.minetest.in/Unix-Setup/updates/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/Unix-Setup/updates/</guid>
+      <description>Probably first thing after installing an OS is to update it
+Debian Guide apt-get update apt-get upgrade apt-get dist-upgrade apt-get autoremove  This should upgrade the OS to latest debian release : Note that it only upgrades distro within its series for example 10.1 to 10.8
+Checking the distro
+cat /etc/os-release  Then install basic utilities.
+FreeBSD Guide Upgrading packages within same release
+freebsd-update fetch freebsd-update install  if anything goes wrong do this</description>
+    </item>
+    
+    <item>
+      <title>shells</title>
+      <link>https://algo.minetest.in/Unix-Setup/shells/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/Unix-Setup/shells/</guid>
+      <description>Debian Check the file/etc/shells
+if it doesn&amp;rsquo;t contain following line then add the line
+/bin/bash  FreeBSD sudo pkg install bash chsh -s /usr/local/bin/bash  Installing bash using pkg automatically updates /etc/shells
+Installing Some Utilities dnsutils # dig, nslookup joe # text editor lynx # text-mode web browser pbzip2 # paralled bzip2 pigz # parallel gzip rlwrap # enables backspace for some CLI commands  Installing from a packages list #!</description>
+    </item>
+    
+    <item>
+      <title>ssh</title>
+      <link>https://algo.minetest.in/Unix-Setup/ssh/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/Unix-Setup/ssh/</guid>
+      <description>Generate a keypair for server-side user accounts
+#!/bin/bash -e rlwrap ssh-keygen -t rsa -b 2048   Do not specify password for keypair Additionally rename your keys something sensible!
+ id_ed25519 : Private key
+ id_ed25519.pub : Public key
+  Now as a good practice rename keys according to server. For example :
+smk.prvkey and smk.pubkey
+ Never share your private key. Never ever never!
+ smk.pubkey should be appended to &amp;quot;$HOME/.</description>
+    </item>
+    
+    <item>
+      <title>user</title>
+      <link>https://algo.minetest.in/Unix-Setup/user/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/Unix-Setup/user/</guid>
+      <description>Adding a ordinary user rlwrap adduser sally  Initially, only the account name and passwords are important. Other fields can be left empty. Account name should be lower-case!
+then execute this
+THEM=sally HOUSE=/home/$THEM chmod 700 $HOUSE mkdir -p $HOUSE/.ssh chmod 700 $HOUSE/.ssh touch $HOUSE/.ssh/authorized_keys chown -R $THEM.$THEM $HOUSE  Replace sally with appropriate user name.
+Public key of the user should who should have access should go into authorized_keys</description>
+    </item>
+    
+    <item>
+      <title>user bins</title>
+      <link>https://algo.minetest.in/Unix-Setup/bins/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/Unix-Setup/bins/</guid>
+      <description>Steps : Creating directories for utilities #!/bin/bash -e mkdir -p /opt/minebest/mtbin mkdir -p /opt/smkbin  Next we create a text file &amp;quot;/etc/profile.d/smkbin.sh&amp;quot; containing
+for dir in \ /opt/minebest/mtbin \ /opt/minebest/smkbin \ /opt/smkbin do if [ -d $dir ]; then PATH=$dir:$PATH; fi done  File needs to be readable but doesn&amp;rsquo;t need to be executable
+Next Step : editing &amp;ldquo;secure_path&amp;rdquo; setting in &amp;quot;/etc/sudoers&amp;quot; to prepend the directories from preceding script which exists</description>
+    </item>
+    
+  </channel>
+</rss>

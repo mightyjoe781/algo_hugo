@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Windows on smk&#39;s Blogs</title>
+    <link>https://algo.minetest.in/Windows/</link>
+    <description>Recent content in Windows on smk&#39;s Blogs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://algo.minetest.in/Windows/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>chocolatey</title>
+      <link>https://algo.minetest.in/Windows/Choco/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/Windows/Choco/</guid>
+      <description>Choco Chocolatey is a package manager for windows and is quite useful in setting up windows quickly.
+ Ensure Administrative Shell Access
+ Get-ExecutionPolicy of powershell should not be set to Restricted.
+  We can set it to Bypass to install all packages or AllSigned to get packages with quite bit of security
+Execute the following text
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.</description>
+    </item>
+    
+    <item>
+      <title>diskpart</title>
+      <link>https://algo.minetest.in/Windows/Diskpart/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/Windows/Diskpart/</guid>
+      <description>Diskpart Diskpart command interpreter helps managing the computer&amp;rsquo;s drive (disk partitions, volumes, or virtual hard disks).
+In case you have corrupted a disk and wish to completely clean the disk or wish to create a windows bootable drive.
+Step : Selecting a correct disk (Important : selecting wrong disk can be disastrous)
+Run cmd as an administrator
+diskpart list disk  output should be a table of disks, carefully select disk you wish to clean</description>
+    </item>
+    
+    <item>
+      <title>WSL</title>
+      <link>https://algo.minetest.in/Windows/WSL/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/Windows/WSL/</guid>
+      <description>Installation : WSL 2 Step : Enabling WSL Feature Execute following command in powershell to enable WSL in windows.
+dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart  This sets up WSL 1.
+Step : Enabling WSL 2 (requires build &amp;gt; 18362) Requires Virtualization Features
+dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart  Install Kernel Update Package : Download Package available at this link!
+Setting up WSL 2 as default version
+wsl --set-default-version 2  Step : Installing Linux Distro Simple go to Microsoft store and download distro of your choice.</description>
+    </item>
+    
+    <item>
+      <title>Partitions Records and Bootloaders</title>
+      <link>https://algo.minetest.in/Windows/Dual_Boot1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/Windows/Dual_Boot1/</guid>
+      <description>MBR A master boot record (MBR) is special type of boot sector at very beginning of partitioned computer storage device. MBR holds information on how the logical partitions, containing file systems, are organized on that medium.
+It also contained executable code to function as a loader for installed OS usually by passing the control over to the loader&amp;rsquo;s second page or in conjunction with each partitions volume boot record.</description>
+    </item>
+    
+    <item>
+      <title>General Issues</title>
+      <link>https://algo.minetest.in/Windows/Dual_Boot4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/Windows/Dual_Boot4/</guid>
+      <description>+
+Clock Issue So Actually each hardware has a clock on its motherboard that keeps track of time even though computer is off.
+Windows assumes the time is stored in local time, while Linux assumes the time is stored in UTC time and applies an-offset. This leads one of OS show incorrect time.
+To solve this problem there are 2 options
+ Disable RTC in Linux Use UTC in Windows.</description>
+    </item>
+    
+  </channel>
+</rss>

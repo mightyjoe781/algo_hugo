@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>21-Shortest Paths on smk&#39;s Blogs</title>
-    <link>http://example.org/5-Graph_Algorithms/21-Shortest_Paths/</link>
+    <link>https://algo.minetest.in/5-Graph_Algorithms/21-Shortest_Paths/</link>
     <description>Recent content in 21-Shortest Paths on smk&#39;s Blogs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://example.org/5-Graph_Algorithms/21-Shortest_Paths/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://algo.minetest.in/5-Graph_Algorithms/21-Shortest_Paths/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>0-introduction</title>
-      <link>http://example.org/5-Graph_Algorithms/21-Shortest_Paths/0_introduction/</link>
+      <link>https://algo.minetest.in/5-Graph_Algorithms/21-Shortest_Paths/0_introduction/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/5-Graph_Algorithms/21-Shortest_Paths/0_introduction/</guid>
+      <guid>https://algo.minetest.in/5-Graph_Algorithms/21-Shortest_Paths/0_introduction/</guid>
       <description>Shortest Path This chapter deals with problems as find the lowest-weight path between two given vertices.
 We refer to weighted digraphs as networks.
 We use pointers to abstract edges for weighted digraphs to broaden the applicability of our implementation. Since there is only one representation of each edge, we don&amp;rsquo;t need to use from function in edge class while using iterator and second thing we sometimes want reverse graph, but we need different approach than that taken by program 19.</description>
@@ -23,49 +23,49 @@ We use pointers to abstract edges for weighted digraphs to broaden the applicabi
     
     <item>
       <title>1-Underlying principles</title>
-      <link>http://example.org/5-Graph_Algorithms/21-Shortest_Paths/1_underlying_principles/</link>
+      <link>https://algo.minetest.in/5-Graph_Algorithms/21-Shortest_Paths/1_underlying_principles/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/5-Graph_Algorithms/21-Shortest_Paths/1_underlying_principles/</guid>
+      <guid>https://algo.minetest.in/5-Graph_Algorithms/21-Shortest_Paths/1_underlying_principles/</guid>
       <description>Underlying Principles Our shortest path algorithms are all based on a simple operation know as relaxation. We start a shortest paths algorithm knowing only the network&amp;rsquo;s edges and weights. As we proceed, we gather information about shortest paths that connect various vertices and algorithms update this info incrementally, making new conclusion based information collected.
 At each step, we test whether we can find a path that is shorter than some know path.</description>
     </item>
     
     <item>
       <title>2-Dijkstras Algorithm</title>
-      <link>http://example.org/5-Graph_Algorithms/21-Shortest_Paths/2_Dijkstras_algorithm/</link>
+      <link>https://algo.minetest.in/5-Graph_Algorithms/21-Shortest_Paths/2_Dijkstras_algorithm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/5-Graph_Algorithms/21-Shortest_Paths/2_Dijkstras_algorithm/</guid>
+      <guid>https://algo.minetest.in/5-Graph_Algorithms/21-Shortest_Paths/2_Dijkstras_algorithm/</guid>
       <description>Dijkstra&amp;rsquo;s Algorithm In 20.3 we discussed Prim&amp;rsquo;s algorithm for finding MST of a weighted undirected graph. Here similarly we put source on SPT; then we build the SPT one edge at a time, always taking next the edge that gives a min shortest path from the source to vertex not on the SPT. In other words, we add vertices to SPT in order of their distance to the start vertex.</description>
     </item>
     
     <item>
       <title>3-All pair Shortest Paths</title>
-      <link>http://example.org/5-Graph_Algorithms/21-Shortest_Paths/3_all_pair_shortest_paths/</link>
+      <link>https://algo.minetest.in/5-Graph_Algorithms/21-Shortest_Paths/3_all_pair_shortest_paths/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/5-Graph_Algorithms/21-Shortest_Paths/3_all_pair_shortest_paths/</guid>
+      <guid>https://algo.minetest.in/5-Graph_Algorithms/21-Shortest_Paths/3_all_pair_shortest_paths/</guid>
       <description>All Pair Shortest Paths In this section we consider two classes that solve all-pair shortest-paths problem. The algorithm that we implement directly generalize two basic algorithms that we considered for the transitive closure problem.
 First one in to run Dijkstra&amp;rsquo;s algorithm from each vertex to get shortest paths from that vertex to each of the others. Second method which allows us to solve problem directly in time proportional to $V^3$, is extension of Warshall&amp;rsquo;s algorithm that is Floyd&amp;rsquo;s algorithm</description>
     </item>
     
     <item>
       <title>4-shortest path in acyclic networks</title>
-      <link>http://example.org/5-Graph_Algorithms/21-Shortest_Paths/4_shortest_path_in_acyclic_networks/</link>
+      <link>https://algo.minetest.in/5-Graph_Algorithms/21-Shortest_Paths/4_shortest_path_in_acyclic_networks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/5-Graph_Algorithms/21-Shortest_Paths/4_shortest_path_in_acyclic_networks/</guid>
+      <guid>https://algo.minetest.in/5-Graph_Algorithms/21-Shortest_Paths/4_shortest_path_in_acyclic_networks/</guid>
       <description>Shortest Paths in Acyclic Networks For shortest-paths problems, we do have algorithms for DAGs that are simpler and faster than the priority-queue-based methods that we have considered for general digraphs. Specifically, in this section we consider algorithms for acyclic networks that.
  Solve the single source problem in linear time solve the all-pairs problem in time proportional to VE solve other problems, such as finding longest paths  In the first two cases, we cut the logarithmic factor from running time that is present in our best algorithm for sparse networks; in the third case, we have simple algorithm for problems that are intractable for general networks.</description>
     </item>
     
     <item>
       <title>5-euclidean networks</title>
-      <link>http://example.org/5-Graph_Algorithms/21-Shortest_Paths/5_euclidean_networks/</link>
+      <link>https://algo.minetest.in/5-Graph_Algorithms/21-Shortest_Paths/5_euclidean_networks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/5-Graph_Algorithms/21-Shortest_Paths/5_euclidean_networks/</guid>
+      <guid>https://algo.minetest.in/5-Graph_Algorithms/21-Shortest_Paths/5_euclidean_networks/</guid>
       <description>Euclidean Networks In applications where networks model maps, primary interest is often in finding the best route from one place to another. We want to find : a fast algorithm for source-sink path problem in Euclidean networks,which are networks whose vertices are points in plane and whose edge weights are defined by geometric distance between the points.
 These networks have 2 important properties
  distances satisfy a triangle inequality vertex positions give a lower bound on path length  Often, Euclidean networks are also symmetric.</description>
@@ -73,29 +73,29 @@ These networks have 2 important properties
     
     <item>
       <title>6-reduction</title>
-      <link>http://example.org/5-Graph_Algorithms/21-Shortest_Paths/6_reduction/</link>
+      <link>https://algo.minetest.in/5-Graph_Algorithms/21-Shortest_Paths/6_reduction/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/5-Graph_Algorithms/21-Shortest_Paths/6_reduction/</guid>
+      <guid>https://algo.minetest.in/5-Graph_Algorithms/21-Shortest_Paths/6_reduction/</guid>
       <description>Reduction Definition 21.3 *We say that a problem A reduces to another problem B if we can use an algorithm that solves B to develop an algorithm that solves A, in a total amount of time that is, in the worst case, no more than a constant times the worst-case running time of the algorithm that solves B. We say that two problems are equivalent if they reduce to each other.</description>
     </item>
     
     <item>
       <title>7-negative weights</title>
-      <link>http://example.org/5-Graph_Algorithms/21-Shortest_Paths/7_negative_weights/</link>
+      <link>https://algo.minetest.in/5-Graph_Algorithms/21-Shortest_Paths/7_negative_weights/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/5-Graph_Algorithms/21-Shortest_Paths/7_negative_weights/</guid>
+      <guid>https://algo.minetest.in/5-Graph_Algorithms/21-Shortest_Paths/7_negative_weights/</guid>
       <description>Negative Weights Negative weights are not mere mathematical curiosity; on the contrary, they significantly extend the applicability of shortest-paths problems as a model for solving other problems.
 Perhaps most important effect is that when negative weights are present, low-weight shortest paths tend to have more edges than higher-weight paths. For positive weights, our emphasis was on looking for shortcuts; but when negative weights are present we seek detours that take as many edges with negative weights as we can find.</description>
     </item>
     
     <item>
       <title>8-perspective</title>
-      <link>http://example.org/5-Graph_Algorithms/21-Shortest_Paths/8_perspective/</link>
+      <link>https://algo.minetest.in/5-Graph_Algorithms/21-Shortest_Paths/8_perspective/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/5-Graph_Algorithms/21-Shortest_Paths/8_perspective/</guid>
+      <guid>https://algo.minetest.in/5-Graph_Algorithms/21-Shortest_Paths/8_perspective/</guid>
       <description>Perspective This table summarized the cost (worst case running time) of various shortest-path algorithms considered in this chapter.
 The general problem of finding shortest path in networks where edge weights could be negative is intractable.</description>
     </item>

@@ -1,21 +1,90 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>smk&#39;s Blogs</title>
-    <link>http://example.org/Practice_Problems1/</link>
-    <description>Recent content on smk&#39;s Blogs</description>
+    <title>Problems : Basics 1 on smk&#39;s Blogs</title>
+    <link>https://algo.minetest.in/Practice_Problems1/</link>
+    <description>Recent content in Problems : Basics 1 on smk&#39;s Blogs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Tue, 11 May 2021 17:01:25 +0530</lastBuildDate>
     
-	<atom:link href="http://example.org/Practice_Problems1/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://algo.minetest.in/Practice_Problems1/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title></title>
-      <link>http://example.org/Practice_Problems1/Two_Pointers/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Predicate Framework of Binary Search</title>
+      <link>https://algo.minetest.in/Practice_Problems1/Binary_Search_1/</link>
+      <pubDate>Tue, 11 May 2021 17:01:25 +0530</pubDate>
       
-      <guid>http://example.org/Practice_Problems1/Two_Pointers/</guid>
+      <guid>https://algo.minetest.in/Practice_Problems1/Binary_Search_1/</guid>
+      <description>Binary Search  Predicate Framework  Key elements related to search.
+ Search Space Item : certain properties Algorithm  Binary Search is a search algorithm which utilizes some property of search space.
+ When can binary search be applied ? What all can be find ? Pseudo Code.  Terminology
+ Predicate : Boolean functions.  Boolean function maps items to $f : D\rightarrow {T,F}$, true or false.</description>
+    </item>
+    
+    <item>
+      <title>Binary Search continued ....</title>
+      <link>https://algo.minetest.in/Practice_Problems1/Binary_Search_2/</link>
+      <pubDate>Tue, 11 May 2021 23:01:25 +0530</pubDate>
+      
+      <guid>https://algo.minetest.in/Practice_Problems1/Binary_Search_2/</guid>
+      <description>Two kinds of problems we can solve using Binary Search
+ Explicit Search Problems Optimization Problems (monotonic)  Capacity to Ship Packages within D days
+Cues : Optmization Problem.
+ min/max { x } st $f(x) \le threshold$ or $ f(x) \ge threshold$ $f(x)$ should be monotonic wrt x  here $x: capacity$ while $RT : f(x)$ , RT : # round trips
+Triming Search space :
+left = $max {A[j]}$ because capacity should be greater than max elt to load it on cart!</description>
+    </item>
+    
+    <item>
+      <title>Recursion 1</title>
+      <link>https://algo.minetest.in/Practice_Problems1/Recursion_1/</link>
+      <pubDate>Thu, 13 May 2021 23:01:25 +0530</pubDate>
+      
+      <guid>https://algo.minetest.in/Practice_Problems1/Recursion_1/</guid>
+      <description>Recursion  What / How -&amp;gt; First Part (Pre-read) Writing your own recursive solution (frameworks)  What is Recursion
+ Function calling itself Divide and Conquer Mathematical Concept!  Call by value
+Memory Layout
+ Stack (local function data : arguments and inside data) Heap (dynamic like malloc, new) Global (global variable, code)  Flow of execution
+ Main Stack is allocated for every functions  Call by reference</description>
+    </item>
+    
+    <item>
+      <title>Recursion 2</title>
+      <link>https://algo.minetest.in/Practice_Problems1/Recursion_2/</link>
+      <pubDate>Thu, 13 May 2021 23:01:25 +0530</pubDate>
+      
+      <guid>https://algo.minetest.in/Practice_Problems1/Recursion_2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recursion 3</title>
+      <link>https://algo.minetest.in/Practice_Problems1/Recursion_3/</link>
+      <pubDate>Thu, 13 May 2021 23:01:25 +0530</pubDate>
+      
+      <guid>https://algo.minetest.in/Practice_Problems1/Recursion_3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ad Hoc</title>
+      <link>https://algo.minetest.in/Practice_Problems1/AdHoc/</link>
+      <pubDate>Fri, 14 May 2021 17:01:25 +0530</pubDate>
+      
+      <guid>https://algo.minetest.in/Practice_Problems1/AdHoc/</guid>
+      <description>132 Pattern
+Queue Reconstruction by Height
+Increasing Triplet Subsequence</description>
+    </item>
+    
+    <item>
+      <title>2 Pointers</title>
+      <link>https://algo.minetest.in/Practice_Problems1/Two_Pointers/</link>
+      <pubDate>Mon, 10 May 2021 17:01:25 +0530</pubDate>
+      
+      <guid>https://algo.minetest.in/Practice_Problems1/Two_Pointers/</guid>
       <description></description>
     </item>
     

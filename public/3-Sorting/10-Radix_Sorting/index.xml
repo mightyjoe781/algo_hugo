@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>10-Radix Sorting on smk&#39;s Blogs</title>
-    <link>http://example.org/3-Sorting/10-Radix_Sorting/</link>
+    <link>https://algo.minetest.in/3-Sorting/10-Radix_Sorting/</link>
     <description>Recent content in 10-Radix Sorting on smk&#39;s Blogs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://example.org/3-Sorting/10-Radix_Sorting/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://algo.minetest.in/3-Sorting/10-Radix_Sorting/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>0-Introduction</title>
-      <link>http://example.org/3-Sorting/10-Radix_Sorting/0-Introduction/</link>
+      <link>https://algo.minetest.in/3-Sorting/10-Radix_Sorting/0-Introduction/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/3-Sorting/10-Radix_Sorting/0-Introduction/</guid>
+      <guid>https://algo.minetest.in/3-Sorting/10-Radix_Sorting/0-Introduction/</guid>
       <description>Radix Sorting This chapter focuses on different abstractions for sort keys.
 We often don&amp;rsquo;t need to compare all words we achieve this efficiency in sorting algorithms, we shift from the abstract operation where we compare keys to an abstraction where we decompose keys into a sequence of fixed sized pieces, or bytes.
 Binary numbers : sequence of bits , Strings : sequences of digits, and many other types of keys can be viewed in this way.</description>
@@ -23,39 +23,39 @@ Binary numbers : sequence of bits , Strings : sequences of digits, and many othe
     
     <item>
       <title>1-Bits Bytes and Words</title>
-      <link>http://example.org/3-Sorting/10-Radix_Sorting/1-Bits_Bytes_and_Words/</link>
+      <link>https://algo.minetest.in/3-Sorting/10-Radix_Sorting/1-Bits_Bytes_and_Words/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/3-Sorting/10-Radix_Sorting/1-Bits_Bytes_and_Words/</guid>
+      <guid>https://algo.minetest.in/3-Sorting/10-Radix_Sorting/1-Bits_Bytes_and_Words/</guid>
       <description>Bits, Bytes and Words Some important points
  computers are built to process bits in groups called machine words, which is often grouped into smaller pieces call bytes sort keys are also are commonly organized as byte sequences small byte sequences can also serve as array indexes or machine addresses  Def 1: A byte is a fixed sequence of bits; a string is variable-length sequence of bytes; a word is a fixed-length sequence of bytes.</description>
     </item>
     
     <item>
       <title>2-Binary Quicksort</title>
-      <link>http://example.org/3-Sorting/10-Radix_Sorting/2-Binary_Quicksort/</link>
+      <link>https://algo.minetest.in/3-Sorting/10-Radix_Sorting/2-Binary_Quicksort/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/3-Sorting/10-Radix_Sorting/2-Binary_Quicksort/</guid>
+      <guid>https://algo.minetest.in/3-Sorting/10-Radix_Sorting/2-Binary_Quicksort/</guid>
       <description>Binary Quicksort Suppose we can rearrange the records of a file such that all those whose keys begin with 0 bit come before all those keys begin with a 1 bit. Then we can use a variant of quicksort to recursively sort the file. To rearrange it scan from left to find a key that starts with a 1 bit, scan from right to find a key that starts with a 0 bits, exchange and continue until the scanning pointers cross.</description>
     </item>
     
     <item>
       <title>3-MSD Radix Sort</title>
-      <link>http://example.org/3-Sorting/10-Radix_Sorting/3-MSD_Radix_Sort/</link>
+      <link>https://algo.minetest.in/3-Sorting/10-Radix_Sorting/3-MSD_Radix_Sort/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/3-Sorting/10-Radix_Sorting/3-MSD_Radix_Sort/</guid>
+      <guid>https://algo.minetest.in/3-Sorting/10-Radix_Sorting/3-MSD_Radix_Sort/</guid>
       <description>MSD Radix Sort We sorted using 1 bit in radix quicksort amounts to treating keys as radix 2 (binary ) numbers and considering the most significant digits first. Generalizing on that we can develop sort for radix-R numbers by considering the array into R, rather than just two , different parts.
 These partitions are referred as Bins or Buckets and think of algorithm as using a groups of R bins.</description>
     </item>
     
     <item>
       <title>4-Three way radix quicksort</title>
-      <link>http://example.org/3-Sorting/10-Radix_Sorting/4-Three_way_radix_quicksort/</link>
+      <link>https://algo.minetest.in/3-Sorting/10-Radix_Sorting/4-Three_way_radix_quicksort/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/3-Sorting/10-Radix_Sorting/4-Three_way_radix_quicksort/</guid>
+      <guid>https://algo.minetest.in/3-Sorting/10-Radix_Sorting/4-Three_way_radix_quicksort/</guid>
       <description>Three way Radix Quicksort another way to adapt quicksort for MSD radix sorting is to use three-way portioning on the leading byte of the keys, moving to next byte on only the middle sub file.
 It might be regarded as hybrid of two algorithms.
 Comparing the three-way radix quicksort to standard MSD radix sort, we note that it divides the file into only three parts, so it doesn&amp;rsquo;t get benefit of quick multiway partition, especially in early stages of sort but on the other hand during later stages of sort MSD radix sort involves large numbers of empty bins, whereas three-way radix sort adapts well to duplicate keys,keys that fall in short range, small files , no need of auxiliary array, and deals with different types of non randomness in different parts of the key.</description>
@@ -63,10 +63,10 @@ Comparing the three-way radix quicksort to standard MSD radix sort, we note that
     
     <item>
       <title>5-LSD Radix sort</title>
-      <link>http://example.org/3-Sorting/10-Radix_Sorting/5-LSD_Radix_sort/</link>
+      <link>https://algo.minetest.in/3-Sorting/10-Radix_Sorting/5-LSD_Radix_sort/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/3-Sorting/10-Radix_Sorting/5-LSD_Radix_sort/</guid>
+      <guid>https://algo.minetest.in/3-Sorting/10-Radix_Sorting/5-LSD_Radix_sort/</guid>
       <description>LSD Radix Sort Its hard convince ourselves that sorting actually happens when we look from right to left. in fact it doesn&amp;rsquo;t work at all unless the sort method used is stable.
 Once stability has been identified as being significant, a simple proof that LSD radix sorting works is easy to articulate.
 Proof : after putting keys into order on their i trailing bytes ( in a stable manner ), we know that any two appear in proper order (on the basis of bits so far examined ) in the file either because the first of their i trailing bytes are different, in which case the sort on that byte put them in the proper order, or because the first of their ith trailing bytes are same, in which case they are in proper order because of stability.</description>
@@ -74,10 +74,10 @@ Proof : after putting keys into order on their i trailing bytes ( in a stable ma
     
     <item>
       <title>6-Performance Chracterstics of Radix Sorts</title>
-      <link>http://example.org/3-Sorting/10-Radix_Sorting/6-Performance_Chracterstics_of_Radix_Sorts/</link>
+      <link>https://algo.minetest.in/3-Sorting/10-Radix_Sorting/6-Performance_Chracterstics_of_Radix_Sorts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/3-Sorting/10-Radix_Sorting/6-Performance_Chracterstics_of_Radix_Sorts/</guid>
+      <guid>https://algo.minetest.in/3-Sorting/10-Radix_Sorting/6-Performance_Chracterstics_of_Radix_Sorts/</guid>
       <description>Performance Characteristics of Radix Sorts Running time of LSD Radix sort for sorting N records with w byte keys is proportional to Nw , because algorithms makes w passes over all N keys.
 For long keys and short bytes this running time is comparable to $N\lg N$.
 Property 1 : The worst case for radix sorting is to examine all the bytes in all keys.
@@ -86,10 +86,10 @@ Property 2 : Binary quicksort examines about $N\lg N$ bits, on average, when sor
     
     <item>
       <title>7-Sublinear Time Sort</title>
-      <link>http://example.org/3-Sorting/10-Radix_Sorting/7-Sublinear_Time_Sort/</link>
+      <link>https://algo.minetest.in/3-Sorting/10-Radix_Sorting/7-Sublinear_Time_Sort/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/3-Sorting/10-Radix_Sorting/7-Sublinear_Time_Sort/</guid>
+      <guid>https://algo.minetest.in/3-Sorting/10-Radix_Sorting/7-Sublinear_Time_Sort/</guid>
       <description>Sublinear-Time Sorts from previous section we can conclude that the running time of radix sorts can be sublinear in the total amount of information in the keys.
 LSD radix sort implementation makes bytesword passes through the file. By making R large, we get an efficient sorting method, as long as N is also large and we have space for R counters.
 Reasonable choice is to make $\lg R$ about one-quarter of the word size, so that the radix sort is four key-indexed counting passes.</description>

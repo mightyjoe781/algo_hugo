@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ssh on smk&#39;s Blogs</title>
+    <link>https://algo.minetest.in/tags/ssh/</link>
+    <description>Recent content in Ssh on smk&#39;s Blogs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://algo.minetest.in/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ssh</title>
+      <link>https://algo.minetest.in/Unix-Setup/ssh/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/Unix-Setup/ssh/</guid>
+      <description>Generate a keypair for server-side user accounts
+#!/bin/bash -e rlwrap ssh-keygen -t rsa -b 2048   Do not specify password for keypair Additionally rename your keys something sensible!
+ id_ed25519 : Private key
+ id_ed25519.pub : Public key
+  Now as a good practice rename keys according to server. For example :
+smk.prvkey and smk.pubkey
+ Never share your private key. Never ever never!
+ smk.pubkey should be appended to &amp;quot;$HOME/.</description>
+    </item>
+    
+  </channel>
+</rss>

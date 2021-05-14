@@ -2,47 +2,75 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Graphs on smk&#39;s Blogs</title>
-    <link>http://example.org/tags/graphs/</link>
+    <link>https://algo.minetest.in/tags/graphs/</link>
     <description>Recent content in Graphs on smk&#39;s Blogs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 24 Apr 2021 10:24:25 +0530</lastBuildDate>
     
-	<atom:link href="http://example.org/tags/graphs/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://algo.minetest.in/tags/graphs/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Problems : Graphs</title>
-      <link>http://example.org/Practice_Graphs/</link>
+      <link>https://algo.minetest.in/Practice_Graphs/</link>
       <pubDate>Sat, 24 Apr 2021 10:24:25 +0530</pubDate>
       
-      <guid>http://example.org/Practice_Graphs/</guid>
-      <description> Problems on Graphs Graphs 1Graphs 2</description>
+      <guid>https://algo.minetest.in/Practice_Graphs/</guid>
+      <description> Problems on Graphs Graphs 1Graphs 2Graphs 3Graphs 4</description>
     </item>
     
     <item>
       <title>Graphs 1</title>
-      <link>http://example.org/Practice_Graphs/Graphs_1/</link>
+      <link>https://algo.minetest.in/Practice_Graphs/Graphs_1/</link>
       <pubDate>Sat, 24 Apr 2021 10:24:25 +0530</pubDate>
       
-      <guid>http://example.org/Practice_Graphs/Graphs_1/</guid>
+      <guid>https://algo.minetest.in/Practice_Graphs/Graphs_1/</guid>
       <description>Why we use graphs Graphs help us model a specific type of data that has some dependency and relationships.
-Eg. Facebooks friends data, Routes between cities and places (models the connectivity and distance) , Networking (connectivity), Pre-requisite of courses (knowledge and dependency), File Systems, Resource Allocation in OS (handling deadlocks).
+Eg. Facebook friends data, Routes between cities and places (models the connectivity and distance) , Networking (connectivity), Pre-requisite of courses (knowledge and dependency), File Systems, Resource Allocation in OS (handling deadlocks).
 Representation of Graphs Represented as a Nodes and edges. Nodes : data while edge represents relationships.
 Most Simplest implementation is adjacency matrix but its not memory efficient for sparse graphs.</description>
     </item>
     
     <item>
       <title>Graphs 2</title>
-      <link>http://example.org/Practice_Graphs/Graphs_2/</link>
+      <link>https://algo.minetest.in/Practice_Graphs/Graphs_2/</link>
       <pubDate>Sat, 24 Apr 2021 23:01:25 +0530</pubDate>
       
-      <guid>http://example.org/Practice_Graphs/Graphs_2/</guid>
+      <guid>https://algo.minetest.in/Practice_Graphs/Graphs_2/</guid>
       <description>Strong and Weak Connectivity These terms arise in Directed Graph.
 Weak Connectivity : Take a directed graph and convert into undirected graph and do connectivity operations on that is called as weak connectivity.
-Strong Connectivity : (A,B) are strongly connected $\iff \exist $ path b/w A &amp;amp; B.
+Strong Connectivity : (A,B) are strongly connected $\iff \exists $ path b/w A &amp;amp; B.
 ​ A &amp;ndash;&amp;gt; B and B&amp;ndash;&amp;gt;A
 Graph Cyclicity Cycle : A sequence of nodes and edges such that first and last node of sequence is same.</description>
+    </item>
+    
+    <item>
+      <title>Graphs 3</title>
+      <link>https://algo.minetest.in/Practice_Graphs/Graphs_3/</link>
+      <pubDate>Thu, 29 Apr 2021 17:16:25 +0530</pubDate>
+      
+      <guid>https://algo.minetest.in/Practice_Graphs/Graphs_3/</guid>
+      <description>Shortest Paths in Weighted Graph Weighted Graphs quantify degree of relationship between vertices.
+This weight is on edges.
+Earlier during level traversal we used to queue to get most recent insertion but now we will use priority queues. Now last in last out property now will be on the basis of weights.
+Network Delay Time
+Problem is correctly solved using MSTs
+But we will solve using above concept.
+int networkDelayTime(vector&amp;lt;vector&amp;lt;int&amp;gt;&amp;gt;&amp;amp; times, int n, int k) { // construct the graph.</description>
+    </item>
+    
+    <item>
+      <title>Graphs 4</title>
+      <link>https://algo.minetest.in/Practice_Graphs/Graphs_4/</link>
+      <pubDate>Mon, 10 May 2021 17:09:18 +0530</pubDate>
+      
+      <guid>https://algo.minetest.in/Practice_Graphs/Graphs_4/</guid>
+      <description>Disjoint Data Structures Redundant Connections
+Lets traverse input and construct graph.
+$ I = [e_1, e_2,&amp;hellip;,e_n]$ : These are edges and now we consider we have some $m$ nodes
+Now traverse $I$ and add edges to nodes and we keep checking the cycles at each addition. Every edge that is added and causes cycle is the redundant!
+So Basically problem is keeping a set of nodes and connecting them and checking the cyclicity at each addition.</description>
     </item>
     
   </channel>

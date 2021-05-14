@@ -12,7 +12,7 @@ tags = ["DSA", "practice", "graphs","connectivity","dfs"]
 
 Graphs help us model a specific type of data that has some dependency and relationships.
 
-Eg. Facebooks friends data, Routes between cities and places (models the connectivity and distance) , Networking (connectivity), Pre-requisite of courses (knowledge and dependency), File Systems, Resource Allocation in OS (handling deadlocks).
+Eg. Facebook friends data, Routes between cities and places (models the connectivity and distance) , Networking (connectivity), Pre-requisite of courses (knowledge and dependency), File Systems, Resource Allocation in OS (handling deadlocks).
 
 #### Representation of Graphs
 

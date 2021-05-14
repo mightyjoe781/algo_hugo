@@ -2,102 +2,120 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dsa on smk&#39;s Blogs</title>
-    <link>http://example.org/tags/dsa/</link>
+    <link>https://algo.minetest.in/tags/dsa/</link>
     <description>Recent content in Dsa on smk&#39;s Blogs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 12 Apr 2021 16:01:25 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 11 May 2021 17:01:25 +0530</lastBuildDate>
     
-	<atom:link href="http://example.org/tags/dsa/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://algo.minetest.in/tags/dsa/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>1. Fundamentals</title>
-      <link>http://example.org/1-Fundamentals/</link>
+      <link>https://algo.minetest.in/1-Fundamentals/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/1-Fundamentals/</guid>
+      <guid>https://algo.minetest.in/1-Fundamentals/</guid>
       <description> Fundamentals </description>
     </item>
     
     <item>
       <title>2. Data Structure</title>
-      <link>http://example.org/2-Data_Structures/</link>
+      <link>https://algo.minetest.in/2-Data_Structures/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/2-Data_Structures/</guid>
+      <guid>https://algo.minetest.in/2-Data_Structures/</guid>
       <description> Data Structures 3-Elementary Data Structure4-Abstract Data Structures5-Recursion and Trees</description>
     </item>
     
     <item>
       <title>3. Sorting</title>
-      <link>http://example.org/3-Sorting/</link>
+      <link>https://algo.minetest.in/3-Sorting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/3-Sorting/</guid>
+      <guid>https://algo.minetest.in/3-Sorting/</guid>
       <description> Sorting 6-Elementary Sorting Methods7-Quicksort8-Merging and Mergesort9-Priority Queues and Heapsort10-Radix Sorting11-Special Purpose Sorting Methods</description>
     </item>
     
     <item>
       <title>4. Searching</title>
-      <link>http://example.org/4-Seaching/</link>
+      <link>https://algo.minetest.in/4-Seaching/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/4-Seaching/</guid>
+      <guid>https://algo.minetest.in/4-Seaching/</guid>
       <description> Searching 12-Symbol Tables and Binary Search13-Balanced Trees14-Hashing15-Radix Search16-External Sorting</description>
     </item>
     
     <item>
       <title>5. Graph Algorithms</title>
-      <link>http://example.org/5-Graph_Algorithms/</link>
+      <link>https://algo.minetest.in/5-Graph_Algorithms/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/5-Graph_Algorithms/</guid>
+      <guid>https://algo.minetest.in/5-Graph_Algorithms/</guid>
       <description> Graph Algorithms 17-Graph Properties and Types18-Graph Search19-Digraphs and DAGs20-MSTs21-Shortest Paths22-Network Flows</description>
     </item>
     
     <item>
       <title>6. Strings</title>
-      <link>http://example.org/6-Strings/</link>
+      <link>https://algo.minetest.in/6-Strings/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/6-Strings/</guid>
+      <guid>https://algo.minetest.in/6-Strings/</guid>
       <description> Strings 0-Introduction1-String Sorts2-Tries3-Substring Search4-Regular Expression5-Data Compression</description>
     </item>
     
     <item>
+      <title>Problems : Basics 1</title>
+      <link>https://algo.minetest.in/Practice_Problems1/</link>
+      <pubDate>Tue, 11 May 2021 17:01:25 +0530</pubDate>
+      
+      <guid>https://algo.minetest.in/Practice_Problems1/</guid>
+      <description> Problems on Theory Predicate Framework of Binary SearchBinary Search continued ....Recursion 1Recursion 2Recursion 3Ad Hoc2 Pointers</description>
+    </item>
+    
+    <item>
       <title>Problems : Basics 2</title>
-      <link>http://example.org/Practice_Problems/</link>
+      <link>https://algo.minetest.in/Practice_Problems/</link>
       <pubDate>Mon, 12 Apr 2021 16:01:25 +0530</pubDate>
       
-      <guid>http://example.org/Practice_Problems/</guid>
+      <guid>https://algo.minetest.in/Practice_Problems/</guid>
       <description> Problems on Theory SortingLinked ListsStacksQueuesLinked ListsBinary Search TreeBST ReviewTrees-1Trees-2</description>
     </item>
     
     <item>
+      <title>Problems : Basics 3</title>
+      <link>https://algo.minetest.in/Practice_Problems2/</link>
+      <pubDate>Mon, 10 May 2021 17:01:25 +0530</pubDate>
+      
+      <guid>https://algo.minetest.in/Practice_Problems2/</guid>
+      <description> Problems on Theory Sorting</description>
+    </item>
+    
+    <item>
       <title>Problems : DP</title>
-      <link>http://example.org/Practice_DP/</link>
+      <link>https://algo.minetest.in/Practice_DP/</link>
       <pubDate>Wed, 21 Apr 2021 09:51:25 +0530</pubDate>
       
-      <guid>http://example.org/Practice_DP/</guid>
+      <guid>https://algo.minetest.in/Practice_DP/</guid>
       <description> Problems on Dynamic Programming DP 1DP 2DP 3DP 4DP 5</description>
     </item>
     
     <item>
       <title>Problems : Graphs</title>
-      <link>http://example.org/Practice_Graphs/</link>
+      <link>https://algo.minetest.in/Practice_Graphs/</link>
       <pubDate>Sat, 24 Apr 2021 10:24:25 +0530</pubDate>
       
-      <guid>http://example.org/Practice_Graphs/</guid>
-      <description> Problems on Graphs Graphs 1Graphs 2</description>
+      <guid>https://algo.minetest.in/Practice_Graphs/</guid>
+      <description> Problems on Graphs Graphs 1Graphs 2Graphs 3Graphs 4</description>
     </item>
     
     <item>
       <title>DP 1</title>
-      <link>http://example.org/Practice_DP/DP_1/</link>
+      <link>https://algo.minetest.in/Practice_DP/DP_1/</link>
       <pubDate>Wed, 21 Apr 2021 09:51:25 +0530</pubDate>
       
-      <guid>http://example.org/Practice_DP/DP_1/</guid>
+      <guid>https://algo.minetest.in/Practice_DP/DP_1/</guid>
       <description>This is long sections divided into 3 parts. Its very important for interviews.
 In recursion we say subproblems were related to the original problems does they always have to be ? Should they be in recurrence relation to each other.
 Sometimes we do not need to do that necessarily.
@@ -108,27 +126,55 @@ Climbing Stairs :</description>
     
     <item>
       <title>Graphs 1</title>
-      <link>http://example.org/Practice_Graphs/Graphs_1/</link>
+      <link>https://algo.minetest.in/Practice_Graphs/Graphs_1/</link>
       <pubDate>Sat, 24 Apr 2021 10:24:25 +0530</pubDate>
       
-      <guid>http://example.org/Practice_Graphs/Graphs_1/</guid>
+      <guid>https://algo.minetest.in/Practice_Graphs/Graphs_1/</guid>
       <description>Why we use graphs Graphs help us model a specific type of data that has some dependency and relationships.
-Eg. Facebooks friends data, Routes between cities and places (models the connectivity and distance) , Networking (connectivity), Pre-requisite of courses (knowledge and dependency), File Systems, Resource Allocation in OS (handling deadlocks).
+Eg. Facebook friends data, Routes between cities and places (models the connectivity and distance) , Networking (connectivity), Pre-requisite of courses (knowledge and dependency), File Systems, Resource Allocation in OS (handling deadlocks).
 Representation of Graphs Represented as a Nodes and edges. Nodes : data while edge represents relationships.
 Most Simplest implementation is adjacency matrix but its not memory efficient for sparse graphs.</description>
     </item>
     
     <item>
       <title>Graphs 2</title>
-      <link>http://example.org/Practice_Graphs/Graphs_2/</link>
+      <link>https://algo.minetest.in/Practice_Graphs/Graphs_2/</link>
       <pubDate>Sat, 24 Apr 2021 23:01:25 +0530</pubDate>
       
-      <guid>http://example.org/Practice_Graphs/Graphs_2/</guid>
+      <guid>https://algo.minetest.in/Practice_Graphs/Graphs_2/</guid>
       <description>Strong and Weak Connectivity These terms arise in Directed Graph.
 Weak Connectivity : Take a directed graph and convert into undirected graph and do connectivity operations on that is called as weak connectivity.
-Strong Connectivity : (A,B) are strongly connected $\iff \exist $ path b/w A &amp;amp; B.
+Strong Connectivity : (A,B) are strongly connected $\iff \exists $ path b/w A &amp;amp; B.
 ​ A &amp;ndash;&amp;gt; B and B&amp;ndash;&amp;gt;A
 Graph Cyclicity Cycle : A sequence of nodes and edges such that first and last node of sequence is same.</description>
+    </item>
+    
+    <item>
+      <title>Graphs 3</title>
+      <link>https://algo.minetest.in/Practice_Graphs/Graphs_3/</link>
+      <pubDate>Thu, 29 Apr 2021 17:16:25 +0530</pubDate>
+      
+      <guid>https://algo.minetest.in/Practice_Graphs/Graphs_3/</guid>
+      <description>Shortest Paths in Weighted Graph Weighted Graphs quantify degree of relationship between vertices.
+This weight is on edges.
+Earlier during level traversal we used to queue to get most recent insertion but now we will use priority queues. Now last in last out property now will be on the basis of weights.
+Network Delay Time
+Problem is correctly solved using MSTs
+But we will solve using above concept.
+int networkDelayTime(vector&amp;lt;vector&amp;lt;int&amp;gt;&amp;gt;&amp;amp; times, int n, int k) { // construct the graph.</description>
+    </item>
+    
+    <item>
+      <title>Graphs 4</title>
+      <link>https://algo.minetest.in/Practice_Graphs/Graphs_4/</link>
+      <pubDate>Mon, 10 May 2021 17:09:18 +0530</pubDate>
+      
+      <guid>https://algo.minetest.in/Practice_Graphs/Graphs_4/</guid>
+      <description>Disjoint Data Structures Redundant Connections
+Lets traverse input and construct graph.
+$ I = [e_1, e_2,&amp;hellip;,e_n]$ : These are edges and now we consider we have some $m$ nodes
+Now traverse $I$ and add edges to nodes and we keep checking the cycles at each addition. Every edge that is added and causes cycle is the redundant!
+So Basically problem is keeping a set of nodes and connecting them and checking the cyclicity at each addition.</description>
     </item>
     
   </channel>

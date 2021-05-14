@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>7-Quicksort on smk&#39;s Blogs</title>
-    <link>http://example.org/3-Sorting/7-Quicksort/</link>
+    <link>https://algo.minetest.in/3-Sorting/7-Quicksort/</link>
     <description>Recent content in 7-Quicksort on smk&#39;s Blogs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://example.org/3-Sorting/7-Quicksort/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://algo.minetest.in/3-Sorting/7-Quicksort/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>0-Introduction</title>
-      <link>http://example.org/3-Sorting/7-Quicksort/0-Introduction/</link>
+      <link>https://algo.minetest.in/3-Sorting/7-Quicksort/0-Introduction/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/3-Sorting/7-Quicksort/0-Introduction/</guid>
+      <guid>https://algo.minetest.in/3-Sorting/7-Quicksort/0-Introduction/</guid>
       <description>Introduction Quicksort is most widely used sorting algorithm than any other algorithm.
 Invented in 1960 by C.A.R. Hoare.
  easy to implement resource efficient in many cases  features
@@ -26,10 +26,10 @@ Performance of the quicksort is highly dependent on the input.</description>
     
     <item>
       <title>1-The Basic Algorithm</title>
-      <link>http://example.org/3-Sorting/7-Quicksort/1-The_Basic_Algorithm/</link>
+      <link>https://algo.minetest.in/3-Sorting/7-Quicksort/1-The_Basic_Algorithm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/3-Sorting/7-Quicksort/1-The_Basic_Algorithm/</guid>
+      <guid>https://algo.minetest.in/3-Sorting/7-Quicksort/1-The_Basic_Algorithm/</guid>
       <description>The Basic Algorithm Its a divide and conquer method for sorting.
 It partitions an array into two parts, then sorting parts independently.
 The crux of method is partitioning process, which rearranged the array to make the following three conditions hold :
@@ -38,10 +38,10 @@ The crux of method is partitioning process, which rearranged the array to make t
     
     <item>
       <title>2-Performance Characterstics of Quicksort</title>
-      <link>http://example.org/3-Sorting/7-Quicksort/2-Performance_Characterstics_of_Quicksort/</link>
+      <link>https://algo.minetest.in/3-Sorting/7-Quicksort/2-Performance_Characterstics_of_Quicksort/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/3-Sorting/7-Quicksort/2-Performance_Characterstics_of_Quicksort/</guid>
+      <guid>https://algo.minetest.in/3-Sorting/7-Quicksort/2-Performance_Characterstics_of_Quicksort/</guid>
       <description>Performance Characteristics of Quicksort  Quicksort uses about $\frac{N^2}{2}$ comparisons in the worst case.
  Worst case is when array is already sorted.  Above case is also worst in space as it will take $N$ recursions.
  Best case is when quicksort is when each partitioning stage divides the file exactly in half.
@@ -50,10 +50,10 @@ The crux of method is partitioning process, which rearranged the array to make t
     
     <item>
       <title>3-Stack Size</title>
-      <link>http://example.org/3-Sorting/7-Quicksort/3-Stack_Size/</link>
+      <link>https://algo.minetest.in/3-Sorting/7-Quicksort/3-Stack_Size/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/3-Sorting/7-Quicksort/3-Stack_Size/</guid>
+      <guid>https://algo.minetest.in/3-Sorting/7-Quicksort/3-Stack_Size/</guid>
       <description>Stack Size for a random file, max size of stack can be proportional to $ log N $ but stack can grow up to $N$ for a degenerate case.
 Order in which sub files are processed doesn&amp;rsquo;t affect the correct operation of the algorithm, or the time taken, but might affect the size of pushdown stack.
 The policy of putting the larger of the smaller sub files on the stack ensures that each entry on the stack is no more than one-half of the size of the one below it, so stack needs to make a room for only $\lg N $ entries.</description>
@@ -61,10 +61,10 @@ The policy of putting the larger of the smaller sub files on the stack ensures t
     
     <item>
       <title>4-Small Subfiles</title>
-      <link>http://example.org/3-Sorting/7-Quicksort/4-Small_Subfiles/</link>
+      <link>https://algo.minetest.in/3-Sorting/7-Quicksort/4-Small_Subfiles/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/3-Sorting/7-Quicksort/4-Small_Subfiles/</guid>
+      <guid>https://algo.minetest.in/3-Sorting/7-Quicksort/4-Small_Subfiles/</guid>
       <description>Small Subfiles we can change the test at the beginning of the recursive routine from a return to a call on insertion sort, as follows.
 if ( r -l &amp;lt;= M ) insertion(a, l, r);
 Here , $M$ is parameter whose exact value depends upon implementation.
@@ -74,10 +74,10 @@ A slightly easier way to handle small subfiles, which is also efficient than abo
     
     <item>
       <title>5-Median of three partitioning</title>
-      <link>http://example.org/3-Sorting/7-Quicksort/5-Median_of_three_partitioning/</link>
+      <link>https://algo.minetest.in/3-Sorting/7-Quicksort/5-Median_of_three_partitioning/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/3-Sorting/7-Quicksort/5-Median_of_three_partitioning/</guid>
+      <guid>https://algo.minetest.in/3-Sorting/7-Quicksort/5-Median_of_three_partitioning/</guid>
       <description>Median of Three Partitioning choosing a partitioning element that is more likely to divide the file near the middle improves the performance.
 There are several possibilities for choosing partitioning element
  a safe choice is to choose random element from array  then worst case will happen with small probability Example of a Probabilistic Algorithm but using a full random-number generator might be overkill for this algorithm  Another well-known way to find is to take sample of three elements form the file, then use the median of the three for the partitioning element.</description>
@@ -85,10 +85,10 @@ There are several possibilities for choosing partitioning element
     
     <item>
       <title>6-Duplicate Keys</title>
-      <link>http://example.org/3-Sorting/7-Quicksort/6-Duplicate_Keys/</link>
+      <link>https://algo.minetest.in/3-Sorting/7-Quicksort/6-Duplicate_Keys/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/3-Sorting/7-Quicksort/6-Duplicate_Keys/</guid>
+      <guid>https://algo.minetest.in/3-Sorting/7-Quicksort/6-Duplicate_Keys/</guid>
       <description>Duplicate Keys files with large numbers of duplicate sort keys arise frequently in applications.
 There is potential for improvement since quicksort operated on already sorted array does unnecessary work.
 Partition the file into three parts, one each for keys smaller than, equal to, and larger than the partitioning element.
@@ -97,10 +97,10 @@ Accomplishing this partitioning is more complicated than the two way partitionin
     
     <item>
       <title>7-Strings and Vectors</title>
-      <link>http://example.org/3-Sorting/7-Quicksort/7-Strings_and_Vectors/</link>
+      <link>https://algo.minetest.in/3-Sorting/7-Quicksort/7-Strings_and_Vectors/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/3-Sorting/7-Quicksort/7-Strings_and_Vectors/</guid>
+      <guid>https://algo.minetest.in/3-Sorting/7-Quicksort/7-Strings_and_Vectors/</guid>
       <description>Strings and Vectors we can directly use our previous implementations for strings but the problem is with the strcmp function which always takes time proportional to the number of leading characters that match.
 When using quicksort in later stages while partitioning stages of quicksort, when keys are close together, this match might be long.
 Also since algorithm is recursive so all the cost incur at the later stages of the recursion.</description>
@@ -108,10 +108,10 @@ Also since algorithm is recursive so all the cost incur at the later stages of t
     
     <item>
       <title>8-Selection</title>
-      <link>http://example.org/3-Sorting/7-Quicksort/8-Selection/</link>
+      <link>https://algo.minetest.in/3-Sorting/7-Quicksort/8-Selection/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/3-Sorting/7-Quicksort/8-Selection/</guid>
+      <guid>https://algo.minetest.in/3-Sorting/7-Quicksort/8-Selection/</guid>
       <description>Selection Finding the median of a set doesn&amp;rsquo;t require us to completely sort the array.
 Operation of finding the median is a special case of the operation of selection : finding the kth smallest of a set of numbers. Since we cannot say that a item is kth smallest without examining k-1 elements that are smaller and N-k elements that are larger, most selection algorithms can return all the k smallest elements of a file without a great deal of extra calculations.</description>
     </item>

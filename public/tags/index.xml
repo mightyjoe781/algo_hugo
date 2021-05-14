@@ -2,93 +2,192 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on smk&#39;s Blogs</title>
-    <link>http://example.org/tags/</link>
+    <link>https://algo.minetest.in/tags/</link>
     <description>Recent content in Tags on smk&#39;s Blogs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 21 Apr 2021 09:51:25 +0530</lastBuildDate>
     
-	<atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://algo.minetest.in/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>1d Dp</title>
-      <link>http://example.org/tags/1d-dp/</link>
+      <link>https://algo.minetest.in/tags/1d-dp/</link>
       <pubDate>Wed, 21 Apr 2021 09:51:25 +0530</pubDate>
       
-      <guid>http://example.org/tags/1d-dp/</guid>
+      <guid>https://algo.minetest.in/tags/1d-dp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bash</title>
+      <link>https://algo.minetest.in/tags/bash/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/tags/bash/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bins</title>
+      <link>https://algo.minetest.in/tags/bins/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/tags/bins/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Connectivity</title>
-      <link>http://example.org/tags/connectivity/</link>
+      <link>https://algo.minetest.in/tags/connectivity/</link>
       <pubDate>Sat, 24 Apr 2021 10:24:25 +0530</pubDate>
       
-      <guid>http://example.org/tags/connectivity/</guid>
+      <guid>https://algo.minetest.in/tags/connectivity/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cyclicity</title>
-      <link>http://example.org/tags/cyclicity/</link>
+      <link>https://algo.minetest.in/tags/cyclicity/</link>
       <pubDate>Sat, 24 Apr 2021 23:01:25 +0530</pubDate>
       
-      <guid>http://example.org/tags/cyclicity/</guid>
+      <guid>https://algo.minetest.in/tags/cyclicity/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Dfs</title>
-      <link>http://example.org/tags/dfs/</link>
+      <link>https://algo.minetest.in/tags/dfs/</link>
       <pubDate>Sat, 24 Apr 2021 10:24:25 +0530</pubDate>
       
-      <guid>http://example.org/tags/dfs/</guid>
+      <guid>https://algo.minetest.in/tags/dfs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Dp</title>
-      <link>http://example.org/tags/dp/</link>
+      <link>https://algo.minetest.in/tags/dp/</link>
       <pubDate>Wed, 21 Apr 2021 09:51:25 +0530</pubDate>
       
-      <guid>http://example.org/tags/dp/</guid>
+      <guid>https://algo.minetest.in/tags/dp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Dsa</title>
-      <link>http://example.org/tags/dsa/</link>
-      <pubDate>Mon, 12 Apr 2021 16:01:25 +0530</pubDate>
+      <link>https://algo.minetest.in/tags/dsa/</link>
+      <pubDate>Tue, 11 May 2021 17:01:25 +0530</pubDate>
       
-      <guid>http://example.org/tags/dsa/</guid>
+      <guid>https://algo.minetest.in/tags/dsa/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Graphs</title>
-      <link>http://example.org/tags/graphs/</link>
+      <link>https://algo.minetest.in/tags/graphs/</link>
       <pubDate>Sat, 24 Apr 2021 10:24:25 +0530</pubDate>
       
-      <guid>http://example.org/tags/graphs/</guid>
+      <guid>https://algo.minetest.in/tags/graphs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Keygen</title>
+      <link>https://algo.minetest.in/tags/keygen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/tags/keygen/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Practice</title>
-      <link>http://example.org/tags/practice/</link>
-      <pubDate>Mon, 12 Apr 2021 16:01:25 +0530</pubDate>
+      <link>https://algo.minetest.in/tags/practice/</link>
+      <pubDate>Tue, 11 May 2021 17:01:25 +0530</pubDate>
       
-      <guid>http://example.org/tags/practice/</guid>
+      <guid>https://algo.minetest.in/tags/practice/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Process</title>
+      <link>https://algo.minetest.in/tags/process/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/tags/process/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scripts</title>
+      <link>https://algo.minetest.in/tags/scripts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/tags/scripts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Setup</title>
+      <link>https://algo.minetest.in/tags/setup/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/tags/setup/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shell</title>
+      <link>https://algo.minetest.in/tags/shell/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/tags/shell/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Shortest Path</title>
-      <link>http://example.org/tags/shortest-path/</link>
+      <link>https://algo.minetest.in/tags/shortest-path/</link>
       <pubDate>Sat, 24 Apr 2021 23:01:25 +0530</pubDate>
       
-      <guid>http://example.org/tags/shortest-path/</guid>
+      <guid>https://algo.minetest.in/tags/shortest-path/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ssh</title>
+      <link>https://algo.minetest.in/tags/ssh/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/tags/ssh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Updates</title>
+      <link>https://algo.minetest.in/tags/updates/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/tags/updates/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Upgrade</title>
+      <link>https://algo.minetest.in/tags/upgrade/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/tags/upgrade/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>User</title>
+      <link>https://algo.minetest.in/tags/user/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/tags/user/</guid>
       <description></description>
     </item>
     

@@ -14,7 +14,7 @@ These terms arise in Directed Graph.
 
 Weak Connectivity : Take a directed graph and convert into undirected graph and do connectivity operations on that is called as weak connectivity.
 
-Strong Connectivity : (A,B) are strongly connected $\iff \exist $   path b/w A & B.
+Strong Connectivity : (A,B) are strongly connected $\iff \exists $   path b/w A & B.
 
 ​									A --> B and B-->A
 
@@ -321,3 +321,90 @@ Why we did this though, Read up Dijkstra's Algorithm!
 
 [As Far from Land as Possible](https://leetcode.com/problems/as-far-from-land-as-possible/)
 
+Topological Sort !
+
+[Alien Dictionary]()
+
+We can represent the problem as directed graph. Now if there is a cycle or self loops then its invalid.
+
+Vertices will be unique characters from the words.
+
+After the construction of graph we have to return topological sort of the graph!
+
+Now should we make graph explicitly. Yes indeed because topological sort requires the neighbors but we can't have neighbors through given structure of input and will cost $O(n^2)$ to every letter.
+
+We used the unordered_set just to quickly check whether there is a edge already there.
+
+````c++
+string alienOrder(vector<string>& words) {
+    // construct the graph
+    // nodes - letters
+    // a->b iff a < b
+    // Adjacency list.
+    unordered_map<char, unordered_sets<char>> graph;
+    int n = words.size();
+    unordered_map<char, int> indegree;
+    // preprocessing step for intializing to empty value
+    // if there is some vertex that doesn't get processed 
+    // while graph construction i.e. stand alone vertices
+    for(int i = 0; i < n; i++){
+        for(int k = 0; k < words[i].size(); k++) {
+            if(graph.find(words[i][k]) == graph.end()) {
+                graph[words[i][k]] = {};
+                indegree[words[i][k]] = 0;
+            }
+        }
+    }
+    // Graph Construction.
+    for(int i = 0; i < n; i++){
+        for(int j = i+1; j < n; j++){
+            // equal words...
+            if(words[i] == words[j])
+                continue;
+            
+			int k = 0, l = 0;
+            while(k < words[i].size() && l < words[j].size()
+                 && words[i][k] == words[j][l]){
+                k++;l++;
+            }
+            // words[j] is a prefix of words[i].
+            if(l == words[j].size())
+                return "";
+            
+            if(k == words[i].size())
+                continue;
+            
+            if(graph[words[i][k]].find(words[j][l]) == 
+                                       graph[words[i][k]].end()) {
+                // undirected graph!
+                 graph[words[i][k]].push_back(words[j][l]);
+                indegree[words[j][l]]++;
+            }
+           
+        }
+    }
+   	// Topological sort
+    queue<char> q;
+    
+    // Initialize the queue
+    for(const auto& entry:indegree){
+        if(entry.second == 0)
+            q.push(entry.first);
+    }
+    while(!q.empty()){
+        char ch = q.front();
+        q.pop();
+        res+= q;
+        for(const auto& nbrs: graph[ch]){
+            indegree[nbrs]--;
+            if(indegree[nbrs] == 0)
+                q.push(nbrs);
+        }
+    }
+    return res.size() == graph.size() ? res : "";
+}
+````
+
+Improvements : We need to check only consecutive words to create graph.
+
+Because graph captures transitive relation by the fact input is sorted in alien dictionary implying word $ a, b, c$ in order mean $a < b$ and $ b < c$ but that directly implies $ a < c $.

@@ -2,50 +2,50 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>14-Hashing on smk&#39;s Blogs</title>
-    <link>http://example.org/4-Seaching/14-Hashing/</link>
+    <link>https://algo.minetest.in/4-Seaching/14-Hashing/</link>
     <description>Recent content in 14-Hashing on smk&#39;s Blogs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://example.org/4-Seaching/14-Hashing/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://algo.minetest.in/4-Seaching/14-Hashing/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>1-Hashing Functions</title>
-      <link>http://example.org/4-Seaching/14-Hashing/1_Hashing_Functions/</link>
+      <link>https://algo.minetest.in/4-Seaching/14-Hashing/1_Hashing_Functions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/4-Seaching/14-Hashing/1_Hashing_Functions/</guid>
+      <guid>https://algo.minetest.in/4-Seaching/14-Hashing/1_Hashing_Functions/</guid>
       <description>Hashing The search algorithms that we have been considering are based on abstract comparison operation. A significant exception to this assertion is the key-indexed search method.
 A extension of that method is hashing where keys don&amp;rsquo;t have the fortuitous property of small range on then. The end result is a complete different approach to search from the comparison-based methods rather than navigating through dictionary data structures by comparing search keys with keys in items, we try to reference search keys with keys in items, we try to reference items in a table directly by doing arithmetic operations to transform keys into table addresses.</description>
     </item>
     
     <item>
       <title>2 Separate Chaining</title>
-      <link>http://example.org/4-Seaching/14-Hashing/2_Separate_Chaining/</link>
+      <link>https://algo.minetest.in/4-Seaching/14-Hashing/2_Separate_Chaining/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/4-Seaching/14-Hashing/2_Separate_Chaining/</guid>
+      <guid>https://algo.minetest.in/4-Seaching/14-Hashing/2_Separate_Chaining/</guid>
       <description>Separate Chaining Second component of hashing algorithm is to decide how to handle the case when two keys hash to the same address. Most straightforward method is to build for each table address, a linked list of the items whose keys hash to that address. Rather then maintaining a single list, we maintain M lists.
 This method is traditionally called separate chaining because items that collide are chained together in separate linked list.</description>
     </item>
     
     <item>
       <title>3-Linear Probing</title>
-      <link>http://example.org/4-Seaching/14-Hashing/3_Linear_Probing/</link>
+      <link>https://algo.minetest.in/4-Seaching/14-Hashing/3_Linear_Probing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/4-Seaching/14-Hashing/3_Linear_Probing/</guid>
+      <guid>https://algo.minetest.in/4-Seaching/14-Hashing/3_Linear_Probing/</guid>
       <description>Linear Probing If we can estimate in advance the number of elements to be put into the hash table and have enough contiguous memory available to hold all the keys with some room to spare, then it is probably not worthwhile to use any links at all in the hash table.
 Several methods have been devised that store N items in a table of size M&amp;gt;N, relying on empty places in the table to help with collision resolution.</description>
     </item>
     
     <item>
       <title>4-Double Hashing</title>
-      <link>http://example.org/4-Seaching/14-Hashing/4_Double_Hashing/</link>
+      <link>https://algo.minetest.in/4-Seaching/14-Hashing/4_Double_Hashing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/4-Seaching/14-Hashing/4_Double_Hashing/</guid>
+      <guid>https://algo.minetest.in/4-Seaching/14-Hashing/4_Double_Hashing/</guid>
       <description>Double Hashing Clustering makes probing run slowly for nearly full tables. There is an easy way to virtually eliminate the clustering problem : double hashing.
 The basic strategy is the same as for linear probing the only difference is that instead of examining each successive table position following a collision, we use a second has function to get a fixed increment to use for the probe sequence.
 Second hash function must be chosen with some care.</description>
@@ -53,20 +53,20 @@ Second hash function must be chosen with some care.</description>
     
     <item>
       <title>5-Dynamic Hash Tables</title>
-      <link>http://example.org/4-Seaching/14-Hashing/5_Dynamic_Hash_Tables/</link>
+      <link>https://algo.minetest.in/4-Seaching/14-Hashing/5_Dynamic_Hash_Tables/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/4-Seaching/14-Hashing/5_Dynamic_Hash_Tables/</guid>
+      <guid>https://algo.minetest.in/4-Seaching/14-Hashing/5_Dynamic_Hash_Tables/</guid>
       <description>Dynamic Hash Tables As the number of keys in a hash table increases, search performance degrades.
 With separate chaining, the search time increases gradually-when the number of keys in the table doubles, the search time doubles. The same is true of open addressing methods linear probing and double hashing for sparse tables but cost increases as the table fills up and worse we reach a point where no more keys can be inserted at all While in Trees this cost increases slightly whenever the number of nodes in the tree doubles.</description>
     </item>
     
     <item>
       <title>6-Perspective</title>
-      <link>http://example.org/4-Seaching/14-Hashing/6_Perspective/</link>
+      <link>https://algo.minetest.in/4-Seaching/14-Hashing/6_Perspective/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/4-Seaching/14-Hashing/6_Perspective/</guid>
+      <guid>https://algo.minetest.in/4-Seaching/14-Hashing/6_Perspective/</guid>
       <description>Perspective All methods can reduce the symbol table search and insert function to constant-time operations and all are useful for a broad variety of application.
 Roughly, we ca characterize the three major methods (linear probing, double hashing , and separate chaining):
 Linear probing is fastest of three, double hashing makes most efficient use of memory and separate chaining is easiest to implement and deploy.

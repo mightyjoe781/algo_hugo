@@ -32,7 +32,9 @@ We typically use graph-search function that performs these steps until all of th
 - Find an unmarked vertex (a start vertex)
 - Visit (and mark as visited) all the vertices in the connected component that contains the start vertex.
 
-**Program 18.3 Derived class for depth-first search**
+**Program 18.3 Derived class for depth-first search for computing a spanning forest from SEARCH base class of 18.2 **
+
+private vector `st` here holds a parent-link representation of tree that we initialize in the constructor. So basically this allows anyone know the parent of any vertex easily.
 
 ````c++
 template <class Graph>

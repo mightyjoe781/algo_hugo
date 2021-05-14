@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cyclicity on smk&#39;s Blogs</title>
-    <link>http://example.org/tags/cyclicity/</link>
+    <link>https://algo.minetest.in/tags/cyclicity/</link>
     <description>Recent content in Cyclicity on smk&#39;s Blogs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 24 Apr 2021 23:01:25 +0530</lastBuildDate>
     
-	<atom:link href="http://example.org/tags/cyclicity/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://algo.minetest.in/tags/cyclicity/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Graphs 2</title>
-      <link>http://example.org/Practice_Graphs/Graphs_2/</link>
+      <link>https://algo.minetest.in/Practice_Graphs/Graphs_2/</link>
       <pubDate>Sat, 24 Apr 2021 23:01:25 +0530</pubDate>
       
-      <guid>http://example.org/Practice_Graphs/Graphs_2/</guid>
+      <guid>https://algo.minetest.in/Practice_Graphs/Graphs_2/</guid>
       <description>Strong and Weak Connectivity These terms arise in Directed Graph.
 Weak Connectivity : Take a directed graph and convert into undirected graph and do connectivity operations on that is called as weak connectivity.
-Strong Connectivity : (A,B) are strongly connected $\iff \exist $ path b/w A &amp;amp; B.
+Strong Connectivity : (A,B) are strongly connected $\iff \exists $ path b/w A &amp;amp; B.
 ​ A &amp;ndash;&amp;gt; B and B&amp;ndash;&amp;gt;A
 Graph Cyclicity Cycle : A sequence of nodes and edges such that first and last node of sequence is same.</description>
     </item>

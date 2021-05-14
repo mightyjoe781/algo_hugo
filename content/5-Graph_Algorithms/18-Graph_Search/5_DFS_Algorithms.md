@@ -118,3 +118,6 @@ template <class Graph> class BI
 };
 ````
 
+// we start of by storing coloring status as -1 (no color) in `vc`.
+
+Then we start coloring each vertex with color `(c+1)%2` and its neighbor if not colored, with same recursive call but with color `c%2` now if we call coloring function on first if then it must recursively color the vertex at some point and if it painted the edge then we check the color whether its colored alternately or not :). 

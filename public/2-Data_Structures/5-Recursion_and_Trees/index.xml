@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>5-Recursion and Trees on smk&#39;s Blogs</title>
-    <link>http://example.org/2-Data_Structures/5-Recursion_and_Trees/</link>
+    <link>https://algo.minetest.in/2-Data_Structures/5-Recursion_and_Trees/</link>
     <description>Recent content in 5-Recursion and Trees on smk&#39;s Blogs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://example.org/2-Data_Structures/5-Recursion_and_Trees/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://algo.minetest.in/2-Data_Structures/5-Recursion_and_Trees/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>1-Recursive Algorithms</title>
-      <link>http://example.org/2-Data_Structures/5-Recursion_and_Trees/1-Recursive_Algorithms/</link>
+      <link>https://algo.minetest.in/2-Data_Structures/5-Recursion_and_Trees/1-Recursive_Algorithms/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/2-Data_Structures/5-Recursion_and_Trees/1-Recursive_Algorithms/</guid>
+      <guid>https://algo.minetest.in/2-Data_Structures/5-Recursion_and_Trees/1-Recursive_Algorithms/</guid>
       <description>Recursive Algorithms Concept of recursion is Fundamental in mathematics. A recursion program is one that calls itself with a termination condition.
  Trees are data structures which are recursively defined. Definition- A recursive algorithm is one that solves a program by solving one or more smaller instances of the same problem.  Factorial function (recursive implementation
 int factorial(int N){ if (N == 0) return 1; return N*factorial(N-1); }   Its always possible to convert a recursive program into a non-recursive one.</description>
@@ -23,20 +23,20 @@ int factorial(int N){ if (N == 0) return 1; return N*factorial(N-1); }   Its alw
     
     <item>
       <title>2-Divide and Conquer</title>
-      <link>http://example.org/2-Data_Structures/5-Recursion_and_Trees/2-Divide_and_Conquer/</link>
+      <link>https://algo.minetest.in/2-Data_Structures/5-Recursion_and_Trees/2-Divide_and_Conquer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/2-Data_Structures/5-Recursion_and_Trees/2-Divide_and_Conquer/</guid>
+      <guid>https://algo.minetest.in/2-Data_Structures/5-Recursion_and_Trees/2-Divide_and_Conquer/</guid>
       <description>Divide and Conquer Divide and Conquer to find the maximum
  function divides array into two halves and then finds the maximum  Item max(Item a[],int l, int r){ if (l==r) return a[l]; item m = (l+r)/2; Item u = max(a,l,m); Item v = max(a,m+1,r); if(u&amp;gt;v) return u; else return v; }   Property - A recursive function that divides a problem of size N into two independent (non empty) parts that it solves recursively calls itself less than N times.</description>
     </item>
     
     <item>
       <title>3-Dynamic Programming</title>
-      <link>http://example.org/2-Data_Structures/5-Recursion_and_Trees/3-Dynamic_Programming/</link>
+      <link>https://algo.minetest.in/2-Data_Structures/5-Recursion_and_Trees/3-Dynamic_Programming/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/2-Data_Structures/5-Recursion_and_Trees/3-Dynamic_Programming/</guid>
+      <guid>https://algo.minetest.in/2-Data_Structures/5-Recursion_and_Trees/3-Dynamic_Programming/</guid>
       <description>Dynamic Programming An essential characteristic of divide-and-conquer algorithms was that they partition into independent subproblems. When the subproblems are not independent, the situation is more complicated and simple algorithms can take up a lot of time to run.
 Sometimes these computation can take up exponential time.
 Classic Example is Fibonacci Sequence whose recursive implementation requires more time and most in efficient thing is that we are calculating already calculated recursive call again and again wasting time.</description>
@@ -44,10 +44,10 @@ Classic Example is Fibonacci Sequence whose recursive implementation requires mo
     
     <item>
       <title>4-Trees</title>
-      <link>http://example.org/2-Data_Structures/5-Recursion_and_Trees/4-Trees/</link>
+      <link>https://algo.minetest.in/2-Data_Structures/5-Recursion_and_Trees/4-Trees/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/2-Data_Structures/5-Recursion_and_Trees/4-Trees/</guid>
+      <guid>https://algo.minetest.in/2-Data_Structures/5-Recursion_and_Trees/4-Trees/</guid>
       <description>Trees Why trees ?
  trees describe the dynamic properties of algorithms we build and use explicit data structures that are concrete realizations of trees.  Types of Trees
  Trees Rooted trees Ordered trees M-ary trees and binary trees  Tree A tree is nonempty collection of vertices and edges that satisfies certain requirement.
@@ -56,10 +56,10 @@ Vertex is simple object ( aka node) that can have a name and carry other associa
     
     <item>
       <title>5-Properties of trees</title>
-      <link>http://example.org/2-Data_Structures/5-Recursion_and_Trees/5-Properties_of_trees/</link>
+      <link>https://algo.minetest.in/2-Data_Structures/5-Recursion_and_Trees/5-Properties_of_trees/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/2-Data_Structures/5-Recursion_and_Trees/5-Properties_of_trees/</guid>
+      <guid>https://algo.minetest.in/2-Data_Structures/5-Recursion_and_Trees/5-Properties_of_trees/</guid>
       <description>Mathematical properties of Binary Trees Property:1 A binary tree with N internal nodes has N+1 external nodes
 Property:2 A binary tree with N internal nodes has 2N links: N-1 links to internal nodes and N+1 links to external nodes
 Note : performance characterstics of a lot of algorithms depends not only on number of nodes in associated trees, but on various structural properties.
@@ -68,10 +68,10 @@ Definition *The level of a node in a tree is one higher that the level of its pa
     
     <item>
       <title>6-Tree Traversal</title>
-      <link>http://example.org/2-Data_Structures/5-Recursion_and_Trees/6-Tree_Traversal/</link>
+      <link>https://algo.minetest.in/2-Data_Structures/5-Recursion_and_Trees/6-Tree_Traversal/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/2-Data_Structures/5-Recursion_and_Trees/6-Tree_Traversal/</guid>
+      <guid>https://algo.minetest.in/2-Data_Structures/5-Recursion_and_Trees/6-Tree_Traversal/</guid>
       <description>Tree Traversal This function takes a link to a trees as an argument and calls function visit with each of the nodes in the tree as arguments.
 Recursive tree traversal
 void traverse(link h, void visit(link)){ if(h==0) return; visit(h); traverse(h-&amp;gt;l,visit); traverse(h-&amp;gt;r,visit); }  There can be three order in which we can traverse a node :
@@ -80,10 +80,10 @@ void traverse(link h, void visit(link)){ if(h==0) return; visit(h); traverse(h-&
     
     <item>
       <title>7-Recursive Binary TreeAlgo</title>
-      <link>http://example.org/2-Data_Structures/5-Recursion_and_Trees/7-Recursive_Binary_TreeAlgo/</link>
+      <link>https://algo.minetest.in/2-Data_Structures/5-Recursion_and_Trees/7-Recursive_Binary_TreeAlgo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/2-Data_Structures/5-Recursion_and_Trees/7-Recursive_Binary_TreeAlgo/</guid>
+      <guid>https://algo.minetest.in/2-Data_Structures/5-Recursion_and_Trees/7-Recursive_Binary_TreeAlgo/</guid>
       <description>Recursive Binary-Tree Algorithms Computation of tree Parameters
 int count(link h){ if(h==0) return 0; return count(h-&amp;gt;l) + count(h-&amp;gt;r)+1; } int height(link h){ if(h==0) return -1; int u = height(h-&amp;gt;l), int v = height(h-&amp;gt;r); if(u&amp;gt;v) return u+1; else return v+1; }  Quick Tree Print function
 void printnode(Item x,int h){ for (int i=0;i&amp;lt;h;i++) cout&amp;lt;&amp;lt;&amp;quot; &amp;quot;; cout&amp;lt;&amp;lt;x&amp;lt;&amp;lt;endl; } void show(link t,int h){ if(t==0) { printnode(&#39;*&#39;,h); return;} show(t-&amp;gt;r,h+1); printnode(t-&amp;gt;item,h); show(t-&amp;gt;l,h+1); }  Find the maximum by building a tournament</description>
@@ -91,10 +91,10 @@ void printnode(Item x,int h){ for (int i=0;i&amp;lt;h;i++) cout&amp;lt;&amp;lt;&
     
     <item>
       <title>8-Graph Traversal</title>
-      <link>http://example.org/2-Data_Structures/5-Recursion_and_Trees/8-Graph_Traversal/</link>
+      <link>https://algo.minetest.in/2-Data_Structures/5-Recursion_and_Trees/8-Graph_Traversal/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/2-Data_Structures/5-Recursion_and_Trees/8-Graph_Traversal/</guid>
+      <guid>https://algo.minetest.in/2-Data_Structures/5-Recursion_and_Trees/8-Graph_Traversal/</guid>
       <description>Graph Traversal we will study DFS here which is direct generalization of tree-traversal methods that we considered as of now. It also serves basic algorithm for processing graph
 Starting at any node v , we
  Visit v (recursively) visit each( unvisited) node attached to v.  if graph is connected we will eventually reach all node

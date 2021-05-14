@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>15-Radix Search on smk&#39;s Blogs</title>
-    <link>http://example.org/4-Seaching/15-Radix_Search/</link>
+    <link>https://algo.minetest.in/4-Seaching/15-Radix_Search/</link>
     <description>Recent content in 15-Radix Search on smk&#39;s Blogs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://example.org/4-Seaching/15-Radix_Search/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://algo.minetest.in/4-Seaching/15-Radix_Search/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>1-Digital Search trees</title>
-      <link>http://example.org/4-Seaching/15-Radix_Search/1_Digital_search_trees/</link>
+      <link>https://algo.minetest.in/4-Seaching/15-Radix_Search/1_Digital_search_trees/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/4-Seaching/15-Radix_Search/1_Digital_search_trees/</guid>
+      <guid>https://algo.minetest.in/4-Seaching/15-Radix_Search/1_Digital_search_trees/</guid>
       <description>Radix Search Radix Search Methods, operate in analogous to radix-sorting methods and are quite useful when pieces of search keys are accessible.
 Depending on the context a key might a word (a fixed-length sequence of bytes) or a string (a variable-length sequence of bytes). We treat keys that are words as numbers in base R number system for various values of R (radix) and work with individual digits of the number.</description>
     </item>
     
     <item>
       <title>2-Tries</title>
-      <link>http://example.org/4-Seaching/15-Radix_Search/2_Tries/</link>
+      <link>https://algo.minetest.in/4-Seaching/15-Radix_Search/2_Tries/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/4-Seaching/15-Radix_Search/2_Tries/</guid>
+      <guid>https://algo.minetest.in/4-Seaching/15-Radix_Search/2_Tries/</guid>
       <description>Tries It is based on the same search methods that is driven by bits of keys but it also keeps keys in the tree in order. So we can support recursive implementation of sort and other symbol-table function as we did for BSTs.
 The idea is to store keys only at the bottom of the tree, in leaf nodes. The resulting data structure has number of useful properties and serves as the basis for several effective search algorithms.</description>
     </item>
     
     <item>
       <title>3-Patricia_Tries</title>
-      <link>http://example.org/4-Seaching/15-Radix_Search/3_Patricia_Tries/</link>
+      <link>https://algo.minetest.in/4-Seaching/15-Radix_Search/3_Patricia_Tries/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/4-Seaching/15-Radix_Search/3_Patricia_Tries/</guid>
+      <guid>https://algo.minetest.in/4-Seaching/15-Radix_Search/3_Patricia_Tries/</guid>
       <description>Patricia Tries Tries search have 2 inconvenient flaws.
  the one-way branching leads to creation of extra nodes in trie. there are two different types of nodes in the trie, which leads to complications.  In 1968, Morrison discovered a way to avoid these problems, in a method he called Patricia. (&amp;ldquo;practical algorithm to retrieve information coded in alphanumeric&amp;rdquo;)
 Like DSTs, Patricia tries allow search for N keys in a tree with just N nodes; like tries, they require only about $\lg N$ bit comparisons and one full key comparison per search, and they support other ADT operations.</description>
@@ -43,20 +43,20 @@ Like DSTs, Patricia tries allow search for N keys in a tree with just N nodes; l
     
     <item>
       <title>4-Multiway Tries and TSTs</title>
-      <link>http://example.org/4-Seaching/15-Radix_Search/4_Multiway_Tries_and_TSTs/</link>
+      <link>https://algo.minetest.in/4-Seaching/15-Radix_Search/4_Multiway_Tries_and_TSTs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/4-Seaching/15-Radix_Search/4_Multiway_Tries_and_TSTs/</guid>
+      <guid>https://algo.minetest.in/4-Seaching/15-Radix_Search/4_Multiway_Tries_and_TSTs/</guid>
       <description>Multiway Tries and TSTs Just like radix sort we could examine r bits at a time in radix search to get a performance gain of r times but its comes with a cost of using tree nodes with $R = 2^r$ links, and can lead to space wastage.
 In binary tries we had 2 links(for 0 bit and 1 bit) for 1 bit comparison, similarly we now need the $2^r$ links for $r$ bits comparison.</description>
     </item>
     
     <item>
       <title>5-TextStrings and Index algorithms</title>
-      <link>http://example.org/4-Seaching/15-Radix_Search/5_TextStrings_and_Index_algorithms/</link>
+      <link>https://algo.minetest.in/4-Seaching/15-Radix_Search/5_TextStrings_and_Index_algorithms/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/4-Seaching/15-Radix_Search/5_TextStrings_and_Index_algorithms/</guid>
+      <guid>https://algo.minetest.in/4-Seaching/15-Radix_Search/5_TextStrings_and_Index_algorithms/</guid>
       <description>Text-String-Index Algorithms The purpose of search here is to determine whether or not a search key is a prefix of one of the keys in the index, which is same as finding whether search key appears somewhere in the text strings.
 A search tree that is built from keys defined by string pointers into a text string is called a suffix tree. We can use any algorithm that allows variable key indexing.</description>
     </item>

@@ -2,56 +2,56 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>16-External Sorting on smk&#39;s Blogs</title>
-    <link>http://example.org/4-Seaching/16-External_Sorting/</link>
+    <link>https://algo.minetest.in/4-Seaching/16-External_Sorting/</link>
     <description>Recent content in 16-External Sorting on smk&#39;s Blogs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://example.org/4-Seaching/16-External_Sorting/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://algo.minetest.in/4-Seaching/16-External_Sorting/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>1 Rules of Game</title>
-      <link>http://example.org/4-Seaching/16-External_Sorting/1_Rules_of_Game/</link>
+      <link>https://algo.minetest.in/4-Seaching/16-External_Sorting/1_Rules_of_Game/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/4-Seaching/16-External_Sorting/1_Rules_of_Game/</guid>
+      <guid>https://algo.minetest.in/4-Seaching/16-External_Sorting/1_Rules_of_Game/</guid>
       <description></description>
     </item>
     
     <item>
       <title>2 Indexed Sequential Access</title>
-      <link>http://example.org/4-Seaching/16-External_Sorting/2_Indexed_Sequential_Access/</link>
+      <link>https://algo.minetest.in/4-Seaching/16-External_Sorting/2_Indexed_Sequential_Access/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/4-Seaching/16-External_Sorting/2_Indexed_Sequential_Access/</guid>
+      <guid>https://algo.minetest.in/4-Seaching/16-External_Sorting/2_Indexed_Sequential_Access/</guid>
       <description></description>
     </item>
     
     <item>
       <title>3 B Trees</title>
-      <link>http://example.org/4-Seaching/16-External_Sorting/3_B_Trees/</link>
+      <link>https://algo.minetest.in/4-Seaching/16-External_Sorting/3_B_Trees/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/4-Seaching/16-External_Sorting/3_B_Trees/</guid>
+      <guid>https://algo.minetest.in/4-Seaching/16-External_Sorting/3_B_Trees/</guid>
       <description></description>
     </item>
     
     <item>
       <title>4 Extendible Hashing</title>
-      <link>http://example.org/4-Seaching/16-External_Sorting/4_Extendible_Hashing/</link>
+      <link>https://algo.minetest.in/4-Seaching/16-External_Sorting/4_Extendible_Hashing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/4-Seaching/16-External_Sorting/4_Extendible_Hashing/</guid>
+      <guid>https://algo.minetest.in/4-Seaching/16-External_Sorting/4_Extendible_Hashing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>5-Perspective</title>
-      <link>http://example.org/4-Seaching/16-External_Sorting/5_Perspective/</link>
+      <link>https://algo.minetest.in/4-Seaching/16-External_Sorting/5_Perspective/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/4-Seaching/16-External_Sorting/5_Perspective/</guid>
+      <guid>https://algo.minetest.in/4-Seaching/16-External_Sorting/5_Perspective/</guid>
       <description></description>
     </item>
     

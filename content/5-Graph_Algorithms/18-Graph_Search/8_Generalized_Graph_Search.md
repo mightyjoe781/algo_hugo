@@ -14,7 +14,7 @@ Starting with a self-loop to a start vertex on the fringe and an empty tree, per
 
 This general method may not be as efficient as we would like because the fringe might become cluttered up with edges that points to vertices that are moved to the tree during the time that the edge is on the fringe.
 
-FIFO queue avoid it by making destination vertices when we put edge son queue. We ignore edges to fringe vertices because we know that they will never be used. The old ones get off the queue before the new one does.
+FIFO queue avoid it by making destination vertices when we put edge is on queue. We ignore edges to fringe vertices because we know that they will never be used. The old ones get off the queue before the new one does.
 
 For stack implementation, we want opposite : when a edge is to be added to fringe that has the same destination vertex as one already there, we know that the *old* edge will never be used, because the new one will come off the stack before the old one.
 
@@ -93,4 +93,3 @@ class GQ
 All generalized graph-searching algorithm examine each edge just once and take extra space proportional to V in worst case; they do differ, however, in some performance measures.
 
 ![image-20210113185747705](/8_Generalized_Graph_Search.assets/image-20210113185747705.png)
-

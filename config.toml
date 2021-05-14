@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://algo.minetest.in/"
 languageCode = "en-us"
 name = "<i class = 'fas fa-tags'></i> Tags"
 title = "smk's Blogs"

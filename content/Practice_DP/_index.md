@@ -3,7 +3,7 @@
 Title = "Problems : DP"
 chapter = true
 
-weight = 9
+weight = 10
 
 tags = ["DSA", "practice", "DP"]
 

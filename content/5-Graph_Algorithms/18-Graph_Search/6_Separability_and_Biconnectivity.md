@@ -67,3 +67,5 @@ This requirement that the paths be disjoint is what distinguishes biconnectivity
 
 **Definition 18.5** *A graph is **k-edge connected** if there are at least $k$* edge-disjoint paths connecting every pair of vertices in the graph that need to be removed to separate it into two pieces.
 
+Problem on articulation point : [Critical Connection](https://leetcode.com/problems/critical-connections-in-a-network/)
+
