@@ -1,23 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Graphs on smk&#39;s Blogs</title>
+    <title>graphs on smk&#39;s Blogs</title>
     <link>https://algo.minetest.in/tags/graphs/</link>
-    <description>Recent content in Graphs on smk&#39;s Blogs</description>
+    <description>Recent content in graphs on smk&#39;s Blogs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 24 Apr 2021 10:24:25 +0530</lastBuildDate>
-    
-	<atom:link href="https://algo.minetest.in/tags/graphs/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 10 May 2021 17:09:18 +0530</lastBuildDate><atom:link href="https://algo.minetest.in/tags/graphs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Problems : Graphs</title>
       <link>https://algo.minetest.in/Practice_Graphs/</link>
-      <pubDate>Sat, 24 Apr 2021 10:24:25 +0530</pubDate>
+      <pubDate>Mon, 10 May 2021 17:09:18 +0530</pubDate>
       
       <guid>https://algo.minetest.in/Practice_Graphs/</guid>
-      <description> Problems on Graphs Graphs 1Graphs 2Graphs 3Graphs 4</description>
+      <description>Problems on Graphs Graphs 1Graphs 2Graphs 3Graphs 4</description>
     </item>
     
     <item>
@@ -41,7 +37,7 @@ Most Simplest implementation is adjacency matrix but its not memory efficient fo
       <description>Strong and Weak Connectivity These terms arise in Directed Graph.
 Weak Connectivity : Take a directed graph and convert into undirected graph and do connectivity operations on that is called as weak connectivity.
 Strong Connectivity : (A,B) are strongly connected $\iff \exists $ path b/w A &amp;amp; B.
-​ A &amp;ndash;&amp;gt; B and B&amp;ndash;&amp;gt;A
+​	A &amp;ndash;&amp;gt; B and B&amp;ndash;&amp;gt;A
 Graph Cyclicity Cycle : A sequence of nodes and edges such that first and last node of sequence is same.</description>
     </item>
     

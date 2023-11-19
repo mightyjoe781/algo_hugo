@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Problems : DP on smk&#39;s Blogs</title>
@@ -6,11 +6,7 @@
     <description>Recent content in Problems : DP on smk&#39;s Blogs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 21 Apr 2021 09:51:25 +0530</lastBuildDate>
-    
-	<atom:link href="https://algo.minetest.in/Practice_DP/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 22 Apr 2021 22:54:25 +0530</lastBuildDate><atom:link href="https://algo.minetest.in/Practice_DP/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>DP 1</title>
       <link>https://algo.minetest.in/Practice_DP/DP_1/</link>
@@ -46,8 +42,8 @@ Now lets try to connect to original subproblem.</description>
       <guid>https://algo.minetest.in/Practice_DP/DP_3/</guid>
       <description>LIS ( Longest Increasing Subsequence) We were looking at subarrays till last article. now its subsequence (its not supposed to contiguous instead it maintains order of appearance )
  for every $s_i$ : LIS ending at i  res = max{$s_i$}
- now how to find the $s_i$ &amp;lt;- Length of LIS ending at $i$  at any $jA[j]$ we can extend the subsequence
- $Si = 1 + \text{max}{j\le i} { S_j } $ and $A[i]&amp;gt;A[j]$  Checking DP</description>
+now how to find the $s_i$ &amp;lt;- Length of LIS ending at $i$  at any $j&amp;lt;i$ if $A[i]&amp;gt;A[j]$ we can extend the subsequence
+$ S_i = 1 + max_{j\le i} {S_j} $ and $A[i]&amp;gt;A[j]$  Checking DP</description>
     </item>
     
     <item>
@@ -58,8 +54,8 @@ Now lets try to connect to original subproblem.</description>
       <guid>https://algo.minetest.in/Practice_DP/DP_4/</guid>
       <description>2D DP Target Sum Cue : DP/DnC , as there is counting problem.
 Let&amp;rsquo;s decide the criteria of splitting the set
-Splitting the set into 2 components , set 1 contains sum with s1 in positive sign
-another s2 with s1 in negative.
+Splitting the set into 2 components , set s1 contains sum with A[0] in positive sign
+another set s2 with A[0] in negative sign.
 $S_1 $ : Number of ways to make target-A[0] from A[1,&amp;hellip; n-1]
 $S_2 $ : Number of ways to make target+A[0] from A[1,&amp;hellip; n-1]
 Mathematical Representation of problem</description>

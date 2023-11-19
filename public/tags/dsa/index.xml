@@ -1,23 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Dsa on smk&#39;s Blogs</title>
+    <title>dsa on smk&#39;s Blogs</title>
     <link>https://algo.minetest.in/tags/dsa/</link>
-    <description>Recent content in Dsa on smk&#39;s Blogs</description>
+    <description>Recent content in dsa on smk&#39;s Blogs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 11 May 2021 17:01:25 +0530</lastBuildDate>
-    
-	<atom:link href="https://algo.minetest.in/tags/dsa/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 10 May 2021 17:09:18 +0530</lastBuildDate><atom:link href="https://algo.minetest.in/tags/dsa/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>1. Fundamentals</title>
       <link>https://algo.minetest.in/1-Fundamentals/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://algo.minetest.in/1-Fundamentals/</guid>
-      <description> Fundamentals </description>
+      <description>Fundamentals </description>
     </item>
     
     <item>
@@ -26,7 +22,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://algo.minetest.in/2-Data_Structures/</guid>
-      <description> Data Structures 3-Elementary Data Structure4-Abstract Data Structures5-Recursion and Trees</description>
+      <description>Data Structures 3-Elementary Data Structure4-Abstract Data Structures5-Recursion and Trees</description>
     </item>
     
     <item>
@@ -35,7 +31,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://algo.minetest.in/3-Sorting/</guid>
-      <description> Sorting 6-Elementary Sorting Methods7-Quicksort8-Merging and Mergesort9-Priority Queues and Heapsort10-Radix Sorting11-Special Purpose Sorting Methods</description>
+      <description>Sorting 6-Elementary Sorting Methods7-Quicksort8-Merging and Mergesort9-Priority Queues and Heapsort10-Radix Sorting11-Special Purpose Sorting Methods</description>
     </item>
     
     <item>
@@ -44,7 +40,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://algo.minetest.in/4-Seaching/</guid>
-      <description> Searching 12-Symbol Tables and Binary Search13-Balanced Trees14-Hashing15-Radix Search16-External Sorting</description>
+      <description>Searching 12-Symbol Tables and Binary Search13-Balanced Trees14-Hashing15-Radix Search16-External Sorting</description>
     </item>
     
     <item>
@@ -53,7 +49,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://algo.minetest.in/5-Graph_Algorithms/</guid>
-      <description> Graph Algorithms 17-Graph Properties and Types18-Graph Search19-Digraphs and DAGs20-MSTs21-Shortest Paths22-Network Flows</description>
+      <description>Graph Algorithms 17-Graph Properties and Types18-Graph Search19-Digraphs and DAGs20-MSTs21-Shortest Paths22-Network Flows</description>
     </item>
     
     <item>
@@ -62,52 +58,52 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://algo.minetest.in/6-Strings/</guid>
-      <description> Strings 0-Introduction1-String Sorts2-Tries3-Substring Search4-Regular Expression5-Data Compression</description>
+      <description>Strings 0-Introduction1-String Sorts2-Tries3-Substring Search4-Regular Expression5-Data Compression</description>
     </item>
     
     <item>
       <title>Problems : Basics 1</title>
       <link>https://algo.minetest.in/Practice_Problems1/</link>
-      <pubDate>Tue, 11 May 2021 17:01:25 +0530</pubDate>
+      <pubDate>Sat, 15 May 2021 23:01:25 +0530</pubDate>
       
       <guid>https://algo.minetest.in/Practice_Problems1/</guid>
-      <description> Problems on Theory Predicate Framework of Binary SearchBinary Search continued ....Recursion 1Recursion 2Recursion 3Ad Hoc2 Pointers</description>
+      <description>Problems on Theory Predicate Framework of Binary SearchBinary Search continued ....Recursion 1Recursion 2Recursion 32 PointersAd Hoc</description>
     </item>
     
     <item>
       <title>Problems : Basics 2</title>
       <link>https://algo.minetest.in/Practice_Problems/</link>
-      <pubDate>Mon, 12 Apr 2021 16:01:25 +0530</pubDate>
+      <pubDate>Mon, 19 Apr 2021 21:51:25 +0530</pubDate>
       
       <guid>https://algo.minetest.in/Practice_Problems/</guid>
-      <description> Problems on Theory SortingLinked ListsStacksQueuesLinked ListsBinary Search TreeBST ReviewTrees-1Trees-2</description>
+      <description>Problems on Theory SortingLinked ListsStacksQueuesLinked ListsBinary Search TreeBST ReviewTrees-1Trees-2</description>
     </item>
     
     <item>
       <title>Problems : Basics 3</title>
       <link>https://algo.minetest.in/Practice_Problems2/</link>
-      <pubDate>Mon, 10 May 2021 17:01:25 +0530</pubDate>
+      <pubDate>Fri, 09 Jul 2021 12:25:25 +0530</pubDate>
       
       <guid>https://algo.minetest.in/Practice_Problems2/</guid>
-      <description> Problems on Theory Sorting</description>
+      <description>Problems on Theory SortingHeapsTriesBit ManipulationStrings 1Strings from cp-algorithms</description>
     </item>
     
     <item>
       <title>Problems : DP</title>
       <link>https://algo.minetest.in/Practice_DP/</link>
-      <pubDate>Wed, 21 Apr 2021 09:51:25 +0530</pubDate>
+      <pubDate>Thu, 22 Apr 2021 22:54:25 +0530</pubDate>
       
       <guid>https://algo.minetest.in/Practice_DP/</guid>
-      <description> Problems on Dynamic Programming DP 1DP 2DP 3DP 4DP 5</description>
+      <description>Problems on Dynamic Programming DP 1DP 2DP 3DP 4DP 5</description>
     </item>
     
     <item>
       <title>Problems : Graphs</title>
       <link>https://algo.minetest.in/Practice_Graphs/</link>
-      <pubDate>Sat, 24 Apr 2021 10:24:25 +0530</pubDate>
+      <pubDate>Mon, 10 May 2021 17:09:18 +0530</pubDate>
       
       <guid>https://algo.minetest.in/Practice_Graphs/</guid>
-      <description> Problems on Graphs Graphs 1Graphs 2Graphs 3Graphs 4</description>
+      <description>Problems on Graphs Graphs 1Graphs 2Graphs 3Graphs 4</description>
     </item>
     
     <item>
@@ -145,7 +141,7 @@ Most Simplest implementation is adjacency matrix but its not memory efficient fo
       <description>Strong and Weak Connectivity These terms arise in Directed Graph.
 Weak Connectivity : Take a directed graph and convert into undirected graph and do connectivity operations on that is called as weak connectivity.
 Strong Connectivity : (A,B) are strongly connected $\iff \exists $ path b/w A &amp;amp; B.
-​ A &amp;ndash;&amp;gt; B and B&amp;ndash;&amp;gt;A
+​	A &amp;ndash;&amp;gt; B and B&amp;ndash;&amp;gt;A
 Graph Cyclicity Cycle : A sequence of nodes and edges such that first and last node of sequence is same.</description>
     </item>
     

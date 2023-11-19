@@ -14,9 +14,9 @@ Cue : DP/DnC , as there is counting problem.
 
 Let's decide the criteria of splitting the set
 
-Splitting the set into 2 components , set 1 contains sum with s1 in positive sign
+Splitting the set into 2 components , set s1 contains sum with A[0] in positive sign
 
-another s2 with s1 in negative.
+another set s2 with A[0] in negative sign.
 
 $S_1 $ : Number of ways to make target-A[0] from A[1,... n-1]
 

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Trees on smk&#39;s Blogs</title>
+    <link>https://algo.minetest.in/Data_Structures_library/Trees/</link>
+    <description>Recent content in Trees on smk&#39;s Blogs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://algo.minetest.in/Data_Structures_library/Trees/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Disjoint Set Union</title>
+      <link>https://algo.minetest.in/Data_Structures_library/Trees/Disjoint_set_union/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/Data_Structures_library/Trees/Disjoint_set_union/</guid>
+      <description>This implementation is from CP4 Book.
+Explanation : to be added.
+// Union-Find Disjoint Sets Library written in OOP manner, using both path compression and union by rank heuristics  #include &amp;lt;bits/stdc++.h&amp;gt;using namespace std; typedef vector&amp;lt;int&amp;gt; vi; class UnionFind { // OOP style private: vi p, rank, setSize; // vi p is the key part  int numSets; public: UnionFind(int N) { p.assign(N, 0); for (int i = 0; i &amp;lt; N; ++i) p[i] = i; rank.</description>
+    </item>
+    
+    <item>
+      <title>Fenwick Tree</title>
+      <link>https://algo.minetest.in/Data_Structures_library/Trees/Fenwick_tree/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/Data_Structures_library/Trees/Fenwick_tree/</guid>
+      <description>This implementation is from CP4 Book.
+Explanation : to be added.
+#include &amp;lt;bits/stdc++.h&amp;gt;using namespace std; #define LSOne(S) ((S) &amp;amp; -(S)) // the key operation  typedef long long ll; // for extra flexibility typedef vector&amp;lt;ll&amp;gt; vll; typedef vector&amp;lt;int&amp;gt; vi; class FenwickTree { // index 0 is not used private: vll ft; // internal FT is an array public: FenwickTree(int m) { ft.assign(m+1, 0); } // create an empty FT  void build(const vll &amp;amp;f) { int m = (int)f.</description>
+    </item>
+    
+    <item>
+      <title>Sqrt Decomposition</title>
+      <link>https://algo.minetest.in/Data_Structures_library/Trees/Sqrt_Decomposition/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/Data_Structures_library/Trees/Sqrt_Decomposition/</guid>
+      <description>This implementation is from CP4 Book.
+Explanation : to be added.</description>
+    </item>
+    
+    <item>
+      <title>Segment Trees</title>
+      <link>https://algo.minetest.in/Data_Structures_library/Trees/Segment_trees/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/Data_Structures_library/Trees/Segment_trees/</guid>
+      <description>This implementation is from CP4 Book.
+Explanation : to be added.
+#include &amp;lt;bits/stdc++.h&amp;gt;using namespace std; typedef vector&amp;lt;int&amp;gt; vi; class SegmentTree { // OOP style private: int n; // n = (int)A.size()  vi A, st, lazy; // the arrays  int l(int p) { return p&amp;lt;&amp;lt;1; } // go to left child  int r(int p) { return (p&amp;lt;&amp;lt;1)+1; } // go to right child  int conquer(int a, int b) { if (a == -1) return b; // corner case  if (b == -1) return a; return min(a, b); // RMQ  } void build(int p, int L, int R) { // O(n)  if (L == R) st[p] = A[L]; // base case  else { int m = (L+R)/2; build(l(p), L , m); build(r(p), m+1, R); st[p] = conquer(st[l(p)], st[r(p)]); } } void propagate(int p, int L, int R) { if (lazy[p] !</description>
+    </item>
+    
+    <item>
+      <title>Graphs</title>
+      <link>https://algo.minetest.in/Data_Structures_library/Trees/graphs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/Data_Structures_library/Trees/graphs/</guid>
+      <description>This implementation is from CP4 Book.
+Explanation : to be added.
+#include &amp;lt;bits/stdc++.h&amp;gt;using namespace std; const int MAX_V = 1010; typedef pair&amp;lt;int, int&amp;gt; ii; typedef vector&amp;lt;ii&amp;gt; vii; typedef tuple&amp;lt;int, int, int&amp;gt; iii; int AM[MAX_V][MAX_V]; // it is better to declare large (2D) array as global  int main() { // Try this input for Adjacency Matrix/Adjacency List/Edge List  // Adjacency Matrix AM  // for each line: |V| entries, 0 or the weight  // Adjacency List AL  // for each line: num neighbors, list of neighbors + weight pairs  // Edge List EL  // for each line: a-b of edge(a,b) and weight  /* 6 0 10 0 0 100 0 10 0 7 0 8 0 0 7 0 9 0 0 0 0 9 0 20 5 100 8 0 20 0 0 0 0 0 5 0 0 6 2 2 10 5 100 3 1 10 3 7 5 8 2 2 7 4 9 3 3 9 5 20 6 5 3 1 100 2 8 4 20 1 4 5 7 1 2 10 1 5 100 2 3 7 2 5 8 3 4 9 4 5 20 4 6 5 */ freopen(&amp;#34;graph_ds.</description>
+    </item>
+    
+  </channel>
+</rss>

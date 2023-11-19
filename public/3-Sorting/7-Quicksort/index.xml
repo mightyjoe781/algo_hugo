@@ -1,15 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>7-Quicksort on smk&#39;s Blogs</title>
     <link>https://algo.minetest.in/3-Sorting/7-Quicksort/</link>
     <description>Recent content in 7-Quicksort on smk&#39;s Blogs</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="https://algo.minetest.in/3-Sorting/7-Quicksort/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="https://algo.minetest.in/3-Sorting/7-Quicksort/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>0-Introduction</title>
       <link>https://algo.minetest.in/3-Sorting/7-Quicksort/0-Introduction/</link>
@@ -42,10 +38,10 @@ The crux of method is partitioning process, which rearranged the array to make t
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://algo.minetest.in/3-Sorting/7-Quicksort/2-Performance_Characterstics_of_Quicksort/</guid>
-      <description>Performance Characteristics of Quicksort  Quicksort uses about $\frac{N^2}{2}$ comparisons in the worst case.
- Worst case is when array is already sorted.  Above case is also worst in space as it will take $N$ recursions.
- Best case is when quicksort is when each partitioning stage divides the file exactly in half.
- $CN = 2 C{N/2} + N $ $C_N \approx N \lg N $  Quicksort uses about $2N \ln N$ comparisons on the average.</description>
+      <description>Performance Characteristics of Quicksort   Quicksort uses about $\frac{N^2}{2}$ comparisons in the worst case.
+ Worst case is when array is already sorted.    Above case is also worst in space as it will take $N$ recursions.
+  Best case is when quicksort is when each partitioning stage divides the file exactly in half.
+ $C_N = 2 C_{N/2} + N $ $C_N \approx N \lg N $    Quicksort uses about $2N \ln N$ comparisons on the average.</description>
     </item>
     
     <item>
@@ -66,7 +62,7 @@ The policy of putting the larger of the smaller sub files on the stack ensures t
       
       <guid>https://algo.minetest.in/3-Sorting/7-Quicksort/4-Small_Subfiles/</guid>
       <description>Small Subfiles we can change the test at the beginning of the recursive routine from a return to a call on insertion sort, as follows.
-if ( r -l &amp;lt;= M ) insertion(a, l, r);
+ if ( r -l &amp;lt;= M ) insertion(a, l, r);
 Here , $M$ is parameter whose exact value depends upon implementation.
 Between about 5 to 25, performance is almost same but quite better than $ M = 1 $ ( 10% better ).
 A slightly easier way to handle small subfiles, which is also efficient than above is</description>
@@ -80,7 +76,7 @@ A slightly easier way to handle small subfiles, which is also efficient than abo
       <guid>https://algo.minetest.in/3-Sorting/7-Quicksort/5-Median_of_three_partitioning/</guid>
       <description>Median of Three Partitioning choosing a partitioning element that is more likely to divide the file near the middle improves the performance.
 There are several possibilities for choosing partitioning element
- a safe choice is to choose random element from array  then worst case will happen with small probability Example of a Probabilistic Algorithm but using a full random-number generator might be overkill for this algorithm  Another well-known way to find is to take sample of three elements form the file, then use the median of the three for the partitioning element.</description>
+ a safe choice is to choose random element from array  then worst case will happen with small probability Example of a Probabilistic Algorithm but using a full random-number generator might be overkill for this algorithm   Another well-known way to find is to take sample of three elements form the file, then use the median of the three for the partitioning element.</description>
     </item>
     
     <item>

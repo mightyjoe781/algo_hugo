@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Problems : Basics 3 on smk&#39;s Blogs</title>
@@ -6,18 +6,74 @@
     <description>Recent content in Problems : Basics 3 on smk&#39;s Blogs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 10 May 2021 17:01:25 +0530</lastBuildDate>
-    
-	<atom:link href="https://algo.minetest.in/Practice_Problems2/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 09 Jul 2021 12:25:25 +0530</lastBuildDate><atom:link href="https://algo.minetest.in/Practice_Problems2/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Sorting</title>
       <link>https://algo.minetest.in/Practice_Problems2/Sorting/</link>
-      <pubDate>Mon, 10 May 2021 17:01:25 +0530</pubDate>
+      <pubDate>Sun, 16 May 2021 17:01:25 +0530</pubDate>
       
       <guid>https://algo.minetest.in/Practice_Problems2/Sorting/</guid>
-      <description></description>
+      <description>Sorting Algorithm  Algorithms which puts elements of list in order/arrange  Numerical Order Lexicographical Order Custom Object   4 parameter&amp;rsquo;s of evaluation of sorting algorithm  Computational Complexity Stability : Relative order will be same Memory Usage Adaptability : preparedness of input array to get least running time.   Bubble Sort  $O(n^2)$ , best case : sorted , worst case : reverse order, stable, In-place   Selection Sort  $O(n^2)$ , unstable ( can be made stable) , In-place   Insertion Sort  $O(n^2)$ , idea is we keep two sets one is sorted and another unsorted set and goal is to move unsorted elements slowly towards sorted set.</description>
+    </item>
+    
+    <item>
+      <title>Heaps</title>
+      <link>https://algo.minetest.in/Practice_Problems2/Heaps/</link>
+      <pubDate>Mon, 17 May 2021 12:25:25 +0530</pubDate>
+      
+      <guid>https://algo.minetest.in/Practice_Problems2/Heaps/</guid>
+      <description>Heap Partially ordered tree complete tree and usually have 2 children.
+Top on the max heap is maximum element and in case of min heap top element is minimum of all.
+It gives Min/Max query in $O(1)$ time.
+STL implementation
+// Max Heap priority_queue&amp;lt;int&amp;gt; maxq; // Min Heap priority_queue&amp;lt;int, vector&amp;lt;int&amp;gt;, greater&amp;lt;int&amp;gt;&amp;gt; minq; Kth Largest Element in an Array
+int findKthLargest(vector&amp;lt;int&amp;gt;&amp;amp; nums, int k) { priority_queue&amp;lt;int&amp;gt; pq; for(int i = 0; i &amp;lt; nums.</description>
+    </item>
+    
+    <item>
+      <title>Tries</title>
+      <link>https://algo.minetest.in/Practice_Problems2/Tries/</link>
+      <pubDate>Tue, 25 May 2021 12:25:25 +0530</pubDate>
+      
+      <guid>https://algo.minetest.in/Practice_Problems2/Tries/</guid>
+      <description>Problems related to finding the strings or traversing the multiple string come under the topic tries.
+Tries means retrieval.
+ Ordered tree is more like DS. Dictionary word searches / spell checking/ search engine.  Problem Statement
+  Given a lot of strings : find an associative property among all strings
+  Pros : Retrieval time is quite less than hash table and BST
+  Cons : Complex, and requires a lot of memory</description>
+    </item>
+    
+    <item>
+      <title>Bit Manipulation</title>
+      <link>https://algo.minetest.in/Practice_Problems2/BitManipulation/</link>
+      <pubDate>Wed, 07 Jul 2021 07:02:25 +0530</pubDate>
+      
+      <guid>https://algo.minetest.in/Practice_Problems2/BitManipulation/</guid>
+      <description>Number System  Representation of Number. Numbers are set of finite entities/symbols used for quantification. Several prominent examples are Decimal, Roman, Binary, Hexadecimal and more.  Roman to Integer
+There are some definite symbols that indicate fixed numbers. Note how we translate number 4 in Roman. $IV$ means 5-1, while if $VI$ it is 5+1.
+Problem reduces to just traversing the symbol and adding and subtracting according the priority.
+class Solution { public: map&amp;lt;char,int&amp;gt; mp; void init() { // Can&amp;#39;t be initialised in global scope.</description>
+    </item>
+    
+    <item>
+      <title>Strings 1</title>
+      <link>https://algo.minetest.in/Practice_Problems2/strings_1/</link>
+      <pubDate>Fri, 09 Jul 2021 12:25:25 +0530</pubDate>
+      
+      <guid>https://algo.minetest.in/Practice_Problems2/strings_1/</guid>
+      <description>Contents :
+ Implementation  Encoding/Decoding Compression Palindromes Parsing   Tries  Design Problems   String Matching Algorithms  KMP Application (failure)    Valid Palindrome
+bool isAlphaNumeric(char c) { c = tolower(c); return ((c &amp;gt;= &amp;#39;a&amp;#39; &amp;amp;&amp;amp; c &amp;lt;= &amp;#39;z&amp;#39;) || (c &amp;gt;= &amp;#39;0&amp;#39; &amp;amp;&amp;amp; c &amp;lt;= &amp;#39;9&amp;#39;)); } bool isPalindrome(string s) { int start = 0, end = s.size()-1; while(start &amp;lt; end) { if(!isAlphaNumeric(s[start])) start++; else if(!</description>
+    </item>
+    
+    <item>
+      <title>Strings from cp-algorithms</title>
+      <link>https://algo.minetest.in/Practice_Problems2/Strings/</link>
+      <pubDate>Tue, 22 Jun 2021 12:25:25 +0530</pubDate>
+      
+      <guid>https://algo.minetest.in/Practice_Problems2/Strings/</guid>
+      <description>String Processing  Fundamentals  String Hashing Rabin-Karp Prefix function - KMP Z function Suffix Array   Advanced  Suffix Tree Suffix Automaton Lyndon factorization   Tasks  Expression Parsing Manacher&amp;rsquo;s Algorithm - Finding all sub-palindromes in O(n) Finding repetitions    Prefix Function - KMP Given a string s of length n. The prefix function for this string is defined as an array $\pi [i]$ is the length of proper prefix of substring s[0.</description>
     </item>
     
   </channel>

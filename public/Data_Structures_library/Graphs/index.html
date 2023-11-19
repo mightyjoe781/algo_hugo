@@ -1,0 +1,11077 @@
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Hugo 0.91.2" />
+    <meta name="description" content="">
+
+
+    <link rel="icon" href="/images/favicon.png" type="image/png">
+
+    <title>Graphs :: smk&#39;s Blogs</title>
+
+    
+    <link href="/css/nucleus.css?1641757654" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1641757654" rel="stylesheet">
+    <link href="/css/hybrid.css?1641757654" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1641757654" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1641757654" rel="stylesheet">
+    <link href="/css/auto-complete.css?1641757654" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1641757654" rel="stylesheet">
+    <link href="/css/theme.css?1641757654" rel="stylesheet">
+    <link href="/css/tabs.css?1641757654" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1641757654" rel="stylesheet">
+    
+    
+
+    <script src="/js/jquery-3.3.1.min.js?1641757654"></script>
+
+    <style>
+      :root #header + #content > #left > #rlblock_left{
+          display:none !important;
+      }
+      
+    </style>
+    
+	<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$','$$'], ['\\[', '\\]']],
+      processEscapes: true,
+      processEnvironments: true
+    },
+    options: {
+      skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+    }
+  };
+
+  window.addEventListener('load', (event) => {
+      document.querySelectorAll("mjx-container").forEach(function(x){
+        x.parentElement.classList += 'has-jax'})
+    });
+
+</script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  </head>
+  <body class="" data-url="/Data_Structures_library/Graphs/">
+    <nav id="sidebar" class="">
+
+
+
+  <div id="header-wrapper">
+    <div id="header">
+      <a id="logo" href='/'>
+	smk's Blogs
+</a>
+
+    </div>
+    
+        <div class="searchbox">
+    <label for="search-by"><i class="fas fa-search"></i></label>
+    <input data-search-input id="search-by" type="search" placeholder="Search...">
+    <span data-search-clear=""><i class="fas fa-times"></i></span>
+</div>
+
+<script type="text/javascript" src="/js/lunr.min.js?1641757654"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1641757654"></script>
+<script type="text/javascript">
+    
+        var baseurl = "https:\/\/algo.minetest.in\/";
+    
+</script>
+<script type="text/javascript" src="/js/search.js?1641757654"></script>
+
+    
+  </div>
+  
+    <section id="homelinks">
+      <ul>
+        <li>
+            <a class="padding" href='/'><i class='fas fa-home'></i> Home</a>
+        </li>
+      </ul>
+    </section>
+  
+
+    <div class="highlightable">
+    <ul class="topics">
+
+        
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/1-Fundamentals/" title="1. Fundamentals" class="dd-item
+        
+        
+        
+        ">
+      <a href="/1-Fundamentals/">
+          1. Fundamentals
+          
+      </a>
+      
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/2-Data_Structures/" title="2. Data Structure" class="dd-item
+        
+        
+        
+        ">
+      <a href="/2-Data_Structures/">
+          2. Data Structure
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/2-Data_Structures/3-Elementary_Data_Structures/" title="3-Elementary Data Structure" class="dd-item
+        
+        
+        
+        ">
+      <a href="/2-Data_Structures/3-Elementary_Data_Structures/">
+          3-Elementary Data Structure
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/2-Data_Structures/3-Elementary_Data_Structures/1-Building_Blocks/" title="1-Building Blocks" class="dd-item ">
+        <a href="/2-Data_Structures/3-Elementary_Data_Structures/1-Building_Blocks/">
+        1-Building Blocks
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/2-Data_Structures/3-Elementary_Data_Structures/2-Arrays/" title="2-Arrays" class="dd-item ">
+        <a href="/2-Data_Structures/3-Elementary_Data_Structures/2-Arrays/">
+        2-Arrays
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/2-Data_Structures/3-Elementary_Data_Structures/3-Linked_Lists/" title="3-Linked Lists" class="dd-item ">
+        <a href="/2-Data_Structures/3-Elementary_Data_Structures/3-Linked_Lists/">
+        3-Linked Lists
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/2-Data_Structures/3-Elementary_Data_Structures/4-Elementary_List_Processing/" title="4-Elementary List Processing" class="dd-item ">
+        <a href="/2-Data_Structures/3-Elementary_Data_Structures/4-Elementary_List_Processing/">
+        4-Elementary List Processing
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/2-Data_Structures/3-Elementary_Data_Structures/5-Memory_Allocation_for_Lists/" title="5-Memory Allocation for Lists" class="dd-item ">
+        <a href="/2-Data_Structures/3-Elementary_Data_Structures/5-Memory_Allocation_for_Lists/">
+        5-Memory Allocation for Lists
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/2-Data_Structures/3-Elementary_Data_Structures/6-Strings/" title="6-Strings" class="dd-item ">
+        <a href="/2-Data_Structures/3-Elementary_Data_Structures/6-Strings/">
+        6-Strings
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/2-Data_Structures/3-Elementary_Data_Structures/7-Compound_Data_Structures/" title="7-Compound Data Structures" class="dd-item ">
+        <a href="/2-Data_Structures/3-Elementary_Data_Structures/7-Compound_Data_Structures/">
+        7-Compound Data Structures
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/2-Data_Structures/4-Abstract_Data_Types/" title="4-Abstract Data Structures" class="dd-item
+        
+        
+        
+        ">
+      <a href="/2-Data_Structures/4-Abstract_Data_Types/">
+          4-Abstract Data Structures
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/2-Data_Structures/4-Abstract_Data_Types/0-Introduction/" title="0-Introduction" class="dd-item ">
+        <a href="/2-Data_Structures/4-Abstract_Data_Types/0-Introduction/">
+        0-Introduction
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/2-Data_Structures/4-Abstract_Data_Types/1-Abstract_Objects_and_Collections_of_Objects/" title="1-Abstract Objects &amp; Collections of Objects" class="dd-item ">
+        <a href="/2-Data_Structures/4-Abstract_Data_Types/1-Abstract_Objects_and_Collections_of_Objects/">
+        1-Abstract Objects &amp; Collections of Objects
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/2-Data_Structures/4-Abstract_Data_Types/2-Pushdown_Stack_ADT/" title="2-Pushdown Stack ADT" class="dd-item ">
+        <a href="/2-Data_Structures/4-Abstract_Data_Types/2-Pushdown_Stack_ADT/">
+        2-Pushdown Stack ADT
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/2-Data_Structures/4-Abstract_Data_Types/3-Examples_of_Stack_ADT_Clients/" title="3-Examples of Stack-ADT Clients" class="dd-item ">
+        <a href="/2-Data_Structures/4-Abstract_Data_Types/3-Examples_of_Stack_ADT_Clients/">
+        3-Examples of Stack-ADT Clients
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/2-Data_Structures/4-Abstract_Data_Types/4-Stack_ADT_Implementation/" title="4-Stack ADT Implementation" class="dd-item ">
+        <a href="/2-Data_Structures/4-Abstract_Data_Types/4-Stack_ADT_Implementation/">
+        4-Stack ADT Implementation
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/2-Data_Structures/4-Abstract_Data_Types/5-Creation_of_New_ADT/" title="5-Creation of New ADT" class="dd-item ">
+        <a href="/2-Data_Structures/4-Abstract_Data_Types/5-Creation_of_New_ADT/">
+        5-Creation of New ADT
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/2-Data_Structures/4-Abstract_Data_Types/6-FIFO_Queues_and_Generalized_Queue/" title="6-FIFO Queues and Generalized Queue" class="dd-item ">
+        <a href="/2-Data_Structures/4-Abstract_Data_Types/6-FIFO_Queues_and_Generalized_Queue/">
+        6-FIFO Queues and Generalized Queue
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/2-Data_Structures/4-Abstract_Data_Types/7-Duplicates_and_Index_Items/" title="7-Duplicates and Index Items" class="dd-item ">
+        <a href="/2-Data_Structures/4-Abstract_Data_Types/7-Duplicates_and_Index_Items/">
+        7-Duplicates and Index Items
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/2-Data_Structures/4-Abstract_Data_Types/8-First_class_ADTs/" title="8-First Class ADTs" class="dd-item ">
+        <a href="/2-Data_Structures/4-Abstract_Data_Types/8-First_class_ADTs/">
+        8-First Class ADTs
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/2-Data_Structures/4-Abstract_Data_Types/9-Application_Based_ADTs/" title="9-Application Based ADTs" class="dd-item ">
+        <a href="/2-Data_Structures/4-Abstract_Data_Types/9-Application_Based_ADTs/">
+        9-Application Based ADTs
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/2-Data_Structures/4-Abstract_Data_Types/10-Perspective/" title="10-Perspective" class="dd-item ">
+        <a href="/2-Data_Structures/4-Abstract_Data_Types/10-Perspective/">
+        10-Perspective
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/2-Data_Structures/5-Recursion_and_Trees/" title="5-Recursion and Trees" class="dd-item
+        
+        
+        
+        ">
+      <a href="/2-Data_Structures/5-Recursion_and_Trees/">
+          5-Recursion and Trees
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/2-Data_Structures/5-Recursion_and_Trees/1-Recursive_Algorithms/" title="1-Recursive Algorithms" class="dd-item ">
+        <a href="/2-Data_Structures/5-Recursion_and_Trees/1-Recursive_Algorithms/">
+        1-Recursive Algorithms
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/2-Data_Structures/5-Recursion_and_Trees/2-Divide_and_Conquer/" title="2-Divide and Conquer" class="dd-item ">
+        <a href="/2-Data_Structures/5-Recursion_and_Trees/2-Divide_and_Conquer/">
+        2-Divide and Conquer
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/2-Data_Structures/5-Recursion_and_Trees/3-Dynamic_Programming/" title="3-Dynamic Programming" class="dd-item ">
+        <a href="/2-Data_Structures/5-Recursion_and_Trees/3-Dynamic_Programming/">
+        3-Dynamic Programming
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/2-Data_Structures/5-Recursion_and_Trees/4-Trees/" title="4-Trees" class="dd-item ">
+        <a href="/2-Data_Structures/5-Recursion_and_Trees/4-Trees/">
+        4-Trees
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/2-Data_Structures/5-Recursion_and_Trees/5-Properties_of_trees/" title="5-Properties of trees" class="dd-item ">
+        <a href="/2-Data_Structures/5-Recursion_and_Trees/5-Properties_of_trees/">
+        5-Properties of trees
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/2-Data_Structures/5-Recursion_and_Trees/6-Tree_Traversal/" title="6-Tree Traversal" class="dd-item ">
+        <a href="/2-Data_Structures/5-Recursion_and_Trees/6-Tree_Traversal/">
+        6-Tree Traversal
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/2-Data_Structures/5-Recursion_and_Trees/7-Recursive_Binary_TreeAlgo/" title="7-Recursive Binary TreeAlgo" class="dd-item ">
+        <a href="/2-Data_Structures/5-Recursion_and_Trees/7-Recursive_Binary_TreeAlgo/">
+        7-Recursive Binary TreeAlgo
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/2-Data_Structures/5-Recursion_and_Trees/8-Graph_Traversal/" title="8-Graph Traversal" class="dd-item ">
+        <a href="/2-Data_Structures/5-Recursion_and_Trees/8-Graph_Traversal/">
+        8-Graph Traversal
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/3-Sorting/" title="3. Sorting" class="dd-item
+        
+        
+        
+        ">
+      <a href="/3-Sorting/">
+          3. Sorting
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/3-Sorting/6-Elementary_Sorting_Methods/" title="6-Elementary Sorting Methods" class="dd-item
+        
+        
+        
+        ">
+      <a href="/3-Sorting/6-Elementary_Sorting_Methods/">
+          6-Elementary Sorting Methods
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/3-Sorting/6-Elementary_Sorting_Methods/1-Rules_of_the_Game/" title="1-Rules of the Game" class="dd-item ">
+        <a href="/3-Sorting/6-Elementary_Sorting_Methods/1-Rules_of_the_Game/">
+        1-Rules of the Game
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/3-Sorting/6-Elementary_Sorting_Methods/2-Selection_sort/" title="2-Selection_sort" class="dd-item ">
+        <a href="/3-Sorting/6-Elementary_Sorting_Methods/2-Selection_sort/">
+        2-Selection_sort
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/3-Sorting/6-Elementary_Sorting_Methods/3-Insertion_sort/" title="3-Insertion_sort" class="dd-item ">
+        <a href="/3-Sorting/6-Elementary_Sorting_Methods/3-Insertion_sort/">
+        3-Insertion_sort
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/3-Sorting/6-Elementary_Sorting_Methods/4-Bubble_sort/" title="4-Bubble_sort" class="dd-item ">
+        <a href="/3-Sorting/6-Elementary_Sorting_Methods/4-Bubble_sort/">
+        4-Bubble_sort
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/3-Sorting/6-Elementary_Sorting_Methods/5-Performance_Characteristics_of_Elementary_sorts/" title="5-Performance Characteristics of Elementary sorts" class="dd-item ">
+        <a href="/3-Sorting/6-Elementary_Sorting_Methods/5-Performance_Characteristics_of_Elementary_sorts/">
+        5-Performance Characteristics of Elementary sorts
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/3-Sorting/6-Elementary_Sorting_Methods/6-Shell_sort/" title="6-Shell_sort" class="dd-item ">
+        <a href="/3-Sorting/6-Elementary_Sorting_Methods/6-Shell_sort/">
+        6-Shell_sort
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/3-Sorting/6-Elementary_Sorting_Methods/7-Sorting_of_Other_type_of_data/" title="7-Sorting of Other type of data" class="dd-item ">
+        <a href="/3-Sorting/6-Elementary_Sorting_Methods/7-Sorting_of_Other_type_of_data/">
+        7-Sorting of Other type of data
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/3-Sorting/6-Elementary_Sorting_Methods/8-Index_and_Pointer_Sorting/" title="8-Index and Pointer Sorting" class="dd-item ">
+        <a href="/3-Sorting/6-Elementary_Sorting_Methods/8-Index_and_Pointer_Sorting/">
+        8-Index and Pointer Sorting
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/3-Sorting/6-Elementary_Sorting_Methods/9-Sorting_of_Linked_Lists/" title="9-Sorting of Linked Lists" class="dd-item ">
+        <a href="/3-Sorting/6-Elementary_Sorting_Methods/9-Sorting_of_Linked_Lists/">
+        9-Sorting of Linked Lists
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/3-Sorting/7-Quicksort/" title="7-Quicksort" class="dd-item
+        
+        
+        
+        ">
+      <a href="/3-Sorting/7-Quicksort/">
+          7-Quicksort
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/3-Sorting/7-Quicksort/0-Introduction/" title="0-Introduction" class="dd-item ">
+        <a href="/3-Sorting/7-Quicksort/0-Introduction/">
+        0-Introduction
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/3-Sorting/7-Quicksort/1-The_Basic_Algorithm/" title="1-The Basic Algorithm" class="dd-item ">
+        <a href="/3-Sorting/7-Quicksort/1-The_Basic_Algorithm/">
+        1-The Basic Algorithm
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/3-Sorting/7-Quicksort/2-Performance_Characterstics_of_Quicksort/" title="2-Performance Characterstics of Quicksort" class="dd-item ">
+        <a href="/3-Sorting/7-Quicksort/2-Performance_Characterstics_of_Quicksort/">
+        2-Performance Characterstics of Quicksort
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/3-Sorting/7-Quicksort/3-Stack_Size/" title="3-Stack Size" class="dd-item ">
+        <a href="/3-Sorting/7-Quicksort/3-Stack_Size/">
+        3-Stack Size
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/3-Sorting/7-Quicksort/4-Small_Subfiles/" title="4-Small Subfiles" class="dd-item ">
+        <a href="/3-Sorting/7-Quicksort/4-Small_Subfiles/">
+        4-Small Subfiles
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/3-Sorting/7-Quicksort/5-Median_of_three_partitioning/" title="5-Median of three partitioning" class="dd-item ">
+        <a href="/3-Sorting/7-Quicksort/5-Median_of_three_partitioning/">
+        5-Median of three partitioning
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/3-Sorting/7-Quicksort/6-Duplicate_Keys/" title="6-Duplicate Keys" class="dd-item ">
+        <a href="/3-Sorting/7-Quicksort/6-Duplicate_Keys/">
+        6-Duplicate Keys
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/3-Sorting/7-Quicksort/7-Strings_and_Vectors/" title="7-Strings and Vectors" class="dd-item ">
+        <a href="/3-Sorting/7-Quicksort/7-Strings_and_Vectors/">
+        7-Strings and Vectors
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/3-Sorting/7-Quicksort/8-Selection/" title="8-Selection" class="dd-item ">
+        <a href="/3-Sorting/7-Quicksort/8-Selection/">
+        8-Selection
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/3-Sorting/8-Merging_and_Mergesort/" title="8-Merging and Mergesort" class="dd-item
+        
+        
+        
+        ">
+      <a href="/3-Sorting/8-Merging_and_Mergesort/">
+          8-Merging and Mergesort
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/3-Sorting/8-Merging_and_Mergesort/0-Introduction/" title="0-Introduction" class="dd-item ">
+        <a href="/3-Sorting/8-Merging_and_Mergesort/0-Introduction/">
+        0-Introduction
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/3-Sorting/8-Merging_and_Mergesort/1-Two_Way_Merging/" title="1-Two Way Merging" class="dd-item ">
+        <a href="/3-Sorting/8-Merging_and_Mergesort/1-Two_Way_Merging/">
+        1-Two Way Merging
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/3-Sorting/8-Merging_and_Mergesort/2-Abstract_In_place_merge/" title="2-Abstract In-place merge" class="dd-item ">
+        <a href="/3-Sorting/8-Merging_and_Mergesort/2-Abstract_In_place_merge/">
+        2-Abstract In-place merge
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/3-Sorting/8-Merging_and_Mergesort/3-Top_Down_mergesort/" title="3-Top Down mergesort" class="dd-item ">
+        <a href="/3-Sorting/8-Merging_and_Mergesort/3-Top_Down_mergesort/">
+        3-Top Down mergesort
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/3-Sorting/8-Merging_and_Mergesort/4-Improvements_to_basic_algorithm/" title="4-Improvements to basic algorithm" class="dd-item ">
+        <a href="/3-Sorting/8-Merging_and_Mergesort/4-Improvements_to_basic_algorithm/">
+        4-Improvements to basic algorithm
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/3-Sorting/8-Merging_and_Mergesort/5-Bottom_up_mergesort/" title="5-Bottom up mergesort" class="dd-item ">
+        <a href="/3-Sorting/8-Merging_and_Mergesort/5-Bottom_up_mergesort/">
+        5-Bottom up mergesort
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/3-Sorting/8-Merging_and_Mergesort/6-Performance_characteristics_of_mergesort/" title="6-Performance characteristics of mergesort" class="dd-item ">
+        <a href="/3-Sorting/8-Merging_and_Mergesort/6-Performance_characteristics_of_mergesort/">
+        6-Performance characteristics of mergesort
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/3-Sorting/8-Merging_and_Mergesort/7-Linked_list_implementations_of_mergesort/" title="7-Linked list implementations of mergesort" class="dd-item ">
+        <a href="/3-Sorting/8-Merging_and_Mergesort/7-Linked_list_implementations_of_mergesort/">
+        7-Linked list implementations of mergesort
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/3-Sorting/8-Merging_and_Mergesort/8-Recursion_Revisited/" title="8-Recursion Revisited" class="dd-item ">
+        <a href="/3-Sorting/8-Merging_and_Mergesort/8-Recursion_Revisited/">
+        8-Recursion Revisited
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/3-Sorting/9-Priority_Queues_and_Heapsort/" title="9-Priority Queues and Heapsort" class="dd-item
+        
+        
+        
+        ">
+      <a href="/3-Sorting/9-Priority_Queues_and_Heapsort/">
+          9-Priority Queues and Heapsort
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/3-Sorting/9-Priority_Queues_and_Heapsort/0-Introduction/" title="0-Introduction" class="dd-item ">
+        <a href="/3-Sorting/9-Priority_Queues_and_Heapsort/0-Introduction/">
+        0-Introduction
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/3-Sorting/9-Priority_Queues_and_Heapsort/1-Elementary_Implementations/" title="1-Elementary Implementations" class="dd-item ">
+        <a href="/3-Sorting/9-Priority_Queues_and_Heapsort/1-Elementary_Implementations/">
+        1-Elementary Implementations
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/3-Sorting/9-Priority_Queues_and_Heapsort/2-Heap_Data_Structure/" title="2-Heap Data Structure" class="dd-item ">
+        <a href="/3-Sorting/9-Priority_Queues_and_Heapsort/2-Heap_Data_Structure/">
+        2-Heap Data Structure
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/3-Sorting/9-Priority_Queues_and_Heapsort/3-Algorithms_on_heap/" title="3-Algorithms on heap" class="dd-item ">
+        <a href="/3-Sorting/9-Priority_Queues_and_Heapsort/3-Algorithms_on_heap/">
+        3-Algorithms on heap
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/3-Sorting/9-Priority_Queues_and_Heapsort/4-Heapsort/" title="4-Heapsort" class="dd-item ">
+        <a href="/3-Sorting/9-Priority_Queues_and_Heapsort/4-Heapsort/">
+        4-Heapsort
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/3-Sorting/9-Priority_Queues_and_Heapsort/5-Priority_Queue_ADT/" title="5-Priority Queue ADT" class="dd-item ">
+        <a href="/3-Sorting/9-Priority_Queues_and_Heapsort/5-Priority_Queue_ADT/">
+        5-Priority Queue ADT
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/3-Sorting/9-Priority_Queues_and_Heapsort/6-Priority_Qeues_for_Index_Items/" title="6-Priority Queues for Index Items" class="dd-item ">
+        <a href="/3-Sorting/9-Priority_Queues_and_Heapsort/6-Priority_Qeues_for_Index_Items/">
+        6-Priority Queues for Index Items
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/3-Sorting/9-Priority_Queues_and_Heapsort/7-Binomial_Queues/" title="7-Binomial Queues" class="dd-item ">
+        <a href="/3-Sorting/9-Priority_Queues_and_Heapsort/7-Binomial_Queues/">
+        7-Binomial Queues
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/3-Sorting/10-Radix_Sorting/" title="10-Radix Sorting" class="dd-item
+        
+        
+        
+        ">
+      <a href="/3-Sorting/10-Radix_Sorting/">
+          10-Radix Sorting
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/3-Sorting/10-Radix_Sorting/0-Introduction/" title="0-Introduction" class="dd-item ">
+        <a href="/3-Sorting/10-Radix_Sorting/0-Introduction/">
+        0-Introduction
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/3-Sorting/10-Radix_Sorting/1-Bits_Bytes_and_Words/" title="1-Bits Bytes and Words" class="dd-item ">
+        <a href="/3-Sorting/10-Radix_Sorting/1-Bits_Bytes_and_Words/">
+        1-Bits Bytes and Words
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/3-Sorting/10-Radix_Sorting/2-Binary_Quicksort/" title="2-Binary Quicksort" class="dd-item ">
+        <a href="/3-Sorting/10-Radix_Sorting/2-Binary_Quicksort/">
+        2-Binary Quicksort
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/3-Sorting/10-Radix_Sorting/3-MSD_Radix_Sort/" title="3-MSD Radix Sort" class="dd-item ">
+        <a href="/3-Sorting/10-Radix_Sorting/3-MSD_Radix_Sort/">
+        3-MSD Radix Sort
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/3-Sorting/10-Radix_Sorting/4-Three_way_radix_quicksort/" title="4-Three way radix quicksort" class="dd-item ">
+        <a href="/3-Sorting/10-Radix_Sorting/4-Three_way_radix_quicksort/">
+        4-Three way radix quicksort
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/3-Sorting/10-Radix_Sorting/5-LSD_Radix_sort/" title="5-LSD Radix sort" class="dd-item ">
+        <a href="/3-Sorting/10-Radix_Sorting/5-LSD_Radix_sort/">
+        5-LSD Radix sort
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/3-Sorting/10-Radix_Sorting/6-Performance_Chracterstics_of_Radix_Sorts/" title="6-Performance Chracterstics of Radix Sorts" class="dd-item ">
+        <a href="/3-Sorting/10-Radix_Sorting/6-Performance_Chracterstics_of_Radix_Sorts/">
+        6-Performance Chracterstics of Radix Sorts
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/3-Sorting/10-Radix_Sorting/7-Sublinear_Time_Sort/" title="7-Sublinear Time Sort" class="dd-item ">
+        <a href="/3-Sorting/10-Radix_Sorting/7-Sublinear_Time_Sort/">
+        7-Sublinear Time Sort
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/3-Sorting/11-Special_purpose_sorting_methods/" title="11-Special Purpose Sorting Methods" class="dd-item
+        
+        
+        
+        ">
+      <a href="/3-Sorting/11-Special_purpose_sorting_methods/">
+          11-Special Purpose Sorting Methods
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/3-Sorting/11-Special_purpose_sorting_methods/0-Introduction/" title="0-Introduction" class="dd-item ">
+        <a href="/3-Sorting/11-Special_purpose_sorting_methods/0-Introduction/">
+        0-Introduction
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/3-Sorting/11-Special_purpose_sorting_methods/1-Batchers_OddEven/" title="1-Batcher&#39;s OddEven" class="dd-item ">
+        <a href="/3-Sorting/11-Special_purpose_sorting_methods/1-Batchers_OddEven/">
+        1-Batcher&#39;s OddEven
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/3-Sorting/11-Special_purpose_sorting_methods/2-Sorting_Networks/" title="2-Sorting Networks" class="dd-item ">
+        <a href="/3-Sorting/11-Special_purpose_sorting_methods/2-Sorting_Networks/">
+        2-Sorting Networks
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/3-Sorting/11-Special_purpose_sorting_methods/3-External_Sorting/" title="3-External Sorting" class="dd-item ">
+        <a href="/3-Sorting/11-Special_purpose_sorting_methods/3-External_Sorting/">
+        3-External Sorting
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/3-Sorting/11-Special_purpose_sorting_methods/4-SortMerge_Implementation/" title="4-SortMerge Implementation" class="dd-item ">
+        <a href="/3-Sorting/11-Special_purpose_sorting_methods/4-SortMerge_Implementation/">
+        4-SortMerge Implementation
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/3-Sorting/11-Special_purpose_sorting_methods/5-Parallel_SortMerge/" title="5-Parallel SortMerge" class="dd-item ">
+        <a href="/3-Sorting/11-Special_purpose_sorting_methods/5-Parallel_SortMerge/">
+        5-Parallel SortMerge
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/4-Seaching/" title="4. Searching" class="dd-item
+        
+        
+        
+        ">
+      <a href="/4-Seaching/">
+          4. Searching
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/4-Seaching/12-Symbol_Tables_and_Binary_Search_Tree/" title="12-Symbol Tables and Binary Search" class="dd-item
+        
+        
+        
+        ">
+      <a href="/4-Seaching/12-Symbol_Tables_and_Binary_Search_Tree/">
+          12-Symbol Tables and Binary Search
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/4-Seaching/12-Symbol_Tables_and_Binary_Search_Tree/1-Symbol_Table_Abstract_Data_Type/" title="1-Symbol Table Abstract Data Type" class="dd-item ">
+        <a href="/4-Seaching/12-Symbol_Tables_and_Binary_Search_Tree/1-Symbol_Table_Abstract_Data_Type/">
+        1-Symbol Table Abstract Data Type
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/4-Seaching/12-Symbol_Tables_and_Binary_Search_Tree/2-Key_Indexed_search/" title="2-Key Indexed Search" class="dd-item ">
+        <a href="/4-Seaching/12-Symbol_Tables_and_Binary_Search_Tree/2-Key_Indexed_search/">
+        2-Key Indexed Search
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/4-Seaching/12-Symbol_Tables_and_Binary_Search_Tree/3-Sequential_Search/" title="3-Sequential Search" class="dd-item ">
+        <a href="/4-Seaching/12-Symbol_Tables_and_Binary_Search_Tree/3-Sequential_Search/">
+        3-Sequential Search
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/4-Seaching/12-Symbol_Tables_and_Binary_Search_Tree/4-Binary_search/" title="4-Binary search" class="dd-item ">
+        <a href="/4-Seaching/12-Symbol_Tables_and_Binary_Search_Tree/4-Binary_search/">
+        4-Binary search
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/4-Seaching/12-Symbol_Tables_and_Binary_Search_Tree/5-Binary_search_treesBSTs/" title="5-Binary search trees(BSTs)" class="dd-item ">
+        <a href="/4-Seaching/12-Symbol_Tables_and_Binary_Search_Tree/5-Binary_search_treesBSTs/">
+        5-Binary search trees(BSTs)
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/4-Seaching/12-Symbol_Tables_and_Binary_Search_Tree/6-Performance_Characteristics_of_BSTs/" title="6-Performance Characteristics of BSTs" class="dd-item ">
+        <a href="/4-Seaching/12-Symbol_Tables_and_Binary_Search_Tree/6-Performance_Characteristics_of_BSTs/">
+        6-Performance Characteristics of BSTs
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/4-Seaching/12-Symbol_Tables_and_Binary_Search_Tree/7-Index_implementations_with_Symbol_Tables/" title="7-Index implementations with Symbol Tables" class="dd-item ">
+        <a href="/4-Seaching/12-Symbol_Tables_and_Binary_Search_Tree/7-Index_implementations_with_Symbol_Tables/">
+        7-Index implementations with Symbol Tables
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/4-Seaching/12-Symbol_Tables_and_Binary_Search_Tree/8-Insertion_at_root_in_BSTs/" title="8-Insertion at root in BSTs" class="dd-item ">
+        <a href="/4-Seaching/12-Symbol_Tables_and_Binary_Search_Tree/8-Insertion_at_root_in_BSTs/">
+        8-Insertion at root in BSTs
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/4-Seaching/12-Symbol_Tables_and_Binary_Search_Tree/9-BST_Implementations_of_Other_ADT_functions/" title="9-BST Implementations of Other ADT functions" class="dd-item ">
+        <a href="/4-Seaching/12-Symbol_Tables_and_Binary_Search_Tree/9-BST_Implementations_of_Other_ADT_functions/">
+        9-BST Implementations of Other ADT functions
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/4-Seaching/13-Balanced_Trees/" title="13-Balanced Trees" class="dd-item
+        
+        
+        
+        ">
+      <a href="/4-Seaching/13-Balanced_Trees/">
+          13-Balanced Trees
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/4-Seaching/13-Balanced_Trees/1_Randomized_BSTs/" title="1_Randomized BSTs" class="dd-item ">
+        <a href="/4-Seaching/13-Balanced_Trees/1_Randomized_BSTs/">
+        1_Randomized BSTs
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/4-Seaching/13-Balanced_Trees/2_Splay_BSTs/" title="2_Splay BSTs" class="dd-item ">
+        <a href="/4-Seaching/13-Balanced_Trees/2_Splay_BSTs/">
+        2_Splay BSTs
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/4-Seaching/13-Balanced_Trees/3_Top-Down_2-3-4_Tress/" title="3-Top-Down 2-3-4 Tress" class="dd-item ">
+        <a href="/4-Seaching/13-Balanced_Trees/3_Top-Down_2-3-4_Tress/">
+        3-Top-Down 2-3-4 Tress
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/4-Seaching/13-Balanced_Trees/4_Red_Black_Trees/" title="4 Red Black Trees" class="dd-item ">
+        <a href="/4-Seaching/13-Balanced_Trees/4_Red_Black_Trees/">
+        4 Red Black Trees
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/4-Seaching/13-Balanced_Trees/5_Skip_Lists/" title="5 Skip Lists" class="dd-item ">
+        <a href="/4-Seaching/13-Balanced_Trees/5_Skip_Lists/">
+        5 Skip Lists
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/4-Seaching/13-Balanced_Trees/6_Performance_Chracteristics/" title="6 Performance Chracteristics" class="dd-item ">
+        <a href="/4-Seaching/13-Balanced_Trees/6_Performance_Chracteristics/">
+        6 Performance Chracteristics
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/4-Seaching/14-Hashing/" title="14-Hashing" class="dd-item
+        
+        
+        
+        ">
+      <a href="/4-Seaching/14-Hashing/">
+          14-Hashing
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/4-Seaching/14-Hashing/1_Hashing_Functions/" title="1-Hashing Functions" class="dd-item ">
+        <a href="/4-Seaching/14-Hashing/1_Hashing_Functions/">
+        1-Hashing Functions
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/4-Seaching/14-Hashing/2_Separate_Chaining/" title="2 Separate Chaining" class="dd-item ">
+        <a href="/4-Seaching/14-Hashing/2_Separate_Chaining/">
+        2 Separate Chaining
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/4-Seaching/14-Hashing/3_Linear_Probing/" title="3-Linear Probing" class="dd-item ">
+        <a href="/4-Seaching/14-Hashing/3_Linear_Probing/">
+        3-Linear Probing
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/4-Seaching/14-Hashing/4_Double_Hashing/" title="4-Double Hashing" class="dd-item ">
+        <a href="/4-Seaching/14-Hashing/4_Double_Hashing/">
+        4-Double Hashing
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/4-Seaching/14-Hashing/5_Dynamic_Hash_Tables/" title="5-Dynamic Hash Tables" class="dd-item ">
+        <a href="/4-Seaching/14-Hashing/5_Dynamic_Hash_Tables/">
+        5-Dynamic Hash Tables
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/4-Seaching/14-Hashing/6_Perspective/" title="6-Perspective" class="dd-item ">
+        <a href="/4-Seaching/14-Hashing/6_Perspective/">
+        6-Perspective
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/4-Seaching/15-Radix_Search/" title="15-Radix Search" class="dd-item
+        
+        
+        
+        ">
+      <a href="/4-Seaching/15-Radix_Search/">
+          15-Radix Search
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/4-Seaching/15-Radix_Search/1_Digital_search_trees/" title="1-Digital Search trees" class="dd-item ">
+        <a href="/4-Seaching/15-Radix_Search/1_Digital_search_trees/">
+        1-Digital Search trees
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/4-Seaching/15-Radix_Search/2_Tries/" title="2-Tries" class="dd-item ">
+        <a href="/4-Seaching/15-Radix_Search/2_Tries/">
+        2-Tries
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/4-Seaching/15-Radix_Search/3_Patricia_Tries/" title="3-Patricia_Tries" class="dd-item ">
+        <a href="/4-Seaching/15-Radix_Search/3_Patricia_Tries/">
+        3-Patricia_Tries
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/4-Seaching/15-Radix_Search/4_Multiway_Tries_and_TSTs/" title="4-Multiway Tries and TSTs" class="dd-item ">
+        <a href="/4-Seaching/15-Radix_Search/4_Multiway_Tries_and_TSTs/">
+        4-Multiway Tries and TSTs
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/4-Seaching/15-Radix_Search/5_TextStrings_and_Index_algorithms/" title="5-TextStrings and Index algorithms" class="dd-item ">
+        <a href="/4-Seaching/15-Radix_Search/5_TextStrings_and_Index_algorithms/">
+        5-TextStrings and Index algorithms
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/4-Seaching/16-External_Sorting/" title="16-External Sorting" class="dd-item
+        
+        
+        
+        ">
+      <a href="/4-Seaching/16-External_Sorting/">
+          16-External Sorting
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/4-Seaching/16-External_Sorting/1_Rules_of_Game/" title="1 Rules of Game" class="dd-item ">
+        <a href="/4-Seaching/16-External_Sorting/1_Rules_of_Game/">
+        1 Rules of Game
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/4-Seaching/16-External_Sorting/2_Indexed_Sequential_Access/" title="2 Indexed Sequential Access" class="dd-item ">
+        <a href="/4-Seaching/16-External_Sorting/2_Indexed_Sequential_Access/">
+        2 Indexed Sequential Access
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/4-Seaching/16-External_Sorting/3_B_Trees/" title="3 B Trees" class="dd-item ">
+        <a href="/4-Seaching/16-External_Sorting/3_B_Trees/">
+        3 B Trees
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/4-Seaching/16-External_Sorting/4_Extendible_Hashing/" title="4 Extendible Hashing" class="dd-item ">
+        <a href="/4-Seaching/16-External_Sorting/4_Extendible_Hashing/">
+        4 Extendible Hashing
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/4-Seaching/16-External_Sorting/5_Perspective/" title="5-Perspective" class="dd-item ">
+        <a href="/4-Seaching/16-External_Sorting/5_Perspective/">
+        5-Perspective
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/5-Graph_Algorithms/" title="5. Graph Algorithms" class="dd-item
+        
+        
+        
+        ">
+      <a href="/5-Graph_Algorithms/">
+          5. Graph Algorithms
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/5-Graph_Algorithms/17-Graph-Properties_and_Types/" title="17-Graph Properties and Types" class="dd-item
+        
+        
+        
+        ">
+      <a href="/5-Graph_Algorithms/17-Graph-Properties_and_Types/">
+          17-Graph Properties and Types
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/5-Graph_Algorithms/17-Graph-Properties_and_Types/1_Glossary/" title="1-Glossary" class="dd-item ">
+        <a href="/5-Graph_Algorithms/17-Graph-Properties_and_Types/1_Glossary/">
+        1-Glossary
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/5-Graph_Algorithms/17-Graph-Properties_and_Types/2_Graph_ADT/" title="2 Graph ADT" class="dd-item ">
+        <a href="/5-Graph_Algorithms/17-Graph-Properties_and_Types/2_Graph_ADT/">
+        2 Graph ADT
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/5-Graph_Algorithms/17-Graph-Properties_and_Types/3_Adjacency_matrix/" title="3 Adjacency matrix" class="dd-item ">
+        <a href="/5-Graph_Algorithms/17-Graph-Properties_and_Types/3_Adjacency_matrix/">
+        3 Adjacency matrix
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/5-Graph_Algorithms/17-Graph-Properties_and_Types/4_Adjacency_Lists_Representation/" title="4-Adjacency Lists Representation" class="dd-item ">
+        <a href="/5-Graph_Algorithms/17-Graph-Properties_and_Types/4_Adjacency_Lists_Representation/">
+        4-Adjacency Lists Representation
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/5-Graph_Algorithms/17-Graph-Properties_and_Types/5_Variation_Extensions_Costs/" title="5-Variation Extensions Costs" class="dd-item ">
+        <a href="/5-Graph_Algorithms/17-Graph-Properties_and_Types/5_Variation_Extensions_Costs/">
+        5-Variation Extensions Costs
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/5-Graph_Algorithms/17-Graph-Properties_and_Types/6_Graph_Generators/" title="6 Graph Generators" class="dd-item ">
+        <a href="/5-Graph_Algorithms/17-Graph-Properties_and_Types/6_Graph_Generators/">
+        6 Graph Generators
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/5-Graph_Algorithms/17-Graph-Properties_and_Types/7_Simple_Euler_and_Hamilton_Paths/" title="7-Simple Euler and Hamilton Paths" class="dd-item ">
+        <a href="/5-Graph_Algorithms/17-Graph-Properties_and_Types/7_Simple_Euler_and_Hamilton_Paths/">
+        7-Simple Euler and Hamilton Paths
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/5-Graph_Algorithms/17-Graph-Properties_and_Types/8_Graph-Processing_Problems/" title="8-Graph Processing Problems" class="dd-item ">
+        <a href="/5-Graph_Algorithms/17-Graph-Properties_and_Types/8_Graph-Processing_Problems/">
+        8-Graph Processing Problems
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/5-Graph_Algorithms/18-Graph_Search/" title="18-Graph Search" class="dd-item
+        
+        
+        
+        ">
+      <a href="/5-Graph_Algorithms/18-Graph_Search/">
+          18-Graph Search
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/5-Graph_Algorithms/18-Graph_Search/1_Exploring_a_Maze/" title="1-Exploring a Maze" class="dd-item ">
+        <a href="/5-Graph_Algorithms/18-Graph_Search/1_Exploring_a_Maze/">
+        1-Exploring a Maze
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/5-Graph_Algorithms/18-Graph_Search/2_Depth_first_search/" title="2-Depth first search" class="dd-item ">
+        <a href="/5-Graph_Algorithms/18-Graph_Search/2_Depth_first_search/">
+        2-Depth first search
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/5-Graph_Algorithms/18-Graph_Search/3_Graph_Search_ADT/" title="3-Graph Search ADT" class="dd-item ">
+        <a href="/5-Graph_Algorithms/18-Graph_Search/3_Graph_Search_ADT/">
+        3-Graph Search ADT
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/5-Graph_Algorithms/18-Graph_Search/4_Properties_of_DFS_Forests/" title="4 Properties of DFS Forests" class="dd-item ">
+        <a href="/5-Graph_Algorithms/18-Graph_Search/4_Properties_of_DFS_Forests/">
+        4 Properties of DFS Forests
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/5-Graph_Algorithms/18-Graph_Search/5_DFS_Algorithms/" title="5-DFS Algorithms" class="dd-item ">
+        <a href="/5-Graph_Algorithms/18-Graph_Search/5_DFS_Algorithms/">
+        5-DFS Algorithms
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/5-Graph_Algorithms/18-Graph_Search/6_Separability_and_Biconnectivity/" title="6-Separability and Biconnectivity" class="dd-item ">
+        <a href="/5-Graph_Algorithms/18-Graph_Search/6_Separability_and_Biconnectivity/">
+        6-Separability and Biconnectivity
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/5-Graph_Algorithms/18-Graph_Search/7_Breadth_First_Search/" title="7-Breadth First Search" class="dd-item ">
+        <a href="/5-Graph_Algorithms/18-Graph_Search/7_Breadth_First_Search/">
+        7-Breadth First Search
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/5-Graph_Algorithms/18-Graph_Search/8_Generalized_Graph_Search/" title="8-Generalized Graph Search" class="dd-item ">
+        <a href="/5-Graph_Algorithms/18-Graph_Search/8_Generalized_Graph_Search/">
+        8-Generalized Graph Search
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/5-Graph_Algorithms/18-Graph_Search/9_Analysis_Graph_Algorithms/" title="9-Analysis Graph Algorithms" class="dd-item ">
+        <a href="/5-Graph_Algorithms/18-Graph_Search/9_Analysis_Graph_Algorithms/">
+        9-Analysis Graph Algorithms
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/5-Graph_Algorithms/19-Digraphs_and_DAGs/" title="19-Digraphs and DAGs" class="dd-item
+        
+        
+        
+        ">
+      <a href="/5-Graph_Algorithms/19-Digraphs_and_DAGs/">
+          19-Digraphs and DAGs
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/5-Graph_Algorithms/19-Digraphs_and_DAGs/1_Glossary_and_Rules_of_Game/" title="1-Glossary and Rules of Game" class="dd-item ">
+        <a href="/5-Graph_Algorithms/19-Digraphs_and_DAGs/1_Glossary_and_Rules_of_Game/">
+        1-Glossary and Rules of Game
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/5-Graph_Algorithms/19-Digraphs_and_DAGs/2_Anatomy_of_DFS_in_Digraphs/" title="2-Anatomy of DFS in Digraphs" class="dd-item ">
+        <a href="/5-Graph_Algorithms/19-Digraphs_and_DAGs/2_Anatomy_of_DFS_in_Digraphs/">
+        2-Anatomy of DFS in Digraphs
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/5-Graph_Algorithms/19-Digraphs_and_DAGs/3_Reachability_and_Transitive_Closure/" title="3-Reachability and Transitive Closure" class="dd-item ">
+        <a href="/5-Graph_Algorithms/19-Digraphs_and_DAGs/3_Reachability_and_Transitive_Closure/">
+        3-Reachability and Transitive Closure
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/5-Graph_Algorithms/19-Digraphs_and_DAGs/4_Equivalence_Relations_and_Partial_Orders/" title="4-Equivalence Relations and Partial Orders" class="dd-item ">
+        <a href="/5-Graph_Algorithms/19-Digraphs_and_DAGs/4_Equivalence_Relations_and_Partial_Orders/">
+        4-Equivalence Relations and Partial Orders
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/5-Graph_Algorithms/19-Digraphs_and_DAGs/5_DAGs/" title="5-DAGs" class="dd-item ">
+        <a href="/5-Graph_Algorithms/19-Digraphs_and_DAGs/5_DAGs/">
+        5-DAGs
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/5-Graph_Algorithms/19-Digraphs_and_DAGs/6_Topological_Sorting/" title="6 Topological Sorting" class="dd-item ">
+        <a href="/5-Graph_Algorithms/19-Digraphs_and_DAGs/6_Topological_Sorting/">
+        6 Topological Sorting
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/5-Graph_Algorithms/19-Digraphs_and_DAGs/7_Reachability_in_DAGs/" title="7-Reachability in DAGs" class="dd-item ">
+        <a href="/5-Graph_Algorithms/19-Digraphs_and_DAGs/7_Reachability_in_DAGs/">
+        7-Reachability in DAGs
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/5-Graph_Algorithms/19-Digraphs_and_DAGs/8_Strong_Components_in_Digraphs/" title="8-Strong Components in Digraphs" class="dd-item ">
+        <a href="/5-Graph_Algorithms/19-Digraphs_and_DAGs/8_Strong_Components_in_Digraphs/">
+        8-Strong Components in Digraphs
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/5-Graph_Algorithms/19-Digraphs_and_DAGs/9_Transitive_Closure_Revisited/" title="9-Transitive Closure Revisited" class="dd-item ">
+        <a href="/5-Graph_Algorithms/19-Digraphs_and_DAGs/9_Transitive_Closure_Revisited/">
+        9-Transitive Closure Revisited
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/5-Graph_Algorithms/19-Digraphs_and_DAGs/10_Perspective/" title="10-Perspective" class="dd-item ">
+        <a href="/5-Graph_Algorithms/19-Digraphs_and_DAGs/10_Perspective/">
+        10-Perspective
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/5-Graph_Algorithms/20-Minimum_Spanning_Trees/" title="20-MSTs" class="dd-item
+        
+        
+        
+        ">
+      <a href="/5-Graph_Algorithms/20-Minimum_Spanning_Trees/">
+          20-MSTs
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/5-Graph_Algorithms/20-Minimum_Spanning_Trees/1_Representations/" title="1-Representations" class="dd-item ">
+        <a href="/5-Graph_Algorithms/20-Minimum_Spanning_Trees/1_Representations/">
+        1-Representations
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/5-Graph_Algorithms/20-Minimum_Spanning_Trees/2_Underlying_Principles_of_mst_algo/" title="2-Underlying Principles of MST algo" class="dd-item ">
+        <a href="/5-Graph_Algorithms/20-Minimum_Spanning_Trees/2_Underlying_Principles_of_mst_algo/">
+        2-Underlying Principles of MST algo
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/5-Graph_Algorithms/20-Minimum_Spanning_Trees/3_Prims_algo_and_priority_first_search/" title="3-Prims algo and priority first search" class="dd-item ">
+        <a href="/5-Graph_Algorithms/20-Minimum_Spanning_Trees/3_Prims_algo_and_priority_first_search/">
+        3-Prims algo and priority first search
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/5-Graph_Algorithms/20-Minimum_Spanning_Trees/4_Kruskals_algo/" title="4-Kruskal&#39;s Algorithm" class="dd-item ">
+        <a href="/5-Graph_Algorithms/20-Minimum_Spanning_Trees/4_Kruskals_algo/">
+        4-Kruskal&#39;s Algorithm
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/5-Graph_Algorithms/20-Minimum_Spanning_Trees/5_Boruvkas_algo/" title="5-Boruvkas Algorithm" class="dd-item ">
+        <a href="/5-Graph_Algorithms/20-Minimum_Spanning_Trees/5_Boruvkas_algo/">
+        5-Boruvkas Algorithm
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/5-Graph_Algorithms/20-Minimum_Spanning_Trees/6_comparisons_and_improvemetns/" title="6-Comparisons and Improvemetns" class="dd-item ">
+        <a href="/5-Graph_Algorithms/20-Minimum_Spanning_Trees/6_comparisons_and_improvemetns/">
+        6-Comparisons and Improvemetns
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/5-Graph_Algorithms/20-Minimum_Spanning_Trees/7_euclidean_MST/" title="7-Euclidean MST" class="dd-item ">
+        <a href="/5-Graph_Algorithms/20-Minimum_Spanning_Trees/7_euclidean_MST/">
+        7-Euclidean MST
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/5-Graph_Algorithms/21-Shortest_Paths/" title="21-Shortest Paths" class="dd-item
+        
+        
+        
+        ">
+      <a href="/5-Graph_Algorithms/21-Shortest_Paths/">
+          21-Shortest Paths
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/5-Graph_Algorithms/21-Shortest_Paths/0_introduction/" title="0-introduction" class="dd-item ">
+        <a href="/5-Graph_Algorithms/21-Shortest_Paths/0_introduction/">
+        0-introduction
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/5-Graph_Algorithms/21-Shortest_Paths/1_underlying_principles/" title="1-Underlying principles" class="dd-item ">
+        <a href="/5-Graph_Algorithms/21-Shortest_Paths/1_underlying_principles/">
+        1-Underlying principles
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/5-Graph_Algorithms/21-Shortest_Paths/2_Dijkstras_algorithm/" title="2-Dijkstras Algorithm" class="dd-item ">
+        <a href="/5-Graph_Algorithms/21-Shortest_Paths/2_Dijkstras_algorithm/">
+        2-Dijkstras Algorithm
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/5-Graph_Algorithms/21-Shortest_Paths/3_all_pair_shortest_paths/" title="3-All pair Shortest Paths" class="dd-item ">
+        <a href="/5-Graph_Algorithms/21-Shortest_Paths/3_all_pair_shortest_paths/">
+        3-All pair Shortest Paths
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/5-Graph_Algorithms/21-Shortest_Paths/4_shortest_path_in_acyclic_networks/" title="4-shortest path in acyclic networks" class="dd-item ">
+        <a href="/5-Graph_Algorithms/21-Shortest_Paths/4_shortest_path_in_acyclic_networks/">
+        4-shortest path in acyclic networks
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/5-Graph_Algorithms/21-Shortest_Paths/5_euclidean_networks/" title="5-euclidean networks" class="dd-item ">
+        <a href="/5-Graph_Algorithms/21-Shortest_Paths/5_euclidean_networks/">
+        5-euclidean networks
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/5-Graph_Algorithms/21-Shortest_Paths/6_reduction/" title="6-reduction" class="dd-item ">
+        <a href="/5-Graph_Algorithms/21-Shortest_Paths/6_reduction/">
+        6-reduction
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/5-Graph_Algorithms/21-Shortest_Paths/7_negative_weights/" title="7-negative weights" class="dd-item ">
+        <a href="/5-Graph_Algorithms/21-Shortest_Paths/7_negative_weights/">
+        7-negative weights
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/5-Graph_Algorithms/21-Shortest_Paths/8_perspective/" title="8-perspective" class="dd-item ">
+        <a href="/5-Graph_Algorithms/21-Shortest_Paths/8_perspective/">
+        8-perspective
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/5-Graph_Algorithms/22-Network_Flows_367/" title="22-Network Flows" class="dd-item
+        
+        
+        
+        ">
+      <a href="/5-Graph_Algorithms/22-Network_Flows_367/">
+          22-Network Flows
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/5-Graph_Algorithms/22-Network_Flows_367/0_introduction/" title="0-introduction" class="dd-item ">
+        <a href="/5-Graph_Algorithms/22-Network_Flows_367/0_introduction/">
+        0-introduction
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/5-Graph_Algorithms/22-Network_Flows_367/1_flow_networks/" title="1-flow networks" class="dd-item ">
+        <a href="/5-Graph_Algorithms/22-Network_Flows_367/1_flow_networks/">
+        1-flow networks
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/5-Graph_Algorithms/22-Network_Flows_367/2_augmeting_path_maxflow_algorithms/" title="2 augmeting path maxflow algorithms" class="dd-item ">
+        <a href="/5-Graph_Algorithms/22-Network_Flows_367/2_augmeting_path_maxflow_algorithms/">
+        2 augmeting path maxflow algorithms
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/5-Graph_Algorithms/22-Network_Flows_367/3_preflow_push_maxflow_algorithms/" title="3-preflow push maxflow algorithms" class="dd-item ">
+        <a href="/5-Graph_Algorithms/22-Network_Flows_367/3_preflow_push_maxflow_algorithms/">
+        3-preflow push maxflow algorithms
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/5-Graph_Algorithms/22-Network_Flows_367/4_maxflow_reductions/" title="4-maxflow reductions" class="dd-item ">
+        <a href="/5-Graph_Algorithms/22-Network_Flows_367/4_maxflow_reductions/">
+        4-maxflow reductions
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/5-Graph_Algorithms/22-Network_Flows_367/5_mincost_flows/" title="5-mincost flows" class="dd-item ">
+        <a href="/5-Graph_Algorithms/22-Network_Flows_367/5_mincost_flows/">
+        5-mincost flows
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/5-Graph_Algorithms/22-Network_Flows_367/6_network_simplex_algorithm/" title="6-network simplex algorithm" class="dd-item ">
+        <a href="/5-Graph_Algorithms/22-Network_Flows_367/6_network_simplex_algorithm/">
+        6-network simplex algorithm
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/5-Graph_Algorithms/22-Network_Flows_367/7_mincost_flow_reductions/" title="7-mincost flow reductions" class="dd-item ">
+        <a href="/5-Graph_Algorithms/22-Network_Flows_367/7_mincost_flow_reductions/">
+        7-mincost flow reductions
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/5-Graph_Algorithms/22-Network_Flows_367/8_perspective/" title="8-perspective" class="dd-item ">
+        <a href="/5-Graph_Algorithms/22-Network_Flows_367/8_perspective/">
+        8-perspective
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/6-Strings/" title="6. Strings" class="dd-item
+        
+        
+        
+        ">
+      <a href="/6-Strings/">
+          6. Strings
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/6-Strings/0_Introduction/" title="0-Introduction" class="dd-item ">
+        <a href="/6-Strings/0_Introduction/">
+        0-Introduction
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/6-Strings/1_String_Sorts/" title="1-String Sorts" class="dd-item ">
+        <a href="/6-Strings/1_String_Sorts/">
+        1-String Sorts
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/6-Strings/2_Tries/" title="2-Tries" class="dd-item ">
+        <a href="/6-Strings/2_Tries/">
+        2-Tries
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/6-Strings/3_Substring_Search/" title="3-Substring Search" class="dd-item ">
+        <a href="/6-Strings/3_Substring_Search/">
+        3-Substring Search
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/6-Strings/4_Regular_Expression/" title="4-Regular Expression" class="dd-item ">
+        <a href="/6-Strings/4_Regular_Expression/">
+        4-Regular Expression
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/6-Strings/5_Data_Compression/" title="5-Data Compression" class="dd-item ">
+        <a href="/6-Strings/5_Data_Compression/">
+        5-Data Compression
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/Practice_Problems1/" title="Problems : Basics 1" class="dd-item
+        
+        
+        
+        ">
+      <a href="/Practice_Problems1/">
+          Problems : Basics 1
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/Practice_Problems1/Binary_Search_1/" title="Predicate Framework of Binary Search" class="dd-item ">
+        <a href="/Practice_Problems1/Binary_Search_1/">
+        Predicate Framework of Binary Search
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/Practice_Problems1/Binary_Search_2/" title="Binary Search continued ...." class="dd-item ">
+        <a href="/Practice_Problems1/Binary_Search_2/">
+        Binary Search continued ....
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/Practice_Problems1/Recursion_1/" title="Recursion 1" class="dd-item ">
+        <a href="/Practice_Problems1/Recursion_1/">
+        Recursion 1
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/Practice_Problems1/Recursion_2/" title="Recursion 2" class="dd-item ">
+        <a href="/Practice_Problems1/Recursion_2/">
+        Recursion 2
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/Practice_Problems1/Recursion_3/" title="Recursion 3" class="dd-item ">
+        <a href="/Practice_Problems1/Recursion_3/">
+        Recursion 3
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/Practice_Problems1/Two_Pointers/" title="2 Pointers" class="dd-item ">
+        <a href="/Practice_Problems1/Two_Pointers/">
+        2 Pointers
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/Practice_Problems1/AdHoc/" title="Ad Hoc" class="dd-item ">
+        <a href="/Practice_Problems1/AdHoc/">
+        Ad Hoc
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/Practice_Problems/" title="Problems : Basics 2" class="dd-item
+        
+        
+        
+        ">
+      <a href="/Practice_Problems/">
+          Problems : Basics 2
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/Practice_Problems/Sorting/" title="Sorting" class="dd-item ">
+        <a href="/Practice_Problems/Sorting/">
+        Sorting
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/Practice_Problems/Linked_List/" title="Linked Lists" class="dd-item ">
+        <a href="/Practice_Problems/Linked_List/">
+        Linked Lists
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/Practice_Problems/Stacks/" title="Stacks" class="dd-item ">
+        <a href="/Practice_Problems/Stacks/">
+        Stacks
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/Practice_Problems/Queues/" title="Queues" class="dd-item ">
+        <a href="/Practice_Problems/Queues/">
+        Queues
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/Practice_Problems/Hash_Tables/" title="Linked Lists" class="dd-item ">
+        <a href="/Practice_Problems/Hash_Tables/">
+        Linked Lists
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/Practice_Problems/BSTs/" title="Binary Search Tree" class="dd-item ">
+        <a href="/Practice_Problems/BSTs/">
+        Binary Search Tree
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/Practice_Problems/BSTs_final/" title="BST Review" class="dd-item ">
+        <a href="/Practice_Problems/BSTs_final/">
+        BST Review
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/Practice_Problems/Trees_1/" title="Trees-1" class="dd-item ">
+        <a href="/Practice_Problems/Trees_1/">
+        Trees-1
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/Practice_Problems/Trees_2/" title="Trees-2" class="dd-item ">
+        <a href="/Practice_Problems/Trees_2/">
+        Trees-2
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/Practice_Problems2/" title="Problems : Basics 3" class="dd-item
+        
+        
+        
+        ">
+      <a href="/Practice_Problems2/">
+          Problems : Basics 3
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/Practice_Problems2/Sorting/" title="Sorting" class="dd-item ">
+        <a href="/Practice_Problems2/Sorting/">
+        Sorting
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/Practice_Problems2/Heaps/" title="Heaps" class="dd-item ">
+        <a href="/Practice_Problems2/Heaps/">
+        Heaps
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/Practice_Problems2/Tries/" title="Tries" class="dd-item ">
+        <a href="/Practice_Problems2/Tries/">
+        Tries
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/Practice_Problems2/BitManipulation/" title="Bit Manipulation" class="dd-item ">
+        <a href="/Practice_Problems2/BitManipulation/">
+        Bit Manipulation
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/Practice_Problems2/strings_1/" title="Strings 1" class="dd-item ">
+        <a href="/Practice_Problems2/strings_1/">
+        Strings 1
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/Practice_Problems2/Strings/" title="Strings from cp-algorithms" class="dd-item ">
+        <a href="/Practice_Problems2/Strings/">
+        Strings from cp-algorithms
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/Practice_DP/" title="Problems : DP" class="dd-item
+        
+        
+        
+        ">
+      <a href="/Practice_DP/">
+          Problems : DP
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/Practice_DP/DP_1/" title="DP 1" class="dd-item ">
+        <a href="/Practice_DP/DP_1/">
+        DP 1
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/Practice_DP/DP_2/" title="DP 2" class="dd-item ">
+        <a href="/Practice_DP/DP_2/">
+        DP 2
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/Practice_DP/DP_3/" title="DP 3" class="dd-item ">
+        <a href="/Practice_DP/DP_3/">
+        DP 3
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/Practice_DP/DP_4/" title="DP 4" class="dd-item ">
+        <a href="/Practice_DP/DP_4/">
+        DP 4
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/Practice_DP/DP_5/" title="DP 5" class="dd-item ">
+        <a href="/Practice_DP/DP_5/">
+        DP 5
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/Practice_Graphs/" title="Problems : Graphs" class="dd-item
+        
+        
+        
+        ">
+      <a href="/Practice_Graphs/">
+          Problems : Graphs
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/Practice_Graphs/Graphs_1/" title="Graphs 1" class="dd-item ">
+        <a href="/Practice_Graphs/Graphs_1/">
+        Graphs 1
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/Practice_Graphs/Graphs_2/" title="Graphs 2" class="dd-item ">
+        <a href="/Practice_Graphs/Graphs_2/">
+        Graphs 2
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/Practice_Graphs/Graphs_3/" title="Graphs 3" class="dd-item ">
+        <a href="/Practice_Graphs/Graphs_3/">
+        Graphs 3
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/Practice_Graphs/Graphs_4/" title="Graphs 4" class="dd-item ">
+        <a href="/Practice_Graphs/Graphs_4/">
+        Graphs 4
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/Absolute_freeBSD/" title="Absolute freeBSD" class="dd-item
+        
+        
+        
+        ">
+      <a href="/Absolute_freeBSD/">
+          Absolute freeBSD
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/Absolute_freeBSD/1_getting_more_help/" title="Getting More Help" class="dd-item ">
+        <a href="/Absolute_freeBSD/1_getting_more_help/">
+        Getting More Help
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/Absolute_freeBSD/2_before_you_install/" title="Before you Install" class="dd-item ">
+        <a href="/Absolute_freeBSD/2_before_you_install/">
+        Before you Install
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/Absolute_freeBSD/3_installing/" title="Installing" class="dd-item ">
+        <a href="/Absolute_freeBSD/3_installing/">
+        Installing
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/Absolute_freeBSD/4_the_boot_process/" title="Start Me up! The Boot Process" class="dd-item ">
+        <a href="/Absolute_freeBSD/4_the_boot_process/">
+        Start Me up! The Boot Process
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/Absolute_freeBSD/5_backup_and_recovery/" title="Read this before you break something" class="dd-item ">
+        <a href="/Absolute_freeBSD/5_backup_and_recovery/">
+        Read this before you break something
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/Absolute_freeBSD/6_kernel_game/" title="Kernel Games" class="dd-item ">
+        <a href="/Absolute_freeBSD/6_kernel_game/">
+        Kernel Games
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/Absolute_freeBSD/8_configuring_networking/" title="Configuring Networking" class="dd-item ">
+        <a href="/Absolute_freeBSD/8_configuring_networking/">
+        Configuring Networking
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/Absolute_freeBSD/7_the_network/" title="The Network" class="dd-item ">
+        <a href="/Absolute_freeBSD/7_the_network/">
+        The Network
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/CP3_Book/" title="CP3 Book" class="dd-item
+        
+        
+        
+        ">
+      <a href="/CP3_Book/">
+          CP3 Book
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/CP3_Book/1_Introduction/" title="Introduction" class="dd-item ">
+        <a href="/CP3_Book/1_Introduction/">
+        Introduction
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/CP3_Book/2_DS_Libraries/" title="Data Structures and Libraries" class="dd-item ">
+        <a href="/CP3_Book/2_DS_Libraries/">
+        Data Structures and Libraries
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/CP3_Book/3_Problem_Solving_Paradigms/" title="Problem Solving Paradigm" class="dd-item ">
+        <a href="/CP3_Book/3_Problem_Solving_Paradigms/">
+        Problem Solving Paradigm
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/Data_Structures_library/" title="Data Structure Library" class="dd-item
+        parent
+        
+        
+        ">
+      <a href="/Data_Structures_library/">
+          Data Structure Library
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/Data_Structures_library/Graphs/" title="Graphs" class="dd-item
+        parent
+        active
+        
+        ">
+      <a href="/Data_Structures_library/Graphs/">
+          Graphs
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/Data_Structures_library/Graphs/Traversal/" title="Traversal" class="dd-item ">
+        <a href="/Data_Structures_library/Graphs/Traversal/">
+        Traversal
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/Data_Structures_library/Graphs/MST/" title="MST" class="dd-item ">
+        <a href="/Data_Structures_library/Graphs/MST/">
+        MST
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/Data_Structures_library/Graphs/shortest_paths/" title="Single-Source Shortest Paths" class="dd-item ">
+        <a href="/Data_Structures_library/Graphs/shortest_paths/">
+        Single-Source Shortest Paths
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/Data_Structures_library/Graphs/network_flow/" title="Network Flow" class="dd-item ">
+        <a href="/Data_Structures_library/Graphs/network_flow/">
+        Network Flow
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/Data_Structures_library/Graphs/special_graph/" title="Special Graph" class="dd-item ">
+        <a href="/Data_Structures_library/Graphs/special_graph/">
+        Special Graph
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/Data_Structures_library/Graphs/Dijkstra/" title="Dijkstra" class="dd-item ">
+        <a href="/Data_Structures_library/Graphs/Dijkstra/">
+        Dijkstra
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/Data_Structures_library/Trees/" title="Trees" class="dd-item
+        
+        
+        
+        ">
+      <a href="/Data_Structures_library/Trees/">
+          Trees
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/Data_Structures_library/Trees/Disjoint_set_union/" title="Disjoint Set Union" class="dd-item ">
+        <a href="/Data_Structures_library/Trees/Disjoint_set_union/">
+        Disjoint Set Union
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/Data_Structures_library/Trees/Fenwick_tree/" title="Fenwick Tree" class="dd-item ">
+        <a href="/Data_Structures_library/Trees/Fenwick_tree/">
+        Fenwick Tree
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/Data_Structures_library/Trees/Sqrt_Decomposition/" title="Sqrt Decomposition" class="dd-item ">
+        <a href="/Data_Structures_library/Trees/Sqrt_Decomposition/">
+        Sqrt Decomposition
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/Data_Structures_library/Trees/Segment_trees/" title="Segment Trees" class="dd-item ">
+        <a href="/Data_Structures_library/Trees/Segment_trees/">
+        Segment Trees
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/Data_Structures_library/Trees/graphs/" title="Graphs" class="dd-item ">
+        <a href="/Data_Structures_library/Trees/graphs/">
+        Graphs
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/Summary/" title="Synopsis" class="dd-item
+        
+        
+        
+        ">
+      <a href="/Summary/">
+          Synopsis
+          
+      </a>
+      
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/InterviewBit/" title="InterviewBit" class="dd-item
+        
+        
+        
+        ">
+      <a href="/InterviewBit/">
+          InterviewBit
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/InterviewBit/BitManipulation/" title="Bit Manipulation" class="dd-item ">
+        <a href="/InterviewBit/BitManipulation/">
+        Bit Manipulation
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/node_js/" title="node.js" class="dd-item
+        
+        
+        
+        ">
+      <a href="/node_js/">
+          node.js
+          
+      </a>
+      
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/STL/" title="STL" class="dd-item
+        
+        
+        
+        ">
+      <a href="/STL/">
+          STL
+          
+      </a>
+      
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/Unix-Setup/" title="Unix Setup" class="dd-item
+        
+        
+        
+        ">
+      <a href="/Unix-Setup/">
+          Unix Setup
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/Unix-Setup/updates/" title="updates" class="dd-item ">
+        <a href="/Unix-Setup/updates/">
+        updates
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/Unix-Setup/shells/" title="shells" class="dd-item ">
+        <a href="/Unix-Setup/shells/">
+        shells
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/Unix-Setup/ssh/" title="ssh" class="dd-item ">
+        <a href="/Unix-Setup/ssh/">
+        ssh
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/Unix-Setup/user/" title="user" class="dd-item ">
+        <a href="/Unix-Setup/user/">
+        user
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/Unix-Setup/bins/" title="user bins" class="dd-item ">
+        <a href="/Unix-Setup/bins/">
+        user bins
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/Unix-Setup/screen/" title="GNU screen" class="dd-item ">
+        <a href="/Unix-Setup/screen/">
+        GNU screen
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/Unix-Setup/tmux/" title="tmux" class="dd-item ">
+        <a href="/Unix-Setup/tmux/">
+        tmux
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/Unix-Setup/rcs/" title="VCS" class="dd-item ">
+        <a href="/Unix-Setup/rcs/">
+        VCS
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/Windows/" title="Windows" class="dd-item
+        
+        
+        
+        ">
+      <a href="/Windows/">
+          Windows
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/Windows/Choco/" title="chocolatey" class="dd-item ">
+        <a href="/Windows/Choco/">
+        chocolatey
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/Windows/Diskpart/" title="diskpart" class="dd-item ">
+        <a href="/Windows/Diskpart/">
+        diskpart
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/Windows/WSL/" title="WSL" class="dd-item ">
+        <a href="/Windows/WSL/">
+        WSL
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/Windows/Dual_Boot1/" title="Partitions Records and Bootloaders" class="dd-item ">
+        <a href="/Windows/Dual_Boot1/">
+        Partitions Records and Bootloaders
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/Windows/Dual_Boot4/" title="General Issues" class="dd-item ">
+        <a href="/Windows/Dual_Boot4/">
+        General Issues
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/Windows/postgresql/" title="postgreSQL" class="dd-item ">
+        <a href="/Windows/postgresql/">
+        postgreSQL
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+        
+    </ul>
+
+    
+    
+
+    
+    <section id="footer">
+      <p>Built with <a href="https://github.com/matcornic/hugo-theme-learn"><i class="fas fa-heart"></i></a> from <a href="https://getgrav.org">Grav</a> and <a href="https://gohugo.io/">Hugo</a> by <b>smk</b></p>
+
+    </section>
+  </div>
+</nav>
+
+
+
+
+        <section id="body">
+        <div id="overlay"></div>
+        <div class="padding highlightable">
+              
+              <div>
+                <div id="top-bar">
+                
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fas fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span class="links">
+                 
+                 
+                    
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='/'></a> > <a href='/Data_Structures_library/'>Data Structure Library</a> > Graphs
+          
+        
+          
+        
+          
+        
+                 
+                  </span>
+                </div>
+                
+              </div>
+            </div>
+            
+        <div id="head-tags">
+        
+        </div>
+        
+          <div id="chapter">
+        
+        <div id="body-inner">
+          
+
+        
+
+
+
+	<h1 id="graphs">Graphs</h1>
+
+
+
+
+
+
+
+<ul class="children children-li">
+	
+
+	
+		
+	
+
+	
+
+	
+		
+	
+		
+			
+				
+<li>
+<a href="/Data_Structures_library/Graphs/Traversal/" >Traversal</a>
+</li>
+				
+
+				
+			
+			
+		
+	
+		
+			
+				
+<li>
+<a href="/Data_Structures_library/Graphs/MST/" >MST</a>
+</li>
+				
+
+				
+			
+			
+		
+	
+		
+			
+				
+<li>
+<a href="/Data_Structures_library/Graphs/shortest_paths/" >Single-Source Shortest Paths</a>
+</li>
+				
+
+				
+			
+			
+		
+	
+		
+			
+				
+<li>
+<a href="/Data_Structures_library/Graphs/network_flow/" >Network Flow</a>
+</li>
+				
+
+				
+			
+			
+		
+	
+		
+			
+				
+<li>
+<a href="/Data_Structures_library/Graphs/special_graph/" >Special Graph</a>
+</li>
+				
+
+				
+			
+			
+		
+	
+		
+			
+				
+<li>
+<a href="/Data_Structures_library/Graphs/Dijkstra/" >Dijkstra</a>
+</li>
+				
+
+				
+			
+			
+		
+	
+
+	
+</ul>
+
+
+
+
+
+
+
+<footer class=" footline" >
+	
+</footer>
+
+        
+            </div> 
+        
+        </div>
+        
+
+      </div>
+
+    <div id="navigation">
+        
+        
+
+        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+
+        
+
+
+	 
+	 
+		
+			<a class="nav nav-prev" href="/Data_Structures_library/" title="Data Structure Library"> <i class="fa fa-chevron-left"></i></a>
+		
+		
+			<a class="nav nav-next" href="/Data_Structures_library/Graphs/Traversal/" title="Traversal" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+		
+	
+    </div>
+
+    </section>
+
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="/js/clipboard.min.js?1641757654"></script>
+    <script src="/js/perfect-scrollbar.min.js?1641757654"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1641757654"></script>
+    <script src="/js/jquery.sticky.js?1641757654"></script>
+    <script src="/js/featherlight.min.js?1641757654"></script>
+    <script src="/js/highlight.pack.js?1641757654"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="/js/modernizr.custom-3.6.0.js?1641757654"></script>
+    <script src="/js/learn.js?1641757654"></script>
+    <script src="/js/hugo-learn.js?1641757654"></script>
+    
+        
+            <script src="/mermaid/mermaid.js?1641757654"></script>
+        
+        <script>
+            mermaid.initialize({ startOnLoad: true });
+        </script>
+    
+    
+
+  </body>
+</html>

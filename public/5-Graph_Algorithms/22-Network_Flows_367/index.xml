@@ -1,15 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>22-Network Flows on smk&#39;s Blogs</title>
     <link>https://algo.minetest.in/5-Graph_Algorithms/22-Network_Flows_367/</link>
     <description>Recent content in 22-Network Flows on smk&#39;s Blogs</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="https://algo.minetest.in/5-Graph_Algorithms/22-Network_Flows_367/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="https://algo.minetest.in/5-Graph_Algorithms/22-Network_Flows_367/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>0-introduction</title>
       <link>https://algo.minetest.in/5-Graph_Algorithms/22-Network_Flows_367/0_introduction/</link>

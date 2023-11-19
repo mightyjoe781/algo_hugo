@@ -353,6 +353,8 @@ now case of ")" we see that $s_{i-1}$ in closed somewhere and we go backwards at
 ![image-20210422081002163](/DP_2.assets/image-20210422081002163.png)
 
 There are two possibilities A[j] = ")" then this is done you can't find the longest from the solution of $s_{i-1}$. otherwise increment the longest pair.
+
+
 $$
 \begin{equation}
   S_{i} =
@@ -363,6 +365,8 @@ $$
     \end{cases}       
 \end{equation}
 $$
+
+
 Here $ j = i - s_{i-j} -1$
 
 ````c++

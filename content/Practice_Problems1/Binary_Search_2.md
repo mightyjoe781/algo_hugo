@@ -2,7 +2,7 @@
 
 title = "Binary Search continued ...."
 date = 2021-05-11T23:01:25+05:30
-weight = 2
+weight = 3
 
 +++
 
@@ -123,7 +123,9 @@ Ideas
   - Vi
 
 <hr>
+
 [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)
+
 
 Simple straight forward problem.
 

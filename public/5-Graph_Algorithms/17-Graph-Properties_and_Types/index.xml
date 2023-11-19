@@ -1,15 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>17-Graph Properties and Types on smk&#39;s Blogs</title>
     <link>https://algo.minetest.in/5-Graph_Algorithms/17-Graph-Properties_and_Types/</link>
     <description>Recent content in 17-Graph Properties and Types on smk&#39;s Blogs</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="https://algo.minetest.in/5-Graph_Algorithms/17-Graph-Properties_and_Types/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="https://algo.minetest.in/5-Graph_Algorithms/17-Graph-Properties_and_Types/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>1-Glossary</title>
       <link>https://algo.minetest.in/5-Graph_Algorithms/17-Graph-Properties_and_Types/1_Glossary/</link>
@@ -17,8 +13,9 @@
       
       <guid>https://algo.minetest.in/5-Graph_Algorithms/17-Graph-Properties_and_Types/1_Glossary/</guid>
       <description>Graph Properties and Types Major Application of Graph includes Maps, Hypertext, Circuits, Schedules, Transactions, Matching, Networks, Program Structure(Compiler).
-Glossary *Definition :* A graph is a set of vertices and a set of edges that connect pairs of distinct vertices ( with at most one edge connecting any pair of vertices ).
-We denote the number of vertices in a given graph by $V$ and number of edges by $E$.</description>
+Glossary Definition : A graph is a set of vertices and a set of edges that connect pairs of distinct vertices ( with at most one edge connecting any pair of vertices ).
+We denote the number of vertices in a given graph by $V$ and number of edges by $E$.
+Above definition puts two restrictions on graphs</description>
     </item>
     
     <item>
@@ -29,7 +26,7 @@ We denote the number of vertices in a given graph by $V$ and number of edges by 
       <guid>https://algo.minetest.in/5-Graph_Algorithms/17-Graph-Properties_and_Types/2_Graph_ADT/</guid>
       <description>Graph ADT This ADT defines fundamental tasks. Whenever faced with new problems we consider algorithms that solve it and their implementations in context of client programs and ADTs that access graph through this interface. This ADT is simple and we will try to develop a more general ADT.
 Graph ADT interface
-struct Edge { int v,w; Edge(int v = -1, int w = -1): v(v),w(w) {} }; class GRAPH { private: //implementation-dependent code public: GRAPH(int,bool); *GRAPH(); int Y() const; int E() const; bool directed() const; int insert(Edge); int remove(Edge); bool edge(int, int); class adjIterator { public: adjIterator(const GRAPH &amp;amp;, int); int beg(); int nxt(); bool end(); }; };  Example of a graph-processing client function</description>
+struct Edge { int v,w; Edge(int v = -1, int w = -1): v(v),w(w) {} }; class GRAPH { private: //implementation-dependent code  public: GRAPH(int,bool); *GRAPH(); int Y() const; int E() const; bool directed() const; int insert(Edge); int remove(Edge); bool edge(int, int); class adjIterator { public: adjIterator(const GRAPH &amp;amp;, int); int beg(); int nxt(); bool end(); }; }; Example of a graph-processing client function</description>
     </item>
     
     <item>
@@ -83,7 +80,7 @@ This model is simple to implement, as indicated by generator given. For given nu
       
       <guid>https://algo.minetest.in/5-Graph_Algorithms/17-Graph-Properties_and_Types/7_Simple_Euler_and_Hamilton_Paths/</guid>
       <description>Simple, Euler, and Hamilton Paths Program 17.16 Simple Path Search
-template &amp;lt;class Graph&amp;gt; class sPATH { const Graph &amp;amp;G; vector&amp;lt;bool&amp;gt; visited; bool found; bool searchR(int v,int w) { if(v==w) return true; visited[v] = true; typename Graph::adjIterator A(G,v); for(int t = A.beg(); !A.end(); A.nxt()) if(!visited[t]) if(searchR(t,w)) return true; return false; } public: sPATH(const Graph &amp;amp;G, int v, int w) : G(G), visited(G.V(), false) {found = searchR(v,w); } bool exists() const { return found; } };  Problem of finding the path in a graph takes us away from local properties such as existence of edges/ degree of vertices to global properties that tell us about a graph&amp;rsquo;s structure.</description>
+template &amp;lt;class Graph&amp;gt; class sPATH { const Graph &amp;amp;G; vector&amp;lt;bool&amp;gt; visited; bool found; bool searchR(int v,int w) { if(v==w) return true; visited[v] = true; typename Graph::adjIterator A(G,v); for(int t = A.beg(); !A.end(); A.nxt()) if(!visited[t]) if(searchR(t,w)) return true; return false; } public: sPATH(const Graph &amp;amp;G, int v, int w) : G(G), visited(G.V(), false) {found = searchR(v,w); } bool exists() const { return found; } }; Problem of finding the path in a graph takes us away from local properties such as existence of edges/ degree of vertices to global properties that tell us about a graph&amp;rsquo;s structure.</description>
     </item>
     
     <item>
@@ -93,8 +90,8 @@ template &amp;lt;class Graph&amp;gt; class sPATH { const Graph &amp;amp;G; vecto
       
       <guid>https://algo.minetest.in/5-Graph_Algorithms/17-Graph-Properties_and_Types/8_Graph-Processing_Problems/</guid>
       <description>Graph Processing Problem Short description of problems.
- Simple connectivity Is a given graph connected ? or Is there a path connecting every pair of vertices ? Is there a cycle in the graph, or is it a forest ? Given two vertices, are they on cycle.
- Strong connectivity in digraphs Is there a directed path connecting every pair of vertices in a digraph ? Given two vertices, are they connected by directed path in both direction ( are they on directed cycle)</description>
+  Simple connectivity Is a given graph connected ? or Is there a path connecting every pair of vertices ? Is there a cycle in the graph, or is it a forest ? Given two vertices, are they on cycle.
+  Strong connectivity in digraphs Is there a directed path connecting every pair of vertices in a digraph ? Given two vertices, are they connected by directed path in both direction ( are they on directed cycle)</description>
     </item>
     
   </channel>

@@ -1,15 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>6. Strings on smk&#39;s Blogs</title>
     <link>https://algo.minetest.in/6-Strings/</link>
     <description>Recent content in 6. Strings on smk&#39;s Blogs</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="https://algo.minetest.in/6-Strings/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="https://algo.minetest.in/6-Strings/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>0-Introduction</title>
       <link>https://algo.minetest.in/6-Strings/0_Introduction/</link>
@@ -27,7 +23,7 @@ For clarity there are several assumptions and definitions that we will make use 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://algo.minetest.in/6-Strings/1_String_Sorts/</guid>
-      <description> Introduction  Key-Indexed Counting LSD String sort MSD String sort Three-way string quicksort Which string sorting algorithm should I use </description>
+      <description>Introduction Key-Indexed Counting LSD String sort MSD String sort Three-way string quicksort Which string sorting algorithm should I use </description>
     </item>
     
     <item>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>InterviewBit on smk&#39;s Blogs</title>
+    <link>https://algo.minetest.in/InterviewBit/</link>
+    <description>Recent content in InterviewBit on smk&#39;s Blogs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://algo.minetest.in/InterviewBit/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bit Manipulation</title>
+      <link>https://algo.minetest.in/InterviewBit/BitManipulation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/InterviewBit/BitManipulation/</guid>
+      <description>Bit Manipulation on Scalar.
+XORs have 2 important property other than commutative and associativity.
+ Identity element : $A \oplus 0 = A$ Self-Inverse : $A \oplus A = 0$ XOR is monotonic in absolute difference between numbers.  All about XOR
+Bit Play Number of 1 Bits
+ Standard loop thru digits and do if(N &amp;amp; (1 &amp;lt;&amp;lt; i)) cnt++;  Number of Zeroes
+ Keep counting zeroes from backwards and break when u encounter a 1.</description>
+    </item>
+    
+  </channel>
+</rss>

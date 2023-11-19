@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Graphs on smk&#39;s Blogs</title>
+    <link>https://algo.minetest.in/Data_Structures_library/Graphs/</link>
+    <description>Recent content in Graphs on smk&#39;s Blogs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://algo.minetest.in/Data_Structures_library/Graphs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Traversal</title>
+      <link>https://algo.minetest.in/Data_Structures_library/Graphs/Traversal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/Data_Structures_library/Graphs/Traversal/</guid>
+      <description>Depth First Search (DFS)  traverses graph in &amp;lsquo;depth-first&amp;rsquo; manner Time Complexity  $O(V+E)$ : Adjacency List $O(V^2)$ : Adjacency Matrix    typedef pair&amp;lt;int,int&amp;gt; ii; typedef vector&amp;lt;ii&amp;gt; vii; typedef vector&amp;lt;int&amp;gt; vi; const UNVISITED = -1; const VISITED = 1; vi dfs_num;	// initially all set to unvisited  void dfs(int u) { dfs_num[u] = VISITED; for(auto v:adj[u]) { if(dfs_num[v] == UNVISITED) dfs(v); } } Breadth First Search (BFS)  traverses graph in &amp;lsquo;breadth-first&amp;rsquo; manner Time Complexity  $O(V+E)$ : Adjacency List $O(V^2)$ : Adjacency Matrix    // inside int main() -- no recursion vi d(V,INF); d[s] = 0;	// distance from source s to s is 0  queue&amp;lt;int&amp;gt; q; q.</description>
+    </item>
+    
+    <item>
+      <title>MST</title>
+      <link>https://algo.minetest.in/Data_Structures_library/Graphs/MST/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/Data_Structures_library/Graphs/MST/</guid>
+      <description>Given a connected, undirected, and weighted graph G, select a subset $E&#39; \in G $ such that graph G is (still) connected and weight of selected edge E&#39; is minimal !!
+To satisfy connectivity criteria
+  we need at least V-1 edges that form a tree and this tree must span all $V \in G$.
+  MST can be solved with several well known algorithms
+ Prim&amp;rsquo;s Krushkal&amp;rsquo;s    Kruskal&amp;rsquo;s Algorithm This algorithm first sorts E edges based on non-decreasing weight.</description>
+    </item>
+    
+    <item>
+      <title>Single-Source Shortest Paths</title>
+      <link>https://algo.minetest.in/Data_Structures_library/Graphs/shortest_paths/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/Data_Structures_library/Graphs/shortest_paths/</guid>
+      <description>SSSP Motivating Problem : Given a weighted graph G and a starting source vertex s, what are the shortest paths from s to every other vertices of G ?
+This problem is well known as SSSP (Single-Source shortest path) problem on a weighted graph. There are efficient algorithm to solve this SSSP problem.
+If graph is unweighted (or all edges have equal or constant weight), we can use the efficient $O(V+E)$ BFS algorithm.</description>
+    </item>
+    
+    <item>
+      <title>Network Flow</title>
+      <link>https://algo.minetest.in/Data_Structures_library/Graphs/network_flow/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/Data_Structures_library/Graphs/network_flow/</guid>
+      <description>Motivating Problem : Imagine a connected, (integer) weighted, and directed graph as a pipe network where the edges are the pipes and the vertices are splitting points. Each edge has a weight equals to the capacity of the pipe. There are also two special vertices : source s and sink t.
+What is the maximum flow (rate) from source s to sink t in this graph ?
+Ford Fulkerson’s Method One solution for max-flow is the ford fulkerson’s method.</description>
+    </item>
+    
+    <item>
+      <title>Special Graph</title>
+      <link>https://algo.minetest.in/Data_Structures_library/Graphs/special_graph/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/Data_Structures_library/Graphs/special_graph/</guid>
+      <description>Some basic graph problems have simpler/faster polynomial algorithms if the given graph is special.
+Directed Acyclic Graph DAG is special graph with property : Di-rected and has no cycle. DAG implies no cycles by definition. That makes it suitable for solving problems using Dynamic Programming. Cyclic States or Dependency hurts DP at its core. We can view DP states as vertices in an implicit DAG and acyclic transition between DP states as directed edges of that implicit DAG.</description>
+    </item>
+    
+    <item>
+      <title>Dijkstra</title>
+      <link>https://algo.minetest.in/Data_Structures_library/Graphs/Dijkstra/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/Data_Structures_library/Graphs/Dijkstra/</guid>
+      <description>This is simplest implementation of Dijkstra in C++.
+Assumes input is given as input[i] : $[u_i,v_i,w]$ , a source vertex s , a destination vertex d.
+Below code solves the dist[] : which will in the end contain required distance as dist[d].
+Note : below code assumes vertex in range [0,1,...n-1]
+Reference : https://www.coursera.org/lecture/algorithms-part2/dijkstras-algorithm-2e9Ic
+typedef pair&amp;lt;int,int&amp;gt; pi; int dijkstra(vector&amp;lt;vector&amp;lt;int&amp;gt;&amp;gt;&amp;amp; input, int s, int d, int n) { // construct graph  vector&amp;lt;vector&amp;lt;int&amp;gt;&amp;gt; G(n); for(auto&amp;amp; inp:input) G[inp[0]].</description>
+    </item>
+    
+  </channel>
+</rss>

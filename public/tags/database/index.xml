@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>database on smk&#39;s Blogs</title>
+    <link>https://algo.minetest.in/tags/database/</link>
+    <description>Recent content in database on smk&#39;s Blogs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://algo.minetest.in/tags/database/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>postgreSQL</title>
+      <link>https://algo.minetest.in/Windows/postgresql/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/Windows/postgresql/</guid>
+      <description>PostgreSQL Downloading on Debian
+#!/bin/bash -e sudo sh -c &amp;#39;echo &amp;#34;deb http://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-pgdg main&amp;#34; &amp;gt; /etc/apt/sources.list.d/pgdg.list&amp;#39; wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add - sudo apt-get update sudo apt-get -y install postgresql sudo apt-get -y install postgresql-12 Service Restart ( use it to start the server )
+sudo service postgresql restart
+Connecting to DB as the above setup creates a user process named postgresql
+sudo -i -u postgres psql Creating User</description>
+    </item>
+    
+  </channel>
+</rss>

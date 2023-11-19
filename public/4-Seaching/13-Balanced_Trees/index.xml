@@ -1,15 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>13-Balanced Trees on smk&#39;s Blogs</title>
     <link>https://algo.minetest.in/4-Seaching/13-Balanced_Trees/</link>
     <description>Recent content in 13-Balanced Trees on smk&#39;s Blogs</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="https://algo.minetest.in/4-Seaching/13-Balanced_Trees/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="https://algo.minetest.in/4-Seaching/13-Balanced_Trees/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>1_Randomized BSTs</title>
       <link>https://algo.minetest.in/4-Seaching/13-Balanced_Trees/1_Randomized_BSTs/</link>

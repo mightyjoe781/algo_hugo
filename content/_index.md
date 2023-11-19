@@ -6,6 +6,8 @@ draft: false
 
 Published on : 2021-04-05
 
+Last Updated : 2021-10-18
+
 Hello, Welcome to my blog site. This is a simple and easy design built with the help of Hugo. I tried to keep all codes and steps as simple as possible.
 
 DSA : notes are based on the Book "Algorithms in C++" by Robert Sedgewick and Chris Van Wyk. Other Articles are fundamentals I picked up from various sources.

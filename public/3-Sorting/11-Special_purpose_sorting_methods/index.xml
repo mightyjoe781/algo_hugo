@@ -1,15 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>11-Special Purpose Sorting Methods on smk&#39;s Blogs</title>
     <link>https://algo.minetest.in/3-Sorting/11-Special_purpose_sorting_methods/</link>
     <description>Recent content in 11-Special Purpose Sorting Methods on smk&#39;s Blogs</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="https://algo.minetest.in/3-Sorting/11-Special_purpose_sorting_methods/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="https://algo.minetest.in/3-Sorting/11-Special_purpose_sorting_methods/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>0-Introduction</title>
       <link>https://algo.minetest.in/3-Sorting/11-Special_purpose_sorting_methods/0-Introduction/</link>
@@ -73,7 +69,7 @@ The major weakness of balanced multiway merging is that only about one-half the 
       
       <guid>https://algo.minetest.in/3-Sorting/11-Special_purpose_sorting_methods/5-Parallel_SortMerge/</guid>
       <description>Parallel Sort-Merge The abstract model for parallel processing involves following assumptions.
- N records to be sorted and P processors, each capable of holding N/P records.  Processors are labeled as 0,1, &amp;hellip; , P-1 and assume that input is in the local memories of processors.
+ N records to be sorted and P processors, each capable of holding N/P records.  Processors are labeled as 0,1, . . . , P-1 and assume that input is in the local memories of processors.
 The goal of the sort is to rearrange the records to put smallest N/P records in processor 0&amp;rsquo;s memory and so on in sorted order.</description>
     </item>
     

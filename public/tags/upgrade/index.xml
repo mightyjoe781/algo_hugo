@@ -1,15 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Upgrade on smk&#39;s Blogs</title>
+    <title>upgrade on smk&#39;s Blogs</title>
     <link>https://algo.minetest.in/tags/upgrade/</link>
-    <description>Recent content in Upgrade on smk&#39;s Blogs</description>
+    <description>Recent content in upgrade on smk&#39;s Blogs</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="https://algo.minetest.in/tags/upgrade/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="https://algo.minetest.in/tags/upgrade/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>updates</title>
       <link>https://algo.minetest.in/Unix-Setup/updates/</link>
@@ -17,11 +13,11 @@
       
       <guid>https://algo.minetest.in/Unix-Setup/updates/</guid>
       <description>Probably first thing after installing an OS is to update it
-Debian Guide apt-get update apt-get upgrade apt-get dist-upgrade apt-get autoremove  This should upgrade the OS to latest debian release : Note that it only upgrades distro within its series for example 10.1 to 10.8
+Debian Guide apt-get update apt-get upgrade apt-get dist-upgrade apt-get autoremove This should upgrade the OS to latest debian release : Note that it only upgrades distro within its series for example 10.1 to 10.8
 Checking the distro
-cat /etc/os-release  Then install basic utilities.
+cat /etc/os-release Then install basic utilities.
 FreeBSD Guide Upgrading packages within same release
-freebsd-update fetch freebsd-update install  if anything goes wrong do this</description>
+freebsd-update fetch freebsd-update install if anything goes wrong do this</description>
     </item>
     
   </channel>

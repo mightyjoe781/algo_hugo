@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CP3 Book on smk&#39;s Blogs</title>
+    <link>https://algo.minetest.in/CP3_Book/</link>
+    <description>Recent content in CP3 Book on smk&#39;s Blogs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://algo.minetest.in/CP3_Book/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction</title>
+      <link>https://algo.minetest.in/CP3_Book/1_Introduction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/CP3_Book/1_Introduction/</guid>
+      <description>Competitive Programming is all about &amp;ldquo;Given well-known Computer Science (CS) problems, solve them as quickly as possible! &amp;ldquo;.
+Tips to be Competitive   Type Code Faster.
+ 55-65 wpm is decent speed.    Quickly Identify Problem Types.
+  Do Algorithm Analysis.
+ Anything of order of O(n log n) is accepted solutions in most cases.    Master Programming Languages.
+ CPP is preferred but some library of Java can be useful for e.</description>
+    </item>
+    
+    <item>
+      <title>Data Structures and Libraries</title>
+      <link>https://algo.minetest.in/CP3_Book/2_DS_Libraries/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/CP3_Book/2_DS_Libraries/</guid>
+      <description>Linear DS with Built-in Libraries   Static Array  used for sequential collections of data generally should be declared with some extra buffer than mentioned in problem    Dynamically-Resizable Array  C++ STL vector or Java ArrayList same as array but with additional ability of runtime resizability Typical Operations  push_back() , at(), assign() , erase()      Array of Booleans:  C++ STL bitset (Java BitSet)    Bitmasks  lightweight, small set of Booleans using integers to represent Boolean values.</description>
+    </item>
+    
+    <item>
+      <title>Problem Solving Paradigm</title>
+      <link>https://algo.minetest.in/CP3_Book/3_Problem_Solving_Paradigms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/CP3_Book/3_Problem_Solving_Paradigms/</guid>
+      <description>There are four problem solving paradigms  Complete Search Divide and Conquer Greedy Approach Dynamic Programming    Complete Search   aka brute force or recursive backtracking
+  in this method we traverse entire search space to obtain solution and during search we are allowed to prune
+  Develop this solution only if
+ clearly no other algorithm available better algorithms are overkill for input size    Remember &amp;lsquo;KISS&amp;rsquo; - Keep it Short and Simple</description>
+    </item>
+    
+  </channel>
+</rss>

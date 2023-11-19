@@ -1,22 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>12-Symbol Tables and Binary Search on smk&#39;s Blogs</title>
     <link>https://algo.minetest.in/4-Seaching/12-Symbol_Tables_and_Binary_Search_Tree/</link>
     <description>Recent content in 12-Symbol Tables and Binary Search on smk&#39;s Blogs</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="https://algo.minetest.in/4-Seaching/12-Symbol_Tables_and_Binary_Search_Tree/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="https://algo.minetest.in/4-Seaching/12-Symbol_Tables_and_Binary_Search_Tree/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>1-Symbol Table Abstract Data Type</title>
       <link>https://algo.minetest.in/4-Seaching/12-Symbol_Tables_and_Binary_Search_Tree/1-Symbol_Table_Abstract_Data_Type/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://algo.minetest.in/4-Seaching/12-Symbol_Tables_and_Binary_Search_Tree/1-Symbol_Table_Abstract_Data_Type/</guid>
-      <description>Introduction A symbol table is a data structure of items with keys that supports two basic operations
+      <description>Introduction A symbol table is a data structure of items with keysthat supports two basic operations
  Insert a new item Return an item with a given key  Also known as dictionaries sometimes.
 Symbol-Table Abstract Data Type Operations of interest in the implementations are
  insert search for a item given the key remove a item sort the symbol table join two symbol table  Additionally we might also want a standard construct,test if empty , destroy and copy.</description>
@@ -90,7 +86,7 @@ We can adapt BSTs to build indices in precisely the same manner as we provided i
       
       <guid>https://algo.minetest.in/4-Seaching/12-Symbol_Tables_and_Binary_Search_Tree/8-Insertion_at_root_in_BSTs/</guid>
       <description>Insertion at the Root in BSTs In standard implementation of BSTs each new inserted node goes to some external node via recursion. But now we wish to put that node at the root so new nodes are at the root of the tree it proposes a problem or breaking BST property but there is way to prevent it.
-Recursive solution is known as rotation , a fundamental transformation on trees.</description>
+Recursive solution is known as rotation , a fundamental transformation on trees. It essentially interchanges role of root&amp;rsquo;s children in a tree while still preserving the BST ordering.</description>
     </item>
     
     <item>

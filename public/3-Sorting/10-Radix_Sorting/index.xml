@@ -1,15 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>10-Radix Sorting on smk&#39;s Blogs</title>
     <link>https://algo.minetest.in/3-Sorting/10-Radix_Sorting/</link>
     <description>Recent content in 10-Radix Sorting on smk&#39;s Blogs</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="https://algo.minetest.in/3-Sorting/10-Radix_Sorting/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="https://algo.minetest.in/3-Sorting/10-Radix_Sorting/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>0-Introduction</title>
       <link>https://algo.minetest.in/3-Sorting/10-Radix_Sorting/0-Introduction/</link>

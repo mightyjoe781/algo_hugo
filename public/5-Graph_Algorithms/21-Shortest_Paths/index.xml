@@ -1,15 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>21-Shortest Paths on smk&#39;s Blogs</title>
     <link>https://algo.minetest.in/5-Graph_Algorithms/21-Shortest_Paths/</link>
     <description>Recent content in 21-Shortest Paths on smk&#39;s Blogs</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="https://algo.minetest.in/5-Graph_Algorithms/21-Shortest_Paths/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="https://algo.minetest.in/5-Graph_Algorithms/21-Shortest_Paths/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>0-introduction</title>
       <link>https://algo.minetest.in/5-Graph_Algorithms/21-Shortest_Paths/0_introduction/</link>
@@ -37,7 +33,7 @@ At each step, we test whether we can find a path that is shorter than some know 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://algo.minetest.in/5-Graph_Algorithms/21-Shortest_Paths/2_Dijkstras_algorithm/</guid>
-      <description>Dijkstra&amp;rsquo;s Algorithm In 20.3 we discussed Prim&amp;rsquo;s algorithm for finding MST of a weighted undirected graph. Here similarly we put source on SPT; then we build the SPT one edge at a time, always taking next the edge that gives a min shortest path from the source to vertex not on the SPT. In other words, we add vertices to SPT in order of their distance to the start vertex.</description>
+      <description>Dijkstra&amp;rsquo;s Algorithm In 20.3 we discussed Prim&amp;rsquo;s algorithm for finding MST of a weighted undirected graph. Here similarly we put source on SPT; then we build the SPT one edge at a time, always taking next the edge that gives a min shortest path from the source to vertex not on the SPT. In other words, we add vertices to SPT in order of their distance to the start vertex. This is known as Dijkstra&amp;rsquo;s algorithm.</description>
     </item>
     
     <item>
@@ -77,7 +73,7 @@ These networks have 2 important properties
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://algo.minetest.in/5-Graph_Algorithms/21-Shortest_Paths/6_reduction/</guid>
-      <description>Reduction Definition 21.3 *We say that a problem A reduces to another problem B if we can use an algorithm that solves B to develop an algorithm that solves A, in a total amount of time that is, in the worst case, no more than a constant times the worst-case running time of the algorithm that solves B. We say that two problems are equivalent if they reduce to each other.</description>
+      <description>Reduction Definition 21.3 We say that a problem A reduces to another problem B if we can use an algorithm that solves B to develop an algorithm that solves A, in a total amount of time that is, in the worst case, no more than a constant times the worst-case running time of the algorithm that solves B. We say that two problems are equivalent if they reduce to each other.</description>
     </item>
     
     <item>

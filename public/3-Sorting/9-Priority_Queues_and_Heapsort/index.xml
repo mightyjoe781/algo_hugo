@@ -1,15 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>9-Priority Queues and Heapsort on smk&#39;s Blogs</title>
     <link>https://algo.minetest.in/3-Sorting/9-Priority_Queues_and_Heapsort/</link>
     <description>Recent content in 9-Priority Queues and Heapsort on smk&#39;s Blogs</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="https://algo.minetest.in/3-Sorting/9-Priority_Queues_and_Heapsort/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="https://algo.minetest.in/3-Sorting/9-Priority_Queues_and_Heapsort/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>0-Introduction</title>
       <link>https://algo.minetest.in/3-Sorting/9-Priority_Queues_and_Heapsort/0-Introduction/</link>
@@ -29,7 +25,8 @@ Applications of PQ include simulations systems ( keys ~ event times ) , job sche
       <guid>https://algo.minetest.in/3-Sorting/9-Priority_Queues_and_Heapsort/1-Elementary_Implementations/</guid>
       <description>Elementary Implementations we can use ordered or unordered sequences, implemented as linked list or arrays. Tradeoff between leaving the items unordered and keeping them in order is
 Ordered Sequences allows constant time remove the maximum and find the max but going through the whole list for insert. (eager approach)
-Unordered Sequences allows constant time insert but traversing entire structure for finding the maximum or removing the maximum (lazy approach)</description>
+Unordered Sequences allows constant time insert but traversing entire structure for finding the maximum or removing the maximum (lazy approach)
+We can use an array or linked-list representation in either case, with the basic tradeoff that linked list allow constant-time remove (and, in the unordered case join) but requires more space for links.</description>
     </item>
     
     <item>
@@ -74,7 +71,7 @@ SortDown is like selection sort but more efficient in finding largest item in un
       <guid>https://algo.minetest.in/3-Sorting/9-Priority_Queues_and_Heapsort/5-Priority_Queue_ADT/</guid>
       <description>Priority Queue ADT Full priority-queue ADT
 This interface allows client programs to delete items and to change priorities (using handles provided by the implementation ) and to merge priority queues together.
-template &amp;lt;class Item&amp;gt; class PQ { private : //Implementation-dependent code pubilc : //Implementation-dependent handle definition PQ(int); int empty() cons; handle insert(Item); Item getmax(); void change(handle,Item); void remove(handle); void join(PQ&amp;lt;Item&amp;gt;&amp;amp;); };  This arrangement restricts both client program and implementation that client program is not given a way to access information through handles except through this interface.</description>
+template &amp;lt;class Item&amp;gt; class PQ { private : //Implementation-dependent code  pubilc : //Implementation-dependent handle definition  PQ(int); int empty() cons; handle insert(Item); Item getmax(); void change(handle,Item); void remove(handle); void join(PQ&amp;lt;Item&amp;gt;&amp;amp;); }; This arrangement restricts both client program and implementation that client program is not given a way to access information through handles except through this interface.</description>
     </item>
     
     <item>
@@ -85,7 +82,7 @@ template &amp;lt;class Item&amp;gt; class PQ { private : //Implementation-depend
       <guid>https://algo.minetest.in/3-Sorting/9-Priority_Queues_and_Heapsort/6-Priority_Qeues_for_Index_Items/</guid>
       <description>Priority Queues for Index Items Suppose that records to be processed in a PQ are in array already. So we can develop PQ routines handle data using indexes. Moreover handle here becomes array index.
 Priority queue ADT interface for index items
-template &amp;lt;class Index&amp;gt; class PQ { private : //Implemetation-dependent code public : PQ(int); int empty() const; void insert(Index); Index getmax(); void change(Index); void remove(Index); };  Index heap based priority queues</description>
+template &amp;lt;class Index&amp;gt; class PQ { private : //Implemetation-dependent code  public : PQ(int); int empty() const; void insert(Index); Index getmax(); void change(Index); void remove(Index); }; Index heap based priority queues</description>
     </item>
     
     <item>

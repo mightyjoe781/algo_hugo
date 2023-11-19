@@ -1,16 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>1d Dp on smk&#39;s Blogs</title>
-    <link>https://algo.minetest.in/tags/1d-dp/</link>
-    <description>Recent content in 1d Dp on smk&#39;s Blogs</description>
+    <title>1D DP on smk&#39;s Blogs</title>
+    <link>https://algo.minetest.in/tags/1D-DP/</link>
+    <description>Recent content in 1D DP on smk&#39;s Blogs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 21 Apr 2021 09:51:25 +0530</lastBuildDate>
-    
-	<atom:link href="https://algo.minetest.in/tags/1d-dp/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 21 Apr 2021 09:51:25 +0530</lastBuildDate><atom:link href="https://algo.minetest.in/tags/1D-DP/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>DP 1</title>
       <link>https://algo.minetest.in/Practice_DP/DP_1/</link>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Problems : Basics 2 on smk&#39;s Blogs</title>
@@ -6,11 +6,7 @@
     <description>Recent content in Problems : Basics 2 on smk&#39;s Blogs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 12 Apr 2021 16:01:25 +0530</lastBuildDate>
-    
-	<atom:link href="https://algo.minetest.in/Practice_Problems/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 19 Apr 2021 21:51:25 +0530</lastBuildDate><atom:link href="https://algo.minetest.in/Practice_Problems/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Sorting</title>
       <link>https://algo.minetest.in/Practice_Problems/Sorting/</link>
@@ -30,7 +26,7 @@ Sometimes questions might ask you to give inversion if only alternate swaps are 
       
       <guid>https://algo.minetest.in/Practice_Problems/Linked_List/</guid>
       <description>Basic Problems Reversing a Linked List There can multiple ways to do this but simplest is just making a new head and keep pushing items on the new head ( reverse automatically)
-link reverse(link head){ link x = head; // copy of head ( good practice ) link rev = nullptr,tmp ; while(x){ tmp = x-&amp;gt;next; // increment the list x -&amp;gt; next = rev; rev = x; x = tmp; } return rev; }  // its a suffix subproblem case</description>
+link reverse(link head){ link x = head; // copy of head ( good practice )  link rev = nullptr,tmp ; while(x){ tmp = x-&amp;gt;next; // increment the list  x -&amp;gt; next = rev; rev = x; x = tmp; } return rev; } // its a suffix subproblem case</description>
     </item>
     
     <item>
@@ -96,7 +92,8 @@ No we can transform question into find the subarray with sum $ s_1 $ such that $
       <description>Review Ordered Search Structures we use whenever there is a need for ordering. Great examples are BSTs and we used lower_bound and upper_bound
 set,map =&amp;gt; sorted order.
 Lets review some of the basics of BSTs. // don&amp;rsquo;t ask me why its not on top.
-Date Models : usually the most of data we encounter is multidimensional so for such a multidimensional data we use identifiers ( like primary keys).</description>
+Date Models : usually the most of data we encounter is multidimensional so for such a multidimensional data we use identifiers ( like primary keys).
+so its exhibits a key , value model</description>
     </item>
     
     <item>
@@ -109,7 +106,7 @@ Date Models : usually the most of data we encounter is multidimensional so for s
 Maximum Depth of Binary Tree :
 longest path either comes from left node or right node we can take just take max of whatever our recursive function returns.
 maxDepth(root)=max(1+maxDepth(root-&amp;gt;left),1+maxDepth(root-&amp;gt;right))
-int maxDepth(TreeNode* root) { if(!root) return 0; return 1+max(maxDepth(root-&amp;gt;left),maxDepth(root-&amp;gt;right)); }  By reference based recursion method : good for revision ;0</description>
+int maxDepth(TreeNode* root) { if(!root) return 0; return 1+max(maxDepth(root-&amp;gt;left),maxDepth(root-&amp;gt;right)); } By reference based recursion method : good for revision ;0</description>
     </item>
     
     <item>

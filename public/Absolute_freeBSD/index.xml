@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Absolute freeBSD on smk&#39;s Blogs</title>
+    <link>https://algo.minetest.in/Absolute_freeBSD/</link>
+    <description>Recent content in Absolute freeBSD on smk&#39;s Blogs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://algo.minetest.in/Absolute_freeBSD/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Getting More Help</title>
+      <link>https://algo.minetest.in/Absolute_freeBSD/1_getting_more_help/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/Absolute_freeBSD/1_getting_more_help/</guid>
+      <description>Well these notes are not enough to carry all the information necessary for one to learn FreeBSD that is why user should seek out two reliable sources for assistance.
+ FreeBSD Mailing Lists. FreeBSD forums.  Do note what you are asking before sending in your question, because audience can up to tens of thousands. People take their valuable time to answer your question and effort in making the answers to most of these question available elsewhere.</description>
+    </item>
+    
+    <item>
+      <title>Before you Install</title>
+      <link>https://algo.minetest.in/Absolute_freeBSD/2_before_you_install/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/Absolute_freeBSD/2_before_you_install/</guid>
+      <description>A successful install is one that works for its intended purpose.
+Default Files FreeBSD separates configuration files into default files and customization files. The default files contains variable assignments and aren&amp;rsquo;t intended to edited; instead they are designed to be overridden by another file of the same name.
+Default configuration are kept in a directory called default. For example boot loader configuration files is /boot/loader.config and the default configuration file is in /boot/defaults/loader.</description>
+    </item>
+    
+    <item>
+      <title>Installing</title>
+      <link>https://algo.minetest.in/Absolute_freeBSD/3_installing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/Absolute_freeBSD/3_installing/</guid>
+      <description>Core Settings  Boot multiuser for installation Choosing a keymap Choose a hostname  Distribution Selection base-dbg : Debugging symbols for the base system, useful to programmers
+kernel-dbg : Debugging symbols for the kernel, useful to programmers
+lib32-dbg : 32-bit compatibility libraries (only on 64-bit systems)
+src : Source code of installed operating systems
+test : FreeBSD&amp;rsquo;s self-test tools
+doc : FreeBSD&amp;rsquo;s official documentation, such as Handbook (not in FreeBSD13.0)</description>
+    </item>
+    
+    <item>
+      <title>Start Me up! The Boot Process</title>
+      <link>https://algo.minetest.in/Absolute_freeBSD/4_the_boot_process/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/Absolute_freeBSD/4_the_boot_process/</guid>
+      <description>Power-On A computer needs to find and load its operating system. For many years BIOS provided the functionality but now its moving towards UEFI. Some hardware platform have console firmware or bootroms that perform the same function.
+UEFI UEFI searches for boot drive for a partition marked as a UEFI boot partition. The partition contains FAT fs with a specific directory and file layout. UEFI executes the file /EFI/BOOT/BOOTX64.EFI. This file might be a fancy multi-OS boot loader or might through you directly in OS, FreeBSD boot fires up the boot loader.</description>
+    </item>
+    
+    <item>
+      <title>Read this before you break something</title>
+      <link>https://algo.minetest.in/Absolute_freeBSD/5_backup_and_recovery/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/Absolute_freeBSD/5_backup_and_recovery/</guid>
+      <description>System Backups You need a system backup only if you care about your data. Online backups can easily be damaged or destroyed by whatever ruins the live server. Proper backups are stored safely offline. Tools like rsync(1), and even ZFS replication, don&amp;rsquo;t create actual backups, they create convenient online copies.
+A complete backup/restore operation requires a tape drive and media.
+Backup Tapes
+FreeBSD supports SCSI and USB tape drives.
+Once physically installed your tape drive, you need to configure it so FreeBSD can recognize it.</description>
+    </item>
+    
+    <item>
+      <title>Kernel Games</title>
+      <link>https://algo.minetest.in/Absolute_freeBSD/6_kernel_game/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/Absolute_freeBSD/6_kernel_game/</guid>
+      <description>The FreeBSD kernel can be dynamically tuned or changed on the fly, and most aspects of system performance can be adjusted as needed. We&amp;rsquo;ll discuss the kernel&amp;rsquo;s sysctl interface and how you can use it to alter a running kernel.
+While some parts of kernel can be altered during the early stage of booting via boot loader.
+FreeBSD has a modular kernel, meaning that entire chunks of the kernel can be loaded or unloaded from the OS, turning entire subsystem on/off as desired.</description>
+    </item>
+    
+    <item>
+      <title>Configuring Networking</title>
+      <link>https://algo.minetest.in/Absolute_freeBSD/8_configuring_networking/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/Absolute_freeBSD/8_configuring_networking/</guid>
+      <description>Network Prerequisites If your network is DHCP(Dynamic Host Configuration Protocol), you can connect to the network as a client without knowing anything about the network. A static IP address makes more sense on a server.
+Both IPv4 and IPv6 require the following information :
+ An IP Address The netmask for that IP address and protocol The IP address of the default gateway  use ifconfig(8) and route(8) to attach system to network and make configuration permanent in /etc/rc.</description>
+    </item>
+    
+    <item>
+      <title>The Network</title>
+      <link>https://algo.minetest.in/Absolute_freeBSD/7_the_network/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/Absolute_freeBSD/7_the_network/</guid>
+      <description>FreeBSD is famous for its network performance. The TCP/IP network protocol was first developed on BSD, and BSD, in turn, included first major implementation of TCP/IP. The wide availability, flexibility, and liberal licensing of BSD TCP/IP stack made it the de facto standard.
+The dominant internet protocol is TCP/IP. TCP (transmission control Protocol over Internet Protocol). TCP is transport protocol while IP is a network protocol, but they&amp;rsquo;re so tightly intertwined that they&amp;rsquo;re generally referred to as a single entity.</description>
+    </item>
+    
+  </channel>
+</rss>

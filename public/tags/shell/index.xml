@@ -1,15 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Shell on smk&#39;s Blogs</title>
+    <title>shell on smk&#39;s Blogs</title>
     <link>https://algo.minetest.in/tags/shell/</link>
-    <description>Recent content in Shell on smk&#39;s Blogs</description>
+    <description>Recent content in shell on smk&#39;s Blogs</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="https://algo.minetest.in/tags/shell/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="https://algo.minetest.in/tags/shell/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>shells</title>
       <link>https://algo.minetest.in/Unix-Setup/shells/</link>
@@ -18,8 +14,8 @@
       <guid>https://algo.minetest.in/Unix-Setup/shells/</guid>
       <description>Debian Check the file/etc/shells
 if it doesn&amp;rsquo;t contain following line then add the line
-/bin/bash  FreeBSD sudo pkg install bash chsh -s /usr/local/bin/bash  Installing bash using pkg automatically updates /etc/shells
-Installing Some Utilities dnsutils # dig, nslookup joe # text editor lynx # text-mode web browser pbzip2 # paralled bzip2 pigz # parallel gzip rlwrap # enables backspace for some CLI commands  Installing from a packages list #!</description>
+/bin/bash FreeBSD sudo pkg install bash chsh -s /usr/local/bin/bash Installing bash using pkg automatically updates /etc/shells
+Installing Some Utilities dnsutils	# dig, nslookupjoe	# text editorlynx	# text-mode web browserpbzip2	# paralled bzip2pigz	# parallel gziprlwrap	# enables backspace for some CLI commandsInstalling from a packages list #!/bin/bash -e cd /root/setupfiles/ apt-get install `cat *-dpkg.</description>
     </item>
     
   </channel>

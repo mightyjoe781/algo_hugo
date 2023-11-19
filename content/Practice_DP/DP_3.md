@@ -18,7 +18,7 @@ res = max{$s_i$}
 
 at any $j<i$  if $A[i]>A[j]$ we can extend the subsequence
 
-3. $S_i = 1 + \text{max}_{j\le i} { S_j } $ and $A[i]>A[j]$
+3. $ S_i = 1 + max_{j\le i} {S_j} $ and $A[i]>A[j]$
 
 Checking DP
 

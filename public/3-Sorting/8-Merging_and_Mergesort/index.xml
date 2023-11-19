@@ -1,15 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>8-Merging and Mergesort on smk&#39;s Blogs</title>
     <link>https://algo.minetest.in/3-Sorting/8-Merging_and_Mergesort/</link>
     <description>Recent content in 8-Merging and Mergesort on smk&#39;s Blogs</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="https://algo.minetest.in/3-Sorting/8-Merging_and_Mergesort/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="https://algo.minetest.in/3-Sorting/8-Merging_and_Mergesort/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>0-Introduction</title>
       <link>https://algo.minetest.in/3-Sorting/8-Merging_and_Mergesort/0-Introduction/</link>
@@ -50,7 +46,7 @@ Second characteristic of basic merge that is worthy of note is that the inner lo
       <guid>https://algo.minetest.in/3-Sorting/8-Merging_and_Mergesort/3-Top_Down_mergesort/</guid>
       <description>Top-Down Mergesort Mergesort is important because it is a straightforward optimal sorting method 9 it runs in time proportional to $n\log n $ that can be implemented in a stable manner.
 It is classic example of the divide and conquer paradigm.
-template &amp;lt;class Item&amp;gt; void mergesort(Item a[],int l , int r) { if(r&amp;lt;= l ) return ; int m = (r+l)/2 ; mergesort(a,l,m); mergesort(a,m+1,r); merge(a,l,m,r); }   Mergesort requires about $n \log n $ comparisons to sort any file of $N$ elements Mergesort uses extra space proportional to $N$.</description>
+template &amp;lt;class Item&amp;gt; void mergesort(Item a[],int l , int r) { if(r&amp;lt;= l ) return ; int m = (r+l)/2 ; mergesort(a,l,m); mergesort(a,m+1,r); merge(a,l,m,r); }  Mergesort requires about $n \log n $ comparisons to sort any file of $N$ elements Mergesort uses extra space proportional to $N$.</description>
     </item>
     
     <item>
@@ -71,7 +67,7 @@ Second improvements is consider for mergesort is to eliminate the time taken to 
       
       <guid>https://algo.minetest.in/3-Sorting/8-Merging_and_Mergesort/5-Bottom_up_mergesort/</guid>
       <description>Bottom-Up Mergesort Bottom-Up mergesort
-inline int min(int A, int B) {return (A&amp;lt;B) ? A: B;} template &amp;lt;class Item&amp;gt; void mergesortBU(Item [a],int l, int r){ for(int m = l; m &amp;lt;= r-l ; m = m+m ) for(int i = l; i &amp;lt;= r-m; i+=m+m) merge(a,i,i+m-1,min(i+m+m-1,r)); }  Sequence of merges done by the recursive algorithm is determined by divide-and-conquer tree. We simply traverse tree in postorder or we can develop an alternate stack.</description>
+inline int min(int A, int B) {return (A&amp;lt;B) ? A: B;} template &amp;lt;class Item&amp;gt; void mergesortBU(Item [a],int l, int r){ for(int m = l; m &amp;lt;= r-l ; m = m+m ) for(int i = l; i &amp;lt;= r-m; i+=m+m) merge(a,i,i+m-1,min(i+m+m-1,r)); } Sequence of merges done by the recursive algorithm is determined by divide-and-conquer tree. We simply traverse tree in postorder or we can develop an alternate stack.</description>
     </item>
     
     <item>

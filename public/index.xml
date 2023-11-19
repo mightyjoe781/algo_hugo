@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>smk&#39;s Blogs</title>
@@ -6,40 +6,24 @@
     <description>Recent content on smk&#39;s Blogs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 05 Apr 2021 00:03:23 +0530</lastBuildDate>
-    
-	<atom:link href="https://algo.minetest.in/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 05 Apr 2021 00:03:23 +0530</lastBuildDate><atom:link href="https://algo.minetest.in/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>0-Introduction</title>
       <link>https://algo.minetest.in/2-Data_Structures/4-Abstract_Data_Types/0-Introduction/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://algo.minetest.in/2-Data_Structures/4-Abstract_Data_Types/0-Introduction/</guid>
-      <description>Introduction  An abstract data type (ADT) is a data type (a set of values and a collection of operations on those values) that is accessed only through an interface. We refer to a program that uses an ADT as a client, and a program that specifies the data type as an implementation.
- We say that the interface is opaque: the client cannot see the implementation through the interface.</description>
-    </item>
-    
-    <item>
-      <title>Predicate Framework of Binary Search</title>
-      <link>https://algo.minetest.in/Practice_Problems1/Binary_Search_1/</link>
-      <pubDate>Tue, 11 May 2021 17:01:25 +0530</pubDate>
-      
-      <guid>https://algo.minetest.in/Practice_Problems1/Binary_Search_1/</guid>
-      <description>Binary Search  Predicate Framework  Key elements related to search.
- Search Space Item : certain properties Algorithm  Binary Search is a search algorithm which utilizes some property of search space.
- When can binary search be applied ? What all can be find ? Pseudo Code.  Terminology
- Predicate : Boolean functions.  Boolean function maps items to $f : D\rightarrow {T,F}$, true or false.</description>
+      <description>Introduction   An abstract data type (ADT) is a data type (a set of values and a collection of operations on those values) that is accessed only through an interface. We refer to a program that uses an ADT as a client, and a program that specifies the data type as an implementation.
+  We say that the interface is opaque: the client cannot see the implementation through the interface.</description>
     </item>
     
     <item>
       <title>Sorting</title>
       <link>https://algo.minetest.in/Practice_Problems2/Sorting/</link>
-      <pubDate>Mon, 10 May 2021 17:01:25 +0530</pubDate>
+      <pubDate>Sun, 16 May 2021 17:01:25 +0530</pubDate>
       
       <guid>https://algo.minetest.in/Practice_Problems2/Sorting/</guid>
-      <description></description>
+      <description>Sorting Algorithm  Algorithms which puts elements of list in order/arrange  Numerical Order Lexicographical Order Custom Object   4 parameter&amp;rsquo;s of evaluation of sorting algorithm  Computational Complexity Stability : Relative order will be same Memory Usage Adaptability : preparedness of input array to get least running time.   Bubble Sort  $O(n^2)$ , best case : sorted , worst case : reverse order, stable, In-place   Selection Sort  $O(n^2)$ , unstable ( can be made stable) , In-place   Insertion Sort  $O(n^2)$ , idea is we keep two sets one is sorted and another unsorted set and goal is to move unsorted elements slowly towards sorted set.</description>
     </item>
     
     <item>
@@ -48,8 +32,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://algo.minetest.in/2-Data_Structures/4-Abstract_Data_Types/1-Abstract_Objects_and_Collections_of_Objects/</guid>
-      <description>Abstract Objects and Collections of Objects  Up till now we have created a lot of simple data types in order to write code that doesn&amp;rsquo;t depend on object types and deciding the datatype using typedef
- Above approach allows to use same code for integers and floating-points and with pointers, object type can be arbitrarily complex. Moreover implementation is not also hidden from clients. ADT&amp;rsquo;s are quite useful in this sense</description>
+      <description>Abstract Objects and Collections of Objects   Up till now we have created a lot of simple data types in order to write code that doesn&amp;rsquo;t depend on object types and deciding the datatype using typedef
+  Above approach allows to use same code for integers and floating-points and with pointers, object type can be arbitrarily complex. Moreover implementation is not also hidden from clients. ADT&amp;rsquo;s are quite useful in this sense</description>
     </item>
     
     <item>
@@ -70,11 +54,55 @@ Another way to model the same situation is to use a PERT chart: edges represent 
       
       <guid>https://algo.minetest.in/Windows/Choco/</guid>
       <description>Choco Chocolatey is a package manager for windows and is quite useful in setting up windows quickly.
- Ensure Administrative Shell Access
- Get-ExecutionPolicy of powershell should not be set to Restricted.
-  We can set it to Bypass to install all packages or AllSigned to get packages with quite bit of security
+  Ensure Administrative Shell Access
+  Get-ExecutionPolicy of powershell should not be set to Restricted.
+We can set it to Bypass to install all packages or AllSigned to get packages with quite bit of security
 Execute the following text
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.</description>
+    </item>
+    
+    <item>
+      <title>Disjoint Set Union</title>
+      <link>https://algo.minetest.in/Data_Structures_library/Trees/Disjoint_set_union/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/Data_Structures_library/Trees/Disjoint_set_union/</guid>
+      <description>This implementation is from CP4 Book.
+Explanation : to be added.
+// Union-Find Disjoint Sets Library written in OOP manner, using both path compression and union by rank heuristics  #include &amp;lt;bits/stdc++.h&amp;gt;using namespace std; typedef vector&amp;lt;int&amp;gt; vi; class UnionFind { // OOP style private: vi p, rank, setSize; // vi p is the key part  int numSets; public: UnionFind(int N) { p.assign(N, 0); for (int i = 0; i &amp;lt; N; ++i) p[i] = i; rank.</description>
+    </item>
+    
+    <item>
+      <title>Getting More Help</title>
+      <link>https://algo.minetest.in/Absolute_freeBSD/1_getting_more_help/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/Absolute_freeBSD/1_getting_more_help/</guid>
+      <description>Well these notes are not enough to carry all the information necessary for one to learn FreeBSD that is why user should seek out two reliable sources for assistance.
+ FreeBSD Mailing Lists. FreeBSD forums.  Do note what you are asking before sending in your question, because audience can up to tens of thousands. People take their valuable time to answer your question and effort in making the answers to most of these question available elsewhere.</description>
+    </item>
+    
+    <item>
+      <title>Introduction</title>
+      <link>https://algo.minetest.in/CP3_Book/1_Introduction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/CP3_Book/1_Introduction/</guid>
+      <description>Competitive Programming is all about &amp;ldquo;Given well-known Computer Science (CS) problems, solve them as quickly as possible! &amp;ldquo;.
+Tips to be Competitive   Type Code Faster.
+ 55-65 wpm is decent speed.    Quickly Identify Problem Types.
+  Do Algorithm Analysis.
+ Anything of order of O(n log n) is accepted solutions in most cases.    Master Programming Languages.
+ CPP is preferred but some library of Java can be useful for e.</description>
+    </item>
+    
+    <item>
+      <title>Traversal</title>
+      <link>https://algo.minetest.in/Data_Structures_library/Graphs/Traversal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/Data_Structures_library/Graphs/Traversal/</guid>
+      <description>Depth First Search (DFS)  traverses graph in &amp;lsquo;depth-first&amp;rsquo; manner Time Complexity  $O(V+E)$ : Adjacency List $O(V^2)$ : Adjacency Matrix    typedef pair&amp;lt;int,int&amp;gt; ii; typedef vector&amp;lt;ii&amp;gt; vii; typedef vector&amp;lt;int&amp;gt; vi; const UNVISITED = -1; const VISITED = 1; vi dfs_num;	// initially all set to unvisited  void dfs(int u) { dfs_num[u] = VISITED; for(auto v:adj[u]) { if(dfs_num[v] == UNVISITED) dfs(v); } } Breadth First Search (BFS)  traverses graph in &amp;lsquo;breadth-first&amp;rsquo; manner Time Complexity  $O(V+E)$ : Adjacency List $O(V^2)$ : Adjacency Matrix    // inside int main() -- no recursion vi d(V,INF); d[s] = 0;	// distance from source s to s is 0  queue&amp;lt;int&amp;gt; q; q.</description>
     </item>
     
     <item>
@@ -84,25 +112,39 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
       
       <guid>https://algo.minetest.in/Unix-Setup/updates/</guid>
       <description>Probably first thing after installing an OS is to update it
-Debian Guide apt-get update apt-get upgrade apt-get dist-upgrade apt-get autoremove  This should upgrade the OS to latest debian release : Note that it only upgrades distro within its series for example 10.1 to 10.8
+Debian Guide apt-get update apt-get upgrade apt-get dist-upgrade apt-get autoremove This should upgrade the OS to latest debian release : Note that it only upgrades distro within its series for example 10.1 to 10.8
 Checking the distro
-cat /etc/os-release  Then install basic utilities.
+cat /etc/os-release Then install basic utilities.
 FreeBSD Guide Upgrading packages within same release
-freebsd-update fetch freebsd-update install  if anything goes wrong do this</description>
+freebsd-update fetch freebsd-update install if anything goes wrong do this</description>
     </item>
     
     <item>
-      <title>Binary Search continued ....</title>
-      <link>https://algo.minetest.in/Practice_Problems1/Binary_Search_2/</link>
-      <pubDate>Tue, 11 May 2021 23:01:25 +0530</pubDate>
+      <title>Heaps</title>
+      <link>https://algo.minetest.in/Practice_Problems2/Heaps/</link>
+      <pubDate>Mon, 17 May 2021 12:25:25 +0530</pubDate>
       
-      <guid>https://algo.minetest.in/Practice_Problems1/Binary_Search_2/</guid>
-      <description>Two kinds of problems we can solve using Binary Search
- Explicit Search Problems Optimization Problems (monotonic)  Capacity to Ship Packages within D days
-Cues : Optmization Problem.
- min/max { x } st $f(x) \le threshold$ or $ f(x) \ge threshold$ $f(x)$ should be monotonic wrt x  here $x: capacity$ while $RT : f(x)$ , RT : # round trips
-Triming Search space :
-left = $max {A[j]}$ because capacity should be greater than max elt to load it on cart!</description>
+      <guid>https://algo.minetest.in/Practice_Problems2/Heaps/</guid>
+      <description>Heap Partially ordered tree complete tree and usually have 2 children.
+Top on the max heap is maximum element and in case of min heap top element is minimum of all.
+It gives Min/Max query in $O(1)$ time.
+STL implementation
+// Max Heap priority_queue&amp;lt;int&amp;gt; maxq; // Min Heap priority_queue&amp;lt;int, vector&amp;lt;int&amp;gt;, greater&amp;lt;int&amp;gt;&amp;gt; minq; Kth Largest Element in an Array
+int findKthLargest(vector&amp;lt;int&amp;gt;&amp;amp; nums, int k) { priority_queue&amp;lt;int&amp;gt; pq; for(int i = 0; i &amp;lt; nums.</description>
+    </item>
+    
+    <item>
+      <title>Predicate Framework of Binary Search</title>
+      <link>https://algo.minetest.in/Practice_Problems1/Binary_Search_1/</link>
+      <pubDate>Tue, 11 May 2021 17:01:25 +0530</pubDate>
+      
+      <guid>https://algo.minetest.in/Practice_Problems1/Binary_Search_1/</guid>
+      <description>Binary Search  Predicate Framework  Key elements related to search.
+ Search Space Item : certain properties Algorithm  Binary Search is a search algorithm which utilizes some property of search space.
+ When can binary search be applied ? What all can be find ? Pseudo Code.  Terminology
+  Predicate : Boolean functions.
+Boolean function maps items to $f : D\rightarrow {T,F}$, true or false.
+  Apply Predicate on a Search Space</description>
     </item>
     
     <item>
@@ -124,10 +166,30 @@ In digraphs, there is a one-to-one correspondence between tree links and graph e
       
       <guid>https://algo.minetest.in/2-Data_Structures/4-Abstract_Data_Types/2-Pushdown_Stack_ADT/</guid>
       <description>Pushdown Stack ADT A pushdown stack is an ADT that comprises two basic operations: insert (push) a new item, and remove **(pop) **the item that was most recently inserted.
- items are removed according to a last-in, first-out (LIFO) discipline.
- Each push increases the size of the stack by 1 and each pop decreases the size of the stack by 1.
- Pushdown-stack ADT interface
-  template &amp;lt;class Item&amp;gt; class STACK { private: // Implementation-dependent code public: STACK(int); int empty() const; void push(Item item); Item pop(); };   First line in above interface gives a C++ template to the class.</description>
+  items are removed according to a last-in, first-out (LIFO) discipline.
+  Each push increases the size of the stack by 1 and each pop decreases the size of the stack by 1.
+  Pushdown-stack ADT interface
+template &amp;lt;class Item&amp;gt; class STACK { private: // Implementation-dependent code  public: STACK(int); int empty() const; void push(Item item); Item pop(); };   First line in above interface gives a C++ template to the class.</description>
+    </item>
+    
+    <item>
+      <title>Before you Install</title>
+      <link>https://algo.minetest.in/Absolute_freeBSD/2_before_you_install/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/Absolute_freeBSD/2_before_you_install/</guid>
+      <description>A successful install is one that works for its intended purpose.
+Default Files FreeBSD separates configuration files into default files and customization files. The default files contains variable assignments and aren&amp;rsquo;t intended to edited; instead they are designed to be overridden by another file of the same name.
+Default configuration are kept in a directory called default. For example boot loader configuration files is /boot/loader.config and the default configuration file is in /boot/defaults/loader.</description>
+    </item>
+    
+    <item>
+      <title>Data Structures and Libraries</title>
+      <link>https://algo.minetest.in/CP3_Book/2_DS_Libraries/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/CP3_Book/2_DS_Libraries/</guid>
+      <description>Linear DS with Built-in Libraries   Static Array  used for sequential collections of data generally should be declared with some extra buffer than mentioned in problem    Dynamically-Resizable Array  C++ STL vector or Java ArrayList same as array but with additional ability of runtime resizability Typical Operations  push_back() , at(), assign() , erase()      Array of Booleans:  C++ STL bitset (Java BitSet)    Bitmasks  lightweight, small set of Booleans using integers to represent Boolean values.</description>
     </item>
     
     <item>
@@ -140,7 +202,31 @@ In digraphs, there is a one-to-one correspondence between tree links and graph e
 In case you have corrupted a disk and wish to completely clean the disk or wish to create a windows bootable drive.
 Step : Selecting a correct disk (Important : selecting wrong disk can be disastrous)
 Run cmd as an administrator
-diskpart list disk  output should be a table of disks, carefully select disk you wish to clean</description>
+diskpartlist diskoutput should be a table of disks, carefully select disk you wish to clean</description>
+    </item>
+    
+    <item>
+      <title>Fenwick Tree</title>
+      <link>https://algo.minetest.in/Data_Structures_library/Trees/Fenwick_tree/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/Data_Structures_library/Trees/Fenwick_tree/</guid>
+      <description>This implementation is from CP4 Book.
+Explanation : to be added.
+#include &amp;lt;bits/stdc++.h&amp;gt;using namespace std; #define LSOne(S) ((S) &amp;amp; -(S)) // the key operation  typedef long long ll; // for extra flexibility typedef vector&amp;lt;ll&amp;gt; vll; typedef vector&amp;lt;int&amp;gt; vi; class FenwickTree { // index 0 is not used private: vll ft; // internal FT is an array public: FenwickTree(int m) { ft.assign(m+1, 0); } // create an empty FT  void build(const vll &amp;amp;f) { int m = (int)f.</description>
+    </item>
+    
+    <item>
+      <title>MST</title>
+      <link>https://algo.minetest.in/Data_Structures_library/Graphs/MST/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/Data_Structures_library/Graphs/MST/</guid>
+      <description>Given a connected, undirected, and weighted graph G, select a subset $E&#39; \in G $ such that graph G is (still) connected and weight of selected edge E&#39; is minimal !!
+To satisfy connectivity criteria
+  we need at least V-1 edges that form a tree and this tree must span all $V \in G$.
+  MST can be solved with several well known algorithms
+ Prim&amp;rsquo;s Krushkal&amp;rsquo;s    Kruskal&amp;rsquo;s Algorithm This algorithm first sorts E edges based on non-decreasing weight.</description>
     </item>
     
     <item>
@@ -151,8 +237,149 @@ diskpart list disk  output should be a table of disks, carefully select disk you
       <guid>https://algo.minetest.in/Unix-Setup/shells/</guid>
       <description>Debian Check the file/etc/shells
 if it doesn&amp;rsquo;t contain following line then add the line
-/bin/bash  FreeBSD sudo pkg install bash chsh -s /usr/local/bin/bash  Installing bash using pkg automatically updates /etc/shells
-Installing Some Utilities dnsutils # dig, nslookup joe # text editor lynx # text-mode web browser pbzip2 # paralled bzip2 pigz # parallel gzip rlwrap # enables backspace for some CLI commands  Installing from a packages list #!</description>
+/bin/bash FreeBSD sudo pkg install bash chsh -s /usr/local/bin/bash Installing bash using pkg automatically updates /etc/shells
+Installing Some Utilities dnsutils	# dig, nslookupjoe	# text editorlynx	# text-mode web browserpbzip2	# paralled bzip2pigz	# parallel gziprlwrap	# enables backspace for some CLI commandsInstalling from a packages list #!/bin/bash -e cd /root/setupfiles/ apt-get install `cat *-dpkg.</description>
+    </item>
+    
+    <item>
+      <title>Tries</title>
+      <link>https://algo.minetest.in/Practice_Problems2/Tries/</link>
+      <pubDate>Tue, 25 May 2021 12:25:25 +0530</pubDate>
+      
+      <guid>https://algo.minetest.in/Practice_Problems2/Tries/</guid>
+      <description>Problems related to finding the strings or traversing the multiple string come under the topic tries.
+Tries means retrieval.
+ Ordered tree is more like DS. Dictionary word searches / spell checking/ search engine.  Problem Statement
+  Given a lot of strings : find an associative property among all strings
+  Pros : Retrieval time is quite less than hash table and BST
+  Cons : Complex, and requires a lot of memory</description>
+    </item>
+    
+    <item>
+      <title>Binary Search continued ....</title>
+      <link>https://algo.minetest.in/Practice_Problems1/Binary_Search_2/</link>
+      <pubDate>Tue, 11 May 2021 23:01:25 +0530</pubDate>
+      
+      <guid>https://algo.minetest.in/Practice_Problems1/Binary_Search_2/</guid>
+      <description>Two kinds of problems we can solve using Binary Search
+ Explicit Search Problems Optimization Problems (monotonic)  Capacity to Ship Packages within D days
+Cues : Optmization Problem.
+ min/max { x } st $f(x) \le threshold$ or $ f(x) \ge threshold$ $f(x)$ should be monotonic wrt x  here $x: capacity$ while $RT : f(x)$ , RT : # round trips
+Triming Search space :
+left = $max {A[j]}$ because capacity should be greater than max elt to load it on cart!</description>
+    </item>
+    
+    <item>
+      <title>3-Examples of Stack-ADT Clients</title>
+      <link>https://algo.minetest.in/2-Data_Structures/4-Abstract_Data_Types/3-Examples_of_Stack_ADT_Clients/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/2-Data_Structures/4-Abstract_Data_Types/3-Examples_of_Stack_ADT_Clients/</guid>
+      <description>Examples Postfix and Infix order
+  Any general arithmetic expression can be written using brackets.
+$ 5 * (((9+8) * (4*6)) + 7 ) $
+Above expression is called infix order and its Postfix version is
+$ 5 9 8 + 4 6 * * 7 + * $
+  The reverse of postfix is called as prefix, or Polish Notation
+  We can use stacks to achieve this : -</description>
+    </item>
+    
+    <item>
+      <title>3-Reachability and Transitive Closure</title>
+      <link>https://algo.minetest.in/5-Graph_Algorithms/19-Digraphs_and_DAGs/3_Reachability_and_Transitive_Closure/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/5-Graph_Algorithms/19-Digraphs_and_DAGs/3_Reachability_and_Transitive_Closure/</guid>
+      <description>Reachability and Transitive Closure Definition 19.5 The transitive closure of a digraph is a digraph with same vertices but with an edge from s to t in the transitive closure if and only if there is a directed path from s to t in the given digraph.
+transitive enclosure (bottom) of a digraph (up).
+Boolean Matrix Multiplication
+A Boolean matrix is a matrix whose entries are all binary values either 0 or 1.</description>
+    </item>
+    
+    <item>
+      <title>Installing</title>
+      <link>https://algo.minetest.in/Absolute_freeBSD/3_installing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/Absolute_freeBSD/3_installing/</guid>
+      <description>Core Settings  Boot multiuser for installation Choosing a keymap Choose a hostname  Distribution Selection base-dbg : Debugging symbols for the base system, useful to programmers
+kernel-dbg : Debugging symbols for the kernel, useful to programmers
+lib32-dbg : 32-bit compatibility libraries (only on 64-bit systems)
+src : Source code of installed operating systems
+test : FreeBSD&amp;rsquo;s self-test tools
+doc : FreeBSD&amp;rsquo;s official documentation, such as Handbook (not in FreeBSD13.0)</description>
+    </item>
+    
+    <item>
+      <title>Problem Solving Paradigm</title>
+      <link>https://algo.minetest.in/CP3_Book/3_Problem_Solving_Paradigms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/CP3_Book/3_Problem_Solving_Paradigms/</guid>
+      <description>There are four problem solving paradigms  Complete Search Divide and Conquer Greedy Approach Dynamic Programming    Complete Search   aka brute force or recursive backtracking
+  in this method we traverse entire search space to obtain solution and during search we are allowed to prune
+  Develop this solution only if
+ clearly no other algorithm available better algorithms are overkill for input size    Remember &amp;lsquo;KISS&amp;rsquo; - Keep it Short and Simple</description>
+    </item>
+    
+    <item>
+      <title>Single-Source Shortest Paths</title>
+      <link>https://algo.minetest.in/Data_Structures_library/Graphs/shortest_paths/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/Data_Structures_library/Graphs/shortest_paths/</guid>
+      <description>SSSP Motivating Problem : Given a weighted graph G and a starting source vertex s, what are the shortest paths from s to every other vertices of G ?
+This problem is well known as SSSP (Single-Source shortest path) problem on a weighted graph. There are efficient algorithm to solve this SSSP problem.
+If graph is unweighted (or all edges have equal or constant weight), we can use the efficient $O(V+E)$ BFS algorithm.</description>
+    </item>
+    
+    <item>
+      <title>Sqrt Decomposition</title>
+      <link>https://algo.minetest.in/Data_Structures_library/Trees/Sqrt_Decomposition/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/Data_Structures_library/Trees/Sqrt_Decomposition/</guid>
+      <description>This implementation is from CP4 Book.
+Explanation : to be added.</description>
+    </item>
+    
+    <item>
+      <title>ssh</title>
+      <link>https://algo.minetest.in/Unix-Setup/ssh/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/Unix-Setup/ssh/</guid>
+      <description>Generate a keypair for server-side user accounts
+#!/bin/bash -e rlwrap ssh-keygen -t rsa -b 2048  Do not specify password for keypair Additionally rename your keys something sensible!   id_ed25519 : Private key id_ed25519.pub : Public key  Now as a good practice rename keys according to server. For example :
+smk.prvkey and smk.pubkey
+  Never share your private key. Never ever never!
+  smk.pubkey should be appended to &amp;quot;$HOME/.</description>
+    </item>
+    
+    <item>
+      <title>WSL</title>
+      <link>https://algo.minetest.in/Windows/WSL/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/Windows/WSL/</guid>
+      <description>Installation : WSL 2 Step : Enabling WSL Feature Execute following command in powershell to enable WSL in windows.
+dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestartThis sets up WSL 1.
+Step : Enabling WSL 2 (requires build &amp;gt; 18362) Requires Virtualization Features
+dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestartInstall Kernel Update Package : Download Package available at this link!
+Setting up WSL 2 as default version
+wsl --set-default-version 2Step : Installing Linux Distro Simple go to Microsoft store and download distro of your choice.</description>
+    </item>
+    
+    <item>
+      <title>Bit Manipulation</title>
+      <link>https://algo.minetest.in/Practice_Problems2/BitManipulation/</link>
+      <pubDate>Wed, 07 Jul 2021 07:02:25 +0530</pubDate>
+      
+      <guid>https://algo.minetest.in/Practice_Problems2/BitManipulation/</guid>
+      <description>Number System  Representation of Number. Numbers are set of finite entities/symbols used for quantification. Several prominent examples are Decimal, Roman, Binary, Hexadecimal and more.  Roman to Integer
+There are some definite symbols that indicate fixed numbers. Note how we translate number 4 in Roman. $IV$ means 5-1, while if $VI$ it is 5+1.
+Problem reduces to just traversing the symbol and adding and subtracting according the priority.
+class Solution { public: map&amp;lt;char,int&amp;gt; mp; void init() { // Can&amp;#39;t be initialised in global scope.</description>
     </item>
     
     <item>
@@ -165,72 +392,8 @@ Installing Some Utilities dnsutils # dig, nslookup joe # text editor lynx # text
  Function calling itself Divide and Conquer Mathematical Concept!  Call by value
 Memory Layout
  Stack (local function data : arguments and inside data) Heap (dynamic like malloc, new) Global (global variable, code)  Flow of execution
- Main Stack is allocated for every functions  Call by reference</description>
-    </item>
-    
-    <item>
-      <title>3-Examples of Stack-ADT Clients</title>
-      <link>https://algo.minetest.in/2-Data_Structures/4-Abstract_Data_Types/3-Examples_of_Stack_ADT_Clients/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://algo.minetest.in/2-Data_Structures/4-Abstract_Data_Types/3-Examples_of_Stack_ADT_Clients/</guid>
-      <description>Examples Postfix and Infix order
- Any general arithmetic expression can be written using brackets.  $ 5 * (((9+8) * (4*6)) + 7 ) $
-Above expression is called infix order and its Postfix version is
-$ 5 9 8 + 4 6 * * 7 + * $
- The reverse of postfix is called as prefix, or Polish Notation
- We can use stacks to achieve this : -</description>
-    </item>
-    
-    <item>
-      <title>3-Reachability and Transitive Closure</title>
-      <link>https://algo.minetest.in/5-Graph_Algorithms/19-Digraphs_and_DAGs/3_Reachability_and_Transitive_Closure/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://algo.minetest.in/5-Graph_Algorithms/19-Digraphs_and_DAGs/3_Reachability_and_Transitive_Closure/</guid>
-      <description>Reachability and Transitive Closure Definition 19.5 *The transitive closure of a digraph is a digraph with same vertices but with an edge from s to t in the transitive closure if and only if there is a directed path from s to t in the given digraph.*
-transitive enclosure (bottom) of a digraph (up).
-Boolean Matrix Multiplication
-A Boolean matrix is a matrix whose entries are all binary values either 0 or 1.</description>
-    </item>
-    
-    <item>
-      <title>WSL</title>
-      <link>https://algo.minetest.in/Windows/WSL/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://algo.minetest.in/Windows/WSL/</guid>
-      <description>Installation : WSL 2 Step : Enabling WSL Feature Execute following command in powershell to enable WSL in windows.
-dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart  This sets up WSL 1.
-Step : Enabling WSL 2 (requires build &amp;gt; 18362) Requires Virtualization Features
-dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart  Install Kernel Update Package : Download Package available at this link!
-Setting up WSL 2 as default version
-wsl --set-default-version 2  Step : Installing Linux Distro Simple go to Microsoft store and download distro of your choice.</description>
-    </item>
-    
-    <item>
-      <title>ssh</title>
-      <link>https://algo.minetest.in/Unix-Setup/ssh/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://algo.minetest.in/Unix-Setup/ssh/</guid>
-      <description>Generate a keypair for server-side user accounts
-#!/bin/bash -e rlwrap ssh-keygen -t rsa -b 2048   Do not specify password for keypair Additionally rename your keys something sensible!
- id_ed25519 : Private key
- id_ed25519.pub : Public key
-  Now as a good practice rename keys according to server. For example :
-smk.prvkey and smk.pubkey
- Never share your private key. Never ever never!
- smk.pubkey should be appended to &amp;quot;$HOME/.</description>
-    </item>
-    
-    <item>
-      <title>Recursion 2</title>
-      <link>https://algo.minetest.in/Practice_Problems1/Recursion_2/</link>
-      <pubDate>Thu, 13 May 2021 23:01:25 +0530</pubDate>
-      
-      <guid>https://algo.minetest.in/Practice_Problems1/Recursion_2/</guid>
-      <description></description>
+ Main Stack is allocated for every functions  Call by reference
+ Change the value at calls  Explicit return type ( use struct to create new data type :D) Implicit return type   Space Optimized  don&amp;rsquo;t need extra memory declaration in memory stack.</description>
     </item>
     
     <item>
@@ -263,8 +426,19 @@ relation that correspond to graphs where no vertices have self-loops are said to
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://algo.minetest.in/2-Data_Structures/4-Abstract_Data_Types/4-Stack_ADT_Implementation/</guid>
-      <description>Stack ADT Implementations  There are 2 implementations of Stack ADT
- Arrays Linked List  Array Implementation of a pushdown stack  for N items it keeps in s[0],&amp;hellip;.,s[N-1] top is s[N] Client needs to pass the maximum # of items for stack   template &amp;lt;class Item&amp;gt; class STACK { private: Item *s; int N; public: STACK(int maxN) { s = new Item[maxN]; N=0;} int empty() const { return N==0; } void push(Item item) { s[N++] = item; } Item pop() { return s[--N];} }   Drawbacks of using this implementation</description>
+      <description>Stack ADT Implementations   There are 2 implementations of Stack ADT
+ Arrays Linked List    Array Implementation of a pushdown stack  for N items it keeps in s[0],&amp;hellip;.,s[N-1] top is s[N] Client needs to pass the maximum # of items for stack  template &amp;lt;class Item&amp;gt; class STACK { private: Item *s; int N; public: STACK(int maxN) { s = new Item[maxN]; N=0;} int empty() const { return N==0; } void push(Item item) { s[N++] = item; } Item pop() { return s[--N];} }  Drawbacks of using this implementation  We need to know max.</description>
+    </item>
+    
+    <item>
+      <title>Network Flow</title>
+      <link>https://algo.minetest.in/Data_Structures_library/Graphs/network_flow/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/Data_Structures_library/Graphs/network_flow/</guid>
+      <description>Motivating Problem : Imagine a connected, (integer) weighted, and directed graph as a pipe network where the edges are the pipes and the vertices are splitting points. Each edge has a weight equals to the capacity of the pipe. There are also two special vertices : source s and sink t.
+What is the maximum flow (rate) from source s to sink t in this graph ?
+Ford Fulkerson’s Method One solution for max-flow is the ford fulkerson’s method.</description>
     </item>
     
     <item>
@@ -274,7 +448,29 @@ relation that correspond to graphs where no vertices have self-loops are said to
       
       <guid>https://algo.minetest.in/Windows/Dual_Boot1/</guid>
       <description>MBR A master boot record (MBR) is special type of boot sector at very beginning of partitioned computer storage device. MBR holds information on how the logical partitions, containing file systems, are organized on that medium.
-It also contained executable code to function as a loader for installed OS usually by passing the control over to the loader&amp;rsquo;s second page or in conjunction with each partitions volume boot record.</description>
+It also contained executable code to function as a loader for installed OS usually by passing the control over to the loader&amp;rsquo;s second page or in conjunction with each partitions volume boot record.
+MBR code is usually referred as boot loader.</description>
+    </item>
+    
+    <item>
+      <title>Segment Trees</title>
+      <link>https://algo.minetest.in/Data_Structures_library/Trees/Segment_trees/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/Data_Structures_library/Trees/Segment_trees/</guid>
+      <description>This implementation is from CP4 Book.
+Explanation : to be added.
+#include &amp;lt;bits/stdc++.h&amp;gt;using namespace std; typedef vector&amp;lt;int&amp;gt; vi; class SegmentTree { // OOP style private: int n; // n = (int)A.size()  vi A, st, lazy; // the arrays  int l(int p) { return p&amp;lt;&amp;lt;1; } // go to left child  int r(int p) { return (p&amp;lt;&amp;lt;1)+1; } // go to right child  int conquer(int a, int b) { if (a == -1) return b; // corner case  if (b == -1) return a; return min(a, b); // RMQ  } void build(int p, int L, int R) { // O(n)  if (L == R) st[p] = A[L]; // base case  else { int m = (L+R)/2; build(l(p), L , m); build(r(p), m+1, R); st[p] = conquer(st[l(p)], st[r(p)]); } } void propagate(int p, int L, int R) { if (lazy[p] !</description>
+    </item>
+    
+    <item>
+      <title>Start Me up! The Boot Process</title>
+      <link>https://algo.minetest.in/Absolute_freeBSD/4_the_boot_process/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/Absolute_freeBSD/4_the_boot_process/</guid>
+      <description>Power-On A computer needs to find and load its operating system. For many years BIOS provided the functionality but now its moving towards UEFI. Some hardware platform have console firmware or bootroms that perform the same function.
+UEFI UEFI searches for boot drive for a partition marked as a UEFI boot partition. The partition contains FAT fs with a specific directory and file layout. UEFI executes the file /EFI/BOOT/BOOTX64.EFI. This file might be a fancy multi-OS boot loader or might through you directly in OS, FreeBSD boot fires up the boot loader.</description>
     </item>
     
     <item>
@@ -283,19 +479,38 @@ It also contained executable code to function as a loader for installed OS usual
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://algo.minetest.in/Unix-Setup/user/</guid>
-      <description>Adding a ordinary user rlwrap adduser sally  Initially, only the account name and passwords are important. Other fields can be left empty. Account name should be lower-case!
+      <description>Adding a ordinary user rlwrap adduser sally Initially, only the account name and passwords are important. Other fields can be left empty. Account name should be lower-case!
 then execute this
-THEM=sally HOUSE=/home/$THEM chmod 700 $HOUSE mkdir -p $HOUSE/.ssh chmod 700 $HOUSE/.ssh touch $HOUSE/.ssh/authorized_keys chown -R $THEM.$THEM $HOUSE  Replace sally with appropriate user name.
-Public key of the user should who should have access should go into authorized_keys</description>
+THEM=sally HOUSE=/home/$THEM chmod 700 $HOUSE mkdir -p $HOUSE/.ssh chmod 700 $HOUSE/.ssh touch $HOUSE/.ssh/authorized_keys chown -R $THEM.$THEM $HOUSE Replace sally with appropriate user name.
+Public key of the user should who should have access should go into authorized_keys
+cat /tmp/sally.pubkey &amp;gt;&amp;gt; /home/sally/.</description>
     </item>
     
     <item>
-      <title>Recursion 3</title>
-      <link>https://algo.minetest.in/Practice_Problems1/Recursion_3/</link>
-      <pubDate>Thu, 13 May 2021 23:01:25 +0530</pubDate>
+      <title>Strings 1</title>
+      <link>https://algo.minetest.in/Practice_Problems2/strings_1/</link>
+      <pubDate>Fri, 09 Jul 2021 12:25:25 +0530</pubDate>
       
-      <guid>https://algo.minetest.in/Practice_Problems1/Recursion_3/</guid>
-      <description></description>
+      <guid>https://algo.minetest.in/Practice_Problems2/strings_1/</guid>
+      <description>Contents :
+ Implementation  Encoding/Decoding Compression Palindromes Parsing   Tries  Design Problems   String Matching Algorithms  KMP Application (failure)    Valid Palindrome
+bool isAlphaNumeric(char c) { c = tolower(c); return ((c &amp;gt;= &amp;#39;a&amp;#39; &amp;amp;&amp;amp; c &amp;lt;= &amp;#39;z&amp;#39;) || (c &amp;gt;= &amp;#39;0&amp;#39; &amp;amp;&amp;amp; c &amp;lt;= &amp;#39;9&amp;#39;)); } bool isPalindrome(string s) { int start = 0, end = s.size()-1; while(start &amp;lt; end) { if(!isAlphaNumeric(s[start])) start++; else if(!</description>
+    </item>
+    
+    <item>
+      <title>Recursion 2</title>
+      <link>https://algo.minetest.in/Practice_Problems1/Recursion_2/</link>
+      <pubDate>Fri, 14 May 2021 23:01:25 +0530</pubDate>
+      
+      <guid>https://algo.minetest.in/Practice_Problems1/Recursion_2/</guid>
+      <description>Cues for Recursion/DP  Combinatorial  Counting Enumeration   Optimization  Strategy to split
+ Based on the first element of input (Inclusion / Exclusion)  Subproblems we saw was mostly
+ Suffix Subarray  Number of suffix subarray : $n$ (including original one)
+Dimension : 1 D
+But for combination problem we had subproblem of size k and size k-1, dimension : $n*k$ (2D).
+Permutation
+[1,2,3]
+All permutations ?</description>
     </item>
     
     <item>
@@ -305,7 +520,7 @@ Public key of the user should who should have access should go into authorized_k
       
       <guid>https://algo.minetest.in/Practice_Problems/Linked_List/</guid>
       <description>Basic Problems Reversing a Linked List There can multiple ways to do this but simplest is just making a new head and keep pushing items on the new head ( reverse automatically)
-link reverse(link head){ link x = head; // copy of head ( good practice ) link rev = nullptr,tmp ; while(x){ tmp = x-&amp;gt;next; // increment the list x -&amp;gt; next = rev; rev = x; x = tmp; } return rev; }  // its a suffix subproblem case</description>
+link reverse(link head){ link x = head; // copy of head ( good practice )  link rev = nullptr,tmp ; while(x){ tmp = x-&amp;gt;next; // increment the list  x -&amp;gt; next = rev; rev = x; x = tmp; } return rev; } // its a suffix subproblem case</description>
     </item>
     
     <item>
@@ -314,11 +529,11 @@ link reverse(link head){ link x = head; // copy of head ( good practice ) link r
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://algo.minetest.in/2-Data_Structures/4-Abstract_Data_Types/5-Creation_of_New_ADT/</guid>
-      <description>Creation of New ADT  Generally we freeze the interface after a detailed inspection of user needs.
- We can different client codes and implementation for the same ADT
-  class UF { private: //Implementation-dependent code public: UF(int); int find(int,int); void unite(int ,int); };  Equivalence-relations ADT interface
- There are 3 abstract operations
- initialize an abstract data structure to track connections find whether two nodes are connected or not unite two given node  Equivalence-relations ADT client</description>
+      <description>Creation of New ADT   Generally we freeze the interface after a detailed inspection of user needs.
+  We can different client codes and implementation for the same ADT
+class UF { private: //Implementation-dependent code  public: UF(int); int find(int,int); void unite(int ,int); }; Equivalence-relations ADT interface
+  There are 3 abstract operations
+ initialize an abstract data structure to track connections find whether two nodes are connected or not unite two given node    Equivalence-relations ADT client</description>
     </item>
     
     <item>
@@ -332,25 +547,76 @@ Scheduling Given a set of tasks to be completed, with a partial orders that spec
     </item>
     
     <item>
+      <title>Bit Manipulation</title>
+      <link>https://algo.minetest.in/InterviewBit/BitManipulation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/InterviewBit/BitManipulation/</guid>
+      <description>Bit Manipulation on Scalar.
+XORs have 2 important property other than commutative and associativity.
+ Identity element : $A \oplus 0 = A$ Self-Inverse : $A \oplus A = 0$ XOR is monotonic in absolute difference between numbers.  All about XOR
+Bit Play Number of 1 Bits
+ Standard loop thru digits and do if(N &amp;amp; (1 &amp;lt;&amp;lt; i)) cnt++;  Number of Zeroes
+ Keep counting zeroes from backwards and break when u encounter a 1.</description>
+    </item>
+    
+    <item>
+      <title>Graphs</title>
+      <link>https://algo.minetest.in/Data_Structures_library/Trees/graphs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/Data_Structures_library/Trees/graphs/</guid>
+      <description>This implementation is from CP4 Book.
+Explanation : to be added.
+#include &amp;lt;bits/stdc++.h&amp;gt;using namespace std; const int MAX_V = 1010; typedef pair&amp;lt;int, int&amp;gt; ii; typedef vector&amp;lt;ii&amp;gt; vii; typedef tuple&amp;lt;int, int, int&amp;gt; iii; int AM[MAX_V][MAX_V]; // it is better to declare large (2D) array as global  int main() { // Try this input for Adjacency Matrix/Adjacency List/Edge List  // Adjacency Matrix AM  // for each line: |V| entries, 0 or the weight  // Adjacency List AL  // for each line: num neighbors, list of neighbors + weight pairs  // Edge List EL  // for each line: a-b of edge(a,b) and weight  /* 6 0 10 0 0 100 0 10 0 7 0 8 0 0 7 0 9 0 0 0 0 9 0 20 5 100 8 0 20 0 0 0 0 0 5 0 0 6 2 2 10 5 100 3 1 10 3 7 5 8 2 2 7 4 9 3 3 9 5 20 6 5 3 1 100 2 8 4 20 1 4 5 7 1 2 10 1 5 100 2 3 7 2 5 8 3 4 9 4 5 20 4 6 5 */ freopen(&amp;#34;graph_ds.</description>
+    </item>
+    
+    <item>
+      <title>Read this before you break something</title>
+      <link>https://algo.minetest.in/Absolute_freeBSD/5_backup_and_recovery/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/Absolute_freeBSD/5_backup_and_recovery/</guid>
+      <description>System Backups You need a system backup only if you care about your data. Online backups can easily be damaged or destroyed by whatever ruins the live server. Proper backups are stored safely offline. Tools like rsync(1), and even ZFS replication, don&amp;rsquo;t create actual backups, they create convenient online copies.
+A complete backup/restore operation requires a tape drive and media.
+Backup Tapes
+FreeBSD supports SCSI and USB tape drives.
+Once physically installed your tape drive, you need to configure it so FreeBSD can recognize it.</description>
+    </item>
+    
+    <item>
+      <title>Special Graph</title>
+      <link>https://algo.minetest.in/Data_Structures_library/Graphs/special_graph/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/Data_Structures_library/Graphs/special_graph/</guid>
+      <description>Some basic graph problems have simpler/faster polynomial algorithms if the given graph is special.
+Directed Acyclic Graph DAG is special graph with property : Di-rected and has no cycle. DAG implies no cycles by definition. That makes it suitable for solving problems using Dynamic Programming. Cyclic States or Dependency hurts DP at its core. We can view DP states as vertices in an implicit DAG and acyclic transition between DP states as directed edges of that implicit DAG.</description>
+    </item>
+    
+    <item>
       <title>user bins</title>
       <link>https://algo.minetest.in/Unix-Setup/bins/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://algo.minetest.in/Unix-Setup/bins/</guid>
-      <description>Steps : Creating directories for utilities #!/bin/bash -e mkdir -p /opt/minebest/mtbin mkdir -p /opt/smkbin  Next we create a text file &amp;quot;/etc/profile.d/smkbin.sh&amp;quot; containing
-for dir in \ /opt/minebest/mtbin \ /opt/minebest/smkbin \ /opt/smkbin do if [ -d $dir ]; then PATH=$dir:$PATH; fi done  File needs to be readable but doesn&amp;rsquo;t need to be executable
+      <description>Steps : Creating directories for utilities #!/bin/bash -e mkdir -p /opt/minebest/mtbin mkdir -p /opt/smkbin Next we create a text file &amp;quot;/etc/profile.d/smkbin.sh&amp;quot; containing
+for dir in \ 	/opt/minebest/mtbin \ 	/opt/minebest/smkbin \ 	/opt/smkbin do if [ -d $dir ]; then PATH=$dir:$PATH; fi done File needs to be readable but doesn&amp;rsquo;t need to be executable
 Next Step : editing &amp;ldquo;secure_path&amp;rdquo; setting in &amp;quot;/etc/sudoers&amp;quot; to prepend the directories from preceding script which exists</description>
     </item>
     
     <item>
-      <title>Ad Hoc</title>
-      <link>https://algo.minetest.in/Practice_Problems1/AdHoc/</link>
-      <pubDate>Fri, 14 May 2021 17:01:25 +0530</pubDate>
+      <title>Recursion 3</title>
+      <link>https://algo.minetest.in/Practice_Problems1/Recursion_3/</link>
+      <pubDate>Sat, 15 May 2021 23:01:25 +0530</pubDate>
       
-      <guid>https://algo.minetest.in/Practice_Problems1/AdHoc/</guid>
-      <description>132 Pattern
-Queue Reconstruction by Height
-Increasing Triplet Subsequence</description>
+      <guid>https://algo.minetest.in/Practice_Problems1/Recursion_3/</guid>
+      <description>N-Queens Problem (Very Famous Problem) Link
+Enumeration Problem
+Problem can be restated as putting 1 queen into each row such that they don&amp;rsquo;t conflict.
+Split into chunks
+ n queens can be put in n rows for each row we have n possible columns  $c_1$ : List of valid configuration s.t. first cell is [0,0] and rest of solution is Mat[1..n-1][0..n-1]
+$c_2$ : List of valid configuration s.t. first cell is [0,1]</description>
     </item>
     
     <item>
@@ -383,9 +649,45 @@ Topological Sort (rearrange) Given a DAG, rearrange its vertices on a horizontal
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://algo.minetest.in/2-Data_Structures/4-Abstract_Data_Types/6-FIFO_Queues_and_Generalized_Queue/</guid>
-      <description>FIFO Queues and Generalized Queues  it is same as pushdown stack except we remove the element that has been in the queue the longest.
- FIFO queue ADT interface
-  template &amp;lt;class Item&amp;gt; class QUEUE { private: //Implementation dependant code public: QUEUE(int); int empty(); void put(Item); Item get(): }  A FIFO queue is an ADT that comprises two basic operations: insert (put) a new item, and remove (get) the item that was least recently inserted.</description>
+      <description>FIFO Queues and Generalized Queues   it is same as pushdown stack except we remove the element that has been in the queue the longest.
+  FIFO queue ADT interface
+template &amp;lt;class Item&amp;gt; class QUEUE { private: //Implementation dependant code  public: QUEUE(int); int empty(); void put(Item); Item get(): } A FIFO queue is an ADT that comprises two basic operations: insert (put) a new item, and remove (get) the item that was least recently inserted.</description>
+    </item>
+    
+    <item>
+      <title>GNU screen</title>
+      <link>https://algo.minetest.in/Unix-Setup/screen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/Unix-Setup/screen/</guid>
+      <description>GNU Screen is a terminal multiplexer, a software that can be used to multiplex several virtual consoles, allowing a user to access multiple separate login session inside of a single terminal window, or detach and reattach session from a terminal.
+Following contains some useful config and screenrc for GNU screen.
+Screen Config edit or create /etc/screenrc or ~/.screenrc and add below code. This code adds a nice status bar to the default screen.</description>
+    </item>
+    
+    <item>
+      <title>Kernel Games</title>
+      <link>https://algo.minetest.in/Absolute_freeBSD/6_kernel_game/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/Absolute_freeBSD/6_kernel_game/</guid>
+      <description>The FreeBSD kernel can be dynamically tuned or changed on the fly, and most aspects of system performance can be adjusted as needed. We&amp;rsquo;ll discuss the kernel&amp;rsquo;s sysctl interface and how you can use it to alter a running kernel.
+While some parts of kernel can be altered during the early stage of booting via boot loader.
+FreeBSD has a modular kernel, meaning that entire chunks of the kernel can be loaded or unloaded from the OS, turning entire subsystem on/off as desired.</description>
+    </item>
+    
+    <item>
+      <title>2 Pointers</title>
+      <link>https://algo.minetest.in/Practice_Problems1/Two_Pointers/</link>
+      <pubDate>Mon, 10 May 2021 17:01:25 +0530</pubDate>
+      
+      <guid>https://algo.minetest.in/Practice_Problems1/Two_Pointers/</guid>
+      <description>Introduction   Not a DS or Algorithm
+  Is a technique to solve non-linear function ($O(n^2),O(n^3)$) and make it into a linear solution $O(n)$
+  Works on linear data structure only : Arrays and Linked lists.
+  Approach  Index based 2 pointers Windows Based Technique Slow-fast pointer  Sorted Array : n Find a pair(a,b) -&amp;gt; sum to number $x$
+Brute Force : $O(n^2)$
+2 pointer approach.</description>
     </item>
     
     <item>
@@ -407,7 +709,7 @@ O(n) pop : Transfer all s1 content to s2 and remove the top (first) then retrans
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://algo.minetest.in/2-Data_Structures/4-Abstract_Data_Types/7-Duplicates_and_Index_Items/</guid>
-      <description>Duplicate and Index Items  In general to remove duplicates we have two possibility  assume when client pushes duplicates we ignore them or remove old item and add new item there  first one is difficult to implement than the second because it requires that we modify the data structures. This kind of implementation accounts for using the symbol table ADT for quick search. Special case for which we have a quick solution; say items are integers in range 0 to M-1.</description>
+      <description>Duplicate and Index Items  In general to remove duplicates we have two possibility  assume when client pushes duplicates we ignore them or remove old item and add new item there   first one is difficult to implement than the second because it requires that we modify the data structures. This kind of implementation accounts for using the symbol table ADT for quick search. Special case for which we have a quick solution; say items are integers in range 0 to M-1.</description>
     </item>
     
     <item>
@@ -420,6 +722,17 @@ O(n) pop : Transfer all s1 content to s2 and remove the top (first) then retrans
     </item>
     
     <item>
+      <title>Configuring Networking</title>
+      <link>https://algo.minetest.in/Absolute_freeBSD/8_configuring_networking/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/Absolute_freeBSD/8_configuring_networking/</guid>
+      <description>Network Prerequisites If your network is DHCP(Dynamic Host Configuration Protocol), you can connect to the network as a client without knowing anything about the network. A static IP address makes more sense on a server.
+Both IPv4 and IPv6 require the following information :
+ An IP Address The netmask for that IP address and protocol The IP address of the default gateway  use ifconfig(8) and route(8) to attach system to network and make configuration permanent in /etc/rc.</description>
+    </item>
+    
+    <item>
       <title>General Issues</title>
       <link>https://algo.minetest.in/Windows/Dual_Boot4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -429,16 +742,40 @@ O(n) pop : Transfer all s1 content to s2 and remove the top (first) then retrans
 Clock Issue So Actually each hardware has a clock on its motherboard that keeps track of time even though computer is off.
 Windows assumes the time is stored in local time, while Linux assumes the time is stored in UTC time and applies an-offset. This leads one of OS show incorrect time.
 To solve this problem there are 2 options
- Disable RTC in Linux Use UTC in Windows.</description>
+ Disable RTC in Linux Use UTC in Windows.  Follow only one of instruction</description>
     </item>
     
     <item>
-      <title>2 Pointers</title>
-      <link>https://algo.minetest.in/Practice_Problems1/Two_Pointers/</link>
-      <pubDate>Mon, 10 May 2021 17:01:25 +0530</pubDate>
+      <title>The Network</title>
+      <link>https://algo.minetest.in/Absolute_freeBSD/7_the_network/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://algo.minetest.in/Practice_Problems1/Two_Pointers/</guid>
-      <description></description>
+      <guid>https://algo.minetest.in/Absolute_freeBSD/7_the_network/</guid>
+      <description>FreeBSD is famous for its network performance. The TCP/IP network protocol was first developed on BSD, and BSD, in turn, included first major implementation of TCP/IP. The wide availability, flexibility, and liberal licensing of BSD TCP/IP stack made it the de facto standard.
+The dominant internet protocol is TCP/IP. TCP (transmission control Protocol over Internet Protocol). TCP is transport protocol while IP is a network protocol, but they&amp;rsquo;re so tightly intertwined that they&amp;rsquo;re generally referred to as a single entity.</description>
+    </item>
+    
+    <item>
+      <title>tmux</title>
+      <link>https://algo.minetest.in/Unix-Setup/tmux/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/Unix-Setup/tmux/</guid>
+      <description>tmux is another alternative to screen
+Following contains some useful config and .tmux.conf for GNU screen.
+Config Note it uses same Ctrl+a prefix.
+set -ga terminal-overrides &amp;#34;,xterm-256color*:Tc&amp;#34; unbind C-b set-option -g prefix C-a bind-key C-a send-prefix set -g status-style &amp;#39;bg=#333333 fg=#5eacd3&amp;#39; bind r source-file ~/.tmux.conf set -g base-index 1 set-window-option -g mode-keys vi bind -T copy-mode-vi v send-keys -X begin-selection bind -T copy-mode-vi y send-keys -X copy-pipe-and-cancel &amp;#39;xclip -in -selection clipboard&amp;#39; # vim-like pane switching bind -r ^ last-window bind -r k select-pane -U bind -r j select-pane -D bind -r h select-pane -L bind -r l select-pane -R bind -r D neww -c &amp;#34;#{pane_current_path}&amp;#34; &amp;#34;[[ -e TODO.</description>
+    </item>
+    
+    <item>
+      <title>Ad Hoc</title>
+      <link>https://algo.minetest.in/Practice_Problems1/AdHoc/</link>
+      <pubDate>Fri, 14 May 2021 17:01:25 +0530</pubDate>
+      
+      <guid>https://algo.minetest.in/Practice_Problems1/AdHoc/</guid>
+      <description>132 Pattern
+Queue Reconstruction by Height
+Increasing Triplet Subsequence</description>
     </item>
     
     <item>
@@ -462,7 +799,7 @@ Lets fix small range and use a mapping function $f$ whose output is fixed in the
       <guid>https://algo.minetest.in/2-Data_Structures/4-Abstract_Data_Types/8-First_class_ADTs/</guid>
       <description>First-Class ADTs A first class data type is one which we can use in our programs in the same way as we use built-in data types.
 Complex numbers driver(roots of unity)
-#include &amp;lt;iostream.h&amp;gt; #include &amp;lt;stdlib.h&amp;gt; #include &amp;lt;math.h&amp;gt; #include &amp;quot;COMPLEX.cxx&amp;quot; int main(int argc, char *argv[]){ int N = atoi(argv[1]); cout&amp;lt;&amp;lt; N &amp;lt;&amp;lt; &amp;quot; complex roots of unity &amp;quot; &amp;lt;&amp;lt; endl; for(int k =0; k &amp;lt;N; k++){ float theta = 2.0*3.14159* k/N; Complex t(cos(theta), sin(theta)), x=t; cout&amp;lt;&amp;lt; K &amp;lt;&amp;lt; &amp;quot;: &amp;quot; &amp;lt;&amp;lt; t &amp;lt;&amp;lt; &amp;quot; &amp;quot;; for(int j=0; j&amp;lt;N-1 ; j++) x*=t; cout&amp;lt;&amp;lt; x &amp;lt;&amp;lt; endl; } }  We want ADT that can perform algebra of complex numbers.</description>
+#include &amp;lt;iostream.h&amp;gt;#include &amp;lt;stdlib.h&amp;gt;#include &amp;lt;math.h&amp;gt;#include &amp;#34;COMPLEX.cxx&amp;#34;int main(int argc, char *argv[]){ int N = atoi(argv[1]); cout&amp;lt;&amp;lt; N &amp;lt;&amp;lt; &amp;#34; complex roots of unity &amp;#34; &amp;lt;&amp;lt; endl; for(int k =0; k &amp;lt;N; k++){ float theta = 2.0*3.14159* k/N; Complex t(cos(theta), sin(theta)), x=t; cout&amp;lt;&amp;lt; K &amp;lt;&amp;lt; &amp;#34;: &amp;#34; &amp;lt;&amp;lt; t &amp;lt;&amp;lt; &amp;#34; &amp;#34;; for(int j=0; j&amp;lt;N-1 ; j++) x*=t; cout&amp;lt;&amp;lt; x &amp;lt;&amp;lt; endl; } } We want ADT that can perform algebra of complex numbers.</description>
     </item>
     
     <item>
@@ -475,6 +812,39 @@ Complex numbers driver(roots of unity)
 To understand structure of digraphs, we consider strong connectivity.
 If $s$ and $t$ are strongly connected (each reachable from the other) the by definition so are $t$ and $s$.
 The goal of our algorithm is to assign component numbers to each vertex in a vertex indexed vector using labels 0, 1, $\rhd$ , for strong components.</description>
+    </item>
+    
+    <item>
+      <title>postgreSQL</title>
+      <link>https://algo.minetest.in/Windows/postgresql/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/Windows/postgresql/</guid>
+      <description>PostgreSQL Downloading on Debian
+#!/bin/bash -e sudo sh -c &amp;#39;echo &amp;#34;deb http://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-pgdg main&amp;#34; &amp;gt; /etc/apt/sources.list.d/pgdg.list&amp;#39; wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add - sudo apt-get update sudo apt-get -y install postgresql sudo apt-get -y install postgresql-12 Service Restart ( use it to start the server )
+sudo service postgresql restart
+Connecting to DB as the above setup creates a user process named postgresql
+sudo -i -u postgres psql Creating User</description>
+    </item>
+    
+    <item>
+      <title>VCS</title>
+      <link>https://algo.minetest.in/Unix-Setup/rcs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/Unix-Setup/rcs/</guid>
+      <description>In software engineering, version control (also known as **revision control, source control, **or source code management) is class of systems responsible for managing changes to computers programs, documents, large websites, or other collections of information.
+Changes are usually identified by a number or letter code termed as &amp;ldquo;revision number&amp;rdquo;.
+Source-management models Traditional VCS uses a centralized model where all revision control function take place on a shared server. Centralized VCS solves problem of overwriting of code by two programmers by using one of two different &amp;ldquo;source-management models&amp;rdquo; : file locking and version merging.</description>
+    </item>
+    
+    <item>
+      <title>Strings from cp-algorithms</title>
+      <link>https://algo.minetest.in/Practice_Problems2/Strings/</link>
+      <pubDate>Tue, 22 Jun 2021 12:25:25 +0530</pubDate>
+      
+      <guid>https://algo.minetest.in/Practice_Problems2/Strings/</guid>
+      <description>String Processing  Fundamentals  String Hashing Rabin-Karp Prefix function - KMP Z function Suffix Array   Advanced  Suffix Tree Suffix Automaton Lyndon factorization   Tasks  Expression Parsing Manacher&amp;rsquo;s Algorithm - Finding all sub-palindromes in O(n) Finding repetitions    Prefix Function - KMP Given a string s of length n. The prefix function for this string is defined as an array $\pi [i]$ is the length of proper prefix of substring s[0.</description>
     </item>
     
     <item>
@@ -503,7 +873,7 @@ aim is to be solve
 $ \left( 1-x+\frac{x^2}{2}-\frac{x^3}{6} \right) = 1 + \frac{x^2}{2} +\frac{x^3}{3} -\frac{2x^4}{3}+\frac{x^5}{3}+&amp;hellip;$
 we also want to evaluate this polynomial at some specific value of x
 Polynomial Client(Binomial Coefficients)
-#include &amp;lt;iostream.h&amp;gt; #include &amp;lt;stdlib.h&amp;gt; #inlcude &amp;quot;POLY.cxx&amp;quot; int mian(int argc , char *argv[]){ int N= atoi(argv[1]); float p = atof(argv[2]); cout&amp;lt;&amp;lt; &amp;quot;Binomial coefficients &amp;quot; &amp;lt;&amp;lt;endl; POLY&amp;lt;int&amp;gt; x(1,1), one(1,0), t = x + one, y=t; for (int i=0; i&amp;lt;N; i++){ y = y*t; cout&amp;lt;&amp;lt;y &amp;lt;&amp;lt; endl; } cout&amp;lt;&amp;lt; y.</description>
+#include &amp;lt;iostream.h&amp;gt;#include &amp;lt;stdlib.h&amp;gt;#inlcude &amp;#34;POLY.cxx&amp;#34; int mian(int argc , char *argv[]){ int N= atoi(argv[1]); float p = atof(argv[2]); cout&amp;lt;&amp;lt; &amp;#34;Binomial coefficients &amp;#34; &amp;lt;&amp;lt;endl; POLY&amp;lt;int&amp;gt; x(1,1), one(1,0), t = x + one, y=t; for (int i=0; i&amp;lt;N; i++){ y = y*t; cout&amp;lt;&amp;lt;y &amp;lt;&amp;lt; endl; } cout&amp;lt;&amp;lt; y.</description>
     </item>
     
     <item>
@@ -525,7 +895,8 @@ The algorithm is based on preprocessing the digraph to build the latter&amp;rsqu
       <description>Review Ordered Search Structures we use whenever there is a need for ordering. Great examples are BSTs and we used lower_bound and upper_bound
 set,map =&amp;gt; sorted order.
 Lets review some of the basics of BSTs. // don&amp;rsquo;t ask me why its not on top.
-Date Models : usually the most of data we encounter is multidimensional so for such a multidimensional data we use identifiers ( like primary keys).</description>
+Date Models : usually the most of data we encounter is multidimensional so for such a multidimensional data we use identifiers ( like primary keys).
+so its exhibits a key , value model</description>
     </item>
     
     <item>
@@ -538,7 +909,7 @@ Date Models : usually the most of data we encounter is multidimensional so for s
 Maximum Depth of Binary Tree :
 longest path either comes from left node or right node we can take just take max of whatever our recursive function returns.
 maxDepth(root)=max(1+maxDepth(root-&amp;gt;left),1+maxDepth(root-&amp;gt;right))
-int maxDepth(TreeNode* root) { if(!root) return 0; return 1+max(maxDepth(root-&amp;gt;left),maxDepth(root-&amp;gt;right)); }  By reference based recursion method : good for revision ;0</description>
+int maxDepth(TreeNode* root) { if(!root) return 0; return 1+max(maxDepth(root-&amp;gt;left),maxDepth(root-&amp;gt;right)); } By reference based recursion method : good for revision ;0</description>
     </item>
     
     <item>
@@ -560,6 +931,20 @@ int maxDepth(TreeNode* root) { if(!root) return 0; return 1+max(maxDepth(root-&a
 Summary of worst case of these algorithms are summarized.
 Many other algorithms for processing digraphs and DAGs have important practical application.
 Dominators Given a DAG with all vertices reachable form a single source $r$, a vertex $s$ dominates a vertex t if every path from r to t contains $s$.</description>
+    </item>
+    
+    <item>
+      <title>Dijkstra</title>
+      <link>https://algo.minetest.in/Data_Structures_library/Graphs/Dijkstra/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/Data_Structures_library/Graphs/Dijkstra/</guid>
+      <description>This is simplest implementation of Dijkstra in C++.
+Assumes input is given as input[i] : $[u_i,v_i,w]$ , a source vertex s , a destination vertex d.
+Below code solves the dist[] : which will in the end contain required distance as dist[d].
+Note : below code assumes vertex in range [0,1,...n-1]
+Reference : https://www.coursera.org/lecture/algorithms-part2/dijkstras-algorithm-2e9Ic
+typedef pair&amp;lt;int,int&amp;gt; pi; int dijkstra(vector&amp;lt;vector&amp;lt;int&amp;gt;&amp;gt;&amp;amp; input, int s, int d, int n) { // construct graph  vector&amp;lt;vector&amp;lt;int&amp;gt;&amp;gt; G(n); for(auto&amp;amp; inp:input) G[inp[0]].</description>
     </item>
     
     <item>
@@ -609,8 +994,8 @@ Now lets try to connect to original subproblem.</description>
       <guid>https://algo.minetest.in/Practice_DP/DP_3/</guid>
       <description>LIS ( Longest Increasing Subsequence) We were looking at subarrays till last article. now its subsequence (its not supposed to contiguous instead it maintains order of appearance )
  for every $s_i$ : LIS ending at i  res = max{$s_i$}
- now how to find the $s_i$ &amp;lt;- Length of LIS ending at $i$  at any $jA[j]$ we can extend the subsequence
- $Si = 1 + \text{max}{j\le i} { S_j } $ and $A[i]&amp;gt;A[j]$  Checking DP</description>
+now how to find the $s_i$ &amp;lt;- Length of LIS ending at $i$  at any $j&amp;lt;i$ if $A[i]&amp;gt;A[j]$ we can extend the subsequence
+$ S_i = 1 + max_{j\le i} {S_j} $ and $A[i]&amp;gt;A[j]$  Checking DP</description>
     </item>
     
     <item>
@@ -621,8 +1006,8 @@ Now lets try to connect to original subproblem.</description>
       <guid>https://algo.minetest.in/Practice_DP/DP_4/</guid>
       <description>2D DP Target Sum Cue : DP/DnC , as there is counting problem.
 Let&amp;rsquo;s decide the criteria of splitting the set
-Splitting the set into 2 components , set 1 contains sum with s1 in positive sign
-another s2 with s1 in negative.
+Splitting the set into 2 components , set s1 contains sum with A[0] in positive sign
+another set s2 with A[0] in negative sign.
 $S_1 $ : Number of ways to make target-A[0] from A[1,&amp;hellip; n-1]
 $S_2 $ : Number of ways to make target+A[0] from A[1,&amp;hellip; n-1]
 Mathematical Representation of problem</description>
@@ -661,7 +1046,7 @@ Most Simplest implementation is adjacency matrix but its not memory efficient fo
       <description>Strong and Weak Connectivity These terms arise in Directed Graph.
 Weak Connectivity : Take a directed graph and convert into undirected graph and do connectivity operations on that is called as weak connectivity.
 Strong Connectivity : (A,B) are strongly connected $\iff \exists $ path b/w A &amp;amp; B.
-​ A &amp;ndash;&amp;gt; B and B&amp;ndash;&amp;gt;A
+​	A &amp;ndash;&amp;gt; B and B&amp;ndash;&amp;gt;A
 Graph Cyclicity Cycle : A sequence of nodes and edges such that first and last node of sequence is same.</description>
     </item>
     
@@ -821,11 +1206,10 @@ Definition 1 : A nonadaptive sorting algorithm is one where the sequence of oper
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://algo.minetest.in/2-Data_Structures/3-Elementary_Data_Structures/1-Building_Blocks/</guid>
-      <description>Choice of Algorithm and Data Structure are closely intertwined. A Data Structure is not a passive object.(We must consider Ops to be performed on them).  Building Blocks  Types define how we will use particular set of bits.
- Functions allow us to specify operation that will be performed on data.
- C++ Structures to group heterogenous data together.
- Pointers to refer to information indirectly.
- Basic Data types are</description>
+      <description>Choice of Algorithm and Data Structure are closely intertwined. A Data Structure is not a passive object.(We must consider Ops to be performed on them).  Building Blocks   Types define how we will use particular set of bits.
+  Functions allow us to specify operation that will be performed on data.
+  C++ Structures to group heterogenous data together.
+  Pointers to refer to information indirectly.</description>
     </item>
     
     <item>
@@ -846,7 +1230,8 @@ Depending on the context a key might a word (a fixed-length sequence of bytes) o
       <guid>https://algo.minetest.in/3-Sorting/9-Priority_Queues_and_Heapsort/1-Elementary_Implementations/</guid>
       <description>Elementary Implementations we can use ordered or unordered sequences, implemented as linked list or arrays. Tradeoff between leaving the items unordered and keeping them in order is
 Ordered Sequences allows constant time remove the maximum and find the max but going through the whole list for insert. (eager approach)
-Unordered Sequences allows constant time insert but traversing entire structure for finding the maximum or removing the maximum (lazy approach)</description>
+Unordered Sequences allows constant time insert but traversing entire structure for finding the maximum or removing the maximum (lazy approach)
+We can use an array or linked-list representation in either case, with the basic tradeoff that linked list allow constant-time remove (and, in the unordered case join) but requires more space for links.</description>
     </item>
     
     <item>
@@ -860,14 +1245,25 @@ Exploring a Maze One strategy to explore the maze is unroll a ball of string beh
     </item>
     
     <item>
+      <title>1-flow networks</title>
+      <link>https://algo.minetest.in/5-Graph_Algorithms/22-Network_Flows_367/1_flow_networks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/5-Graph_Algorithms/22-Network_Flows_367/1_flow_networks/</guid>
+      <description>Flow Networks Lets consider a idealized physical model : Imagine a interconnected oil pipes of varying sizes, with flow direction controlling switches. Consider a single source and sink. At each vertex there is equilibrium i.e. inflow = outflow and pipe capacity is considered in same units.
+If there is a equilibrium at switch we don&amp;rsquo;t need to worry about anything just fill pipes to full capacity. Otherwise, not all pipes are full but oil flows through the network, controlled by switch setting at the junctions such that amount of inflow and outflow at vertices is equal.</description>
+    </item>
+    
+    <item>
       <title>1-Glossary</title>
       <link>https://algo.minetest.in/5-Graph_Algorithms/17-Graph-Properties_and_Types/1_Glossary/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://algo.minetest.in/5-Graph_Algorithms/17-Graph-Properties_and_Types/1_Glossary/</guid>
       <description>Graph Properties and Types Major Application of Graph includes Maps, Hypertext, Circuits, Schedules, Transactions, Matching, Networks, Program Structure(Compiler).
-Glossary *Definition :* A graph is a set of vertices and a set of edges that connect pairs of distinct vertices ( with at most one edge connecting any pair of vertices ).
-We denote the number of vertices in a given graph by $V$ and number of edges by $E$.</description>
+Glossary Definition : A graph is a set of vertices and a set of edges that connect pairs of distinct vertices ( with at most one edge connecting any pair of vertices ).
+We denote the number of vertices in a given graph by $V$ and number of edges by $E$.
+Above definition puts two restrictions on graphs</description>
     </item>
     
     <item>
@@ -909,7 +1305,7 @@ First type of algorithm which is useful for undirected graphs that represent obj
       
       <guid>https://algo.minetest.in/3-Sorting/6-Elementary_Sorting_Methods/1-Rules_of_the_Game/</guid>
       <description>Introduction Why study these elementary techniques of sorting
- provide context - learning terminology and basic mechanisms sometimes more effective than the more powerful general purpose methods extend to better general purpose methods  Rules of the Game Abstract notion of putting keys and associated information in order is what characterizes the sorting problem.
+ provide context - learning terminology and basic mechanisms sometimes more effective than the more powerful general purpose methods extend to better general purpose methods  Rules of the Game Abstract notion of putting keys and associated information in orderis what characterizes the sorting problem.
  Internal Sorting : file to be sorted fits in memory External Sorting : file from tape or disk  Some Conventional Code :</description>
     </item>
     
@@ -919,7 +1315,7 @@ First type of algorithm which is useful for undirected graphs that represent obj
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://algo.minetest.in/6-Strings/1_String_Sorts/</guid>
-      <description> Introduction  Key-Indexed Counting LSD String sort MSD String sort Three-way string quicksort Which string sorting algorithm should I use </description>
+      <description>Introduction Key-Indexed Counting LSD String sort MSD String sort Three-way string quicksort Which string sorting algorithm should I use </description>
     </item>
     
     <item>
@@ -928,7 +1324,7 @@ First type of algorithm which is useful for undirected graphs that represent obj
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://algo.minetest.in/4-Seaching/12-Symbol_Tables_and_Binary_Search_Tree/1-Symbol_Table_Abstract_Data_Type/</guid>
-      <description>Introduction A symbol table is a data structure of items with keys that supports two basic operations
+      <description>Introduction A symbol table is a data structure of items with keysthat supports two basic operations
  Insert a new item Return an item with a given key  Also known as dictionaries sometimes.
 Symbol-Table Abstract Data Type Operations of interest in the implementations are
  insert search for a item given the key remove a item sort the symbol table join two symbol table  Additionally we might also want a standard construct,test if empty , destroy and copy.</description>
@@ -967,16 +1363,6 @@ At each step, we test whether we can find a path that is shorter than some know 
     </item>
     
     <item>
-      <title>1-flow networks</title>
-      <link>https://algo.minetest.in/5-Graph_Algorithms/22-Network_Flows_367/1_flow_networks/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://algo.minetest.in/5-Graph_Algorithms/22-Network_Flows_367/1_flow_networks/</guid>
-      <description>Flow Networks Lets consider a idealized physical model : Imagine a interconnected oil pipes of varying sizes, with flow direction controlling switches. Consider a single source and sink. At each vertex there is equilibrium i.e. inflow = outflow and pipe capacity is considered in same units.
-If there is a equilibrium at switch we don&amp;rsquo;t need to worry about anything just fill pipes to full capacity. Otherwise, not all pipes are full but oil flows through the network, controlled by switch setting at the junctions such that amount of inflow and outflow at vertices is equal.</description>
-    </item>
-    
-    <item>
       <title>1_Randomized BSTs</title>
       <link>https://algo.minetest.in/4-Seaching/13-Balanced_Trees/1_Randomized_BSTs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -987,6 +1373,17 @@ The idea is simple : When we insert a new node into a tree of N nodes the new no
     </item>
     
     <item>
+      <title>2 augmeting path maxflow algorithms</title>
+      <link>https://algo.minetest.in/5-Graph_Algorithms/22-Network_Flows_367/2_augmeting_path_maxflow_algorithms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/5-Graph_Algorithms/22-Network_Flows_367/2_augmeting_path_maxflow_algorithms/</guid>
+      <description>Augmenting-Path Maxflow Algorithms An effective approach to solving maxflow problems was developed by L.R. Ford and D. R. Fulkerson in 1962.
+It is a generic method for increasing flow incrementally along paths from source to sink that serves as the basis for family of algorithms. It is know as Ford-Fulkerson methods or augmenting path methods.
+This algorithm will compute the maxflow in some cases, but will fall short in other cases.</description>
+    </item>
+    
+    <item>
       <title>2 Graph ADT</title>
       <link>https://algo.minetest.in/5-Graph_Algorithms/17-Graph-Properties_and_Types/2_Graph_ADT/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -994,7 +1391,7 @@ The idea is simple : When we insert a new node into a tree of N nodes the new no
       <guid>https://algo.minetest.in/5-Graph_Algorithms/17-Graph-Properties_and_Types/2_Graph_ADT/</guid>
       <description>Graph ADT This ADT defines fundamental tasks. Whenever faced with new problems we consider algorithms that solve it and their implementations in context of client programs and ADTs that access graph through this interface. This ADT is simple and we will try to develop a more general ADT.
 Graph ADT interface
-struct Edge { int v,w; Edge(int v = -1, int w = -1): v(v),w(w) {} }; class GRAPH { private: //implementation-dependent code public: GRAPH(int,bool); *GRAPH(); int Y() const; int E() const; bool directed() const; int insert(Edge); int remove(Edge); bool edge(int, int); class adjIterator { public: adjIterator(const GRAPH &amp;amp;, int); int beg(); int nxt(); bool end(); }; };  Example of a graph-processing client function</description>
+struct Edge { int v,w; Edge(int v = -1, int w = -1): v(v),w(w) {} }; class GRAPH { private: //implementation-dependent code  public: GRAPH(int,bool); *GRAPH(); int Y() const; int E() const; bool directed() const; int insert(Edge); int remove(Edge); bool edge(int, int); class adjIterator { public: adjIterator(const GRAPH &amp;amp;, int); int beg(); int nxt(); bool end(); }; }; Example of a graph-processing client function</description>
     </item>
     
     <item>
@@ -1017,17 +1414,6 @@ This method is traditionally called separate chaining because items that collide
     </item>
     
     <item>
-      <title>2 augmeting path maxflow algorithms</title>
-      <link>https://algo.minetest.in/5-Graph_Algorithms/22-Network_Flows_367/2_augmeting_path_maxflow_algorithms/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://algo.minetest.in/5-Graph_Algorithms/22-Network_Flows_367/2_augmeting_path_maxflow_algorithms/</guid>
-      <description>Augmenting-Path Maxflow Algorithms An effective approach to solving maxflow problems was developed by L.R. Ford and D. R. Fulkerson in 1962.
-It is a generic method for increasing flow incrementally along paths from source to sink that serves as the basis for family of algorithms. It is know as Ford-Fulkerson methods or augmenting path methods.
-This algorithm will compute the maxflow in some cases, but will fall short in other cases.</description>
-    </item>
-    
-    <item>
       <title>2-Abstract In-place merge</title>
       <link>https://algo.minetest.in/3-Sorting/8-Merging_and_Mergesort/2-Abstract_In_place_merge/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1043,10 +1429,10 @@ Second characteristic of basic merge that is worthy of note is that the inner lo
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://algo.minetest.in/2-Data_Structures/3-Elementary_Data_Structures/2-Arrays/</guid>
-      <description>Arrays  Most primitive and fundamental data structures.
- An array is a fixed collection of same-type data that are stored contiguously and that are accessible by an index.
- One of the distinctive features of C++ is that an array name generates a pointer to the first element of the array (the one with index 0). So *(a+i)is same as a[i].
- Sieve of Eratosthenes (nlogn)  #include &amp;lt;iostream&amp;gt; using namespace std; static const int N = 1000; int main(){ int i, a[N]; for(int i=2;i&amp;lt;N;i++) a[i]=1; //sets entire array for(int i=2;i&amp;lt;N;i++) if(a[i]) //takes jumps of j to remove every multiple for(int j=i;j*i&amp;lt;N;j++) a[i*j]=0; for(i=2;i&amp;lt;N;i++) //printing utility if(a[i]) cout &amp;lt;&amp;lt;&amp;quot; &amp;quot;&amp;lt;&amp;lt;i; cout&amp;lt;&amp;lt;endl; }   So we can pass a pointer to array in function to avoid creation of copy of array.</description>
+      <description>Arrays   Most primitive and fundamental data structures.
+  An array is a fixed collection of same-type data that are stored contiguously and that are accessible by an index.
+  One of the distinctive features of C++ is that an array name generates a pointer to the first element of the array (the one with index 0). So *(a+i)is same as a[i].
+  Sieve of Eratosthenes (nlogn) #include &amp;lt;iostream&amp;gt;using namespace std; static const int N = 1000; int main(){ int i, a[N]; for(int i=2;i&amp;lt;N;i++) a[i]=1; //sets entire array  for(int i=2;i&amp;lt;N;i++) if(a[i])	//takes jumps of j to remove every multiple  for(int j=i;j*i&amp;lt;N;j++) a[i*j]=0; for(i=2;i&amp;lt;N;i++)	//printing utility  if(a[i]) cout &amp;lt;&amp;lt;&amp;#34; &amp;#34;&amp;lt;&amp;lt;i; cout&amp;lt;&amp;lt;endl; }   So we can pass a pointer to array in function to avoid creation of copy of array.</description>
     </item>
     
     <item>
@@ -1066,8 +1452,8 @@ Second characteristic of basic merge that is worthy of note is that the inner lo
       <guid>https://algo.minetest.in/5-Graph_Algorithms/18-Graph_Search/2_Depth_first_search/</guid>
       <description>Depth-First Search To visit a vertex, we mark it as having been visited, then recursively visit all the vertices that are adjacent to it and that have not yet been marked.
 ord vector stores the order of traversal of vertices.
-Program 18.1 Depth-first search of a connected component
-#include &amp;lt;vector&amp;gt; template &amp;lt;class Graph&amp;gt; class cDFS { int cnt; const Graph &amp;amp;G; vector &amp;lt;int&amp;gt; ord; void searchC(int v) { ord[v] = cnt++; typename Graph::adjIterator A(G,v); for(int t = A.</description>
+Program 18.1	Depth-first search of a connected component
+#include &amp;lt;vector&amp;gt;template &amp;lt;class Graph&amp;gt; class cDFS { int cnt; const Graph &amp;amp;G; vector &amp;lt;int&amp;gt; ord; void searchC(int v) { ord[v] = cnt++; typename Graph::adjIterator A(G,v); for(int t = A.</description>
     </item>
     
     <item>
@@ -1076,7 +1462,7 @@ Program 18.1 Depth-first search of a connected component
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://algo.minetest.in/5-Graph_Algorithms/21-Shortest_Paths/2_Dijkstras_algorithm/</guid>
-      <description>Dijkstra&amp;rsquo;s Algorithm In 20.3 we discussed Prim&amp;rsquo;s algorithm for finding MST of a weighted undirected graph. Here similarly we put source on SPT; then we build the SPT one edge at a time, always taking next the edge that gives a min shortest path from the source to vertex not on the SPT. In other words, we add vertices to SPT in order of their distance to the start vertex.</description>
+      <description>Dijkstra&amp;rsquo;s Algorithm In 20.3 we discussed Prim&amp;rsquo;s algorithm for finding MST of a weighted undirected graph. Here similarly we put source on SPT; then we build the SPT one edge at a time, always taking next the edge that gives a min shortest path from the source to vertex not on the SPT. In other words, we add vertices to SPT in order of their distance to the start vertex. This is known as Dijkstra&amp;rsquo;s algorithm.</description>
     </item>
     
     <item>
@@ -1117,10 +1503,10 @@ Property 1: If key values are positive integers less than M and items have disti
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://algo.minetest.in/3-Sorting/7-Quicksort/2-Performance_Characterstics_of_Quicksort/</guid>
-      <description>Performance Characteristics of Quicksort  Quicksort uses about $\frac{N^2}{2}$ comparisons in the worst case.
- Worst case is when array is already sorted.  Above case is also worst in space as it will take $N$ recursions.
- Best case is when quicksort is when each partitioning stage divides the file exactly in half.
- $CN = 2 C{N/2} + N $ $C_N \approx N \lg N $  Quicksort uses about $2N \ln N$ comparisons on the average.</description>
+      <description>Performance Characteristics of Quicksort   Quicksort uses about $\frac{N^2}{2}$ comparisons in the worst case.
+ Worst case is when array is already sorted.    Above case is also worst in space as it will take $N$ recursions.
+  Best case is when quicksort is when each partitioning stage divides the file exactly in half.
+ $C_N = 2 C_{N/2} + N $ $C_N \approx N \lg N $    Quicksort uses about $2N \ln N$ comparisons on the average.</description>
     </item>
     
     <item>
@@ -1133,7 +1519,7 @@ Property 1: If key values are positive integers less than M and items have disti
 # of exchanges = N-1 ( no need to check last element)
 # of comparison = $N^2$
 So comparisons dominate the running time.
-void selection(Item a[], int l , int r){ for(int i = l ; i &amp;lt;r ; i++){ int min = i ; for(int j = i+1 ; j &amp;lt;=r ; j++) if(a[j]&amp;lt;a[min]) min = j ; exch(a[i],a[min]); } }  It takes about the same time for a already sorted file or file with same data , as it does for a randomly ordered file.</description>
+void selection(Item a[], int l , int r){ for(int i = l ; i &amp;lt;r ; i++){ int min = i ; for(int j = i+1 ; j &amp;lt;=r ; j++) if(a[j]&amp;lt;a[min]) min = j ; exch(a[i],a[min]); } } It takes about the same time for a already sorted file or file with same data , as it does for a randomly ordered file.</description>
     </item>
     
     <item>
@@ -1257,7 +1643,7 @@ i.e. we ignore cost of sorting of main memory</description>
       
       <guid>https://algo.minetest.in/5-Graph_Algorithms/18-Graph_Search/3_Graph_Search_ADT/</guid>
       <description>Graph-Search ADT Functions 18.2 Graph Search
-template &amp;lt;class Graph &amp;gt; class SEARCH { protected: const Graph &amp;amp;G; int cnt; vector&amp;lt;int&amp;gt; ord; virtual void search (Edge) = 0; void search(){ for(int v = 0; v&amp;lt;G.V(); v++) if(ord[v] == -1) searchC(Edge(v,v)); } public: SEARCH(const Graph &amp;amp;G): G(G), ord(G.V(),-1), cnt(0) {} int operator[](int v) const {return ord[v];} };  We typically use graph-search function that performs these steps until all of the vertices of the graph have been marked as having been visited:</description>
+template &amp;lt;class Graph &amp;gt; class SEARCH { protected: const Graph &amp;amp;G; int cnt; vector&amp;lt;int&amp;gt; ord; virtual void search (Edge) = 0; void search(){ for(int v = 0; v&amp;lt;G.V(); v++) if(ord[v] == -1) searchC(Edge(v,v)); } public: SEARCH(const Graph &amp;amp;G): G(G), ord(G.V(),-1), cnt(0) {} int operator[](int v) const {return ord[v];} }; We typically use graph-search function that performs these steps until all of the vertices of the graph have been marked as having been visited:</description>
     </item>
     
     <item>
@@ -1270,7 +1656,7 @@ template &amp;lt;class Graph &amp;gt; class SEARCH { protected: const Graph &amp
 In selection sort elements to left are in sorted order and same happens in insertion sort but in insertion sort it is not the final order of elements.
 This naïve implementation is shown in 6.1. Below is improved implementation.
 Improvements in above schemes
- we can stop doing compexch ops when we encounter a key that is not larger than the key in the item being inserted, because the subarray to the left is sorted and especially we can break out of the inner for loop in sort in program when condition a[j-1] &amp;lt; a[j] is true.</description>
+  we can stop doing compexch ops when we encounter a key that is not larger than the key in the item being inserted, because the subarray to the left is sorted and especially we can break out of the inner for loop in sort in program when condition a[j-1] &amp;lt; a[j] is true.</description>
     </item>
     
     <item>
@@ -1289,10 +1675,11 @@ Several methods have been devised that store N items in a table of size M&amp;gt
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://algo.minetest.in/2-Data_Structures/3-Elementary_Data_Structures/3-Linked_Lists/</guid>
-      <description>Linked List  A linked list is a set of items where each item is part of a node that also contains a link to a node.  ​ why is that - just for the sake of traversing the collection of items
-​ what we lost- quick access capability as compared to array
-​ what we gain- links provide capability to rearrange quickly
- aka self-referent structures because we define node by nodes.</description>
+      <description>Linked List   A linked list is a set of items where each item is part of a node that also contains a link to a node.
+​	why is that - just for the sake of traversing the collection of items
+​	what we lost- quick access capability as compared to array
+​	what we gain- links provide capability to rearrange quickly
+  aka self-referent structures because we define node by nodes.</description>
     </item>
     
     <item>
@@ -1314,6 +1701,16 @@ These partitions are referred as Bins or Buckets and think of algorithm as using
       <description>Patricia Tries Tries search have 2 inconvenient flaws.
  the one-way branching leads to creation of extra nodes in trie. there are two different types of nodes in the trie, which leads to complications.  In 1968, Morrison discovered a way to avoid these problems, in a method he called Patricia. (&amp;ldquo;practical algorithm to retrieve information coded in alphanumeric&amp;rdquo;)
 Like DSTs, Patricia tries allow search for N keys in a tree with just N nodes; like tries, they require only about $\lg N$ bit comparisons and one full key comparison per search, and they support other ADT operations.</description>
+    </item>
+    
+    <item>
+      <title>3-preflow push maxflow algorithms</title>
+      <link>https://algo.minetest.in/5-Graph_Algorithms/22-Network_Flows_367/3_preflow_push_maxflow_algorithms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/5-Graph_Algorithms/22-Network_Flows_367/3_preflow_push_maxflow_algorithms/</guid>
+      <description>Preflow-Push Maxflow Algorithms using generic method known as the preflow-push method, we incrementally move flow along the outgoing edges of vertices that have more inflow than outflow. The preflow-push approach was developed by A. Goldberg and RE Tarjan in 1986 on basis of various earlier algorithms. It is widely used because of its simplicity, flexibility, and efficiency.
+An augmenting-path algorithm always maintains a feasible flow : It increase flow along augmenting paths until a maxflow is achieved.</description>
     </item>
     
     <item>
@@ -1364,7 +1761,7 @@ The policy of putting the larger of the smaller sub files on the stack ensures t
       <guid>https://algo.minetest.in/3-Sorting/8-Merging_and_Mergesort/3-Top_Down_mergesort/</guid>
       <description>Top-Down Mergesort Mergesort is important because it is a straightforward optimal sorting method 9 it runs in time proportional to $n\log n $ that can be implemented in a stable manner.
 It is classic example of the divide and conquer paradigm.
-template &amp;lt;class Item&amp;gt; void mergesort(Item a[],int l , int r) { if(r&amp;lt;= l ) return ; int m = (r+l)/2 ; mergesort(a,l,m); mergesort(a,m+1,r); merge(a,l,m,r); }   Mergesort requires about $n \log n $ comparisons to sort any file of $N$ elements Mergesort uses extra space proportional to $N$.</description>
+template &amp;lt;class Item&amp;gt; void mergesort(Item a[],int l , int r) { if(r&amp;lt;= l ) return ; int m = (r+l)/2 ; mergesort(a,l,m); mergesort(a,m+1,r); merge(a,l,m,r); }  Mergesort requires about $n \log n $ comparisons to sort any file of $N$ elements Mergesort uses extra space proportional to $N$.</description>
     </item>
     
     <item>
@@ -1376,16 +1773,6 @@ template &amp;lt;class Item&amp;gt; void mergesort(Item a[],int l , int r) { if(
       <description>Top-Down 2-3-4 Trees despite performance guarantees that we get from randomized BSTs and with splay BST but still both admits a possibilities of particular search can take linear time.
 Therefore do not help us answer the fundamental question that is : Is there a type of BST in which search and insertion both take logarithmic in the size of tree.
 To guarantee that our BSTs will be balanced, we need this flexibility in the tree structures that we use.</description>
-    </item>
-    
-    <item>
-      <title>3-preflow push maxflow algorithms</title>
-      <link>https://algo.minetest.in/5-Graph_Algorithms/22-Network_Flows_367/3_preflow_push_maxflow_algorithms/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://algo.minetest.in/5-Graph_Algorithms/22-Network_Flows_367/3_preflow_push_maxflow_algorithms/</guid>
-      <description>Preflow-Push Maxflow Algorithms using generic method known as the preflow-push method, we incrementally move flow along the outgoing edges of vertices that have more inflow than outflow. The preflow-push approach was developed by A. Goldberg and RE Tarjan in 1986 on basis of various earlier algorithms. It is widely used because of its simplicity, flexibility, and efficiency.
-An augmenting-path algorithm always maintains a feasible flow : It increase flow along augmenting paths until a maxflow is achieved.</description>
     </item>
     
     <item>
@@ -1450,7 +1837,7 @@ Property 5: Binary search never uses more than $\lfloor \lg N \rfloor +1$ compar
       <guid>https://algo.minetest.in/3-Sorting/6-Elementary_Sorting_Methods/4-Bubble_sort/</guid>
       <description>Bubble Sort Most simple and worse performance than both techniques.
 traverse from right to left through the file whenever min element is encountered during the first pass, we exchange it with each of the elements to its left, hoping to eventually put it to its place.
-template &amp;lt;class Item&amp;gt; void bubble(Item a[] , int l , int r){ for(int i = l ; i&amp;lt;r ; i++) for(int j = r ; j &amp;gt; i; j--) compexch(a[j-1],a[j]); }  Stable Sort</description>
+template &amp;lt;class Item&amp;gt; void bubble(Item a[] , int l , int r){ for(int i = l ; i&amp;lt;r ; i++) for(int j = r ; j &amp;gt; i; j--) compexch(a[j-1],a[j]); } Stable Sort</description>
     </item>
     
     <item>
@@ -1470,9 +1857,9 @@ Second hash function must be chosen with some care.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://algo.minetest.in/2-Data_Structures/3-Elementary_Data_Structures/4-Elementary_List_Processing/</guid>
-      <description>Elementary List Processing  Most common bug when using array is out-of bound access. Similarly here reference an undefined pointer or using a pointer that we have changed unknowingly.
- A linked list is either a null link or a link to a node that contains an item and a link to a linked list.
- Traversing a Linked List  let&amp;rsquo;s say x is a pointer to first node of a list , the final node has a nullpointer and visit is procedure that takes an item as an argument.</description>
+      <description>Elementary List Processing   Most common bug when using array is out-of bound access. Similarly here reference an undefined pointer or using a pointer that we have changed unknowingly.
+  A linked list is either a null link or a link to a node that contains an item and a link to a linked list.
+  Traversing a Linked List   let&amp;rsquo;s say x is a pointer to first node of a list , the final node has a null pointer and visit is procedure that takes an item as an argument.</description>
     </item>
     
     <item>
@@ -1508,6 +1895,17 @@ disconnected forest of MST subtrees evolves gradually into a tree. Edges are add
     </item>
     
     <item>
+      <title>4-maxflow reductions</title>
+      <link>https://algo.minetest.in/5-Graph_Algorithms/22-Network_Flows_367/4_maxflow_reductions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/5-Graph_Algorithms/22-Network_Flows_367/4_maxflow_reductions/</guid>
+      <description>Maxflow Reductions Maxflow in general networks Find the flow in a network that maximized the total outflow from its source ( and therefore total inflow to its sink). By convention flow is zero if there are no sinks or source.
+Property 22.14 The maxflow problem for general networks is equivalent to the maxflow problem for st-networks.
+Vertex Capacity constraints Given a flow network, find maxflow satisfying additional constraints specifying that the flow through each vertex must not exceed some fixed capacity.</description>
+    </item>
+    
+    <item>
       <title>4-Multiway Tries and TSTs</title>
       <link>https://algo.minetest.in/4-Seaching/15-Radix_Search/4_Multiway_Tries_and_TSTs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1527,13 +1925,23 @@ In binary tries we had 2 links(for 0 bit and 1 bit) for 1 bit comparison, simila
     </item>
     
     <item>
+      <title>4-shortest path in acyclic networks</title>
+      <link>https://algo.minetest.in/5-Graph_Algorithms/21-Shortest_Paths/4_shortest_path_in_acyclic_networks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/5-Graph_Algorithms/21-Shortest_Paths/4_shortest_path_in_acyclic_networks/</guid>
+      <description>Shortest Paths in Acyclic Networks For shortest-paths problems, we do have algorithms for DAGs that are simpler and faster than the priority-queue-based methods that we have considered for general digraphs. Specifically, in this section we consider algorithms for acyclic networks that.
+ Solve the single source problem in linear time solve the all-pairs problem in time proportional to VE solve other problems, such as finding longest paths  In the first two cases, we cut the logarithmic factor from running time that is present in our best algorithm for sparse networks; in the third case, we have simple algorithm for problems that are intractable for general networks.</description>
+    </item>
+    
+    <item>
       <title>4-Small Subfiles</title>
       <link>https://algo.minetest.in/3-Sorting/7-Quicksort/4-Small_Subfiles/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://algo.minetest.in/3-Sorting/7-Quicksort/4-Small_Subfiles/</guid>
       <description>Small Subfiles we can change the test at the beginning of the recursive routine from a return to a call on insertion sort, as follows.
-if ( r -l &amp;lt;= M ) insertion(a, l, r);
+ if ( r -l &amp;lt;= M ) insertion(a, l, r);
 Here , $M$ is parameter whose exact value depends upon implementation.
 Between about 5 to 25, performance is almost same but quite better than $ M = 1 $ ( 10% better ).
 A slightly easier way to handle small subfiles, which is also efficient than above is</description>
@@ -1575,27 +1983,6 @@ Vertex is simple object ( aka node) that can have a name and carry other associa
     </item>
     
     <item>
-      <title>4-maxflow reductions</title>
-      <link>https://algo.minetest.in/5-Graph_Algorithms/22-Network_Flows_367/4_maxflow_reductions/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://algo.minetest.in/5-Graph_Algorithms/22-Network_Flows_367/4_maxflow_reductions/</guid>
-      <description>Maxflow Reductions Maxflow in general networks Find the flow in a network that maximized the total outflow from its source ( and therefore total inflow to its sink). By convention flow is zero if there are no sinks or source.
-Property 22.14 The maxflow problem for general networks is equivalent to the maxflow problem for st-networks.
-Vertex Capacity constraints Given a flow network, find maxflow satisfying additional constraints specifying that the flow through each vertex must not exceed some fixed capacity.</description>
-    </item>
-    
-    <item>
-      <title>4-shortest path in acyclic networks</title>
-      <link>https://algo.minetest.in/5-Graph_Algorithms/21-Shortest_Paths/4_shortest_path_in_acyclic_networks/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://algo.minetest.in/5-Graph_Algorithms/21-Shortest_Paths/4_shortest_path_in_acyclic_networks/</guid>
-      <description>Shortest Paths in Acyclic Networks For shortest-paths problems, we do have algorithms for DAGs that are simpler and faster than the priority-queue-based methods that we have considered for general digraphs. Specifically, in this section we consider algorithms for acyclic networks that.
- Solve the single source problem in linear time solve the all-pairs problem in time proportional to VE solve other problems, such as finding longest paths  In the first two cases, we cut the logarithmic factor from running time that is present in our best algorithm for sparse networks; in the third case, we have simple algorithm for problems that are intractable for general networks.</description>
-    </item>
-    
-    <item>
       <title>5 Skip Lists</title>
       <link>https://algo.minetest.in/4-Seaching/13-Balanced_Trees/5_Skip_Lists/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1633,7 +2020,16 @@ First, we maintain a vertex-indexed vector that identifies, for each MST subtree
       
       <guid>https://algo.minetest.in/3-Sorting/8-Merging_and_Mergesort/5-Bottom_up_mergesort/</guid>
       <description>Bottom-Up Mergesort Bottom-Up mergesort
-inline int min(int A, int B) {return (A&amp;lt;B) ? A: B;} template &amp;lt;class Item&amp;gt; void mergesortBU(Item [a],int l, int r){ for(int m = l; m &amp;lt;= r-l ; m = m+m ) for(int i = l; i &amp;lt;= r-m; i+=m+m) merge(a,i,i+m-1,min(i+m+m-1,r)); }  Sequence of merges done by the recursive algorithm is determined by divide-and-conquer tree. We simply traverse tree in postorder or we can develop an alternate stack.</description>
+inline int min(int A, int B) {return (A&amp;lt;B) ? A: B;} template &amp;lt;class Item&amp;gt; void mergesortBU(Item [a],int l, int r){ for(int m = l; m &amp;lt;= r-l ; m = m+m ) for(int i = l; i &amp;lt;= r-m; i+=m+m) merge(a,i,i+m-1,min(i+m+m-1,r)); } Sequence of merges done by the recursive algorithm is determined by divide-and-conquer tree. We simply traverse tree in postorder or we can develop an alternate stack.</description>
+    </item>
+    
+    <item>
+      <title>5-Data Compression</title>
+      <link>https://algo.minetest.in/6-Strings/5_Data_Compression/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/6-Strings/5_Data_Compression/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -1649,15 +2045,6 @@ If it is, we have just encountered the parent link $w-v$.</description>
     </item>
     
     <item>
-      <title>5-Data Compression</title>
-      <link>https://algo.minetest.in/6-Strings/5_Data_Compression/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://algo.minetest.in/6-Strings/5_Data_Compression/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>5-Dynamic Hash Tables</title>
       <link>https://algo.minetest.in/4-Seaching/14-Hashing/5_Dynamic_Hash_Tables/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1665,6 +2052,17 @@ If it is, we have just encountered the parent link $w-v$.</description>
       <guid>https://algo.minetest.in/4-Seaching/14-Hashing/5_Dynamic_Hash_Tables/</guid>
       <description>Dynamic Hash Tables As the number of keys in a hash table increases, search performance degrades.
 With separate chaining, the search time increases gradually-when the number of keys in the table doubles, the search time doubles. The same is true of open addressing methods linear probing and double hashing for sparse tables but cost increases as the table fills up and worse we reach a point where no more keys can be inserted at all While in Trees this cost increases slightly whenever the number of nodes in the tree doubles.</description>
+    </item>
+    
+    <item>
+      <title>5-euclidean networks</title>
+      <link>https://algo.minetest.in/5-Graph_Algorithms/21-Shortest_Paths/5_euclidean_networks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/5-Graph_Algorithms/21-Shortest_Paths/5_euclidean_networks/</guid>
+      <description>Euclidean Networks In applications where networks model maps, primary interest is often in finding the best route from one place to another. We want to find : a fast algorithm for source-sink path problem in Euclidean networks,which are networks whose vertices are points in plane and whose edge weights are defined by geometric distance between the points.
+These networks have 2 important properties
+ distances satisfy a triangle inequality vertex positions give a lower bound on path length  Often, Euclidean networks are also symmetric.</description>
     </item>
     
     <item>
@@ -1686,7 +2084,7 @@ Proof : after putting keys into order on their i trailing bytes ( in a stable ma
       <guid>https://algo.minetest.in/3-Sorting/7-Quicksort/5-Median_of_three_partitioning/</guid>
       <description>Median of Three Partitioning choosing a partitioning element that is more likely to divide the file near the middle improves the performance.
 There are several possibilities for choosing partitioning element
- a safe choice is to choose random element from array  then worst case will happen with small probability Example of a Probabilistic Algorithm but using a full random-number generator might be overkill for this algorithm  Another well-known way to find is to take sample of three elements form the file, then use the median of the three for the partitioning element.</description>
+ a safe choice is to choose random element from array  then worst case will happen with small probability Example of a Probabilistic Algorithm but using a full random-number generator might be overkill for this algorithm   Another well-known way to find is to take sample of three elements form the file, then use the median of the three for the partitioning element.</description>
     </item>
     
     <item>
@@ -1695,8 +2093,18 @@ There are several possibilities for choosing partitioning element
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://algo.minetest.in/2-Data_Structures/3-Elementary_Data_Structures/5-Memory_Allocation_for_Lists/</guid>
-      <description> Memory Allocation for Lists  Dynamic memory allocation is the process of managing memory and responding to invocations of new and delete from client programs.  -
- #### Implementation of list-processing interface  #include &amp;lt;stdlib.h&amp;gt; #include &amp;quot;list.h&amp;quot; link freelist; void construct(int N) { freelist = new node[N+1]; for (int i = 0; i &amp;lt; N; i++) freelist[i].next = &amp;amp;freelist[i+1]; freelist[N].next = 0; } link newNode(int i) { link x = remove(freelist); x-&amp;gt;item = i; x-&amp;gt;next = x; return x; } void deleteNode(link x) { insert(freelist, x); } void insert(link x, link t) { t-&amp;gt;next = x-&amp;gt;next; x-&amp;gt;next = t; } link remove(link x) { link t = x-&amp;gt;next; x-&amp;gt;next = t-&amp;gt;next; return t; } link next(link x) { return x-&amp;gt;next; } Item item(link x) { return x-&amp;gt;item; }  </description>
+      <description>Memory Allocation for Lists  Dynamic memory allocation is the process of managing memory and responding to invocations of new and delete from client programs.  -
+  Implementation of list-processing interface #include &amp;lt;stdlib.h&amp;gt;#include &amp;#34;list.h&amp;#34;link freelist; void construct(int N) { freelist = new node[N+1]; for (int i = 0; i &amp;lt; N; i++) freelist[i].next = &amp;amp;freelist[i+1]; freelist[N].next = 0; } link newNode(int i) { link x = remove(freelist); x-&amp;gt;item = i; x-&amp;gt;next = x; return x; } void deleteNode(link x) { insert(freelist, x); } void insert(link x, link t) { t-&amp;gt;next = x-&amp;gt;next; x-&amp;gt;next = t; } link remove(link x) { link t = x-&amp;gt;next; x-&amp;gt;next = t-&amp;gt;next; return t; } link next(link x) { return x-&amp;gt;next; } Item item(link x) { return x-&amp;gt;item; }   </description>
+    </item>
+    
+    <item>
+      <title>5-mincost flows</title>
+      <link>https://algo.minetest.in/5-Graph_Algorithms/22-Network_Flows_367/5_mincost_flows/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/5-Graph_Algorithms/22-Network_Flows_367/5_mincost_flows/</guid>
+      <description>Mincost flows it is not unusual to have numerous solution for maxflow problem so we would like to impose a condition on them for choosing one of them. We could prefer the one that uses fewest edges or shortest paths, or there existing a comprising disjoint paths. Such general problems fall into the general model known as mincost flow problem.
+Definition 22.8 The flow cost of an edge in a flow network with edge costs is the product of that edge’s flow and cost.</description>
     </item>
     
     <item>
@@ -1706,7 +2114,7 @@ There are several possibilities for choosing partitioning element
       
       <guid>https://algo.minetest.in/3-Sorting/11-Special_purpose_sorting_methods/5-Parallel_SortMerge/</guid>
       <description>Parallel Sort-Merge The abstract model for parallel processing involves following assumptions.
- N records to be sorted and P processors, each capable of holding N/P records.  Processors are labeled as 0,1, &amp;hellip; , P-1 and assume that input is in the local memories of processors.
+ N records to be sorted and P processors, each capable of holding N/P records.  Processors are labeled as 0,1, . . . , P-1 and assume that input is in the local memories of processors.
 The goal of the sort is to rearrange the records to put smallest N/P records in processor 0&amp;rsquo;s memory and so on in sorted order.</description>
     </item>
     
@@ -1718,7 +2126,8 @@ The goal of the sort is to rearrange the records to put smallest N/P records in 
       <guid>https://algo.minetest.in/3-Sorting/6-Elementary_Sorting_Methods/5-Performance_Characteristics_of_Elementary_sorts/</guid>
       <description>Performance Characteristics of Elementary Sorts Selection sort, Insertion sort, and bubble sort are all quadratic time algorithms both in worst and in average case, and none requires extra memory.
 Insertion sort never looks ahead and Selection sort never looks back.
-Changin the scan through the array to alternate between beginning to end and end to beginning gives a version of bubble sort called Shaker sort which finishes more quickly.</description>
+Changin the scan through the array to alternate between beginning to end and end to beginning gives a version of bubble sort called Shaker sort which finishes more quickly.
+Definition</description>
     </item>
     
     <item>
@@ -1738,7 +2147,7 @@ Changin the scan through the array to alternate between beginning to end and end
       <guid>https://algo.minetest.in/3-Sorting/9-Priority_Queues_and_Heapsort/5-Priority_Queue_ADT/</guid>
       <description>Priority Queue ADT Full priority-queue ADT
 This interface allows client programs to delete items and to change priorities (using handles provided by the implementation ) and to merge priority queues together.
-template &amp;lt;class Item&amp;gt; class PQ { private : //Implementation-dependent code pubilc : //Implementation-dependent handle definition PQ(int); int empty() cons; handle insert(Item); Item getmax(); void change(handle,Item); void remove(handle); void join(PQ&amp;lt;Item&amp;gt;&amp;amp;); };  This arrangement restricts both client program and implementation that client program is not given a way to access information through handles except through this interface.</description>
+template &amp;lt;class Item&amp;gt; class PQ { private : //Implementation-dependent code  pubilc : //Implementation-dependent handle definition  PQ(int); int empty() cons; handle insert(Item); Item getmax(); void change(handle,Item); void remove(handle); void join(PQ&amp;lt;Item&amp;gt;&amp;amp;); }; This arrangement restricts both client program and implementation that client program is not given a way to access information through handles except through this interface.</description>
     </item>
     
     <item>
@@ -1750,7 +2159,7 @@ template &amp;lt;class Item&amp;gt; class PQ { private : //Implementation-depend
       <description>Mathematical properties of Binary Trees Property:1 A binary tree with N internal nodes has N+1 external nodes
 Property:2 A binary tree with N internal nodes has 2N links: N-1 links to internal nodes and N+1 links to external nodes
 Note : performance characterstics of a lot of algorithms depends not only on number of nodes in associated trees, but on various structural properties.
-Definition *The level of a node in a tree is one higher that the level of its parent(with the root at level 0).</description>
+Definition The level of a node in a tree is one higher that the level of its parent(with the root at level 0).</description>
     </item>
     
     <item>
@@ -1772,27 +2181,6 @@ A search tree that is built from keys defined by string pointers into a text str
       <description>Variations, Extensions, and Costs Standard adjacency-lists representation for finding out all the edges coming into a vertex in a digraph.
 For weighted graphs and networks, we fill adjacency matrix with information instead of boolean values; in the adjacency list representation we include this info in adjacency-list elements.
 Suppose we want to know whether vertex $v$ is isolated i.e. Is $v$ of degree 0. For adjacency-lists representation it quite easy to check whether list is empty and for matrix we check entire row/column but its quite hard in vector-of-edges representation.</description>
-    </item>
-    
-    <item>
-      <title>5-euclidean networks</title>
-      <link>https://algo.minetest.in/5-Graph_Algorithms/21-Shortest_Paths/5_euclidean_networks/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://algo.minetest.in/5-Graph_Algorithms/21-Shortest_Paths/5_euclidean_networks/</guid>
-      <description>Euclidean Networks In applications where networks model maps, primary interest is often in finding the best route from one place to another. We want to find : a fast algorithm for source-sink path problem in Euclidean networks,which are networks whose vertices are points in plane and whose edge weights are defined by geometric distance between the points.
-These networks have 2 important properties
- distances satisfy a triangle inequality vertex positions give a lower bound on path length  Often, Euclidean networks are also symmetric.</description>
-    </item>
-    
-    <item>
-      <title>5-mincost flows</title>
-      <link>https://algo.minetest.in/5-Graph_Algorithms/22-Network_Flows_367/5_mincost_flows/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://algo.minetest.in/5-Graph_Algorithms/22-Network_Flows_367/5_mincost_flows/</guid>
-      <description>Mincost flows it is not unusual to have numerous solution for maxflow problem so we would like to impose a condition on them for choosing one of them. We could prefer the one that uses fewest edges or shortest paths, or there existing a comprising disjoint paths. Such general problems fall into the general model known as mincost flow problem.
-Definition 22.8 The flow cost of an edge in a flow network with edge costs is the product of that edge’s flow and cost.</description>
     </item>
     
     <item>
@@ -1840,6 +2228,15 @@ Accomplishing this partitioning is more complicated than the two way partitionin
     </item>
     
     <item>
+      <title>6-network simplex algorithm</title>
+      <link>https://algo.minetest.in/5-Graph_Algorithms/22-Network_Flows_367/6_network_simplex_algorithm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/5-Graph_Algorithms/22-Network_Flows_367/6_network_simplex_algorithm/</guid>
+      <description>Network Simplex Algorithm The run time of cycle-canceling algorithm is based on not just the number of negative-cost cycles that the algorithm uses to reduce the flow cost but also the time that the algorithms uses to find each of the cycles. We can reduce runtime of both operation significantly with method know as network simplex algorithms. It is based on maintaining a tree data restructure and reweighting costs such that negative cycles can be identified quickly.</description>
+    </item>
+    
+    <item>
       <title>6-Performance Characteristics of BSTs</title>
       <link>https://algo.minetest.in/4-Seaching/12-Symbol_Tables_and_Binary_Search_Tree/6-Performance_Characteristics_of_BSTs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1847,6 +2244,17 @@ Accomplishing this partitioning is more complicated than the two way partitionin
       <guid>https://algo.minetest.in/4-Seaching/12-Symbol_Tables_and_Binary_Search_Tree/6-Performance_Characteristics_of_BSTs/</guid>
       <description>Performance Chracterstics of BSTs Running time of algorithm on BSTs are dependent on the shapes of trees. In best case, the tree could be perfectly balanced, with about $\lg N$ nodes between root and each of external nodes, but in worst case there could be $N$ nodes on search path.
 On average case it performs quite well since random inputs create tree which may not be perfectly balanced but enough so that algorithms perform well.</description>
+    </item>
+    
+    <item>
+      <title>6-Performance characteristics of mergesort</title>
+      <link>https://algo.minetest.in/3-Sorting/8-Merging_and_Mergesort/6-Performance_characteristics_of_mergesort/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/3-Sorting/8-Merging_and_Mergesort/6-Performance_characteristics_of_mergesort/</guid>
+      <description>Performance Characteristics of Mergesort Most of the headroom for improvement in mergesort is from improving the inner for loop.
+In addition to discussed improvements, we might achieve further gains by ensuring that the smallest elements in the two arrays are kept in simple variables or machine registers, to avoid unnecessary array accesses. Thus inner loop only works in comparisons.
+Total no. of instruction in inner loop quicksort are little more than merge sort but the instruction are executed only $N\lg N$ times, where quicksort&amp;rsquo;s are executed 39% more often.</description>
     </item>
     
     <item>
@@ -1859,17 +2267,6 @@ On average case it performs quite well since random inputs create tree which may
 For long keys and short bytes this running time is comparable to $N\lg N$.
 Property 1 : The worst case for radix sorting is to examine all the bytes in all keys.
 Property 2 : Binary quicksort examines about $N\lg N$ bits, on average, when sorting keys composed of random bits.</description>
-    </item>
-    
-    <item>
-      <title>6-Performance characteristics of mergesort</title>
-      <link>https://algo.minetest.in/3-Sorting/8-Merging_and_Mergesort/6-Performance_characteristics_of_mergesort/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://algo.minetest.in/3-Sorting/8-Merging_and_Mergesort/6-Performance_characteristics_of_mergesort/</guid>
-      <description>Performance Characteristics of Mergesort Most of the headroom for improvement in mergesort is from improving the inner for loop.
-In addition to discussed improvements, we might achieve further gains by ensuring that the smallest elements in the two arrays are kept in simple variables or machine registers, to avoid unnecessary array accesses. Thus inner loop only works in comparisons.
-Total no. of instruction in inner loop quicksort are little more than merge sort but the instruction are executed only $N\lg N$ times, where quicksort&amp;rsquo;s are executed 39% more often.</description>
     </item>
     
     <item>
@@ -1892,7 +2289,16 @@ Double hashing is slower than separate chaining and linear probing for sparse ta
       <guid>https://algo.minetest.in/3-Sorting/9-Priority_Queues_and_Heapsort/6-Priority_Qeues_for_Index_Items/</guid>
       <description>Priority Queues for Index Items Suppose that records to be processed in a PQ are in array already. So we can develop PQ routines handle data using indexes. Moreover handle here becomes array index.
 Priority queue ADT interface for index items
-template &amp;lt;class Index&amp;gt; class PQ { private : //Implemetation-dependent code public : PQ(int); int empty() const; void insert(Index); Index getmax(); void change(Index); void remove(Index); };  Index heap based priority queues</description>
+template &amp;lt;class Index&amp;gt; class PQ { private : //Implemetation-dependent code  public : PQ(int); int empty() const; void insert(Index); Index getmax(); void change(Index); void remove(Index); }; Index heap based priority queues</description>
+    </item>
+    
+    <item>
+      <title>6-reduction</title>
+      <link>https://algo.minetest.in/5-Graph_Algorithms/21-Shortest_Paths/6_reduction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/5-Graph_Algorithms/21-Shortest_Paths/6_reduction/</guid>
+      <description>Reduction Definition 21.3 We say that a problem A reduces to another problem B if we can use an algorithm that solves B to develop an algorithm that solves A, in a total amount of time that is, in the worst case, no more than a constant times the worst-case running time of the algorithm that solves B. We say that two problems are equivalent if they reduce to each other.</description>
     </item>
     
     <item>
@@ -1912,7 +2318,7 @@ Definition A bridge in a graph is an edge that, if removed, would separate a con
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://algo.minetest.in/3-Sorting/6-Elementary_Sorting_Methods/6-Shell_sort/</guid>
-      <description>Shellsort Shellsort is a simple extension of insertion sort that allows exchanges of elements that are far apart.
+      <description>Shellsort Shellsort is a simple extensionof insertion sort that allows exchanges of elements that are far apart.
 Idea is to rearrange the file to give it the property that takes every $h^{th}$ element yields a sorted file. File is called as a h-sorted file.
 h-sorted file is h independent sorted files, interleaved together.
 One way to implement shellsort would be, for each h, to use insertion sort independently on each of the h sub files.</description>
@@ -1924,8 +2330,8 @@ One way to implement shellsort would be, for each h, to use insertion sort indep
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://algo.minetest.in/2-Data_Structures/3-Elementary_Data_Structures/6-Strings/</guid>
-      <description>Strings  C++ inherits this data structure from C, and also includes strings as a higher-level abstraction in the STL
- Difference between string and an array of character revolves around length.
+      <description>Strings   C++ inherits this data structure from C, and also includes strings as a higher-level abstraction in the STL
+  Difference between string and an array of character revolves around length.
  Both represents contiguous area of the memory, but the length of an array is set at the time that the array is created , whereas the length of a string may change during the execution of a program.</description>
     </item>
     
@@ -1937,26 +2343,8 @@ One way to implement shellsort would be, for each h, to use insertion sort indep
       <guid>https://algo.minetest.in/2-Data_Structures/5-Recursion_and_Trees/6-Tree_Traversal/</guid>
       <description>Tree Traversal This function takes a link to a trees as an argument and calls function visit with each of the nodes in the tree as arguments.
 Recursive tree traversal
-void traverse(link h, void visit(link)){ if(h==0) return; visit(h); traverse(h-&amp;gt;l,visit); traverse(h-&amp;gt;r,visit); }  There can be three order in which we can traverse a node :
- Preorder  where we visit node, then visit left and right subtrees  Inorder  where we visit the left subtree, then visit the node, then visit right subtree  Postorder  where we visit the left and right subtrees, then visit the node.</description>
-    </item>
-    
-    <item>
-      <title>6-network simplex algorithm</title>
-      <link>https://algo.minetest.in/5-Graph_Algorithms/22-Network_Flows_367/6_network_simplex_algorithm/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://algo.minetest.in/5-Graph_Algorithms/22-Network_Flows_367/6_network_simplex_algorithm/</guid>
-      <description>Network Simplex Algorithm The run time of cycle-canceling algorithm is based on not just the number of negative-cost cycles that the algorithm uses to reduce the flow cost but also the time that the algorithms uses to find each of the cycles. We can reduce runtime of both operation significantly with method know as network simplex algorithms. It is based on maintaining a tree data restructure and reweighting costs such that negative cycles can be identified quickly.</description>
-    </item>
-    
-    <item>
-      <title>6-reduction</title>
-      <link>https://algo.minetest.in/5-Graph_Algorithms/21-Shortest_Paths/6_reduction/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://algo.minetest.in/5-Graph_Algorithms/21-Shortest_Paths/6_reduction/</guid>
-      <description>Reduction Definition 21.3 *We say that a problem A reduces to another problem B if we can use an algorithm that solves B to develop an algorithm that solves A, in a total amount of time that is, in the worst case, no more than a constant times the worst-case running time of the algorithm that solves B. We say that two problems are equivalent if they reduce to each other.</description>
+void traverse(link h, void visit(link)){ if(h==0) return; visit(h); traverse(h-&amp;gt;l,visit); traverse(h-&amp;gt;r,visit); } There can be three order in which we can traverse a node :
+ Preorder  where we visit node, then visit left and right subtrees   Inorder  where we visit the left subtree, then visit the node, then visit right subtree   Postorder  where we visit the left and right subtrees, then visit the node.</description>
     </item>
     
     <item>
@@ -1983,10 +2371,10 @@ void traverse(link h, void visit(link)){ if(h==0) return; visit(h); traverse(h-&
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://algo.minetest.in/2-Data_Structures/3-Elementary_Data_Structures/7-Compound_Data_Structures/</guid>
-      <description>Compound Data Structures  Complex structures like array of array (2D Array), arrays of lists, arrays of strings, and so forth are also possible.
- 2D Array is just notation convenience because ultimately its stored as one-dimensional array
- Two-dimensional array allocation
-  This function dynamically allocates the memory for a Two-dimensional array, as an array of arrays. We first allocate an array of pointers, then allocate memory for each row.</description>
+      <description>Compound Data Structures   Complex structures like array of array (2D Array), arrays of lists, arrays of strings, and so forth are also possible.
+  2D Array is just notation convenience because ultimately its stored as one-dimensional array
+  Two-dimensional array allocation
+This function dynamically allocates the memory for a Two-dimensional array, as an array of arrays. We first allocate an array of pointers, then allocate memory for each row.</description>
     </item>
     
     <item>
@@ -2021,14 +2409,36 @@ link merge(link a, link b ){ node dummy(0); link head = &amp;amp;dummy, c= head;
     </item>
     
     <item>
+      <title>7-mincost flow reductions</title>
+      <link>https://algo.minetest.in/5-Graph_Algorithms/22-Network_Flows_367/7_mincost_flow_reductions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/5-Graph_Algorithms/22-Network_Flows_367/7_mincost_flow_reductions/</guid>
+      <description>Mincost-Flow Reductions Its a general problem solving model that can encompass a variety of useful practical problems.
+The mincost-flow problem is more general than maxflow problem, since any mincost-problem solution is acceptable for maxflow problem. Therefore we can reduce all maxflow reductions to mincost-flow reductions.
+Property 22.29 The single-source-shortest-path problem (in networks with no negative cycles) reduces to mincost-feasible-flow problem
+Property 22.30 In mincost-flow problems, we can assume, without the loss of generality, that edges costs are nonnegative.</description>
+    </item>
+    
+    <item>
+      <title>7-negative weights</title>
+      <link>https://algo.minetest.in/5-Graph_Algorithms/21-Shortest_Paths/7_negative_weights/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/5-Graph_Algorithms/21-Shortest_Paths/7_negative_weights/</guid>
+      <description>Negative Weights Negative weights are not mere mathematical curiosity; on the contrary, they significantly extend the applicability of shortest-paths problems as a model for solving other problems.
+Perhaps most important effect is that when negative weights are present, low-weight shortest paths tend to have more edges than higher-weight paths. For positive weights, our emphasis was on looking for shortcuts; but when negative weights are present we seek detours that take as many edges with negative weights as we can find.</description>
+    </item>
+    
+    <item>
       <title>7-Recursive Binary TreeAlgo</title>
       <link>https://algo.minetest.in/2-Data_Structures/5-Recursion_and_Trees/7-Recursive_Binary_TreeAlgo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://algo.minetest.in/2-Data_Structures/5-Recursion_and_Trees/7-Recursive_Binary_TreeAlgo/</guid>
       <description>Recursive Binary-Tree Algorithms Computation of tree Parameters
-int count(link h){ if(h==0) return 0; return count(h-&amp;gt;l) + count(h-&amp;gt;r)+1; } int height(link h){ if(h==0) return -1; int u = height(h-&amp;gt;l), int v = height(h-&amp;gt;r); if(u&amp;gt;v) return u+1; else return v+1; }  Quick Tree Print function
-void printnode(Item x,int h){ for (int i=0;i&amp;lt;h;i++) cout&amp;lt;&amp;lt;&amp;quot; &amp;quot;; cout&amp;lt;&amp;lt;x&amp;lt;&amp;lt;endl; } void show(link t,int h){ if(t==0) { printnode(&#39;*&#39;,h); return;} show(t-&amp;gt;r,h+1); printnode(t-&amp;gt;item,h); show(t-&amp;gt;l,h+1); }  Find the maximum by building a tournament</description>
+int count(link h){ if(h==0) return 0; return count(h-&amp;gt;l) + count(h-&amp;gt;r)+1; } int height(link h){ if(h==0) return -1; int u = height(h-&amp;gt;l), int v = height(h-&amp;gt;r); if(u&amp;gt;v) return u+1; else return v+1; } Quick Tree Print function
+void printnode(Item x,int h){ for (int i=0;i&amp;lt;h;i++) cout&amp;lt;&amp;lt;&amp;#34; &amp;#34;; cout&amp;lt;&amp;lt;x&amp;lt;&amp;lt;endl; } void show(link t,int h){ if(t==0) { printnode(&amp;#39;*&amp;#39;,h); return;} show(t-&amp;gt;r,h+1); printnode(t-&amp;gt;item,h); show(t-&amp;gt;l,h+1); } Find the maximum by building a tournament</description>
     </item>
     
     <item>
@@ -2038,7 +2448,7 @@ void printnode(Item x,int h){ for (int i=0;i&amp;lt;h;i++) cout&amp;lt;&amp;lt;&
       
       <guid>https://algo.minetest.in/5-Graph_Algorithms/17-Graph-Properties_and_Types/7_Simple_Euler_and_Hamilton_Paths/</guid>
       <description>Simple, Euler, and Hamilton Paths Program 17.16 Simple Path Search
-template &amp;lt;class Graph&amp;gt; class sPATH { const Graph &amp;amp;G; vector&amp;lt;bool&amp;gt; visited; bool found; bool searchR(int v,int w) { if(v==w) return true; visited[v] = true; typename Graph::adjIterator A(G,v); for(int t = A.beg(); !A.end(); A.nxt()) if(!visited[t]) if(searchR(t,w)) return true; return false; } public: sPATH(const Graph &amp;amp;G, int v, int w) : G(G), visited(G.V(), false) {found = searchR(v,w); } bool exists() const { return found; } };  Problem of finding the path in a graph takes us away from local properties such as existence of edges/ degree of vertices to global properties that tell us about a graph&amp;rsquo;s structure.</description>
+template &amp;lt;class Graph&amp;gt; class sPATH { const Graph &amp;amp;G; vector&amp;lt;bool&amp;gt; visited; bool found; bool searchR(int v,int w) { if(v==w) return true; visited[v] = true; typename Graph::adjIterator A(G,v); for(int t = A.beg(); !A.end(); A.nxt()) if(!visited[t]) if(searchR(t,w)) return true; return false; } public: sPATH(const Graph &amp;amp;G, int v, int w) : G(G), visited(G.V(), false) {found = searchR(v,w); } bool exists() const { return found; } }; Problem of finding the path in a graph takes us away from local properties such as existence of edges/ degree of vertices to global properties that tell us about a graph&amp;rsquo;s structure.</description>
     </item>
     
     <item>
@@ -2049,7 +2459,7 @@ template &amp;lt;class Graph&amp;gt; class sPATH { const Graph &amp;amp;G; vecto
       <guid>https://algo.minetest.in/3-Sorting/6-Elementary_Sorting_Methods/7-Sorting_of_Other_type_of_data/</guid>
       <description>Sorting of Other type of data In this section we talk about building implementation, interfaces, and client programs for sorting algorithms. Specifically, we consider interfaces for :
  Items, or generic objects to be sorted Arrays of Items  Sort driver for arrays
-#inlcude &amp;lt;stdlib.h&amp;gt; #include &amp;quot;Item.h&amp;quot; #include &amp;quot;exch.h&amp;quot; #include &amp;quot;Array.h&amp;quot; main(int argc , char *argv[]){ int N = atoi(argv[1]), sw = atoi(argv[2]); Item *a = new Item[N]; if(sw) rand(a,N); else scan(a,N); sort(a,0,N-1); show(a,0,N-1); }  This driver uses 3 explicit interfaces :</description>
+#inlcude &amp;lt;stdlib.h&amp;gt; #include &amp;#34;Item.h&amp;#34;#include &amp;#34;exch.h&amp;#34;#include &amp;#34;Array.h&amp;#34;main(int argc , char *argv[]){ int N = atoi(argv[1]), sw = atoi(argv[2]); Item *a = new Item[N]; if(sw) rand(a,N); else scan(a,N); sort(a,0,N-1); show(a,0,N-1); } This driver uses 3 explicit interfaces :</description>
     </item>
     
     <item>
@@ -2075,28 +2485,6 @@ Reasonable choice is to make $\lg R$ about one-quarter of the word size, so that
     </item>
     
     <item>
-      <title>7-mincost flow reductions</title>
-      <link>https://algo.minetest.in/5-Graph_Algorithms/22-Network_Flows_367/7_mincost_flow_reductions/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://algo.minetest.in/5-Graph_Algorithms/22-Network_Flows_367/7_mincost_flow_reductions/</guid>
-      <description>Mincost-Flow Reductions Its a general problem solving model that can encompass a variety of useful practical problems.
-The mincost-flow problem is more general than maxflow problem, since any mincost-problem solution is acceptable for maxflow problem. Therefore we can reduce all maxflow reductions to mincost-flow reductions.
-Property 22.29 The single-source-shortest-path problem (in networks with no negative cycles) reduces to mincost-feasible-flow problem
-Property 22.30 In mincost-flow problems, we can assume, without the loss of generality, that edges costs are nonnegative.</description>
-    </item>
-    
-    <item>
-      <title>7-negative weights</title>
-      <link>https://algo.minetest.in/5-Graph_Algorithms/21-Shortest_Paths/7_negative_weights/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://algo.minetest.in/5-Graph_Algorithms/21-Shortest_Paths/7_negative_weights/</guid>
-      <description>Negative Weights Negative weights are not mere mathematical curiosity; on the contrary, they significantly extend the applicability of shortest-paths problems as a model for solving other problems.
-Perhaps most important effect is that when negative weights are present, low-weight shortest paths tend to have more edges than higher-weight paths. For positive weights, our emphasis was on looking for shortcuts; but when negative weights are present we seek detours that take as many edges with negative weights as we can find.</description>
-    </item>
-    
-    <item>
       <title>8-Generalized Graph Search</title>
       <link>https://algo.minetest.in/5-Graph_Algorithms/18-Graph_Search/8_Generalized_Graph_Search/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2114,8 +2502,8 @@ Move an edge from the fringe to tree. If the vertex to which it leads is unvisit
       
       <guid>https://algo.minetest.in/5-Graph_Algorithms/17-Graph-Properties_and_Types/8_Graph-Processing_Problems/</guid>
       <description>Graph Processing Problem Short description of problems.
- Simple connectivity Is a given graph connected ? or Is there a path connecting every pair of vertices ? Is there a cycle in the graph, or is it a forest ? Given two vertices, are they on cycle.
- Strong connectivity in digraphs Is there a directed path connecting every pair of vertices in a digraph ? Given two vertices, are they connected by directed path in both direction ( are they on directed cycle)</description>
+  Simple connectivity Is a given graph connected ? or Is there a path connecting every pair of vertices ? Is there a cycle in the graph, or is it a forest ? Given two vertices, are they on cycle.
+  Strong connectivity in digraphs Is there a directed path connecting every pair of vertices in a digraph ? Given two vertices, are they connected by directed path in both direction ( are they on directed cycle)</description>
     </item>
     
     <item>
@@ -2139,7 +2527,7 @@ DFS vs BFS</description>
       <guid>https://algo.minetest.in/3-Sorting/6-Elementary_Sorting_Methods/8-Index_and_Pointer_Sorting/</guid>
       <description>Index and Pointer Sorting The development of a string data type implementation is of particular interest as character strings are widely used as sort keys.
 Interface for String data type
-typedef struct record { char *str;} Item; //just one line changed int operator&amp;lt;(const Item&amp;amp;, const Item&amp;amp;); int scan(Item&amp;amp;); void rand(Item&amp;amp;); void show(const Item&amp;amp;);  Note: here we put pointer in a struct because C++ does not allow us to overload operator&amp;lt; for built in types such as pointers</description>
+typedef struct record { char *str;} Item; //just one line changed int operator&amp;lt;(const Item&amp;amp;, const Item&amp;amp;); int scan(Item&amp;amp;); void rand(Item&amp;amp;); void show(const Item&amp;amp;); Note: here we put pointer in a struct because C++ does not allow us to overload operator&amp;lt; for built in types such as pointers</description>
     </item>
     
     <item>
@@ -2149,7 +2537,27 @@ typedef struct record { char *str;} Item; //just one line changed int operator&a
       
       <guid>https://algo.minetest.in/4-Seaching/12-Symbol_Tables_and_Binary_Search_Tree/8-Insertion_at_root_in_BSTs/</guid>
       <description>Insertion at the Root in BSTs In standard implementation of BSTs each new inserted node goes to some external node via recursion. But now we wish to put that node at the root so new nodes are at the root of the tree it proposes a problem or breaking BST property but there is way to prevent it.
-Recursive solution is known as rotation , a fundamental transformation on trees.</description>
+Recursive solution is known as rotation , a fundamental transformation on trees. It essentially interchanges role of root&amp;rsquo;s children in a tree while still preserving the BST ordering.</description>
+    </item>
+    
+    <item>
+      <title>8-perspective</title>
+      <link>https://algo.minetest.in/5-Graph_Algorithms/21-Shortest_Paths/8_perspective/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/5-Graph_Algorithms/21-Shortest_Paths/8_perspective/</guid>
+      <description>Perspective This table summarized the cost (worst case running time) of various shortest-path algorithms considered in this chapter.
+The general problem of finding shortest path in networks where edge weights could be negative is intractable.</description>
+    </item>
+    
+    <item>
+      <title>8-perspective</title>
+      <link>https://algo.minetest.in/5-Graph_Algorithms/22-Network_Flows_367/8_perspective/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/5-Graph_Algorithms/22-Network_Flows_367/8_perspective/</guid>
+      <description>Perspective Our study of graph algorithm appropriately culminates in the study of network flow algorithms for four reason
+ network flow model validates the practical utility of graph abstraction in countless application the maxflow and mincost-flow algorithms that we have examined are natural extension of graph algorithm that we studied for simpler problems. implementation exemplify the important role of fundamental algorithms and the data structures in achieving good performance the maxflow and mincost-flow models illustrate utility of approach of developing increasingly general problem-solving models and using them to solve broad classes of problems.</description>
     </item>
     
     <item>
@@ -2173,26 +2581,6 @@ Quicksort is more naturally thought of top-down algorithm, because it does work 
       <guid>https://algo.minetest.in/3-Sorting/7-Quicksort/8-Selection/</guid>
       <description>Selection Finding the median of a set doesn&amp;rsquo;t require us to completely sort the array.
 Operation of finding the median is a special case of the operation of selection : finding the kth smallest of a set of numbers. Since we cannot say that a item is kth smallest without examining k-1 elements that are smaller and N-k elements that are larger, most selection algorithms can return all the k smallest elements of a file without a great deal of extra calculations.</description>
-    </item>
-    
-    <item>
-      <title>8-perspective</title>
-      <link>https://algo.minetest.in/5-Graph_Algorithms/21-Shortest_Paths/8_perspective/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://algo.minetest.in/5-Graph_Algorithms/21-Shortest_Paths/8_perspective/</guid>
-      <description>Perspective This table summarized the cost (worst case running time) of various shortest-path algorithms considered in this chapter.
-The general problem of finding shortest path in networks where edge weights could be negative is intractable.</description>
-    </item>
-    
-    <item>
-      <title>8-perspective</title>
-      <link>https://algo.minetest.in/5-Graph_Algorithms/22-Network_Flows_367/8_perspective/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://algo.minetest.in/5-Graph_Algorithms/22-Network_Flows_367/8_perspective/</guid>
-      <description>Perspective Our study of graph algorithm appropriately culminates in the study of network flow algorithms for four reason
- network flow model validates the practical utility of graph abstraction in countless application the maxflow and mincost-flow algorithms that we have examined are natural extension of graph algorithm that we studied for simpler problems. implementation exemplify the important role of fundamental algorithms and the data structures in achieving good performance the maxflow and mincost-flow models illustrate utility of approach of developing increasingly general problem-solving models and using them to solve broad classes of problems.</description>
     </item>
     
     <item>
@@ -2222,9 +2610,9 @@ To find the item with kth smallest key in a BST, we check the number of nodes in
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://algo.minetest.in/3-Sorting/6-Elementary_Sorting_Methods/9-Sorting_of_Linked_Lists/</guid>
-      <description>Sorting of Linked Lists Linked-list-type interface definition
-//sorting program uses a overloaded operator&amp;lt; to compare items struct node { Item item ; node* next ; node(Item x) { item = x; next = 0 ;} }; typedef node *link; link randlist(int); link scanlist(int&amp;amp;); void showlist(link); //prints list link shortlist(link);  One liner driver program for scanning and sorting using above interface
-main(int argc, int *argv[]){ showlist(sortlist(scanlist(atoi(argv[])))); }  Note this interface of linked list is a low-level one that doesn&amp;rsquo;t make a distinction between a link (a pointer to a node) and a linked list(a pointer that is either 0 or a pointer to a node containing a pointer to a list).</description>
+      <description>Sorting of Linked Lists  Linked-list-type interface definition
+//sorting program uses a overloaded operator&amp;lt; to compare items struct node { Item item ; node* next ; node(Item x) { item = x; next = 0 ;} }; typedef node *link; link randlist(int); link scanlist(int&amp;amp;); void showlist(link);	//prints list link shortlist(link); One liner driver program for scanning and sorting using above interface
+main(int argc, int *argv[]){ showlist(sortlist(scanlist(atoi(argv[])))); } Note this interface of linked list is a low-level one that doesn&amp;rsquo;t make a distinction between a link (a pointer to a node) and a linked list(a pointer that is either 0 or a pointer to a node containing a pointer to a list).</description>
     </item>
     
   </channel>

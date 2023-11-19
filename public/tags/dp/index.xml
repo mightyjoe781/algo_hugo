@@ -1,23 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Dp on smk&#39;s Blogs</title>
-    <link>https://algo.minetest.in/tags/dp/</link>
-    <description>Recent content in Dp on smk&#39;s Blogs</description>
+    <title>DP on smk&#39;s Blogs</title>
+    <link>https://algo.minetest.in/tags/DP/</link>
+    <description>Recent content in DP on smk&#39;s Blogs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 21 Apr 2021 09:51:25 +0530</lastBuildDate>
-    
-	<atom:link href="https://algo.minetest.in/tags/dp/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 21 Apr 2021 09:51:25 +0530</lastBuildDate><atom:link href="https://algo.minetest.in/tags/DP/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Problems : DP</title>
       <link>https://algo.minetest.in/Practice_DP/</link>
-      <pubDate>Wed, 21 Apr 2021 09:51:25 +0530</pubDate>
+      <pubDate>Thu, 22 Apr 2021 22:54:25 +0530</pubDate>
       
       <guid>https://algo.minetest.in/Practice_DP/</guid>
-      <description> Problems on Dynamic Programming DP 1DP 2DP 3DP 4DP 5</description>
+      <description>Problems on Dynamic Programming DP 1DP 2DP 3DP 4DP 5</description>
     </item>
     
     <item>

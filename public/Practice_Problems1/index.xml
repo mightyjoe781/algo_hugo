@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Problems : Basics 1 on smk&#39;s Blogs</title>
@@ -6,11 +6,7 @@
     <description>Recent content in Problems : Basics 1 on smk&#39;s Blogs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 11 May 2021 17:01:25 +0530</lastBuildDate>
-    
-	<atom:link href="https://algo.minetest.in/Practice_Problems1/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 15 May 2021 23:01:25 +0530</lastBuildDate><atom:link href="https://algo.minetest.in/Practice_Problems1/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Predicate Framework of Binary Search</title>
       <link>https://algo.minetest.in/Practice_Problems1/Binary_Search_1/</link>
@@ -20,7 +16,9 @@
       <description>Binary Search  Predicate Framework  Key elements related to search.
  Search Space Item : certain properties Algorithm  Binary Search is a search algorithm which utilizes some property of search space.
  When can binary search be applied ? What all can be find ? Pseudo Code.  Terminology
- Predicate : Boolean functions.  Boolean function maps items to $f : D\rightarrow {T,F}$, true or false.</description>
+  Predicate : Boolean functions.
+Boolean function maps items to $f : D\rightarrow {T,F}$, true or false.
+  Apply Predicate on a Search Space</description>
     </item>
     
     <item>
@@ -47,25 +45,52 @@ left = $max {A[j]}$ because capacity should be greater than max elt to load it o
  Function calling itself Divide and Conquer Mathematical Concept!  Call by value
 Memory Layout
  Stack (local function data : arguments and inside data) Heap (dynamic like malloc, new) Global (global variable, code)  Flow of execution
- Main Stack is allocated for every functions  Call by reference</description>
+ Main Stack is allocated for every functions  Call by reference
+ Change the value at calls  Explicit return type ( use struct to create new data type :D) Implicit return type   Space Optimized  don&amp;rsquo;t need extra memory declaration in memory stack.</description>
     </item>
     
     <item>
       <title>Recursion 2</title>
       <link>https://algo.minetest.in/Practice_Problems1/Recursion_2/</link>
-      <pubDate>Thu, 13 May 2021 23:01:25 +0530</pubDate>
+      <pubDate>Fri, 14 May 2021 23:01:25 +0530</pubDate>
       
       <guid>https://algo.minetest.in/Practice_Problems1/Recursion_2/</guid>
-      <description></description>
+      <description>Cues for Recursion/DP  Combinatorial  Counting Enumeration   Optimization  Strategy to split
+ Based on the first element of input (Inclusion / Exclusion)  Subproblems we saw was mostly
+ Suffix Subarray  Number of suffix subarray : $n$ (including original one)
+Dimension : 1 D
+But for combination problem we had subproblem of size k and size k-1, dimension : $n*k$ (2D).
+Permutation
+[1,2,3]
+All permutations ?</description>
     </item>
     
     <item>
       <title>Recursion 3</title>
       <link>https://algo.minetest.in/Practice_Problems1/Recursion_3/</link>
-      <pubDate>Thu, 13 May 2021 23:01:25 +0530</pubDate>
+      <pubDate>Sat, 15 May 2021 23:01:25 +0530</pubDate>
       
       <guid>https://algo.minetest.in/Practice_Problems1/Recursion_3/</guid>
-      <description></description>
+      <description>N-Queens Problem (Very Famous Problem) Link
+Enumeration Problem
+Problem can be restated as putting 1 queen into each row such that they don&amp;rsquo;t conflict.
+Split into chunks
+ n queens can be put in n rows for each row we have n possible columns  $c_1$ : List of valid configuration s.t. first cell is [0,0] and rest of solution is Mat[1..n-1][0..n-1]
+$c_2$ : List of valid configuration s.t. first cell is [0,1]</description>
+    </item>
+    
+    <item>
+      <title>2 Pointers</title>
+      <link>https://algo.minetest.in/Practice_Problems1/Two_Pointers/</link>
+      <pubDate>Mon, 10 May 2021 17:01:25 +0530</pubDate>
+      
+      <guid>https://algo.minetest.in/Practice_Problems1/Two_Pointers/</guid>
+      <description>Introduction   Not a DS or Algorithm
+  Is a technique to solve non-linear function ($O(n^2),O(n^3)$) and make it into a linear solution $O(n)$
+  Works on linear data structure only : Arrays and Linked lists.
+  Approach  Index based 2 pointers Windows Based Technique Slow-fast pointer  Sorted Array : n Find a pair(a,b) -&amp;gt; sum to number $x$
+Brute Force : $O(n^2)$
+2 pointer approach.</description>
     </item>
     
     <item>
@@ -77,15 +102,6 @@ Memory Layout
       <description>132 Pattern
 Queue Reconstruction by Height
 Increasing Triplet Subsequence</description>
-    </item>
-    
-    <item>
-      <title>2 Pointers</title>
-      <link>https://algo.minetest.in/Practice_Problems1/Two_Pointers/</link>
-      <pubDate>Mon, 10 May 2021 17:01:25 +0530</pubDate>
-      
-      <guid>https://algo.minetest.in/Practice_Problems1/Two_Pointers/</guid>
-      <description></description>
     </item>
     
   </channel>

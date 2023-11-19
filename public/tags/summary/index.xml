@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>summary on smk&#39;s Blogs</title>
+    <link>https://algo.minetest.in/tags/summary/</link>
+    <description>Recent content in summary on smk&#39;s Blogs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://algo.minetest.in/tags/summary/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Synopsis</title>
+      <link>https://algo.minetest.in/Summary/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://algo.minetest.in/Summary/</guid>
+      <description>Data Structures   Trie
+struct vertex { char alphabet; bool exist; vector&amp;lt;vertex*&amp;gt; child; vertex(char a): alphabet(a), exist(false) {child.assign(26,NULL);} }; class Trie { private: vertex* root; public: Trie() {root = new vertex(&amp;#39;!&amp;#39;);} void insert(string word) { vertex* cur = root; for(int i = 0; i &amp;lt; (int)word.size()); ++i) { int alphaNum = word[i]-&amp;#39;A&amp;#39;; if(cur-&amp;gt;child[alphaNum] == NULL) cur-&amp;gt;child[alphaNum] = new vertex(word[i]); cur = cur-&amp;gt;child[alphaNum]; } cur-&amp;gt;exists = true; } bool search(string word) { vertex* cur = root; for(int i = 0; i &amp;lt; (int) word.</description>
+    </item>
+    
+  </channel>
+</rss>

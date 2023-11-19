@@ -1,10 +1,13 @@
 +++
-Title = "node.js"
+
+Title = "CP3 Book"
 chapter = true
+
+weight = 12
 
 +++
 
-# Node.js
+# CP3 BOOK
 
 {{% children %}}
 

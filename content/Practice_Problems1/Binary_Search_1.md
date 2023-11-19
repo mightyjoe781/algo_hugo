@@ -2,7 +2,7 @@
 
 title = "Predicate Framework of Binary Search"
 date = 2021-05-11T17:01:25+05:30
-weight = 1
+weight = 2
 
 +++
 

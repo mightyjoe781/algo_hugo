@@ -2,7 +2,7 @@
 
 title = "Ad Hoc"
 date = 2021-05-14T17:01:25+05:30
-weight = 6
+weight = 8
 
 +++
 

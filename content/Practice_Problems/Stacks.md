@@ -32,7 +32,7 @@ lazy increment take O(k) to implement but remember function doesn't return anyth
 
 Don't increment at the time increment is called rather while popping ensure its popped with correct value.
 
-Keep the stack with pair `<int , inc >` now while incrementing just to the change at the kth element. and while popping keep transferring the previous increments all the way to the bottom of stack.
+Keep the stack with pair `<int , int >` now while incrementing just to the change at the kth element. and while popping keep transferring the previous increments all the way to the bottom of stack.
 
 this reduces the cost to O(1)
 

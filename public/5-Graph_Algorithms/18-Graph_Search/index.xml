@@ -1,15 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>18-Graph Search on smk&#39;s Blogs</title>
     <link>https://algo.minetest.in/5-Graph_Algorithms/18-Graph_Search/</link>
     <description>Recent content in 18-Graph Search on smk&#39;s Blogs</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="https://algo.minetest.in/5-Graph_Algorithms/18-Graph_Search/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="https://algo.minetest.in/5-Graph_Algorithms/18-Graph_Search/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>1-Exploring a Maze</title>
       <link>https://algo.minetest.in/5-Graph_Algorithms/18-Graph_Search/1_Exploring_a_Maze/</link>
@@ -28,8 +24,8 @@ Exploring a Maze One strategy to explore the maze is unroll a ball of string beh
       <guid>https://algo.minetest.in/5-Graph_Algorithms/18-Graph_Search/2_Depth_first_search/</guid>
       <description>Depth-First Search To visit a vertex, we mark it as having been visited, then recursively visit all the vertices that are adjacent to it and that have not yet been marked.
 ord vector stores the order of traversal of vertices.
-Program 18.1 Depth-first search of a connected component
-#include &amp;lt;vector&amp;gt; template &amp;lt;class Graph&amp;gt; class cDFS { int cnt; const Graph &amp;amp;G; vector &amp;lt;int&amp;gt; ord; void searchC(int v) { ord[v] = cnt++; typename Graph::adjIterator A(G,v); for(int t = A.</description>
+Program 18.1	Depth-first search of a connected component
+#include &amp;lt;vector&amp;gt;template &amp;lt;class Graph&amp;gt; class cDFS { int cnt; const Graph &amp;amp;G; vector &amp;lt;int&amp;gt; ord; void searchC(int v) { ord[v] = cnt++; typename Graph::adjIterator A(G,v); for(int t = A.</description>
     </item>
     
     <item>
@@ -39,7 +35,7 @@ Program 18.1 Depth-first search of a connected component
       
       <guid>https://algo.minetest.in/5-Graph_Algorithms/18-Graph_Search/3_Graph_Search_ADT/</guid>
       <description>Graph-Search ADT Functions 18.2 Graph Search
-template &amp;lt;class Graph &amp;gt; class SEARCH { protected: const Graph &amp;amp;G; int cnt; vector&amp;lt;int&amp;gt; ord; virtual void search (Edge) = 0; void search(){ for(int v = 0; v&amp;lt;G.V(); v++) if(ord[v] == -1) searchC(Edge(v,v)); } public: SEARCH(const Graph &amp;amp;G): G(G), ord(G.V(),-1), cnt(0) {} int operator[](int v) const {return ord[v];} };  We typically use graph-search function that performs these steps until all of the vertices of the graph have been marked as having been visited:</description>
+template &amp;lt;class Graph &amp;gt; class SEARCH { protected: const Graph &amp;amp;G; int cnt; vector&amp;lt;int&amp;gt; ord; virtual void search (Edge) = 0; void search(){ for(int v = 0; v&amp;lt;G.V(); v++) if(ord[v] == -1) searchC(Edge(v,v)); } public: SEARCH(const Graph &amp;amp;G): G(G), ord(G.V(),-1), cnt(0) {} int operator[](int v) const {return ord[v];} }; We typically use graph-search function that performs these steps until all of the vertices of the graph have been marked as having been visited:</description>
     </item>
     
     <item>
